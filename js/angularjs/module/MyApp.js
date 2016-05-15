@@ -23,6 +23,6 @@ app.config(function ($routeProvider) {
       templateUrl: 'js/angularjs/views/Profile.html'
     })
     .otherwise({ 
-      redirectTo: '/map' 
+      redirectTo: '/home' 
     }); 
 });
