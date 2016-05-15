@@ -1,0 +1,62 @@
+app.controller('MapController', ['$scope', function($scope) {
+	$scope.Profile_Filippo_Gorini =  {
+		id : '#/map/filippogorini',
+		nome_intervistato : 'Filippo Gorini',
+		bio_intervistato : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac eleifend lectus',
+		foto_intervistato : 'foto',
+		video_intervistato : 'video/PietroSedda.mp4',
+		capitoli_video : '',
+		infografica_uno : 'img',
+		testo_infografica_uno : 'Small city big stories',
+		infografica_due : 'img',
+		testo_infografica_due : 'Small city big stories',
+		infografica_tre : 'img',
+		testo_infografica_tre : 'Small city big stories',
+		infografica_quattro : 'img',
+		testo_infografica_quattro : 'Small city big stories',
+		infografica_cinque : 'img',
+		testo_infografica_cinque : 'Small city big stories',
+		infografica_sei : 'img',
+		testo_infografica_sei : 'Small city big stories'
+	};
+	$scope.Profile_Filippo_Gianessi = {
+		id : '#/map/filippogianessi',
+		nome_intervistato : 'Filippo Gianessi',
+		bio_intervistato : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac eleifend lectus',
+		foto_intervistato : 'foto',
+		video_intervistato : 'video',
+		capitoli_video : '',
+		infografica_uno : 'img',
+		testo_infografica_uno : 'Small city big stories',
+		infografica_due : 'img',
+		testo_infografica_due : 'Small city big stories',
+		infografica_tre : 'img',
+		testo_infografica_tre : 'Small city big stories',
+		infografica_quattro : 'img',
+		testo_infografica_quattro : 'Small city big stories',
+		infografica_cinque : 'img',
+		testo_infografica_cinque : 'Small city big stories',
+		infografica_sei : 'img',
+		testo_infografica_sei : 'Small city big stories'
+	};
+	$scope.Profile_Luca_Gorini = {
+		id : '#/map/lucagorini',
+		nome_intervistato : 'Luca Gorini',
+		bio_intervistato : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac eleifend lectus',
+		foto_intervistato : 'foto',
+		video_intervistato : 'video',
+		capitoli_video : '',
+		infografica_uno : 'img',
+		testo_infografica_uno : 'Small city big stories',
+		infografica_due : 'img',
+		testo_infografica_due : 'Small city big stories',
+		infografica_tre : 'img',
+		testo_infografica_tre : 'Small city big stories',
+		infografica_quattro : 'img',
+		testo_infografica_quattro : 'Small city big stories',
+		infografica_cinque : 'img',
+		testo_infografica_cinque : 'Small city big stories',
+		infografica_sei : 'img',
+		testo_infografica_sei : 'Small city big stories'
+	};
+}]);
