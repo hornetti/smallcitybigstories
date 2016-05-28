@@ -4,15 +4,15 @@ app.controller('CreditsController', ['$scope', function($scope) {
 	$scope.Link_Visit_Social = [
 		{
 			name : 'facebook',
-			direct : '#'
+			direct : 'https://www.facebook.com/smallcitybigstories/'
 		},
 		{
 			name : 'twitter',
-			direct : '#'
+			direct : 'https://twitter.com/SCBS_studio'
 		},
 		{
 			name : 'instagram',
-			direct : '#'
+			direct : 'https://www.instagram.com/smallcitybigstories/'
 		}
 	];
 	$scope.Crew = "Crew";
