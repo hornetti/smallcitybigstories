@@ -1,9 +1,9 @@
 app.factory('characters', ['$http', function($http) {
-  return $http.get('https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/photos.json')
-         .success(function(data) {
-           return data;
-         })
-         .error(function(data) {
-           return data;
-         });
+	return $http.get('http://hornetti.github.io/smallcitybigstories/js/angularjs/services/characters.json')
+	.success(function(data) {
+		return data;
+	})
+	.error(function(data) {
+		return data;
+	});
 }]);
