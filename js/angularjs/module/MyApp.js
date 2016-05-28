@@ -18,11 +18,11 @@ app.config(function ($routeProvider) {
       controller: 'ContactController',
       templateUrl: 'js/angularjs/views/Contact.html'
     })
-    .when('/profile', {
-      controller: 'MapController',
+    .when('/map/:id', {
+      controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/Profile.html'
     })
     .otherwise({ 
-      redirectTo: '/home' 
+      redirectTo: '/map' 
     }); 
 });
