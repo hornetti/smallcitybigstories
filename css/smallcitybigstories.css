@@ -459,10 +459,8 @@ body {
   text-align: left;
 }
 .Infografica {
-  height: 150px;
-  width: 150px;
-  border-radius: 100%;
-  border: 2px solid #ff6666;
+  font-size: 45px;
+  color: #00FF99;
   margin: 0 auto;
 }
 .TestoInfografica {
