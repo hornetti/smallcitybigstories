@@ -156,7 +156,7 @@
   {
     "name": "Fabrizio Mantovani",
     "bio_name": "È lo chef titolare del ristorante FM, del rispettivo bistrot e di Fmarket. Vive a Faenza e oltre al cibo ha un debole per la musica e il basso elettrico.",
-    "company": "Asd",
+    "company": "FM",
     "bio_company": "Al ristorante di Fabrizio Mantovani più di una volta si sono seduti i clienti di Image Line di Ivano Valmori.",
     "label_service": "Tipologia di servizio prodotto",
     "label_employees": "Numero di dipendenti",
@@ -278,7 +278,7 @@
     "label_motivations": "Perchè è nata l'azienda",
     "service": "Gialla",
     "employees": 4,
-    "foundation": -,
+    "foundation": "-",
     "revenue": "90 m €",
     "economic_growth": "-",
     "type": "B2B",
