@@ -1,5 +1,7 @@
-app.controller('ProfileController', ['$scope', 'characters', '$routeParams', function($scope, characters, $routeParams) {
+app.controller('ProfileController', ['$scope', '$route', 'characters', '$routeParams', function($scope, $route, characters, $routeParams) {
 	characters.success(function(data) {
-    	$scope.detail = data[$routeParams.id];
+    	$scope.details = data[$routeParams.id];
+    	$scope.paramaters = $routeParams.id;
+    	$scope.comparisons = data;
   	});
 }]);
