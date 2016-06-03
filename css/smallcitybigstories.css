@@ -440,31 +440,28 @@ body {
   margin: 0 0 15px 15px;
   text-align: left;
 }
-#ButtonClose {
+.ButtonClose {
   opacity: 1;
   margin-right: 15px;
   cursor: pointer;
 }
-.FotoProfilo {
-  height: 120px;
-  width: 120px;
-  border-radius: 100%;
-  border: 2px solid #ff6666;
-  margin: 20px auto 0;
+.NameCompany {
+  margin: 10px auto 0;
+  text-align: left;
 }
-.DescrizioneProfilo {
+.BioCompany {
   color: #fff;
-  font-size: 15px;
-  margin: 20px auto 0;
+  font-size: 12px;
+  margin: 10px auto 0;
   text-align: left;
 }
 .Infografica {
-  font-size: 45px;
+  font-size: 30px;
   color: #00FF99;
   margin: 0 auto;
 }
 .TestoInfografica {
-  font-size: 15px;
+  font-size: 12px;
   color: #fff;
   margin: 10px auto 30px;
 }
@@ -472,6 +469,10 @@ body {
   border: 2px solid #ff6666;
   padding: 0;
   width: 100%;
+}
+.confronto {
+  font-size: 15px;
+  color: #ff6666;
 }
 /****************************************/
 /*************  CREDITS  ***************/
