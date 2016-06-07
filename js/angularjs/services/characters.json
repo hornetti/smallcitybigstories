@@ -196,7 +196,7 @@
         "revenue": "",
         "economic_growth": "",
         "type": "B2C",
-        "reference_market": "Italiano locale",
+        "reference_market": "Italiano",
         "motivations": "D"
     },
     {
@@ -215,14 +215,14 @@
         "label_type": "Tipologia di cliente",
         "label_reference_market": "Mercato di riferimento",
         "label_motivations": "Perchè è nata l'azienda",
-        "service": "Blu",
-        "employees": 99,
-        "foundation": 1999,
-        "revenue": "2M €",
-        "economic_growth": "75%",
+        "service": "Giallo",
+        "employees": 4,
+        "foundation": 2005,
+        "revenue": "750m €",
+        "economic_growth": "2000%",
         "type": "B2B",
-        "reference_market": "Italiano",
-        "motivations": "qwerty"
+        "reference_market": "Estero e italiano",
+        "motivations": "D"
     },
     {
         "name": "Roberto Bertoni",
