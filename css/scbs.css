@@ -439,6 +439,7 @@ body {
   cursor: pointer;
 }
 .NameCompany {
+  font-size: 15px;
   margin: 10px auto 0;
   text-align: left;
 }
@@ -449,14 +450,17 @@ body {
   text-align: left;
 }
 .Infografica {
-  font-size: 30px;
+  font-size: 36px;
   color: #00FF99;
   margin: 0 auto;
+  text-align: left;
+  border-top: 2px solid #00ff99;
 }
 .TestoInfografica {
-  font-size: 12px;
+  font-size: 15px;
   color: #fff;
-  margin: 10px auto 30px;
+  margin: 0 auto 30px;
+  text-align: left;
 }
 #VideoIntervistato {
   border: 2px solid #ff6666;
