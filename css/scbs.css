@@ -637,25 +637,22 @@ body {
 .Logo > a:focus {
   color: #ff6666;
   text-decoration: none;
-  padding: 10px 15px;
 }
 .Nav {
-  padding: 10px 0;
+  padding: 14px 0;
   width: 50%;
   float: right;
   text-align: right;
 }
 .Nav > a {
   margin: 5px 20px;
-  padding: 2px 0 0 0;
   font: 15px 'Work Sans', sans-serif;
   color: #ff6666;
-  border-bottom: 2px solid transparent;
 }
-.Nav > ul > li > a:hover,
-.Nav > ul > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #ff6666;
+.Nav > a:hover,
+.Nav > a:focus {
+  border-bottom: 2px solid #ff6666;
+  text-decoration: none;
 }
 /****************************************/
 /************* BOTTOM MENU *************/
