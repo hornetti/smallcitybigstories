@@ -1,0 +1,771 @@
+/****************************************/
+/*************   OFFLINE  **************/
+/**************************************/
+.OfflineVisit > li > a:hover,
+.OfflineVisit > li > a:focus {
+  color: #ff6666;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .OfflineTitle {
+    font: 60px 'Titillium Web', sans-serif;
+    color: #ff6666;
+    font-weight: 900;
+    margin: 15px auto;
+    line-height: 60px;
+    text-align: left;
+  }
+  .OfflineComingsoon {
+    font: 30px 'Work Sans', sans-serif;
+    color: #fff;
+    text-align: left;
+    margin: 15px auto;
+  }
+  .OfflineVisit {
+    padding: 0;
+  }
+  .OfflineVisit {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .OfflineVisit > li {
+    margin: 5px;
+    display: inline-block;
+  }
+  #Visit, #sendEmail {
+    width: 50px;
+    height: 50px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    border: 3px solid #ff6666;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+  }  
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .OfflineTitle {
+    font: 80px 'Titillium Web', sans-serif;
+    color: #ff6666;
+    font-weight: 900;
+    margin: 30px auto;
+    line-height: 80px;
+    text-align: left;
+  }
+  .OfflineComingsoon {
+    font: 40px 'Work Sans', sans-serif;
+    color: #fff;
+    text-align: left;
+    margin: 30px auto;
+  }
+  .OfflineVisit {
+    padding: 0;
+  }
+  .OfflineVisit > li {
+    margin: 5px;
+    display: inline-block;
+  }
+  #Visit, #sendEmail  {
+    width: 50px;
+    height: 50px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    border: 3px solid #ff6666;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+  }  
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .OfflineTitle {
+    font: 100px 'Titillium Web', sans-serif;
+    color: #ff6666;
+    font-weight: 900;
+    margin: 20px auto;
+    line-height: 100px;
+  }
+  .OfflineComingsoon {
+    font: 60px 'Work Sans', sans-serif;
+    color: #fff;
+    margin: 30px auto 0;
+  }
+  .OfflineVisit {
+    padding: 0;
+  }
+  .OfflineVisit > li {
+    margin: 30px;
+    display: inline-block;
+  }
+  #Visit, #sendEmail  {
+    width: 75px;
+    height: 75px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    border: 3px solid #ff6666;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+  }  
+}
+
+@media (min-width: 1200px) {
+  .OfflineTitle {
+    font: 100px 'Titillium Web', sans-serif;
+    color: #ff6666;
+    font-weight: 900;
+    margin: 20px auto;
+    line-height: 100px;
+  }
+  .OfflineComingsoon {
+    font: 36px 'Work Sans', sans-serif;
+    color: #fff;
+    margin: 30px auto 0;
+  }
+  .OfflineVisit {
+    padding: 0;
+  }
+  .OfflineVisit > li {
+    margin: 30px;
+    display: inline-block;
+  }
+  #Visit, #sendEmail  {
+    width: 75px;
+    height: 75px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 5;
+    stroke-miterlimit: 10;
+    border: 3px solid #ff6666;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+  }  
+}
+/****************************************/
+/***************   MAP  ****************/
+/**************************************/
+.st0 {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st1 {
+  stroke: #CC0033;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+.st2 {
+  fill: #FFFF00;
+}
+.st3 {
+  stroke: #CC0033;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.st4 {
+  stroke: #FFFF00;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+.st5 {
+  stroke: #3399FF;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+.st6 {
+  fill: #CC0033;
+}
+.st7 {
+  display: inline;
+}
+.st8 {
+  fill: #3399FF;
+}
+.st9 {
+  stroke: #00FF99;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.st10 {
+  fill: #00FF99;
+}
+.st11 {
+  stroke: #FFFF00;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.st12 {
+  fill: none;
+  stroke: #CC0033;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st13 {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.st14 {
+  display: none;
+}
+.st15 {
+  stroke: #00FF99;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+.st16 {
+  fill: none;
+  stroke: #3399FF;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.food0 {
+  fill: none;
+  stroke: #CC0033;
+  stroke-width: 2;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}
+.food1 {
+  fill: none;
+  stroke: #CC0033;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.food2 {
+  fill: #CC0033;
+}
+.food3 {
+  fill: #333333;
+}
+/*********************************************/
+.matav0 {
+  fill: #0099FF;
+}
+.matav1 {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+/*********************************************/
+.tech0 {
+  fill: #FFFF00;
+}
+.tech1 {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+/*********************************************/
+.it0 {
+  fill: #00FF99;
+}
+.it1 {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+/********************************************/
+#p_x5F_valmori,
+#p_x5F_bandini,
+#p_x5F_tampieri,
+#p_x5F_ruta,
+#p_x5F_bertoni,
+#p_x5F_martelli,
+#p_x5F_h_x5F_martelli,
+#p_x5F_peroni,
+#p_x5F_savorani,
+#p_x5F_zauli,
+#p_x5F_salvatori,
+#p_x5F_h_x5F_salvatori,
+#p_x5F_borgini,
+#p_x5F_h_x5F_borgini,
+#p_x5F_moretti,
+#p_x5F_h_x5F_moretti,
+#p_x5F_rava,
+#p_x5F_tamba,
+#p_x5F_mantovani {
+  cursor: pointer;
+}
+#p_x5F_valmori:hover,
+#p_x5F_bandini:hover,
+#p_x5F_tampieri:hover,
+#p_x5F_ruta:hover,
+#p_x5F_bertoni:hover,
+#p_x5F_martelli:hover,
+#p_x5F_h_x5F_martelli:hover,
+#p_x5F_peroni:hover,
+#p_x5F_savorani:hover,
+#p_x5F_zauli:hover,
+#p_x5F_salvatori:hover,
+#p_x5F_h_x5F_salvatori:hover,
+#p_x5F_borgini:hover,
+#p_x5F_h_x5F_borgini:hover,
+#p_x5F_moretti:hover,
+#p_x5F_h_x5F_moretti:hover,
+#p_x5F_rava:hover,
+#p_x5F_tamba:hover,
+#p_x5F_mantovani:hover {
+  fill: #fff;
+}
+.MetroLine {
+  text-align: left;
+  color: #fff;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #ff6666;  
+}
+.LegendaMappa {
+  margin: 10px auto;
+}
+.MetroProfile {
+  text-align: left;
+  color: #fff;
+  padding-bottom: 2px;
+  margin-top: 20px;
+  border-bottom: 2px solid #ff6666;
+}
+/*
+ * Base structure
+ */
+html {
+  height: 100%;
+  width: 100%;  
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  background-image: url(../svg/Mappa_Faenza.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: #ff6666;
+  font-family: 'Work Sans', sans-serif;
+  cursor: url(../svg/Cursor.svg), default;
+}
+/*
+ * Wrap
+ */
+.Wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+.SiteWrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+/****************************************/
+/*************   HOME   ****************/
+/**************************************/
+.container-fluid {
+  text-align: center;
+  padding: 0 15px;
+  margin: auto;
+}
+.SmallCityBigStories {
+  font: 100px 'Titillium Web', sans-serif;
+  color: #ff6666;
+  font-weight: 900;
+  margin: 20px auto;
+}
+.ButtonStart {
+  font-family: 'Work Sans', sans-serif;
+  color: #ff6666;
+  background: none;
+  border: 1px solid #ff6666;
+  padding: 10px 20px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.ButtonStart:hover,
+.ButtonStart:active, 
+.ButtonStart:focus {
+  color: #ff6666;
+  border: 1px solid #ff6666;
+  text-decoration: none;
+}
+.Sigla { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 150%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
+/*******************************************/
+/***************  PROFILE  ****************/
+/*****************************************/
+.TitoloProfilo {
+  color: #fff;
+  margin: 0 0 15px 15px;
+  text-align: left;
+}
+.ButtonClose {
+  opacity: 1;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.NameCompany {
+  margin: 10px auto 0;
+  text-align: left;
+}
+.BioCompany {
+  color: #fff;
+  font-size: 12px;
+  margin: 10px auto 0;
+  text-align: left;
+}
+.Infografica {
+  font-size: 30px;
+  color: #00FF99;
+  margin: 0 auto;
+}
+.TestoInfografica {
+  font-size: 12px;
+  color: #fff;
+  margin: 10px auto 30px;
+}
+#VideoIntervistato {
+  border: 2px solid #ff6666;
+  padding: 0;
+  width: 100%;
+}
+.confronto {
+  font-size: 15px;
+  color: #ff6666;
+}
+/****************************************/
+/*************  CREDITS  ***************/
+/**************************************/
+.Socialvisit {
+  padding: 0;
+  margin: 0;
+}
+.Socialvisit > li {
+  margin: 0 30px;
+  display: inline-block;
+}
+.Socialvisit > li > a > svg {
+  width: 75px;
+  height: 75px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+  border: 3px solid #ff6666;
+  border-radius: 50px;
+  padding: 2px;
+  cursor: pointer;
+} 
+.Crew {
+  text-align: left;
+  margin: 15px 0 10px -15px;
+  border-bottom: 2px solid #ff6666;
+  padding-bottom: 5px;
+}
+.Position {
+  text-align: left;
+  font-weight: bold;
+  margin: 0;
+}
+.Nome {
+  text-align: left;
+  margin: 10px 0px;
+  color: #fff;
+}
+.ThankYou {
+  text-align: left;
+  margin: 20px 0 0px -15px;
+}
+.Release {
+  text-align: left;
+  margin: 0 0 10px -15px;  
+}
+.white {
+  color: #fff;
+  display: inline-block;
+}
+.NomeProgetto {
+  font: 44px 'Titillium Web', sans-serif;
+  color: #ff6666;
+  font-weight: 900;
+  margin: 15px auto;
+}
+#Per {
+  margin: 45px auto;
+  stroke: #ff6666;
+  stroke-width: 2px;
+}
+.Powered {
+  margin: 0;
+  padding: 0;
+}
+.Powered > li {
+  background-color: #ff6666;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+/****************************************/
+/************* CONTACT US **************/
+/**************************************/
+.ContactUs > div {
+  margin: 0;
+}
+.ContactUs > div > h4 {
+  margin: 30px auto;
+  font-size: 20px;
+}
+.ContactUs > div > input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  margin: 15px auto;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #555;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.ContactUs > div > textarea {
+  display: block;
+  width: 100%;
+  height: 200px;
+  padding: 10px 15px;
+  margin: 15px auto;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #555;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, .075);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.ContactUs > div > input:focus,
+.ContactUs > div > textarea:focus {
+  font-size: 20px;
+  color: #fff;
+  border: 3px solid #ff6666;
+  box-shadow: inset 0 2px 2px rgba(255, 102, 102, 0.075);
+}
+.InputVisited {
+  font-size: 20px;
+  color: #fff;
+  border: 3px solid #ff6666;
+  box-shadow: inset 0 2px 2px rgba(255, 102, 102, 0.075);
+}
+.ButtonSubmit {
+  font-family: 'Work Sans', sans-serif;
+  color: #ff6666;
+  background: none;
+  border: 1px solid #ff6666;
+  padding: 10px 20px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.ButtonSubmit:hover,
+.ButtonSubmit:active, 
+.ButtonSubmit:focus {
+  color: #ff6666;
+  border: 1px solid #ff6666;
+  text-decoration: none;
+}
+/****************************************/
+/************** TOP MENU ***************/
+/**************************************/
+.TopMenu {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #ff6666;
+}
+.Logo {
+  color: #ff6666;
+  padding: 0px;
+  width: 50%;
+}
+.HomeLink {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  color: #ff6666;
+  padding: 10px 15px;
+  float: left;
+}
+.HomeLink:hover,
+.HomeLink:focus {
+  color: #ff6666;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.TopMenuNav {
+  padding: 8px;
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+.TopMenuNav > ul > li {
+  display: inline-block;
+}
+.TopMenuNav > ul > li {
+  margin: 5px 20px;
+}
+.TopMenuNav > ul > li > a {
+  padding: 2px 0 0 0;
+  font: 15px 'Work Sans', sans-serif;
+  color: #ff6666;
+  border-bottom: 2px solid transparent;
+}
+.TopMenuNav > ul > li > a:hover,
+.TopMenuNav > ul > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #ff6666;
+}
+/****************************************/
+/************* BOTTOM MENU *************/
+/**************************************/
+.BottomMenu {
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #fff;
+}
+.VisitMenu {
+  padding: 0px;
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+.VisitMenu > ul > li {
+  display: inline-block;
+}
+.VisitMenu > ul > li > a {
+  font: 10px 'Work Sans', sans-serif;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.VisitMenu > ul > li > a:hover,
+.VisitMenu > ul > li > a:focus {
+  background-color: transparent;
+  color: #ff6666;
+  text-decoration: none;
+}
+.TechnicalMenu {
+  padding: 0px;
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+.TechnicalMenu > a {
+  font: 10px 'Work Sans', sans-serif;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: #000;
+}
+.TechnicalMenu > a:hover,
+.TechnicalMenu > a:focus {
+  background-color: transparent;
+  color: #ff6666;
+  text-decoration: none;
+}
+.ContainerSocial {
+  display: inline-block;
+}
+.Share {
+  font: 10px 'Work Sans', sans-serif;
+  padding: 5px 10px;
+  margin: 0;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+}
+.Share:hover,
+.Share:focus {
+  color: #ff6666;
+  text-decoration: none;
+}
+.SocialShare {
+  font: 10px 'Work Sans', sans-serif;
+  padding: 5px 10px;
+  margin: 0;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+}
+.SocialShare:hover,
+.SocialShare:focus {
+  color: #ff6666;
+  text-decoration: none;
+}
+/****************************************/
+/***********   ANIMATIONS   ************/
+/**************************************/
+.animationview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  opacity: 1;
+}
+.animationview.ng-enter,
+.animationview.ng-leave {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.animationview.ng-enter {
+  opacity: 0;
+}
+.animationview.ng-enter-active {
+  opacity: 1;
+}
+.animationview.ng-leave {
+  opacity: 1;
+}
+.animationview.ng-leave-active {
+  opacity: 0;
+}
