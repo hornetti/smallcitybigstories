@@ -625,7 +625,7 @@ body {
   padding: 0px;
   width: 50%;
 }
-.HomeLink {
+.Logo > a {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 900;
   font-size: 20px;
@@ -633,32 +633,27 @@ body {
   padding: 10px 15px;
   float: left;
 }
-.HomeLink:hover,
-.HomeLink:focus {
+.Logo > a:hover,
+.Logo > a:focus {
   color: #ff6666;
   text-decoration: none;
   padding: 10px 15px;
 }
-.TopMenuNav {
-  padding: 8px;
+.Nav {
+  padding: 10px 0;
   width: 50%;
   float: right;
   text-align: right;
 }
-.TopMenuNav > ul > li {
-  display: inline-block;
-}
-.TopMenuNav > ul > li {
+.Nav > a {
   margin: 5px 20px;
-}
-.TopMenuNav > ul > li > a {
   padding: 2px 0 0 0;
   font: 15px 'Work Sans', sans-serif;
   color: #ff6666;
   border-bottom: 2px solid transparent;
 }
-.TopMenuNav > ul > li > a:hover,
-.TopMenuNav > ul > li > a:focus {
+.Nav > ul > li > a:hover,
+.Nav > ul > li > a:focus {
   background-color: transparent;
   border-bottom-color: #ff6666;
 }
@@ -746,10 +741,9 @@ body {
 /**************************************/
 .animationview {
   position: absolute;
-  top: 0;
+  top: 85px;
   left: 0;
   right: 0;
-  height: 100%;
   opacity: 1;
 }
 .animationview.ng-enter,
