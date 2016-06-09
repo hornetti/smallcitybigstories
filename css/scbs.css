@@ -739,6 +739,7 @@ body {
 /****************************************/
 /***********   ANIMATIONS   ************/
 /**************************************/
+/*
 .animationview {
   position: absolute;
   top: 85px;
@@ -763,3 +764,4 @@ body {
 .animationview.ng-leave-active {
   opacity: 0;
 }
+*/
