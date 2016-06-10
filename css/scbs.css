@@ -311,13 +311,18 @@
 #fMantovani:hover {
   fill: #fff;
 }
-.MetroLine {
+/********************************************/
+.ContainerLegendaMetro {
+  
+}
+.ContainerLegendaMetro > h4 {
+  font-size: 15px;
   text-align: left;
   color: #fff;
   padding-bottom: 2px;
   border-bottom: 2px solid #ff6666;  
 }
-.LegendaMappa {
+.ContainerLegendaMetro > svg {
   margin: 10px auto;
 }
 .MetroProfile {
