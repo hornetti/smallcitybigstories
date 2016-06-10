@@ -262,55 +262,20 @@
   stroke-miterlimit: 10;
 }*/
 /*********************************************/
-.food0 {
-  fill: none;
-  stroke: #CC0033;
-  stroke-width: 2;
-  stroke-linejoin: bevel;
-  stroke-miterlimit: 10;
-}
-.food1 {
-  fill: none;
-  stroke: #CC0033;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.food2 {
-  fill: #CC0033;
-}
-.food3 {
-  fill: #333333;
-}
+.food0{fill:none;stroke:#FF3366;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.food1{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
+.food2{fill:#FF3366;}
+.food3{fill:#333333;}
+.food4{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
 /*********************************************/
-.matav0 {
-  fill: #0099FF;
-}
-.matav1 {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
+.matav0{fill:#0099FF;}
+.matav1{fill:none;stroke:#0099FF;stroke-width:2;stroke-miterlimit:10;}
 /*********************************************/
-.tech0 {
-  fill: #FFFF00;
-}
-.tech1 {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
+.tech0{fill:#FFFF00;}
+.tech1{fill:none;stroke:#FFFF00;stroke-width:2;stroke-miterlimit:10;}
 /*********************************************/
-.it0 {
-  fill: #00FF99;
-}
-.it1 {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
+.it0{fill:#00FF99;}
+.it1{fill:none;stroke:#00FF99;stroke-width:2;stroke-miterlimit:10;}
 /********************************************/
 #fValmori,
 #fBandini,
