@@ -172,111 +172,7 @@
 .st15{fill:none;stroke:#00FF99;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 .st16{display:none;}
 .st17{fill:none;stroke:#3399FF;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-/*
-.st0 {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10;
-}
-.st1 {
-  stroke: #CC0033;
-  stroke-width: 3;
-  stroke-miterlimit: 10;
-}
-.st2 {
-  fill: #FFFF00;
-}
-.st3 {
-  stroke: #CC0033;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-}
-.st4 {
-  stroke: #FFFF00;
-  stroke-width: 3;
-  stroke-miterlimit: 10;
-}
-.st5 {
-  stroke: #3399FF;
-  stroke-width: 3;
-  stroke-miterlimit: 10;
-}
-.st6 {
-  fill: #CC0033;
-}
-.st7 {
-  display: inline;
-}
-.st8 {
-  fill: #3399FF;
-}
-.st9 {
-  stroke: #00FF99;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-}
-.st10 {
-  fill: #00FF99;
-}
-.st11 {
-  stroke: #FFFF00;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-}
-.st12 {
-  fill: none;
-  stroke: #CC0033;
-  stroke-width: 10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10;
-}
-.st13 {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10;
-}
-.st14 {
-  display: none;
-}
-.st15 {
-  stroke: #00FF99;
-  stroke-width: 3;
-  stroke-miterlimit: 10;
-}
-.st16 {
-  fill: none;
-  stroke: #3399FF;
-  stroke-width: 10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10;
-}*/
 /*********************************************/
-.food0{fill:none;stroke:#FF3366;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.food1{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
-.food2{fill:#FF3366;}
-.food3{fill:#333333;}
-.food4{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
-/*********************************************/
-.matav0{fill:#0099FF;}
-.matav1{fill:none;stroke:#0099FF;stroke-width:2;stroke-miterlimit:10;}
-/*********************************************/
-.tech0{fill:#FFFF00;}
-.tech1{fill:none;stroke:#FFFF00;stroke-width:2;stroke-miterlimit:10;}
-/*********************************************/
-.it0{fill:#00FF99;}
-.it1{fill:none;stroke:#00FF99;stroke-width:2;stroke-miterlimit:10;}
-/********************************************/
 #fValmori,
 #fBandini,
 #fTampieri,
@@ -312,6 +208,21 @@
   fill: #fff;
 }
 /********************************************/
+.food0{fill:none;stroke:#FF3366;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.food1{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
+.food2{fill:#FF3366;}
+.food3{fill:#333333;}
+.food4{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+/*********************************************/
+.matav0{fill:#0099FF;}
+.matav1{fill:none;stroke:#0099FF;stroke-width:2;stroke-miterlimit:10;}
+/*********************************************/
+.tech0{fill:#FFFF00;}
+.tech1{fill:none;stroke:#FFFF00;stroke-width:2;stroke-miterlimit:10;}
+/*********************************************/
+.it0{fill:#00FF99;}
+.it1{fill:none;stroke:#00FF99;stroke-width:2;stroke-miterlimit:10;}
+/********************************************/
 .ContainerLegendaMetro {
   
 }
@@ -325,13 +236,21 @@
 .ContainerLegendaMetro > svg {
   margin: 10px auto;
 }
-.MetroProfile {
+.ContainerProfileMetro {
+
+}
+.ContainerProfileMetro > h4 {
+  font-size: 15px;
   text-align: left;
   color: #fff;
   padding-bottom: 2px;
   margin-top: 20px;
   border-bottom: 2px solid #ff6666;
 }
+.ContainerProfileMetro > svg {
+  margin: 10px auto;
+}
+/********************************************/
 /*
  * Base structure
  */
@@ -660,7 +579,7 @@ body {
   display: inline-block;
 }
 .VisitMenu > ul > li > a {
-  font: 10px 'Work Sans', sans-serif;
+  font: 12px 'Work Sans', sans-serif;
   color: #fff;
   padding: 5px 10px;
   cursor: pointer;
@@ -678,7 +597,7 @@ body {
   text-align: right;
 }
 .TechnicalMenu > a {
-  font: 10px 'Work Sans', sans-serif;
+  font: 12px 'Work Sans', sans-serif;
   color: #fff;
   padding: 5px 10px;
   cursor: pointer;
@@ -694,7 +613,7 @@ body {
   display: inline-block;
 }
 .Share {
-  font: 10px 'Work Sans', sans-serif;
+  font: 12px 'Work Sans', sans-serif;
   padding: 5px 10px;
   margin: 0;
   color: #fff;
@@ -707,7 +626,7 @@ body {
   text-decoration: none;
 }
 .SocialShare {
-  font: 10px 'Work Sans', sans-serif;
+  font: 12px 'Work Sans', sans-serif;
   padding: 5px 10px;
   margin: 0;
   color: #fff;
