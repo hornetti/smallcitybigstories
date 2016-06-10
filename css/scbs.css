@@ -154,6 +154,25 @@
 /****************************************/
 /***************   MAP  ****************/
 /**************************************/
+.st0{fill:none;stroke:#FF3366;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+.st1{fill:none;stroke:#FF3366;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st2{fill:none;stroke:#FFFF00;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st3{fill:none;stroke:#FF3366;stroke-width:3;stroke-miterlimit:10;}
+.st4{fill:none;stroke:#FFFF00;stroke-width:3;stroke-miterlimit:10;}
+.st5{fill:none;stroke:#3399FF;stroke-width:3;stroke-miterlimit:10;}
+.st6{fill:none;stroke:#3399FF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+.st7{fill:#FF3366;}
+.st8{fill:#FFFF00;}
+.st9{fill:none;stroke:#00FF99;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+.st10{fill:none;stroke:#FFFF00;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+.st11{display:inline;}
+.st12{fill:#3399FF;}
+.st13{fill:none;stroke:#00FF99;stroke-width:3;stroke-miterlimit:10;}
+.st14{fill:#00FF99;}
+.st15{fill:none;stroke:#00FF99;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.st16{display:none;}
+.st17{fill:none;stroke:#3399FF;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+/*
 .st0 {
   fill: none;
   stroke: #FFFF00;
@@ -241,7 +260,8 @@
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
-}
+}*/
+/*********************************************/
 .food0 {
   fill: none;
   stroke: #CC0033;
@@ -292,46 +312,38 @@
   stroke-miterlimit: 10;
 }
 /********************************************/
-#p_x5F_valmori,
-#p_x5F_bandini,
-#p_x5F_tampieri,
-#p_x5F_ruta,
-#p_x5F_bertoni,
-#p_x5F_martelli,
-#p_x5F_h_x5F_martelli,
-#p_x5F_peroni,
-#p_x5F_savorani,
-#p_x5F_zauli,
-#p_x5F_salvatori,
-#p_x5F_h_x5F_salvatori,
-#p_x5F_borgini,
-#p_x5F_h_x5F_borgini,
-#p_x5F_moretti,
-#p_x5F_h_x5F_moretti,
-#p_x5F_rava,
-#p_x5F_tamba,
-#p_x5F_mantovani {
+#fValmori,
+#fBandini,
+#fTampieri,
+#fRuta,
+#fBertoni,
+#fMartelli,
+#fPeroni,
+#fSavorani,
+#fZauli,
+#fSalvatori,
+#fBorgini,
+#fFionda,
+#fRava,
+#fTamba,
+#fMantovani {
   cursor: pointer;
 }
-#p_x5F_valmori:hover,
-#p_x5F_bandini:hover,
-#p_x5F_tampieri:hover,
-#p_x5F_ruta:hover,
-#p_x5F_bertoni:hover,
-#p_x5F_martelli:hover,
-#p_x5F_h_x5F_martelli:hover,
-#p_x5F_peroni:hover,
-#p_x5F_savorani:hover,
-#p_x5F_zauli:hover,
-#p_x5F_salvatori:hover,
-#p_x5F_h_x5F_salvatori:hover,
-#p_x5F_borgini:hover,
-#p_x5F_h_x5F_borgini:hover,
-#p_x5F_moretti:hover,
-#p_x5F_h_x5F_moretti:hover,
-#p_x5F_rava:hover,
-#p_x5F_tamba:hover,
-#p_x5F_mantovani:hover {
+#fValmori:hover,
+#fBandini:hover,
+#fTampieri:hover,
+#fRuta:hover,
+#fBertoni:hover,
+#fMartelli:hover,
+#fPeroni:hover,
+#fSavorani:hover,
+#fZauli:hover,
+#fSalvatori:hover,
+#fBorgini:hover,
+#fFionda:hover,
+#fRava:hover,
+#fTamba:hover,
+#fMantovani:hover {
   fill: #fff;
 }
 .MetroLine {
