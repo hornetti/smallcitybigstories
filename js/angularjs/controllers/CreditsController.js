@@ -33,7 +33,7 @@ app.controller('CreditsController', ['$scope', function($scope) {
 	$scope.Collaboration = "Collaborations";
 	$scope.ProjectCollaboration = [
 		{
-			name : 'Mattia Alberani',
+			name : 'Filippo Cinotti, Mattia Alberani',
 			info : 'Video Maker'
 		},
 		{
