@@ -334,13 +334,12 @@ body {
 /*****************************************/
 .TitoloProfilo {
   color: #fff;
-  margin: 0 0 45px 15px;
+  margin: 0 0 30px 15px;
   text-align: left;
 }
 .ButtonClose {
-  opacity: 1;
-  margin-right: 15px;
   cursor: pointer;
+  text-align: right;
 }
 .NameCompany {
   font-size: 15px;
@@ -356,12 +355,18 @@ body {
 .DataContainer {
   border-top: 2px solid #00ff99;  
 }
-.DataContainer > .col-xs-6 > .TestoInfografica, .DataContainer > .col-sm-6 > .TestoInfografica, .DataContainer > .col-md-6 > .TestoInfografica, .DataContainer > .col-lg-6 > .TestoInfografica {
+.DataContainer > .col-xs-6 > .TestoInfografica,
+.DataContainer > .col-sm-6 > .TestoInfografica,
+.DataContainer > .col-md-6 > .TestoInfografica,
+.DataContainer > .col-lg-6 > .TestoInfografica {
   margin: 5px 0;
   padding-left: 15px;
   padding-right: 15px;
 }
-.DataContainer > .col-xs-6, .DataContainer > .col-sm-6, .DataContainer > .col-md-6, .DataContainer > .col-lg-6 {
+.DataContainer > .col-xs-6,
+.DataContainer > .col-sm-6,
+.DataContainer > .col-md-6,
+.DataContainer > .col-lg-6 {
   margin: 5px 0;
   padding-left: 0;
 }
