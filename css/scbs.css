@@ -334,7 +334,7 @@ body {
 /*****************************************/
 .TitoloProfilo {
   color: #fff;
-  margin: 0 0 15px 15px;
+  margin: 0 0 45px 15px;
   text-align: left;
 }
 .ButtonClose {
@@ -353,18 +353,26 @@ body {
   margin: 10px auto 0;
   text-align: left;
 }
-.linkDataviz {
-  
+.DataContainer {
+  border-top: 2px solid #00ff99;  
+}
+.DataContainer > .col-xs-6 > .TestoInfografica, .DataContainer > .col-sm-6 > .TestoInfografica, .DataContainer > .col-md-6 > .TestoInfografica, .DataContainer > .col-lg-6 > .TestoInfografica {
+  margin: 5px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.DataContainer > .col-xs-6, .DataContainer > .col-sm-6, .DataContainer > .col-md-6, .DataContainer > .col-lg-6 {
+  margin: 5px 0;
+  padding-left: 0;
 }
 .Infografica {
   font-size: 36px;
   color: #00FF99;
   margin: 0 auto;
   text-align: left;
-  border-top: 2px solid #00ff99;
 }
 .Infografica > img {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .TestoInfografica {
   font-size: 15px;
@@ -376,10 +384,6 @@ body {
   border: 2px solid #ff6666;
   padding: 0;
   width: 100%;
-}
-.confronto {
-  font-size: 15px;
-  color: #ff6666;
 }
 /****************************************/
 /*************  CREDITS  ***************/
