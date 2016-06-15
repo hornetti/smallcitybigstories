@@ -1,6 +1,6 @@
 var app = angular.module('MyApp', ['ngRoute', 'ngAnimate']);
 
-app.config(['$routeProvider', function($routeProvider) {
+app.config(['$routeProvider', function($routeProvider, $locationProvider) {
   $routeProvider
     .when('/home', { 
       controller: 'HomeController',
@@ -57,4 +57,5 @@ app.config(['$routeProvider', function($routeProvider) {
     .otherwise({ 
       redirectTo: '/map' 
     });
+    $locationProvider.html5Mode(true);
 }]);
