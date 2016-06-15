@@ -1,18 +1,18 @@
 app.controller('MainController', ['$scope', function($scope) {
 	$scope.Link_Home = { 
 		name : 'Small city, big stories',
-		direct : '/home'
+		direct : 'home'
 	};
 	$scope.Link_Map = {	
 		name : 'Faenza Metro Map',
-		direct : '/map'
+		direct : 'map'
 	};
 	$scope.Link_Credits = {
 		name : 'Credits',
-		direct : '/credits'
+		direct : 'credits'
 	};
 	$scope.Link_Contact = {
 		name : 'Contact us',
-		direct : '/contact'
+		direct : 'contact'
 	};
 }]);
