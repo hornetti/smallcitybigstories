@@ -1,6 +1,6 @@
 var app = angular.module('MyApp', ['ngRoute', 'ngAnimate']);
 
-app.config(['$routeProvider', function($routeProvider, $locationProvider) {
+app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
   $routeProvider
     .when('/home', { 
       controller: 'HomeController',
