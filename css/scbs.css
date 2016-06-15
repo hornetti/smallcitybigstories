@@ -224,9 +224,7 @@
 .it1{fill:none;stroke:#00FF99;stroke-width:2;stroke-miterlimit:10;}
 /********************************************/
 .ContainerLegendaMetro {
-  border-left: 2px solid #ff6666;
-  border-bottom: 2px solid #ff6666;
-  padding: 0 0 0 15px ;
+  padding-left: 5px;
 }
 .ContainerLegendaMetro > h4 {
   font-size: 15px;
@@ -237,10 +235,7 @@
   margin: 10px auto;
 }
 .ContainerProfileMetro {
-  border-right: 2px solid #ff6666;
-  border-top: 2px solid #ff6666;
-  padding: 0 15px 0 0 ;
-
+  padding-left: 5px;
 }
 .ContainerProfileMetro > h4 {
   font-size: 15px;
