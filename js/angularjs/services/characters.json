@@ -21,7 +21,7 @@
         "revenue": "2M €",
         "economic_growth": "400%",
         "type": "B2B + B2C",
-        "reference_market": "Estero e italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/esteroFOOD.svg",
         "motivations": "A"
     },
     {
@@ -46,7 +46,7 @@
         "revenue": "-",
         "economic_growth": "-",
         "type": "B2B",
-        "reference_market": "Estero e italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/esteroFOOD.svg",
         "motivations": "A"
     }, 
     {
@@ -71,7 +71,7 @@
         "revenue": "-",
         "economic_growth": "-",
         "type": "B2B",
-        "reference_market": "Estero e italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/esteroFOOD.svg",
         "motivations": "D"
     },
     {
@@ -96,7 +96,7 @@
         "revenue": "600m €",
         "economic_growth": "300%",
         "type": "B2B",
-        "reference_market": "Italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/italiaFOOD.svg",
         "motivations": "A"
     }, 
     {
@@ -121,7 +121,7 @@
         "revenue": "300m €",
         "economic_growth": "100%",
         "type": "B2B",
-        "reference_market": "Italiano locale",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/italiaFOOD.svg",
         "motivations": "D"
     }, 
     {
@@ -146,7 +146,7 @@
         "revenue": "25M €",
         "economic_growth": "300%",
         "type": "B2B + B2C",
-        "reference_market": "Estero e italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/esteroFOOD.svg",
         "motivations": "A"
     }, 
     {
@@ -171,7 +171,7 @@
         "revenue": "400m €",
         "economic_growth": "60%",
         "type": "B2B",
-        "reference_market": "Italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/italiaFOOD.svg",
         "motivations": "A"
     }, 
     {
@@ -196,7 +196,7 @@
         "revenue": "> 200m €",
         "economic_growth": "",
         "type": "B2C",
-        "reference_market": "Italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/italiaFOOD.svg",
         "motivations": "D"
     },
     {
@@ -221,7 +221,7 @@
         "revenue": "750m €",
         "economic_growth": "2000%",
         "type": "B2B",
-        "reference_market": "Estero e italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/esteroFOOD.svg",
         "motivations": "D"
     },
     {
@@ -246,7 +246,7 @@
         "revenue": "1,5M €",
         "economic_growth": "200%",
         "type": "B2B + B2C",
-        "reference_market": "Estero e italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/esteroFOOD.svg",
         "motivations": "B"
     },
     {
@@ -271,7 +271,7 @@
         "revenue": "-",
         "economic_growth": "-",
         "type": "B2B + B2C",
-        "reference_market": "Estero e italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/esteroFOOD.svg",
         "motivations": "A"
     },
     {
@@ -296,7 +296,7 @@
         "revenue": "2M €",
         "economic_growth": "20m %",
         "type": "B2B",
-        "reference_market": "Italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/italiaFOOD.svg",
         "motivations": "D"
     },
     {
@@ -321,7 +321,7 @@
         "revenue": "90m €",
         "economic_growth": "-",
         "type": "B2B",
-        "reference_market": "Italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/italiaFOOD.svg",
         "motivations": "D"
     },
     {
@@ -346,7 +346,7 @@
         "revenue": "7,8M €",
         "economic_growth": "1000%",
         "type": "B2B + B2C",
-        "reference_market": "Estero e italiano",
+        "reference_market": "http://hornetti.github.io/smallcitybigstories/svg/esteroFOOD.svg",
         "motivations": "C"
     },
     {
