@@ -334,6 +334,15 @@ body {
 }
 .Backto {
   cursor: pointer;
+  border: 1px solid #ff6666;
+  color: #ff6666;
+  padding: 5px 10px;
+  text-align: right;
+}
+.Backto:hover,
+.Backto:focus {
+  color: #ff6666;
+  text-decoration: none;
 }
 .NameCompany {
   font-size: 15px;
