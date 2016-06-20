@@ -15,4 +15,16 @@ app.controller('LinkController', ['$scope', function($scope) {
 		name : 'Contact us',
 		direct : 'contact'
 	};
+	$scope.Share = "Share";
+	$scope.Link_Share = [
+		{
+			name : "Facebook",
+			link : ""
+		},
+		{
+			name : "Twitter",
+			link : ""
+		}
+	];
+
 }]);
