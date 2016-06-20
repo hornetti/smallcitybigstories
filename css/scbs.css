@@ -344,6 +344,10 @@ body {
   color: #ff6666;
   text-decoration: none;
 }
+#VideoIntervistato {
+  padding: 0;
+  width: 100%;
+}
 .NameCompany {
   font-size: 15px;
   margin: 10px auto 0;
@@ -388,9 +392,12 @@ body {
   margin: 0 auto 30px;
   text-align: left;
 }
-#VideoIntervistato {
-  padding: 0;
-  width: 100%;
+.DataLink {
+  cursor: pointer;
+}
+.DataLink:hover,
+.DataLink:focus {
+  text-decoration: none;
 }
 /****************************************/
 /*************  CREDITS  ***************/
