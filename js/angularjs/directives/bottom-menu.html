@@ -10,10 +10,9 @@
         </ul>
     </div>
     <div class="TechnicalMenu">
-        <div class="ContainerSocial">
-            <a class="Share" href="#">Facebook</a>
-            <a class="Share" href="#">Twitter</a>
-            <p class="SocialShare">Share</p>
+        <div class="ContainerSocial" ng-repeat="linkshare in Link_Share">
+            <a class="Share" ng-href="{{ linkshare.link }}">{{ linkshare.name}}</a>
+            <p class="SocialShare">{{ Share }}</p>
         </div>
         <a onclick="toggleFullScreen()">Fullscreen</a>
         <a onclick="toggleMusic()">Music</a>
