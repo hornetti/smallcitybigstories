@@ -10,8 +10,8 @@
         </ul>
     </div>
     <div class="TechnicalMenu">
-        <div class="ContainerSocial" ng-repeat="linkshare in Link_Share">
-            <a class="Share" ng-href="{{ linkshare.link }}">{{ linkshare.name}}</a>
+        <div class="ContainerSocial">
+            <a class="Share" ng-repeat="linkshare in Link_Share" ng-href="{{ linkshare.link }}">{{ linkshare.name}}</a>
             <p class="SocialShare">{{ Share }}</p>
         </div>
         <a onclick="toggleFullScreen()">Fullscreen</a>
