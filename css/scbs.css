@@ -330,14 +330,14 @@ body {
 .TitoloProfilo {
   color: #fff;
   margin: 0 0 30px 15px;
-  text-align: left;
+  float: left;
 }
 .Backto {
   cursor: pointer;
   border: 1px solid #ff6666;
   color: #ff6666;
   padding: 5px 10px;
-  text-align: right;
+  float: right;
 }
 .Backto:hover,
 .Backto:focus {
