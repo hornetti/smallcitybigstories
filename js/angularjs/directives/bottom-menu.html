@@ -11,8 +11,8 @@
     </div>
     <div class="TechnicalMenu">
         <div class="ContainerSocial" ng-init="visible = true">
-            <a class="Share" ng-repeat="linkshare in Link_Share" ng-href="{{ linkshare.link }}" ng-click="visible = !visible">{{ linkshare.name}}</a>
-            <p class="SocialShare" ng-show="visible" ng-animate="'fade'">{{ Share }}</p>
+            <a class="Share" ng-repeat="linkshare in Link_Share" ng-href="{{ linkshare.link }}" ng-show="visible" ng-animate="'fade'">{{ linkshare.name }}</a>
+            <p class="SocialShare" ng-click="visible = !visible">{{ Share }}</p>
         </div>
         <a onclick="toggleFullScreen()">Fullscreen</a>
         <a onclick="toggleMusic()">Music</a>
