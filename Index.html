@@ -20,10 +20,10 @@
 	</head>
 	<body ng-app="MyApp">
 		<div class="Wrapper" ng-controller="LinkController">
-			<div class="SiteWrapper" ng-init="visible = false">
-				<top-menu ng-show="visible" ng-animate="'fade'"></top-menu>
+			<div class="SiteWrapper">
+				<top-menu  ng-init="visible = false"></top-menu>
 				<div ng-view class="animationview"></div>
-				<bottom-menu ng-show="visible" ng-animate="'fade'"></bottom-menu>
+				<bottom-menu  ng-init="visible = false"></bottom-menu>
 			</div>
 		</div>
 		<!-- jQuery -->
