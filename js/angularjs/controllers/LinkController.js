@@ -28,7 +28,7 @@ app.controller('LinkController', ['$scope', function($scope) {
 	];
 	var myAudio = document.getElementById("Music");
 	angular.element(document).ready(function toggleMusic() {
-	  	if (myAudio.paused) {
+	  	if (myAudio = !myAudio.play()) {
 	  		myAudio.play(); 
 	  	} else {
 	    	myAudio.pause(); 
