@@ -26,5 +26,12 @@ app.controller('LinkController', ['$scope', function($scope) {
 			link : ""
 		}
 	];
-
+	var myAudio = document.getElementById("Music");
+	angular.element(document).ready(function toggleMusic() {
+	  	if (myAudio.paused) {
+	  		myAudio.play(); 
+	  	} else {
+	    	myAudio.pause(); 
+	  	}		
+	});
 }]);
