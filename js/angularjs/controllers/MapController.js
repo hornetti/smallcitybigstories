@@ -6,7 +6,7 @@ app.controller('MapController', ['$scope', 'characters', function($scope, charac
 		TweenLite.from('#lineBlue', 5, {
 	        drawSVG: "50% 50%",
 	        delay: 1
-	    });
+	    });/*
 	    TweenLite.from('#lineRed', 4, {
 	        drawSVG: "50% 50%",
 	        delay: 2
@@ -18,6 +18,6 @@ app.controller('MapController', ['$scope', 'characters', function($scope, charac
 	    TweenLite.from('#lineYellow', 2, {
 	        drawSVG: "50% 50%",
 	        delay: 4
-	    });
+	    });*/
 	});
 }]);
