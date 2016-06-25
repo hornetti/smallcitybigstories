@@ -26,12 +26,12 @@ app.controller('LinkController', ['$scope', function($scope) {
 			link : ""
 		}
 	];
-	var myAudio = document.getElementById("Music");
+	/*var myAudio = document.getElementById("Music");
 	angular.element(document).ready(function toggleMusic() {
 	  	if (myAudio = !myAudio.play()) {
 	  		myAudio.play(); 
 	  	} else {
 	    	myAudio.pause(); 
 	  	}		
-	});
+	});*/
 }]);
