@@ -3,21 +3,25 @@ app.controller('MapController', ['$scope', 'characters', function($scope, charac
     	$scope.interv = data;
 	});
 	angular.element(document).ready(function() {
-		TweenLite.from('#lineBlue', 5, {
-	        drawSVG: "50% 50%",
-	        delay: 1
-	    });/*
-	    TweenLite.from('#lineRed', 4, {
-	        drawSVG: "50% 50%",
-	        delay: 2
-	    });
-	    TweenLite.from('#lineGreen', 3, {
-	        drawSVG: "50% 50%",
-	        delay: 3
-	    });
-	    TweenLite.from('#lineYellow', 2, {
-	        drawSVG: "50% 50%",
-	        delay: 4
-	    });*/
+		TweenMax.from('#lineBlue', 1, {
+		    drawSVG: "0%",
+		    ease: Expo.easeOut,
+		    delay: 2
+		});
+		TweenMax.from('#lineRed', 1, {
+		    drawSVG: "0%",
+		    ease: Expo.easeOut,
+		    delay: 2
+		});
+		TweenMax.from('#lineGreen', 1, {
+		    drawSVG: "0%",
+		    ease: Expo.easeOut,
+		    delay: 2
+		});
+		TweenMax.from('#lineYellow', 2, {
+		    drawSVG: "0%",
+		    ease: Expo.easeOut,
+		    delay: 2
+		});
 	});
 }]);
