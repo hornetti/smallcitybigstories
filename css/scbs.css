@@ -290,17 +290,15 @@ body {
   padding: 0 15px;
   margin: auto;
 }
-.SmallCityBigStories {
-  font: 100px 'Titillium Web', sans-serif;
-  color: #ff6666;
+#Smallcitybigstories {
+  font: 78.52px 'Titillium Web', sans-serif;
   font-weight: 900;
-  margin: 20px auto;
 }
 .logo0{fill:none;stroke:#FFFFFF;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
 .logo2{fill:#FF6666;}
 .logo3{fill:#010101;}
 .logo4{fill:none;stroke:#FFFFFF;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.logo5{font-family:'TitilliumWeb-Black';fill:#FF6666;font-size:78.52px;}
+.logo5{fill:#FF6666;}
 .logo6{fill:none;stroke:#FFFFFF;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 .logo7{fill:none;stroke:#FFFFFF;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 
