@@ -23,5 +23,32 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 	    		element : "** artigiani"
 	    	}
 	    ];
-  	});
+  	});  	
+	angular.element(document).ready(function() {
+		TweenLite.from('.foundation2', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 1
+		});
+		var bars = ['.foundation14', '.foundation21', '.foundation23', '.foundation7'];
+		TweenMax.staggerFrom(bars, 2, {
+			drawSVG: 0,
+			delay: 2,
+			ease: Expo.easeOut,
+			force3D: true
+		}, 0.2);
+		var bars_dates = ['.foundation8', '.foundation3', '.foundation22', '.foundation12',];
+		TweenMax.staggerFrom(bars_dates, 2, {
+			drawSVG: 0,
+			delay: 2,
+			ease: Expo.easeOut,
+			force3D: true
+		}, 0.2);
+		var dates = ['.k_txt'];
+		TweenLite.from(dates, 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 3
+		});
+	});
 }]);
