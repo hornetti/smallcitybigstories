@@ -50,4 +50,33 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 			delay: 3
 		});
 	});
+	angular.element(document).ready(function() {
+		var bars = ['.revenue17', '.revenue2', '.revenue4', '.revenue16', ];
+		TweenLite.from('.revenue1', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 1
+		});
+		TweenMax.staggerFrom(bars, 2, {
+			drawSVG: 0,
+			delay: 2,
+			ease: Expo.easeOut,
+			force3D: true
+		}, 0.2);
+		TweenLite.from('.revenue77', 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 2.7
+		});
+		TweenLite.from('.revenue11', 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 1
+		});
+		TweenLite.from('.revenue5', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 2
+		});
+	});
 }]);
