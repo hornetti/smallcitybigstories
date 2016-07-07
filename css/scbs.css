@@ -917,3 +917,86 @@ body {
   fill: #FFFFFF;
   font-size: 9px;
 }
+/****************************************/
+/************   EMPLOYEES   ************/
+/**************************************/
+.greyline {
+  fill: none;
+  stroke: #333333;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.LineIT {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.employees3 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+.LineMAV {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.employees7 {
+  fill: #FF3366;
+}
+.employees8 {
+  fill: #FFFF00;
+}
+.employees9 {
+  fill: #FFFFFF;
+}
+.greytext {
+  fill: #333333;
+}
+.employees11 {
+  fill: #0099FF;
+}
+.employees12 {
+  fill: #00FF99;
+}
+.employees13 {
+  font-size: 12px;
+}
+.employees14 {
+  font-size: 15px;
+}
+.LineFOOD {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.LinePTEK {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.bold12 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.regular12 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: regular;
+  font-size: 12px;
+}
+.bold15 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  fill: #FFFF00
+}
+.regular9 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: regular;
+  font-size: 9px;
+}
