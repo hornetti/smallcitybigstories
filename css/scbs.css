@@ -1000,3 +1000,240 @@ body {
   font-weight: regular;
   font-size: 9px;
 }
+/****************************************/
+/**************   MARKET   *************/
+/**************************************/
+
+.FOOD {
+  fill: #FF3366;
+}
+.PTEKaux {
+  fill: #FF9900;
+}
+.PTEK {
+  fill: #FFFF00;
+}
+.White {
+  fill: #FFFFFF;
+}
+.IT {
+  fill: #00FF99;
+}
+.PTEKaux_ {
+  fill: #FF9900;
+}
+.PTEK_ {
+  fill: #FFFF00;
+}
+.CircleMAV {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.CircleIT {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.CirclePTEK {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.CircleFOOD {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.Logo1Lines5px {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.StatLine2 {
+  fill: none;
+  stroke: #FF9900;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.StatLine1 {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.Logo2Lines5px {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.LinesScheme {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+.Logo1Lines2px {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.bold24 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.bold12 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.regular12 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: regular;
+  font-size: 12px;
+}
+.bold15 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.regular9 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: regular;
+  font-size: 9px;
+}
+.stroke {
+  fill: none;
+  stroke: #FF6666;
+  stroke-miterlimit: 10;
+}
+.txt {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  fill: #FF6666;
+}
+/****************************************/
+/***********   MOTIVATION   ************/
+/**************************************/
+.FOOD {
+  fill: #FF3366;
+}
+.PTEKaux {
+  fill: #FF9900;
+}
+.PTEK {
+  fill: #FFFF00;
+}
+.White {
+  fill: #FFFFFF;
+}
+.IT {
+  fill: #00FF99;
+}
+.MAV {
+  fill: #0099FF;
+}
+.PTEKaux_ {
+  fill: #FF9900;
+}
+.PTEK_ {
+  fill: #FFFF00;
+}
+.CircleMAV {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.CircleIT {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.CirclePTEK {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.CircleFOOD {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.StatLine2 {
+  fill: none;
+  stroke: #FF9900;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.StatLine1 {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.LinesScheme {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+.ReadingLinePTEKaux {
+  fill: none;
+  stroke: #FF9900;
+  stroke-miterlimit: 10;
+}
+.ReadingLinePTEK {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-miterlimit: 10;
+}
+.bold24 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.bold12 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+.regular12 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: regular;
+  font-size: 12px;
+}
+.bold15 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.regular15 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: regular;
+  font-size: 15px;
+}
+.regular9 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: regular;
+  font-size: 9px;
+}
+.stroke {
+  fill: none;
+  stroke: #FF6666;
+  stroke-miterlimit: 10;
+}
+.txt {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  fill: #FF6666;
+}
