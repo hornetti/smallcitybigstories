@@ -98,4 +98,69 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 			delay: 1
 		});
 	});
+	angular.element(document).ready(function() {	
+		var circles = ['.CircleFOOD', '.CircleIT', '.CircleMAV', '.CirclePTEK']
+		TweenLite.from(circles, 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 0.5
+		});
+		TweenLite.from(['.StatLine1', '.StatLine2'], 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 2
+		});
+		TweenLite.from(['.ReadingLinePTEK', '.ReadingLinePTEKaux'], 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 3
+		});
+		TweenLite.from(['.PTEK_', '.PTEKaux_'], 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 3
+		});
+		TweenLite.from(['.White'], 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 1
+		});
+	});
+	angular.element(document).ready(function() {
+		$('#XBtnTesto').mouseover(function() {
+		    TweenLite.to('.stroke', 1, {
+				drawSVG: "50% 50%",
+				ease: Expo.easeOut
+		    });
+		});
+		$('#XBtnTesto').mouseleave(function() {
+		    TweenLite.to('.stroke', 1, {
+				drawSVG: "100%",
+				ease: Expo.easeOut
+		    });
+		});
+		TweenLite.from('.stroke', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 3
+		});
+		TweenLite.from('.txt', 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 2
+		});
+	});
+	angular.element(document).ready(function() {
+		var logo_globo = ['.Logo1Lines2px', '.Logo1Lines5px'];
+		TweenLite.from(logo_globo, 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 0
+		});
+		TweenLite.from('.Logo2Lines5px', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 0
+		});
+	});
 }]);
