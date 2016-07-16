@@ -340,15 +340,7 @@ body {
 }
 .Backto {
   cursor: pointer;
-  border: 1px solid #ff6666;
-  color: #ff6666;
-  padding: 5px 10px;
   float: right;
-}
-.Backto:hover,
-.Backto:focus {
-  color: #ff6666;
-  text-decoration: none;
 }
 #VideoIntervistato {
   padding: 0;
