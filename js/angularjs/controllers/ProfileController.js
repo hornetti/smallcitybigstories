@@ -51,6 +51,25 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 	});
 	/**/
 	angular.element(document).ready(function() {
+		track.addEventListener('load',function() {
+		    var c = video.textTracks[0].cues;
+		    for (var i=0; i<c.length; i++) {
+				var s = document.createElement("span");
+				s.innerHTML = c[i].text;
+				s.setAttribute('data-start',c[i].startTime);
+				s.addEventListener("click",seek);
+				controlbar.appendChild(s);
+			}
+		});
+		function seek() {
+			video.currentTime = this.getAttribute('data-start');
+			if(video.paused) { 
+				video.play();
+			}
+		};
+	});
+	/**/
+	angular.element(document).ready(function() {
 		var bars = ['.foundation14', '.foundation21', '.foundation23', '.foundation7'];
 		var bars_dates = ['.foundation8', '.foundation3', '.foundation22', '.foundation12',];
 		TweenLite.from('.foundation2', 2, {
