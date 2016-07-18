@@ -70,7 +70,7 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 
 		function update() {
 			var p = v.currentTime/v.duration*100;
-			b.style.background = "linear-gradient(to right, #500 "+p+"%, #000 "+p+"%)";
+			b.background = "linear-gradient(to right, #500 "+p+"%, #000 "+p+"%)";
 		}
 
 		function render() {
@@ -79,7 +79,7 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 				var s = document.createElement("span");
 				s.innerHTML = c[i].text;
 				s.setAttribute('data-start',c[i].startTime);
-				s.style.width = ((c[i].endTime-c[i].startTime)/888*480-7)+'px';
+				s.width = ((c[i].endTime-c[i].startTime)/888*480-7)+'px';
 				s.addEventListener("click",seek);
 				b.appendChild(s);
 			}
