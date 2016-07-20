@@ -33,35 +33,24 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 		   
 		player.markers({
 		   markerStyle: {
-		      'width':'9px',
-		      'border-radius': '40%',
-		      'background-color': 'orange'
+		      'width': '5px',
+		      'background-color': '#ff6666'
 		   },
 		   markerTip:{
 		      display: true,
 		      text: function(marker) {
-		         return "I am a marker tip: "+ marker.text;
+		         return "Cap: " + marker.text;
 		      }
 		   },
-		   breakOverlay:{
-		      display: true,
-		      displayTime: 4,
-		      style:{
-		         'width':'100%',
-		         'height': '30%',
-		         'background-color': 'rgba(10,10,10,0.6)',
-		         'color': 'white',
-		         'font-size': '16px'
-		      },
-		      text: function(marker) {
-		         return "This is a break overlay: " + marker.overlayText;
-		      },
-		   },
 		   markers: [
-		      {time: 9.5, text: "this", overlayText: "1", class: "special-blue"},
-		      {time: 16,  text: "is", overlayText: "2"},
-		      {time: 23.6,text: "so", overlayText: "3"},
-		      {time: 28,  text: "cool", overlayText: "4"}
+		      {time: 9, text: "1. A"},
+		      {time: 16, text: "2. B"},
+		      {time: 23, text: "3. C"},
+		      {time: 28, text: "4. D"},
+		      {time: 33, text: "5. E"},
+		      {time: 37, text: "6. F"},
+		      {time: 41, text: "7. G"},
+		      {time: 48, text: "8. H"}
 		   ]
 		});
 	});
