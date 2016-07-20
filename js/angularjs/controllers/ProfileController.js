@@ -24,6 +24,47 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 	    	}
 	    ];
   	});
+  	/*********************************************************/
+	/*********************   VideoJS   **********************/
+	/*******************************************************/
+
+	angular.element(document).ready(function() {
+		var player = videojs('VideoIntervistato');
+		   
+		player.markers({
+		   markerStyle: {
+		      'width':'9px',
+		      'border-radius': '40%',
+		      'background-color': 'orange'
+		   },
+		   markerTip:{
+		      display: true,
+		      text: function(marker) {
+		         return "I am a marker tip: "+ marker.text;
+		      }
+		   },
+		   breakOverlay:{
+		      display: true,
+		      displayTime: 4,
+		      style:{
+		         'width':'100%',
+		         'height': '30%',
+		         'background-color': 'rgba(10,10,10,0.6)',
+		         'color': 'white',
+		         'font-size': '16px'
+		      },
+		      text: function(marker) {
+		         return "This is a break overlay: " + marker.overlayText;
+		      },
+		   },
+		   markers: [
+		      {time: 9.5, text: "this", overlayText: "1", class: "special-blue"},
+		      {time: 16,  text: "is", overlayText: "2"},
+		      {time: 23.6,text: "so", overlayText: "3"},
+		      {time: 28,  text: "cool", overlayText: "4"}
+		   ]
+		});
+	});
   	/*** Close Button ***/
 	angular.element(document).ready(function() {
 		$('#XBtnTesto').mouseover(function() {
