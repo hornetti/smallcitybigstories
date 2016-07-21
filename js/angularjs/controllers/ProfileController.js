@@ -27,32 +27,55 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
   	/*********************************************************/
 	/*********************   VideoJS   **********************/
 	/*******************************************************/
-
 	angular.element(document).ready(function() {
 		var player = videojs('VideoIntervistato');
 		   
 		player.markers({
-		   markerStyle: {
-		      'width': '5px',
-		      'background-color': '#ff6666'
-		   },
-		   markerTip:{
-		      display: true,
-		      text: function(marker) {
-		         return "Cap: " + marker.text;
-		      }
-		   },
-		   markers: [
-		      {time: 9, text: "1. A"},
-		      {time: 16, text: "2. B"},
-		      {time: 23, text: "3. C"},
-		      {time: 28, text: "4. D"},
-		      {time: 33, text: "5. E"},
-		      {time: 37, text: "6. F"},
-		      {time: 41, text: "7. G"},
-		      {time: 48, text: "8. H"}
-		   ]
-		});
+			markerStyle: {
+				'width': '5px',
+				'background-color': '#ff6666'
+			},
+			markerTip: {
+				display: true,
+				text: function(marker) {
+					return "Cap: " + marker.text;
+				}
+			},
+			markers: [
+				{
+					time: 9,
+					text: "1. A"
+				},
+				{
+					time: 16, 
+					text: "2. B"
+				},
+				{
+					time: 23, 
+					text: "3. C"
+				},
+				{
+					time: 28, 
+					text: "4. D"
+				},
+				{
+					time: 33, 
+					text: "5. E"
+				},
+				{
+					time: 37, 
+					text: "6. F"
+				},
+				{
+					time: 41, 
+					text: "7. G"
+				},
+				{
+					time: 48, 
+					text: "8. H"
+				}
+			]
+			});
 	});
   	/*** Close Button ***/
 	angular.element(document).ready(function() {
@@ -78,49 +101,6 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 			ease: Expo.easeOut,
 			delay: 2
 		});
-	});
-	/**/
-	angular.element(document).ready(function() {
-		var v = document.querySelector("video");
-		var t = document.querySelector("track");
-		var b = document.querySelector("#bar");
-
-		v.addEventListener('click',play,false);
-		v.addEventListener('timeupdate',update,false);
-		t.addEventListener('loaded',render,false); // Bug in FF31 MAC: wrong event name
-		t.addEventListener('load',render,false);
-
-		function play() {
-			if (v.paused) {
-				v.play(); 
-			} else { 
-				v.pause(); 
-			}
-		}
-
-		function update() {
-			var p = v.currentTime/v.duration*100;
-			b.background = "linear-gradient(to right, #500 "+p+"%, #000 "+p+"%)";
-		}
-
-		function render() {
-			var c = v.textTracks[0].cues;
-			for (var i=0; i<c.length; i++) {
-				var s = document.createElement("span");
-				s.innerHTML = c[i].text;
-				s.setAttribute('data-start',c[i].startTime);
-				s.width = ((c[i].endTime-c[i].startTime)/888*480-7)+'px';
-				s.addEventListener("click",seek);
-				b.appendChild(s);
-			}
-		}
-
-		function seek(e) {
-			v.currentTime = this.getAttribute('data-start');
-			if (v.paused) { 
-				v.play(); 
-			}
-		}
 	});
 	/**/
 	angular.element(document).ready(function() {
