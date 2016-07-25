@@ -75,7 +75,7 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 					text: "8. H"
 				}
 			]
-			});
+		});
 	});
   	/*** Close Button ***/
 	angular.element(document).ready(function() {
