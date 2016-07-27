@@ -344,6 +344,7 @@ body {
 }
 #VideoIntervistato {
   padding: 0;
+  width: 100%;
 }
 .NameCompany {
   font-size: 15px;
