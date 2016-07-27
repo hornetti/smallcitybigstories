@@ -24,59 +24,6 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 	    	}
 	    ];
   	});
-  	/*********************************************************/
-	/*********************   VideoJS   **********************/
-	/*******************************************************/
-	angular.element(document).ready(function() {
-		var player = videojs('VideoIntervistato');
-		   
-		player.markers({
-			markerStyle: {
-				'width': '5px',
-				'background-color': '#ff6666'
-			},
-			markerTip: {
-				display: true,
-				text: function(marker) {
-					return "Cap: " + marker.text;
-				}
-			},
-			markers: [
-				{
-					time: 9,
-					text: "1. A"
-				},
-				{
-					time: 16, 
-					text: "2. B"
-				},
-				{
-					time: 23, 
-					text: "3. C"
-				},
-				{
-					time: 28, 
-					text: "4. D"
-				},
-				{
-					time: 33, 
-					text: "5. E"
-				},
-				{
-					time: 37, 
-					text: "6. F"
-				},
-				{
-					time: 41, 
-					text: "7. G"
-				},
-				{
-					time: 48, 
-					text: "8. H"
-				}
-			]
-		});
-	});
   	/*** Close Button ***/
 	angular.element(document).ready(function() {
 		$('#XBtnTesto').mouseover(function() {
