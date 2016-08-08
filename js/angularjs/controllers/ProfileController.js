@@ -27,7 +27,7 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
   	/*********************************************************/
 	/*********************   VideoJS   **********************/
 	/*******************************************************/
-	/*angular.element(document).ready(function() {
+	angular.element(document).ready(function() {
 		var player = videojs('VideoIntervistato');
 		   
 		player.markers({
@@ -44,35 +44,35 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
 			markers: [
 				{
 					time: 9,
-					text: "1. A"
+					text: "1. Aaaaa"
 				},
 				{
 					time: 16, 
-					text: "2. B"
+					text: "2. Bbbbb"
 				},
 				{
 					time: 23, 
-					text: "3. C"
+					text: "3. Ccccc"
 				},
 				{
 					time: 28, 
-					text: "4. D"
+					text: "4. Ddddd"
 				},
 				{
 					time: 33, 
-					text: "5. E"
+					text: "5. Eeeee"
 				},
 				{
 					time: 37, 
-					text: "6. F"
+					text: "6. Fffff"
 				},
 				{
 					time: 41, 
-					text: "7. G"
+					text: "7. Ggggg"
 				},
 				{
 					time: 48, 
-					text: "8. H"
+					text: "8. Hhhhh"
 				}
 			]
 		});
