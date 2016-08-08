@@ -27,7 +27,7 @@ app.controller('ProfileController', ['$scope', '$route', 'characters', '$routePa
   	/*********************************************************/
 	/*********************   VideoJS   **********************/
 	/*******************************************************/
-	angular.element(document).ready(function() {
+	/*angular.element(document).ready(function() {
 		var player = videojs('VideoIntervistato');
 		   
 		player.markers({
