@@ -18,44 +18,100 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'ContactController',
       templateUrl: 'js/angularjs/views/Contact.html'
     })
-    .when('/map/:id/', {
+    .when('/map/marcotamba/', {
       controller: 'ProfileController',
-      templateUrl: 'js/angularjs/views/Profile.html'
+      templateUrl: 'js/angularjs/views/interviewed/MarcoTamba.html'
     })
-    .when('/map/:id/service', {
+    .when('/map/fabriziomantovani/', {
       controller: 'ProfileController',
-      templateUrl: 'js/angularjs/views/Service.html'
+      templateUrl: 'js/angularjs/views/interviewed/FabrizioMantovani.html'
     })
-    .when('/map/:id/employees', {
+    .when('/map/raffaeleborgini/', {
       controller: 'ProfileController',
-      templateUrl: 'js/angularjs/views/Employees.html'
+      templateUrl: 'js/angularjs/views/interviewed/RaffaeleBorgini.html'
     })
-    .when('/map/:id/foundation', {
+    .when('/map/paolorava/', {
       controller: 'ProfileController',
-      templateUrl: 'js/angularjs/views/Foundation.html'
+      templateUrl: 'js/angularjs/views/interviewed/PaoloRava.html'
     })
-    .when('/map/:id/revenue', {
+    .when('/map/ivanovalmori/', {
       controller: 'ProfileController',
-      templateUrl: 'js/angularjs/views/Revenue.html'
+      templateUrl: 'js/angularjs/views/interviewed/IvanoValmori.html'
     })
-    .when('/map/:id/economic_growth', {
+    .when('/map/andreasalvatori/', {
       controller: 'ProfileController',
-      templateUrl: 'js/angularjs/views/Economic_growth.html'
+      templateUrl: 'js/angularjs/views/interviewed/AndreaSalvatori.html'
     })
-    .when('/map/:id/type', {
+    .when('/map/marcoperoni/', {
       controller: 'ProfileController',
-      templateUrl: 'js/angularjs/views/Type.html'
+      templateUrl: 'js/angularjs/views/interviewed/MarcoPeroni.html'
     })
-    .when('/map/:id/reference_market', {
+    .when('/map/andreamartelli/', {
       controller: 'ProfileController',
-      templateUrl: 'js/angularjs/views/Reference_market.html'
+      templateUrl: 'js/angularjs/views/interviewed/AndreaMartelli.html'
     })
-    .when('/map/:id/motivations', {
+    .when('/map/robertobertoni/', {
       controller: 'ProfileController',
-      templateUrl: 'js/angularjs/views/Motivations.html'
+      templateUrl: 'js/angularjs/views/interviewed/RobertoBertoni.html'
+    })
+    .when('/map/barbarasavorani/', {
+      controller: 'ProfileController',
+      templateUrl: 'js/angularjs/views/interviewed/BarbaraSavorani.html'
+    })
+    .when('/map/gabrielebandini/', {
+      controller: 'ProfileController',
+      templateUrl: 'js/angularjs/views/interviewed/GabrieleBandini.html'
+    })
+    .when('/map/giuliaruta/', {
+      controller: 'ProfileController',
+      templateUrl: 'js/angularjs/views/interviewed/GiuliaRuta.html'
+    })
+    .when('/map/annatampieri/', {
+      controller: 'ProfileController',
+      templateUrl: 'js/angularjs/views/interviewed/AnnaTampieri.html'
+    })
+    .when('/map/stefanozauli/', {
+      controller: 'ProfileController',
+      templateUrl: 'js/angularjs/views/interviewed/StefanoZauli.html'
+    })
+    .when('/map/mauriziofionda/', {
+      controller: 'ProfileController',
+      templateUrl: 'js/angularjs/views/interviewed/MaurizioFionda.html'
+    })
+    .when('/map/service', {
+      controller: 'DatavizController',
+      templateUrl: 'js/angularjs/views/dataviz/Service.html'
+    })
+    .when('/map/employees', {
+      controller: 'DatavizController',
+      templateUrl: 'js/angularjs/views/dataviz/Employees.html'
+    })
+    .when('/map/foundation', {
+      controller: 'DatavizController',
+      templateUrl: 'js/angularjs/views/dataviz/Foundation.html'
+    })
+    .when('/map/revenue', {
+      controller: 'DatavizController',
+      templateUrl: 'js/angularjs/views/dataviz/Revenue.html'
+    })
+    .when('/map/economic_growth', {
+      controller: 'DatavizController',
+      templateUrl: 'js/angularjs/views/dataviz/Economic_growth.html'
+    })
+    .when('/map/type', {
+      controller: 'DatavizController',
+      templateUrl: 'js/angularjs/views/dataviz/Type.html'
+    })
+    .when('/map/reference_market', {
+      controller: 'DatavizController',
+      templateUrl: 'js/angularjs/views/dataviz/Reference_market.html'
+    })
+    .when('/map/motivations', {
+      controller: 'DatavizController',
+      templateUrl: 'js/angularjs/views/dataviz/Motivations.html'
     })
     .otherwise({ 
-      redirectTo: '/home' 
+      redirectTo: '/map' 
     });
     $locationProvider.html5Mode(true);
 }]);
