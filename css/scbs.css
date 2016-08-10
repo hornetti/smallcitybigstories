@@ -354,6 +354,23 @@ body {
   width: 100%;
   height: 100%;
 }
+.video-js .vjs-big-play-button {
+  font-size: 6em !important;
+  line-height: 6em !important;
+  height: 100% !important;
+  width: 100% !important;
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  padding: 0 !important;
+  cursor: pointer !important;
+  opacity: 1 !important;
+  border: 2px solid #fff !important;
+  background-color: initial !important;
+  border-radius: 0 !important;
+  transition: all 0.4s !important;
+}
 .NameCompany {
   font-size: 15px;
   margin: 10px auto 0;
