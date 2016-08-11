@@ -574,6 +574,7 @@ body {
 }
 .slide p {
   font-size: 18px;
+  text-align: left;
 }
 .active-slide {
   display: block;
