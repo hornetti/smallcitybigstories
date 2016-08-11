@@ -570,32 +570,41 @@ body {
 /***********   MANIFESTO   *************/
 /**************************************/
 .slide {
-    display: none;
+  display: none;
+}
+.slide p {
+  font-size: 18px;
 }
 .active-slide {
-    display: block;
+  display: block;
+}
+.freccia {
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:2;
+  stroke-miterlimit:10;
 }
 .controlArrow {
-    position: absolute;
-    top: 50%;
-    cursor: pointer;
-    color: #fff;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  color: #ff6666;
 }
 .controlArrow.arrow-prev {
-    left: 25px;
-    display: block;
-    transition: all 0.3s;
+  left: 25px;
+  display: block;
+  transition: all 0.3s;
 }
 .controlArrow.arrow-next {
-    right: 25px;
-    display: block;
-    transition: all 0.3s;
+  right: 25px;
+  display: block;
+  transition: all 0.3s;
 }
 .controlArrow.arrow-next:hover {
-    right: 24px;
+  right: 24px;
 }
 .controlArrow.arrow-prev:hover {
-    left: 24px;
+  left: 24px;
 }
 /****************************************/
 /************** TOP MENU ***************/
