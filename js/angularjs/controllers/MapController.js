@@ -1,7 +1,4 @@
-app.controller('MapController', ['$scope', 'characters', function($scope, characters) {
-  	characters.success(function(data) {
-    	$scope.interv = data;
-	});
+app.controller('MapController', ['$scope', function($scope) {
 	angular.element(document).ready(function() {
 		TweenMax.from('#lineBlue', 1, {
 		    drawSVG: "0%",
