@@ -18,6 +18,10 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'ContactController',
       templateUrl: 'js/angularjs/views/Contact.html'
     })
+    .when('/manifesto', {
+      controller: 'ManifestoController',
+      templateUrl: 'js/angularjs/views/Manifesto.html'
+    })
     .when('/map/marcotamba/', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/MarcoTamba.html'

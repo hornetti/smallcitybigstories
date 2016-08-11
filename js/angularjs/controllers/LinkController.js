@@ -15,6 +15,10 @@ app.controller('LinkController', ['$scope', function($scope) {
 		name : 'Contact us',
 		direct : 'contact'
 	};
+	$scope.Link_Manifesto = {
+		name : 'Manifesto',
+		direct : 'manifesto'
+	};
 	$scope.Share = "Share";
 	$scope.Link_Share = [
 		{

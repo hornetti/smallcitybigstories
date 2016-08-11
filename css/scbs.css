@@ -567,6 +567,48 @@ body {
   text-decoration: none;
 }
 /****************************************/
+/***********   MANIFESTO   *************/
+/**************************************/
+.slider {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background: #000;
+    color: #fff;
+}
+.slide {
+    display: none;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+}
+.active-slide {
+    display: block;
+}
+.controlArrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    color: #fff;
+}
+.controlArrow.arrow-prev {
+    left: 25px;
+    display: block;
+    transition: all 0.3s;
+}
+.controlArrow.arrow-next {
+    right: 25px;
+    display: block;
+    transition: all 0.3s;
+}
+.controlArrow.arrow-next:hover {
+    right: 24px;
+}
+.controlArrow.arrow-prev:hover {
+    left: 24px;
+}
+/****************************************/
 /************** TOP MENU ***************/
 /**************************************/
 .TopMenu {
