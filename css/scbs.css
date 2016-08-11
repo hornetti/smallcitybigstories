@@ -579,16 +579,15 @@ body {
   display: block;
 }
 .freccia {
-  fill:none;
-  stroke:#FFFFFF;
-  stroke-width:2;
-  stroke-miterlimit:10;
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
 }
 .controlArrow {
   position: absolute;
   top: 50%;
   cursor: pointer;
-  color: #ff6666;
 }
 .controlArrow.arrow-prev {
   left: 25px;
@@ -601,10 +600,10 @@ body {
   transition: all 0.3s;
 }
 .controlArrow.arrow-next:hover {
-  right: 24px;
+  stroke: #ff6666;
 }
 .controlArrow.arrow-prev:hover {
-  left: 24px;
+  stroke: #ff6666;
 }
 /****************************************/
 /************** TOP MENU ***************/
