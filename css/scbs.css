@@ -217,18 +217,37 @@ body {
   padding: 0 15px;
   margin: auto;
 }
-#Smallcitybigstories {
-  font: 78.52px 'Titillium Web', sans-serif;
+.StrokePages {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 15;
+  stroke-linecap: round;
+}
+.Logotype {
+  font-size: 78px;
+  font-family: 'Titillium Web', sans-serif;
   font-weight: 900;
 }
-.logo0{fill:none;stroke:#FFFFFF;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
-.logo2{fill:#FF6666;}
-.logo3{fill:#010101;}
-.logo4{fill:none;stroke:#FFFFFF;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.logo5{fill:#FF6666;}
-.logo6{fill:none;stroke:#FFFFFF;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.logo7{fill:none;stroke:#FFFFFF;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-
+.StrokeRettangoloCentrale {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 15;
+  stroke-linejoin: round;
+}
+.StrokeLines {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 15;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.StrokeWindows {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 15;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 .ButtonStart {
   font-family: 'Work Sans', sans-serif;
   color: #ff6666;
@@ -333,7 +352,8 @@ body {
   stroke-miterlimit: 10;
 }
 .LetterM {
-  font-family: 'TitilliumWeb-Black';
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
   font-size: 90px;
 }
 /********************************************/
