@@ -169,6 +169,9 @@
 .ITColor {
   fill: #00FF99;
 }
+.WColor {
+  fill: #FFFFFF;
+}
 .Bold12 {
   font-family: 'Work Sans', sans-serif;
   font-weight: bold;
@@ -351,10 +354,15 @@ body {
   stroke-width: 10;
   stroke-miterlimit: 10;
 }
-.LetterM {
+.Faenza {  
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-size: 42px;
+}
+.M {  
   font-family: 'Titillium Web', sans-serif;
   font-weight: 900;
-  font-size: 90px;
+  font-size: 56px;
 }
 /********************************************/
 .food0{fill:none;stroke:#FF3366;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
