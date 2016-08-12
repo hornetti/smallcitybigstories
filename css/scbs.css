@@ -174,7 +174,7 @@
 }
 .Bold12 {
   font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 12px;
 }
 
@@ -353,11 +353,6 @@ body {
   stroke: #FFFFFF;
   stroke-width: 10;
   stroke-miterlimit: 10;
-}
-.Faenza {  
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 900;
-  font-size: 42px;
 }
 .M {  
   font-family: 'Titillium Web', sans-serif;
