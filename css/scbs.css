@@ -152,102 +152,26 @@
   }  
 }
 /****************************************/
-/***************   MAP  ****************/
+/************   MAIN CLASS   ***********/
 /**************************************/
-.st0{fill:none;stroke:#FF3366;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
-.st1{fill:none;stroke:#FF3366;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.st2{fill:none;stroke:#FFFF00;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.st3{fill:none;stroke:#FF3366;stroke-width:3;stroke-miterlimit:10;}
-.st4{fill:none;stroke:#FFFF00;stroke-width:3;stroke-miterlimit:10;}
-.st5{fill:none;stroke:#3399FF;stroke-width:3;stroke-miterlimit:10;}
-.st6{fill:none;stroke:#3399FF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
-.st7{fill:#FF3366;}
-.st8{fill:#FFFF00;}
-.st9{fill:none;stroke:#00FF99;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
-.st10{fill:none;stroke:#FFFF00;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
-.st11{display:inline;}
-.st12{fill:#3399FF;}
-.st13{fill:none;stroke:#00FF99;stroke-width:3;stroke-miterlimit:10;}
-.st14{fill:#00FF99;}
-.st15{fill:none;stroke:#00FF99;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.st16{display:none;}
-.st17{fill:none;stroke:#3399FF;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-/*********************************************/
-#fValmori,
-#fBandini,
-#fTampieri,
-#fRuta,
-#fBertoni,
-#fMartelli,
-#fPeroni,
-#fSavorani,
-#fZauli,
-#fSalvatori,
-#fBorgini,
-#fFionda,
-#fRava,
-#fTamba,
-#fMantovani {
-  cursor: pointer;
+.FOODColor {
+  fill: #FF3366;
 }
-#fValmori:hover,
-#fBandini:hover,
-#fTampieri:hover,
-#fRuta:hover,
-#fBertoni:hover,
-#fMartelli:hover,
-#fPeroni:hover,
-#fSavorani:hover,
-#fZauli:hover,
-#fSalvatori:hover,
-#fBorgini:hover,
-#fFionda:hover,
-#fRava:hover,
-#fTamba:hover,
-#fMantovani:hover {
-  fill: #fff;
+.PTEKColor {
+  fill: #FFFF00;
 }
-/********************************************/
-.food0{fill:none;stroke:#FF3366;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.food1{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
-.food2{fill:#FF3366;}
-.food3{fill:#333333;}
-.food4{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
-/*********************************************/
-.matav0{fill:#0099FF;}
-.matav1{fill:none;stroke:#0099FF;stroke-width:2;stroke-miterlimit:10;}
-/*********************************************/
-.tech0{fill:#FFFF00;}
-.tech1{fill:none;stroke:#FFFF00;stroke-width:2;stroke-miterlimit:10;}
-/*********************************************/
-.it0{fill:#00FF99;}
-.it1{fill:none;stroke:#00FF99;stroke-width:2;stroke-miterlimit:10;}
-/********************************************/
-.ContainerLegendaMetro {
-  padding-left: 5px;
+.MAVColor {
+  fill: #0099FF;
 }
-.ContainerLegendaMetro > h4 {
-  font-size: 15px;
-  text-align: left;
-  color: #fff;
+.ITColor {
+  fill: #00FF99;
 }
-.ContainerLegendaMetro > svg {
-  margin: 10px auto;
+.Bold12 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
 }
-.ContainerProfileMetro {
-  padding-left: 5px;
-}
-.ContainerProfileMetro > h4 {
-  font-size: 15px;
-  text-align: left;
-  color: #fff;
-  padding-bottom: 2px;
-  margin-top: 20px;
-  border-bottom: 2px solid #ff6666;
-}
-.ContainerProfileMetro > svg {
-  margin: 10px auto;
-}
+
 /********************************************/
 /*
  * Base structure
@@ -329,6 +253,145 @@ body {
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
+}
+/****************************************/
+/***************   MAP  ****************/
+/**************************************/
+.FOODRound {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.PTEKRound {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.MAVRound {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.ITRound {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.FOODMetroLine {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.ITMetroLine {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.MAVMetroLine {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.PTEKMetroLine {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+/*********************************************/
+#fValmori,
+#fBandini,
+#fTampieri,
+#fRuta,
+#fBertoni,
+#fMartelli,
+#fPeroni,
+#fSavorani,
+#fZauli,
+#fSalvatori,
+#fBorgini,
+#fFionda,
+#fRava,
+#fTamba,
+#fMantovani {
+  cursor: pointer;
+}
+#fValmori:hover,
+#fBandini:hover,
+#fTampieri:hover,
+#fRuta:hover,
+#fBertoni:hover,
+#fMartelli:hover,
+#fPeroni:hover,
+#fSavorani:hover,
+#fZauli:hover,
+#fSalvatori:hover,
+#fBorgini:hover,
+#fFionda:hover,
+#fRava:hover,
+#fTamba:hover,
+#fMantovani:hover {
+  fill: #fff;
+}
+/********************************************/
+.food0{fill:none;stroke:#FF3366;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.food1{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
+.food2{fill:#FF3366;}
+.food3{fill:#333333;}
+.food4{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+/*********************************************/
+.matav0{fill:#0099FF;}
+.matav1{fill:none;stroke:#0099FF;stroke-width:2;stroke-miterlimit:10;}
+/*********************************************/
+.tech0{fill:#FFFF00;}
+.tech1{fill:none;stroke:#FFFF00;stroke-width:2;stroke-miterlimit:10;}
+/*********************************************/
+.it0{fill:#00FF99;}
+.it1{fill:none;stroke:#00FF99;stroke-width:2;stroke-miterlimit:10;}
+/********************************************/
+.ContainerLegendaMetro {
+  padding-left: 5px;
+}
+.ContainerLegendaMetro > h4 {
+  font-size: 15px;
+  text-align: left;
+  color: #fff;
+}
+.ContainerLegendaMetro > svg {
+  margin: 10px auto;
+}
+.ContainerProfileMetro {
+  padding-left: 5px;
+}
+.ContainerProfileMetro > h4 {
+  font-size: 15px;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 2px;
+  margin-top: 20px;
+  border-bottom: 2px solid #ff6666;
+}
+.ContainerProfileMetro > svg {
+  margin: 10px auto;
 }
 /*******************************************/
 /***************  PROFILE  ****************/
