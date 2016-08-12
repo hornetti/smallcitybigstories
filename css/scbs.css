@@ -154,6 +154,9 @@
 /****************************************/
 /************   MAIN CLASS   ***********/
 /**************************************/
+.MAINColor {
+  fill: #FF6666;
+}
 .FOODColor {
   fill: #FF3366;
 }
@@ -317,40 +320,21 @@ body {
   stroke-linejoin: round;
   stroke-miterlimit: 10;
 }
-/*********************************************/
-#fValmori,
-#fBandini,
-#fTampieri,
-#fRuta,
-#fBertoni,
-#fMartelli,
-#fPeroni,
-#fSavorani,
-#fZauli,
-#fSalvatori,
-#fBorgini,
-#fFionda,
-#fRava,
-#fTamba,
-#fMantovani {
+#fValmori, #fBandini, #fTampieri, #fRuta, #fBertoni, #fMartelli, #fPeroni, #fSavorani, #fZauli, #fSalvatori, #fBorgini, #fFionda, #fRava, #fTamba, #fMantovani {
   cursor: pointer;
 }
-#fValmori:hover,
-#fBandini:hover,
-#fTampieri:hover,
-#fRuta:hover,
-#fBertoni:hover,
-#fMartelli:hover,
-#fPeroni:hover,
-#fSavorani:hover,
-#fZauli:hover,
-#fSalvatori:hover,
-#fBorgini:hover,
-#fFionda:hover,
-#fRava:hover,
-#fTamba:hover,
-#fMantovani:hover {
+#fValmori:hover, #fBandini:hover, #fTampieri:hover, #fRuta:hover, #fBertoni:hover, #fMartelli:hover, #fPeroni:hover, #fSavorani:hover, #fZauli:hover, #fSalvatori:hover, #fBorgini:hover, #fFionda:hover, #fRava:hover, #fTamba:hover, #fMantovani:hover {
   fill: #fff;
+}
+.MLine {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.LetterM {
+  font-family: 'TitilliumWeb-Black';
+  font-size: 90px;
 }
 /********************************************/
 .food0{fill:none;stroke:#FF3366;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
