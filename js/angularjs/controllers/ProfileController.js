@@ -517,7 +517,54 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
+		var PaoloRava = videojs('PaoloRava');
+		PaoloRava.markers({
+			markerStyle: {
+				'width': '5px',
+				'background-color': '#ff6666'
+			},
+			markerTip: {
+				display: true,
+				text: function(marker) {
+					return "Cap: " + marker.text;
+				}
+			},
+			markers: [
+				{
+					time: 9,
+					text: "1. Aaaaa"
+				},
+				{
+					time: 16, 
+					text: "2. Bbbbb"
+				},
+				{
+					time: 23, 
+					text: "3. Ccccc"
+				},
+				{
+					time: 28, 
+					text: "4. Ddddd"
+				},
+				{
+					time: 33, 
+					text: "5. Eeeee"
+				},
+				{
+					time: 37, 
+					text: "6. Fffff"
+				},
+				{
+					time: 41, 
+					text: "7. Ggggg"
+				},
+				{
+					time: 48, 
+					text: "8. Hhhhh"
+				}
+			]
+		});
 	});
-	, , , , RobertoBertoni, , , , StefanoZauli, , RaffaeleBorgini, , PaoloRava, MarcoTamba, 
+	, , , , RobertoBertoni, , , , StefanoZauli, , RaffaeleBorgini, , , MarcoTamba, 
 
 }]);
