@@ -19,7 +19,7 @@ app.controller('ProfileController', ['$scope', function($scope) {
     		element : "** artigiani"
     	}
     ];
-  	/*** Close Button ***/
+  	/**   Close Button   **/
 	angular.element(document).ready(function() {
 		$('#XBtnTesto').mouseover(function() {
 		    TweenLite.to('.stroke', 1, {
@@ -46,7 +46,6 @@ app.controller('ProfileController', ['$scope', function($scope) {
 	});
 	/**   VideoJS   **/
 	angular.element(document).ready(function() {
-
 		var AndreaMartelli = videojs('AndreaMartelli');
 		AndreaMartelli.markers({
 			markerStyle: {
@@ -753,6 +752,4 @@ app.controller('ProfileController', ['$scope', function($scope) {
 			]
 		});
 	});
-	, , , , , , , , , , , , , , 
-
 }]);
