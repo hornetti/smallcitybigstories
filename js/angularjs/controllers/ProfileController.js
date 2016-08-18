@@ -46,8 +46,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 	});
 	/**   VideoJS   **/
 	angular.element(document).ready(function() {
-		var AndreaMartelli = videojs('AndreaMartelli');
-		AndreaMartelli.markers({
+		var AM = videojs('AndreaMartelli');
+		AM.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
