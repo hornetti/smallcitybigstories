@@ -172,9 +172,16 @@
 .WColor {
   fill: #FFFFFF;
 }
+.GColor {
+  fill: #333333;
+}
 .Bold12 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
+  font-size: 12px;
+}
+.Regular12 {
+  font-family: 'Work Sans', sans-serif;
   font-size: 12px;
 }
 
@@ -350,22 +357,46 @@ body {
   font-weight: 900;
   font-size: 56px;
 }
-/********************************************/
-.food0{fill:none;stroke:#FF3366;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-.food1{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:10;}
-.food2{fill:#FF3366;}
-.food3{fill:#333333;}
-.food4{fill:none;stroke:#FF3366;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
-/*********************************************/
-.matav0{fill:#0099FF;}
-.matav1{fill:none;stroke:#0099FF;stroke-width:2;stroke-miterlimit:10;}
-/*********************************************/
-.tech0{fill:#FFFF00;}
-.tech1{fill:none;stroke:#FFFF00;stroke-width:2;stroke-miterlimit:10;}
-/*********************************************/
-.it0{fill:#00FF99;}
-.it1{fill:none;stroke:#00FF99;stroke-width:2;stroke-miterlimit:10;}
-/********************************************/
+.FOODStroke2pxLinecap {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.FOODStroke2pxLinejoinbevel {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 2;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}
+.FOODStroke2pxLinejoinround {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.MAVStroke2px {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.PTEKStroke2px {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.ITStroke2px {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
 .ContainerLegendaMetro {
   padding-left: 5px;
 }
