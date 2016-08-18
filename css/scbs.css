@@ -182,6 +182,7 @@
 }
 .Regular12 {
   font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
   font-size: 12px;
 }
 
@@ -210,14 +211,14 @@ body {
   /* position: relative; */
   /* top: 100px; */
 }
-/****************************************/
-/*************   HOME   ****************/
-/**************************************/
 .container-fluid {
   text-align: center;
   padding: 0 15px;
   margin: auto;
 }
+/****************************************/
+/*************   HOME   ****************/
+/**************************************/
 #Logo {
     margin: 40px 0;
 }
@@ -669,8 +670,18 @@ body {
 /****************************************/
 /***********   MANIFESTO   *************/
 /**************************************/
+.slider {
+  position: relative;
+  width: 100%;
+  /*height: 470px;*/
+}
 .slide {
   display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .slide p {
   font-size: 18px;
