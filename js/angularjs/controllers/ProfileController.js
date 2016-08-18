@@ -704,8 +704,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var StefanoZauli = videojs('StefanoZauli');
-		StefanoZauli.markers({
+		var SZ = videojs('StefanoZauli');
+		SZ.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
