@@ -657,8 +657,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var RobertoBertoni = videojs('RobertoBertoni');
-		RobertoBertoni.markers({
+		var RB = videojs('RobertoBertoni');
+		RB.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
