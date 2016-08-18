@@ -610,8 +610,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var RaffaeleBorgini = videojs('RaffaeleBorgini');
-		RaffaeleBorgini.markers({
+		var RB = videojs('RaffaeleBorgini');
+		RB.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
