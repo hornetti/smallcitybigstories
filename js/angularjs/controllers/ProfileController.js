@@ -328,8 +328,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var GiuliaRuta = videojs('GiuliaRuta');
-		GiuliaRuta.markers({
+		var GR = videojs('GiuliaRuta');
+		GR.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
