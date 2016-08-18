@@ -218,36 +218,44 @@ body {
   padding: 0 15px;
   margin: auto;
 }
-.StrokePages {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 15;
-  stroke-linecap: round;
+#Logo {
+    margin: 40px 0;
 }
-.Logotype {
-  font-size: 78px;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 900;
+.StrokePages {
+  fill:none;stroke:#FFFFFF;
+  stroke-width:6;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+  stroke-linejoin:round;
 }
 .StrokeRettangoloCentrale {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 15;
-  stroke-linejoin: round;
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:6;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+  stroke-linejoin:round;
 }
 .StrokeLines {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 15;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:6;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+  stroke-linejoin:round;
 }
 .StrokeWindows {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 15;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:6;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+  stroke-linejoin:round;
+}
+.TitleFont {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  font-size: 39px;
 }
 .ButtonStart {
   font-family: 'Work Sans', sans-serif;
