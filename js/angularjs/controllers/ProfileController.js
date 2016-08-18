@@ -281,8 +281,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var GabrieleBandini = videojs('GabrieleBandini');
-		GabrieleBandini.markers({
+		var GB = videojs('GabrieleBandini');
+		GB.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
