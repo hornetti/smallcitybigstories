@@ -234,8 +234,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var FabrizioMantovani = videojs('FabrizioMantovani');
-		FabrizioMantovani.markers({
+		var FM = videojs('FabrizioMantovani');
+		FM.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
