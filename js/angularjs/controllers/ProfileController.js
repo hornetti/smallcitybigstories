@@ -422,8 +422,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var MarcoPeroni = videojs('MarcoPeroni');
-		MarcoPeroni.markers({
+		var MP = videojs('MarcoPeroni');
+		MP.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
