@@ -375,8 +375,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var IvanoValmori = videojs('IvanoValmori');
-		IvanoValmori.markers({
+		var IV = videojs('IvanoValmori');
+		IV.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
