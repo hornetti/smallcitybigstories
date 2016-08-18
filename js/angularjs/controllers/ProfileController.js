@@ -93,8 +93,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var AndreaSalvatori = videojs('AndreaSalvatori');
-		AndreaSalvatori.markers({
+		var AS = videojs('AndreaSalvatori');
+		AS.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
