@@ -187,8 +187,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var BarbaraSavorani = videojs('BarbaraSavorani');
-		BarbaraSavorani.markers({
+		var BS = videojs('BarbaraSavorani');
+		BS.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
