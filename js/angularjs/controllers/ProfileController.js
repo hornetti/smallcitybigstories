@@ -516,8 +516,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var MaurizioFionda = videojs('MaurizioFionda');
-		MaurizioFionda.markers({
+		var MF = videojs('MaurizioFionda');
+		MF.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
