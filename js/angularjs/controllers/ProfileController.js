@@ -140,8 +140,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var AnnaTampieri = videojs('AnnaTampieri');
-		AnnaTampieri.markers({
+		var AT = videojs('AnnaTampieri');
+		AT.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
