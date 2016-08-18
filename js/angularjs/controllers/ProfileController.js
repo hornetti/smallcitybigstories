@@ -469,8 +469,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var MarcoTamba = videojs('MarcoTamba');
-		MarcoTamba.markers({
+		var MT = videojs('MarcoTamba');
+		MT.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
