@@ -563,8 +563,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-		var PaoloRava = videojs('PaoloRava');
-		PaoloRava.markers({
+		var PR = videojs('PaoloRava');
+		PR.markers({
 			markerStyle: {
 				'width': '5px',
 				'background-color': '#ff6666'
