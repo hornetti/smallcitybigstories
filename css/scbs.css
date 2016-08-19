@@ -523,7 +523,6 @@ body {
 .DataLink:focus {
   text-decoration: none;
 }
-
 /****************************************/
 /*************  CREDITS  ***************/
 /**************************************/
@@ -546,34 +545,48 @@ body {
   border-radius: 50px;
   padding: 2px;
   cursor: pointer;
-} 
-.Crew {
-  text-align: left;
-  margin: 15px 0 10px -15px;
-  border-bottom: 2px solid #ff6666;
-  padding-bottom: 5px;
 }
-.Position {
-  text-align: left;
-  font-weight: bold;
-  margin: 0;
+.CreditsContainer {
+  margin-bottom: 10px;
 }
-.Nome {
+.CreditsTitle {
   text-align: left;
-  margin: 10px 0px;
+  margin-bottom: 5px;
+  color: #ff6666;
+  font-size: 15px;
+}
+.CreditsPosition {
+  text-align: left;
+
   color: #fff;
+  font-size: 12px;
 }
-.ThankYou {
+.CreditsName {
   text-align: left;
-  margin: 20px 0 0px -15px;
-}
-.Release {
-  text-align: left;
-  margin: 0 0 10px -15px;  
-}
-.white {
+  margin-bottom: 2px;
   color: #fff;
+  font-size: 15px;
+}
+.ButtonExample {
+  margin-bottom: 15px;
+  padding: 0;
+  text-align: left;
+}
+.ButtonExample > li {
+  background-color: #ff6666;
+  opacity: .7;
+  margin: 10px 15px 0 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
   display: inline-block;
+  cursor: pointer;
+}
+.ContainerQwerty {
+  text-align: left;
+  margin: 10px 0;
+  color: #fff;
+  font-size: 15px;  
 }
 .NomeProgetto {
   font: 44px 'Titillium Web', sans-serif;
