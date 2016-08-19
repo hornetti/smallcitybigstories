@@ -1,6 +1,6 @@
 app.controller('CreditsController', ['$scope', function($scope) {
 	$scope.Release = "Release Date";
-	$scope.Data = "June 2016";
+	$scope.Data = "01.10.2016";
 	$scope.Link_Visit_Social = [
 		{
 			name : 'facebook',
@@ -19,34 +19,44 @@ app.controller('CreditsController', ['$scope', function($scope) {
 	$scope.ProjectCrew = [
 		{
 			name : 'Luca Gorini',
-			info : 'Journalist'
+			info : 'Head of content'
 		},
 		{
 			name : 'Filippo Gianessi',
-			info : 'Art Director'
+			info : 'Visual designer'
 		},
 		{
 			name : 'Filippo Gorini',
-			info : 'Web Developer'
+			info : 'Web developer'
 		}
 	];	
 	$scope.Collaboration = "Collaborations";
 	$scope.ProjectCollaboration = [
 		{
 			name : 'Filippo Cinotti, Mattia Alberani',
-			info : 'Video Maker'
+			info : 'Video maker'
 		},
 		{
 			name : 'Cecilia Bertozzi',
-			info : 'Voice Over'
+			info : 'Voice over'
 		},
 		{
 			name: 'Hazina Francia',
-			info: 'Sound Designer'
+			info: 'Sound designer'
 		}
 	];
 	$scope.ThankYou = "Thanks to";
-	$scope.ProjectThankYou = 'Andrea Visani, Simone Romboli';
+	$scope.ProjectThankYou = [
+		{
+			name : 'Andrea Visani'
+		},
+		{
+			name : 'Simone Romboli'
+		},
+		{
+			name : 'Marco Tronconi'
+		},
+	];
 	$scope.ProjectName = "Small city, big stories";
 	$scope.ProjectPowered = [
 		{
