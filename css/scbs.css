@@ -557,7 +557,7 @@ body {
 }
 .CreditsPosition {
   text-align: left;
-
+  margin-bottom: 2px;
   color: #fff;
   font-size: 12px;
 }
