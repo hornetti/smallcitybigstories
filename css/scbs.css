@@ -725,52 +725,11 @@ button + .tooltip.right > .tooltip-arrow {
 /****************************************/
 /***********   MANIFESTO   *************/
 /**************************************/
-.slider {
-  position: relative;
-  width: 100%;
-  /*height: 470px;*/
-}
-.slide {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.slide p {
-  font-size: 18px;
+.ManifestoTitle {
   text-align: left;
-}
-.active-slide {
-  display: block;
-}
-.freccia {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.controlArrow {
-  position: absolute;
-  top: 50%;
-  cursor: pointer;
-}
-.controlArrow.arrow-prev {
-  left: 25px;
-  display: block;
-  transition: all 0.3s;
-}
-.controlArrow.arrow-next {
-  right: 25px;
-  display: block;
-  transition: all 0.3s;
-}
-.controlArrow.arrow-next:hover {
-  stroke: #ff6666;
-}
-.controlArrow.arrow-prev:hover {
-  stroke: #ff6666;
+  font-weight: 600;
+  color: #ff6666;
+  font-size: 32px;
 }
 /****************************************/
 /************** TOP MENU ***************/
