@@ -1,46 +1,14 @@
 <div class="container-fluid">
-	<div class="slider">
-		<div class="slide active-slide">
-	        <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-	            <h1>Manifesto</h1>
-	        </div>
+	<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+			<p class="ManifestoTitle"> {{ manifestoTitle }}</p>
 		</div>
-		<div class="slide">
-	        <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-	            <p>Il digitale ha imposto ai media nuovi ritmi e nuove sfide, spingendoli in acque ancora inesplorate; l’ennesima prova che il giornalismo è chiamato a superare non riguarda solamente l’approccio alle nuove tecnologie, ma tocca nel profondo gli stessi ingranaggi che quotidianamente lo definiscono.</p>
-	        </div>
-		</div>
-		<div class="slide">
-	        <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-	            <p>Crediamo sia necessario ripensare la sfera mediatica, combinando i diversi strumenti che il digitale ci offre in modo da facilitare la comprensione dell’utente. È sbagliato pensare che i lettori su Internet siano interessati solamente ad articoli di impatto, veloci e frivoli: il nostro pubblico cerca più giornalismo immersivo in cui investire tempo e impegno.</p>
-	        </div>
-		</div>
-		<div class="slide">
-	        <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-	            <p>Per questo abbiamo sposato il linguaggio del visual journalism, che non è solamente “creatività” ma una vera e propria corrente nella quale tutti gli insegnamenti giornalistici vengono criticamente esaminati, e nuovi principi guidano il lavoro della newsroom: forma e contenuto acquisiscono finalmente lo stesso peso e si influenzano a vicenda.</p>
-	        </div>
-		</div>
-		<div class="slide">
-	        <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-	            <p>È tempo che nelle tradizionali redazioni giornalistiche entrino nuove figure professionali, come visual designer e web developer, e che il loro lavoro venga integrato con quello del giornalista in maniera organica, producendo un feedback continuo e condividendo tutte le parti del processo decisionale.</p>
-	        </div>
-		</div>
-		<div class="slide">
-	        <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-	            <p>Se è vero che il cambiamento è l’unica costante del giornalismo, allora è arrivato il momento di assecondarlo.</p>
-	        </div>
+		<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="manifesto in manifestoTesto">
+					<p class="ContainerQwerty"> {{ manifesto.paragraf }}</p>
+				</div>
+			</div>
 		</div>
 	</div>
-	<svg version="1.1" class="controlArrow arrow-prev" id="freccia_dx" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="25px" viewBox="0 0 50 25" style="enable-background:new 0 0 50 25;" xml:space="preserve">
-		<g>
-			<polyline class="freccia" points="19,5 6,12.5 19,20"/>
-			<line class="freccia" x1="7" y1="12.5" x2="42" y2="12.5"/>
-		</g>
-	</svg>
-	<svg version="1.1" class="controlArrow arrow-next" id="freccia_dx" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="25px" viewBox="0 0 50 25" style="enable-background:new 0 0 50 25;" xml:space="preserve">
-		<g>
-			<polyline class="freccia" points="28.9,5 41.8,12.5 28.9,20"/>
-			<line class="freccia" x1="41" y1="12.5" x2="6" y2="12.5"/>
-		</g>
-	</svg>
 </div>
