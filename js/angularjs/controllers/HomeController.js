@@ -30,5 +30,27 @@ app.controller('HomeController', ['$scope', function($scope) {
 			ease: Expo.easeOut,
 			delay: .5
 		});
+		$('#enter').mouseover(function() {
+		    TweenLite.to('.MAINStroke2px', 1, {
+			    drawSVG: "50% 50%",
+			    ease: Expo.easeOut
+		    });
+		});
+		$('#enter').mouseleave(function() {
+		    TweenLite.to('.MAINStroke2px', 1, {
+			    drawSVG: "100%",
+			    ease: Expo.easeOut
+		    });
+		});
+		TweenLite.from('.MAINStroke2px', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 1
+		});
+		TweenLite.from('.WLine2px_', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeInOut,
+			delay: 1
+		});
 	});
 }]);
