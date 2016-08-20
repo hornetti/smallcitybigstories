@@ -217,10 +217,41 @@ body {
   margin: auto;
 }
 /****************************************/
+/***********    TOOLTIP    *************/
+/**************************************/
+.Tootisx {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  border: none;
+  background: transparent;
+  float: right;
+}
+.Tootidx {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  border: none;
+  background: transparent;
+  float: left;
+}
+button + .tooltip > .tooltip-inner {
+  font-family: 'Work Sans', sans-serif;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+}
+button + .tooltip.left > .tooltip-arrow {
+
+}
+button + .tooltip.right > .tooltip-arrow {
+
+}
+/****************************************/
 /*************   HOME   ****************/
 /**************************************/
 #Logo {
-    margin: 40px 0;
+    margin: 50px 0;
 }
 .StrokePages {
   fill:none;stroke:#FFFFFF;
@@ -259,20 +290,18 @@ body {
   font-size: 39px;
 }
 .ButtonStart {
-  font-family: 'Work Sans', sans-serif;
-  color: #ff6666;
-  background: none;
-  border: 1px solid #ff6666;
-  padding: 10px 20px;
-  margin: 20px auto;
   cursor: pointer;
 }
-.ButtonStart:hover,
-.ButtonStart:active, 
-.ButtonStart:focus {
-  color: #ff6666;
-  border: 1px solid #ff6666;
-  text-decoration: none;
+.MAINStroke2px {
+  fill: none;
+  stroke: #FF6666;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
+.Enter {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
 }
 .Sigla { 
   position: fixed;
@@ -573,12 +602,7 @@ body {
   text-align: left;
 }
 .ButtonExample > li {
-  background-color: #ff6666;
-  opacity: .7;
   margin: 10px 15px 0 0;
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
   display: inline-block;
   cursor: pointer;
 }
@@ -592,20 +616,31 @@ body {
   text-align: left;
   margin: 10px 0;
 }
-.Wline {
+.WLine {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 5;
   stroke-miterlimit: 10;
 }
-.Wline2px {
+.WLine2px {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
+.WLine2px_ {
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:2;
+  stroke-miterlimit:10;
+}
 .G2Color {
   fill: #D0D2D3;
+}
+.PressKit{
+ font-family: 'Work Sans', sans-serif;
+ font-weight: 600;
+ font-size: 7.5px;
 }
 .SCBS {
   font-family: 'Titillium Web', sans-serif;
