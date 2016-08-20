@@ -38,4 +38,5 @@ app.controller('LinkController', ['$scope', function($scope) {
 	    	myAudio.pause(); 
 	  	}		
 	});*/
+	
 }]);
