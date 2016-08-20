@@ -19,4 +19,5 @@ app.controller('ManifestoController', ['$scope', function($scope) {
 	        prevSlide.fadeIn(600).addClass('active-slide');
 	    });
 	});
+	
 }]);
