@@ -616,6 +616,9 @@ button + .tooltip.right > .tooltip-arrow {
   text-align: left;
   margin: 10px 0;
 }
+.Sponsor {
+  margin-right: 35px;
+}
 .WLine {
   fill: none;
   stroke: #FFFFFF;
