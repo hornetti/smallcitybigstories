@@ -1,13 +1,21 @@
 <div class="container-fluid">
-	<div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
-		<form class="ContactUs">
-			<div class="form-group">
-				<h4 for="exampleInputEmail"> {{ EmailAddress }} </h4>
-				<input type="email" placeholder="Insert Email" class="form-control" id="exampleInputEmail1">
-				<input type="text" placeholder="Insert Object" class="form-control" id="exampleInputEmail1">
-				<textarea type="text" placeholder="Insert Text" class="form-control" rows="5"></textarea>
-			</div>
-			<button type="submit" class="ButtonSubmit"> {{ EmailSubmit }} </button>
-		</form>
+	<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+			<p class="ContactTitle"> {{ EmailAddress }} </p>
+		</div>
+		<div class="col-xs-8 col-xs-offset-1 col-sm-8 col-sm-offset-1 col-md-8 col-md-offset-1 col-lg-8 col-lg-offset-1">
+			<form class="ContactScbs">
+				<input type="email" placeholder="Email">
+				<input type="text" placeholder="Oggetto">
+				<textarea type="text" placeholder="Testo"></textarea>
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<button type="submit" class="ButtonSubmit"> {{ EmailSubmit }} </button>
+					</div>
+				</div>
+			</form>
+		</div>
 	</div>
 </div>
