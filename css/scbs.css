@@ -659,63 +659,53 @@ button + .tooltip.right > .tooltip-arrow {
 /****************************************/
 /************* CONTACT US **************/
 /**************************************/
-.ContactUs > div {
-  margin: 0;
+.ContactTitle {
+  text-align: left;
+  font-weight: 600;
+  color: #ff6666;
+  font-size: 32px;
 }
-.ContactUs > div > h4 {
-  margin: 30px auto;
-  font-size: 20px;
-}
-.ContactUs > div > input {
-  display: block;
+.ContactScbs > input {
   width: 100%;
   height: 50px;
   padding: 0 15px;
-  margin: 15px auto;
+  margin-bottom: 10px;
   font-size: 15px;
-  line-height: 1.5;
+  font-weight: 400;
   color: #fff;
   background-color: transparent;
-  border: 3px solid #555;
-  border-radius: 5px;
-  box-shadow: inset 0 2px 2px rgba(0, 0, 0, .075);
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  border: 3px solid #333;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
-.ContactUs > div > textarea {
-  display: block;
+.ContactScbs > textarea {
   width: 100%;
   height: 200px;
   padding: 10px 15px;
-  margin: 15px auto;
+  margin-bottom: 10px;
   font-size: 15px;
-  line-height: 1.5;
+  font-weight: 400;
   color: #fff;
   background-color: transparent;
-  border: 3px solid #555;
-  border-radius: 5px;
-  box-shadow: inset 0 2px 2px rgba(0, 0, 0, .075);
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  border: 3px solid #333;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
-.ContactUs > div > input:focus,
-.ContactUs > div > textarea:focus {
-  font-size: 20px;
-  color: #fff;
-  border: 3px solid #ff6666;
-  box-shadow: inset 0 2px 2px rgba(255, 102, 102, 0.075);
-}
-.InputVisited {
+.ContactScbs > input:focus,
+.ContactScbs > textarea:focus {
   font-size: 20px;
   color: #fff;
   border: 3px solid #ff6666;
   box-shadow: inset 0 2px 2px rgba(255, 102, 102, 0.075);
 }
 .ButtonSubmit {
+  width: 100%;
+  height: 50px;
   font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
   color: #ff6666;
-  background: none;
-  border: 1px solid #ff6666;
-  padding: 10px 20px;
-  margin: 20px auto;
+  background: transparent;
+  border: 3px solid #ff6666;
   cursor: pointer;
 }
 .ButtonSubmit:hover,
