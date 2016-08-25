@@ -156,24 +156,31 @@
 /**************************************/
 .MAINColor {
   fill: #FF6666;
+  color: #FF6666;
 }
 .FOODColor {
   fill: #FF3366;
+  color: #FF3366;
 }
 .PTEKColor {
   fill: #FFFF00;
+  color: #FFFF00;
 }
 .MAVColor {
   fill: #0099FF;
+  color: #0099FF;
 }
 .ITColor {
   fill: #00FF99;
+  color: #00FF99;
 }
 .WColor {
   fill: #FFFFFF;
+  color: #FFFFFF;
 }
 .GColor {
   fill: #333333;
+  color: #333333;
 }
 .Bold12 {
   font-family: 'Work Sans', sans-serif;
@@ -463,20 +470,25 @@ button + .tooltip.right > .tooltip-arrow {
 /*******************************************/
 /***************  PROFILE  ****************/
 /*****************************************/
+.fakepadding {
+  padding-right: 0px;
+  margin-bottom: 10px;
+}
 .TitoloProfilo {
-  color: #fff;
-  margin: 0 0 30px 15px;
+  font-size: 32px;
   float: left;
 }
 .Backto {
   cursor: pointer;
   float: right;
+  margin: 5px 0;
 }
 #IvanoValmori, #GabrieleBandini, #AnnaTampieri, #GiuliaRuta, #RobertoBertoni, #AndreaMartelli, #MarcoPeroni, #BarbaraSavorani, #StefanoZauli, #AndreaSalvatori, #RaffaeleBorgini, #MaurizioFionda, #PaoloRava, #MarcoTamba, #FabrizioMantovani {
   padding: 0;
   width: 100%;
   height: 100%;
 }
+/*
 .video-js .vjs-tech {
   position: initial !important;
   top: initial !important;
@@ -501,6 +513,7 @@ button + .tooltip.right > .tooltip-arrow {
   border-radius: 0 !important;
   transition: all 0.4s !important;
 }
+*/
 .NameCompany {
   font-size: 15px;
   margin: 10px auto 0;
@@ -513,7 +526,7 @@ button + .tooltip.right > .tooltip-arrow {
   text-align: left;
 }
 .DataContainer {
-  border-top: 2px solid #00ff99;  
+  border-top: 2px solid;
 }
 .DataContainer > .col-xs-6 > .TestoInfografica,
 .DataContainer > .col-sm-6 > .TestoInfografica,
@@ -532,7 +545,6 @@ button + .tooltip.right > .tooltip-arrow {
 }
 .Infografica {
   font-size: 36px;
-  color: #00FF99;
   margin: 0 auto;
   text-align: left;
 }
@@ -547,10 +559,12 @@ button + .tooltip.right > .tooltip-arrow {
 }
 .DataLink {
   cursor: pointer;
+  color: inherit;
 }
 .DataLink:hover,
 .DataLink:focus {
   text-decoration: none;
+  color: #ff6666;
 }
 /****************************************/
 /*************  CREDITS  ***************/
