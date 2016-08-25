@@ -45,6 +45,7 @@ app.controller('ProfileController', ['$scope', function($scope) {
 		});
 	});
 	/**   VideoJS   **/
+	/*
 	angular.element(document).ready(function() {
 		var AM = videojs('AndreaMartelli');
 		AM.markers({
@@ -751,5 +752,5 @@ app.controller('ProfileController', ['$scope', function($scope) {
 				}
 			]
 		});
-	});
+	});*/
 }]);
