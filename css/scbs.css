@@ -713,6 +713,7 @@ button + .tooltip.right > .tooltip-arrow {
   box-shadow: inset 0 2px 2px rgba(255, 102, 102, 0.075);
 }
 .ButtonSubmit {
+  position: relative;
   width: 100%;
   height: 60px;
   font-family: 'Work Sans', sans-serif;
@@ -723,57 +724,25 @@ button + .tooltip.right > .tooltip-arrow {
   cursor: pointer;
 }
 .ButtonSubmit > p {
-  box-sizing: border-box;
-  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 50%;
   opacity: 1;
-  transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(80px, 0px, 0px);
+  margin: 2px 0;
   font-size: 15px;
   padding: 14.5px 0;
-  margin: 0;
 }
 .ButtonSubmit > svg {
-  box-sizing: border-box;
-  float: left;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 50%;
-  opacity: 1;
+  opacity: 0;
   transform: translate3d(0px, 0px, 0px);
+  margin: 2px 0;
 }
-.ButtonSubmit:hover {    
-  transition: all linear 0.2s;
-  color: #ff6666;
-  border: 3px solid #ff6666;
-  text-decoration: none;
-}
-.ButtonSubmit:hover > p {
-  opacity: 1;
-  transform: translate3d(0px, 0px, 0px);
-  transition: all linear 0.2s;
-}
-.ButtonSubmit:hover > svg {
-  opacity: 1;
-  transform: translate3d(0px, 0px, 0px);
-  margin: 0px;
-  transition: all linear 0.2s;
-}
-/*
-.ButtonSubmit {
-  width: 100%;
-  padding: 10px 0;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  color: #ff6666;
-  background: transparent;
-  border: 3px solid #ff6666;
-  cursor: pointer;
-}
-.ButtonSubmit:hover,
-.ButtonSubmit:active, 
-.ButtonSubmit:focus {
-  color: #ff6666;
-  border: 3px solid #ff6666;
-  text-decoration: none;
-}*/
 .MAINLine2px {
   fill: none;
   stroke: #FF6666;
