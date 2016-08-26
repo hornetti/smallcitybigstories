@@ -714,7 +714,52 @@ button + .tooltip.right > .tooltip-arrow {
 }
 .ButtonSubmit {
   width: 100%;
-  height: 50px;
+  height: 60px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  color: #ff6666;
+  background: transparent;
+  border: 3px solid #ff6666;
+  cursor: pointer;
+}
+.ButtonSubmit > p {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+  font-size: 15px;
+  padding: 14.5px 0;
+  margin: 0;
+}
+.ButtonSubmit > svg {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+.ButtonSubmit:hover {    
+  transition: all linear 0.2s;
+  color: #ff6666;
+  border: 3px solid #ff6666;
+  text-decoration: none;
+}
+.ButtonSubmit:hover > p {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all linear 0.2s;
+}
+.ButtonSubmit:hover > svg {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+  margin: 0px;
+  transition: all linear 0.2s;
+}
+/*
+.ButtonSubmit {
+  width: 100%;
+  padding: 10px 0;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   color: #ff6666;
@@ -726,8 +771,14 @@ button + .tooltip.right > .tooltip-arrow {
 .ButtonSubmit:active, 
 .ButtonSubmit:focus {
   color: #ff6666;
-  border: 1px solid #ff6666;
+  border: 3px solid #ff6666;
   text-decoration: none;
+}*/
+.MAINLine2px {
+  fill: none;
+  stroke: #FF6666;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
 }
 /****************************************/
 /***********   MANIFESTO   *************/
