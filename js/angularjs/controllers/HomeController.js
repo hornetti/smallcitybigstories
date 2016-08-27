@@ -30,17 +30,27 @@ app.controller('HomeController', ['$scope', function($scope) {
 			ease: Expo.easeOut,
 			delay: .5
 		});
-		$('#enter').mouseover(function() {
+		$('.ButtonStart > svg').mouseover(function() {
 		    TweenLite.to('.MAINStroke2px', 1, {
 			    drawSVG: "50% 50%",
 			    ease: Expo.easeOut
 		    });
 		});
-		$('#enter').mouseleave(function() {
+		$('.ButtonStart > svg').mouseleave(function() {
 		    TweenLite.to('.MAINStroke2px', 1, {
 			    drawSVG: "100%",
 			    ease: Expo.easeOut
 		    });
+		});
+		TweenLite.from('.stroke', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 3
+		});
+		TweenLite.from('.txt', 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 2
 		});
 		TweenLite.from('.MAINStroke2px', 2, {
 			drawSVG: "0%",
