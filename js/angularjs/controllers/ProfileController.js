@@ -21,13 +21,13 @@ app.controller('ProfileController', ['$scope', function($scope) {
     ];
   	/**   Close Button   **/
 	angular.element(document).ready(function() {
-		$('#XBtnTesto').mouseover(function() {
+		$('.Backto > svg').mouseover(function() {
 		    TweenLite.to('.stroke', 1, {
 				drawSVG: "50% 50%",
 				ease: Expo.easeOut
 		    });
 		});
-		$('#XBtnTesto').mouseleave(function() {
+		$('.Backto > svg').mouseleave(function() {
 		    TweenLite.to('.stroke', 1, {
 				drawSVG: "100%",
 				ease: Expo.easeOut
