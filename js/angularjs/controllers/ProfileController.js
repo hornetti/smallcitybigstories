@@ -1,4 +1,12 @@
 app.controller('ProfileController', ['$scope', function($scope) {
+	$scope.Link_Revenue = 'map/revenue';
+	$scope.Link_Employees = 'map/employees';
+	$scope.Link_Foundation = 'map/foundation';
+	$scope.Link_Motivation = 'map/motivation';
+	$scope.Link_Service = 'map/service';
+	$scope.Link_Market = 'map/reference_market';
+	$scope.Link_Growth = 'map/economic_growth';
+	$scope.Link_Type = 'map/type';
 	$scope.legends = [
     	{
     		element : " A — C'erano occasioni che andavano colte"
@@ -21,13 +29,13 @@ app.controller('ProfileController', ['$scope', function($scope) {
     ];
   	/**   Close Button   **/
 	angular.element(document).ready(function() {
-		$('.Backto > svg').mouseover(function() {
+		$('#XBtnTesto').mouseover(function() {
 		    TweenLite.to('.stroke', 1, {
 				drawSVG: "50% 50%",
 				ease: Expo.easeOut
 		    });
 		});
-		$('.Backto > svg').mouseleave(function() {
+		$('#XBtnTesto').mouseleave(function() {
 		    TweenLite.to('.stroke', 1, {
 				drawSVG: "100%",
 				ease: Expo.easeOut
