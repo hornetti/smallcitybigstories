@@ -567,7 +567,7 @@ button + .tooltip.right > .tooltip-arrow {
 .DataLink:hover,
 .DataLink:focus {
   text-decoration: none;
-  color: #ff6666;
+  color: #fff;
 }
 /****************************************/
 /*************  CREDITS  ***************/
