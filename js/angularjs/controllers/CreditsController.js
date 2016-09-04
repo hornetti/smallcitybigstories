@@ -7,10 +7,6 @@ app.controller('CreditsController', ['$scope', function($scope) {
 			direct : 'https://www.facebook.com/smallcitybigstories/'
 		},
 		{
-			name : 'twitter',
-			direct : 'https://twitter.com/SCBS_studio'
-		},
-		{
 			name : 'instagram',
 			direct : 'https://www.instagram.com/smallcitybigstories/'
 		}
@@ -51,12 +47,26 @@ app.controller('CreditsController', ['$scope', function($scope) {
 			name : 'Andrea Visani'
 		},
 		{
-			name : 'Simone Romboli'
-		},
-		{
 			name : 'Marco Tronconi'
 		},
+		{
+			name : 'Simone Romboli'
+		},
 	];
+	$scope.creditsTesto = [
+    	{
+    		paragraf : "Small city big stories è un progetto di visual journalism che racconta le potenzialità nascoste della dimensione locale attraverso le voci dei suoi protagonisti."
+    	},
+    	{
+    		paragraf : "Small city, big stories nasce da un’idea dell’associazione Salesiani 2.0 di Faenza, che ha selezionato i 15 intervistati."
+    	},
+    	{
+    		paragraf : "Il brand Scbs e il relativo progetto di visual journalism sono stati interamente concepiti da Luca Gorini, Filippo Gianessi e Filippo Gorini."
+    	},
+    	{
+    		paragraf : "Abbiamo sviluppato Small city, big stories con l’obbiettivo primario di diffondere l’uso del visual journalism in Italia. Siamo convinti che raccontare l’ecosistema professionale di una città sia la modalità più semplice e immediata per permettere a terzi di applicare le tecniche proprie del visual journalism: per questa ragione abbiamo deciso di rendere Scbs Open Source."
+    	}
+    ];	
 	$scope.ProjectName = "Small city, big stories";
 	$scope.ProjectPowered = [
 		{
