@@ -1,6 +1,8 @@
-/****************************************/
-/*************   OFFLINE  **************/
-/**************************************/
+/*
+
+OFFLINE
+
+*/
 .OfflineVisit > li > a:hover,
 .OfflineVisit > li > a:focus {
   color: #ff6666;
@@ -151,9 +153,11 @@
     cursor: pointer;
   }  
 }
-/****************************************/
-/************   MAIN CLASS   ***********/
-/**************************************/
+/*
+
+MAIN CLASS
+
+*/
 .MAINColor {
   fill: #FF6666;
   color: #FF6666;
@@ -192,11 +196,11 @@
   font-weight: 300;
   font-size: 12px;
 }
-
-/********************************************/
 /*
- * Base structure
- */
+
+Base structure
+
+*/
 *:focus {
   outline: none;
 }
@@ -217,18 +221,16 @@ body {
   font-family: 'Work Sans', sans-serif;
   cursor: url(../svg/Cursor.svg), default;
 }
-.Wrapper {
-  /* position: relative; */
-  /* top: 100px; */
-}
 .container-fluid {
   text-align: center;
   padding: 0 15px;
   margin: auto;
 }
-/****************************************/
-/***********    TOOLTIP    *************/
-/**************************************/
+/*
+
+TOOLTIP 
+
+*/
 .Tootisx {
   margin: 0;
   padding: 0;
@@ -251,17 +253,13 @@ button + .tooltip > .tooltip-inner {
   color: #fff;
   font-size: 12px;
 }
-button + .tooltip.left > .tooltip-arrow {
+/*
 
-}
-button + .tooltip.right > .tooltip-arrow {
+HOME
 
-}
-/****************************************/
-/*************   HOME   ****************/
-/**************************************/
+*/
 #Logo {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 .StrokePages {
   fill:none;stroke:#FFFFFF;
@@ -325,9 +323,11 @@ button + .tooltip.right > .tooltip-arrow {
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
 }
-/****************************************/
-/***************   MAP  ****************/
-/**************************************/
+/*
+
+MAP
+
+*/
 .FOODRound {
   fill: none;
   stroke: #FF3366;
@@ -470,9 +470,11 @@ button + .tooltip.right > .tooltip-arrow {
 .ContainerProfileMetro > svg {
   margin: 10px auto;
 }
-/*******************************************/
-/***************  PROFILE  ****************/
-/*****************************************/
+/*
+
+PROFILE
+
+*/
 .fakepadding {
   padding-right: 0px;
   margin-bottom: 10px;
@@ -569,9 +571,11 @@ button + .tooltip.right > .tooltip-arrow {
   text-decoration: none;
   color: #fff;
 }
-/****************************************/
-/*************  CREDITS  ***************/
-/**************************************/
+/*
+
+CREDITS
+
+*/
 .Socialvisit {
   padding: 0;
   margin: 0;
@@ -679,9 +683,11 @@ button + .tooltip.right > .tooltip-arrow {
   font-size: 10px;
   font-weight: 600;
 }
-/****************************************/
-/************* CONTACT US **************/
-/**************************************/
+/*
+
+CONTACT US 
+
+*/
 .ContactTitle {
   text-align: left;
   font-weight: 600;
@@ -759,18 +765,22 @@ button + .tooltip.right > .tooltip-arrow {
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
-/****************************************/
-/***********   MANIFESTO   *************/
-/**************************************/
+/*
+
+MANIFESTO
+
+*/
 .ManifestoTitle {
   text-align: left;
   font-weight: 600;
   color: #ff6666;
   font-size: 32px;
 }
-/****************************************/
-/************** TOP MENU ***************/
-/**************************************/
+/*
+
+TOP MENU
+
+*/
 .TopMenu {
   background-color: #000;
   position: fixed;
@@ -812,9 +822,11 @@ button + .tooltip.right > .tooltip-arrow {
   border-bottom: 2px solid #ff6666;
   text-decoration: none;
 }
-/****************************************/
-/************* BOTTOM MENU *************/
-/**************************************/
+/*
+
+BOTTOM MENU
+
+*/
 .BottomMenu {
   background-color: #000;
   position: fixed;
@@ -891,9 +903,11 @@ button + .tooltip.right > .tooltip-arrow {
   color: #ff6666;
   text-decoration: none;
 }
-/****************************************/
-/***********   ANIMATIONS   ************/
-/**************************************/
+/*
+
+ANIMATIONS
+
+*/
 .animationview {
   position: absolute;
   top: 80px;
@@ -903,8 +917,7 @@ button + .tooltip.right > .tooltip-arrow {
 }
 .animationview.ng-enter,
 .animationview.ng-leave {
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  transition: all ease 1s;
 }
 .animationview.ng-enter {
   opacity: 0;
@@ -917,543 +930,4 @@ button + .tooltip.right > .tooltip-arrow {
 }
 .animationview.ng-leave-active {
   opacity: 0;
-}
-
-/*
-.fade-hide, .fade-show {
-  -webkit-transition: all linear 0.5s;
-  -moz-transition: all linear 0.5s;
-  -o-transition: all linear 0.5s;
-  transition: all linear 0.5s;
-}
-
-.fade-hide {
-  opacity:1;
-}
-.fade-hide.fade-hide-active {
-  opacity:0;
-}
-
-.fade-show {
-  opacity:0;
-}
-.fade-show.fade-show-active {
-  opacity:1;
-}
-*/
-/****************************************/
-/***********   FOUNDATION   ************/
-/**************************************/
-.foundation0 {
-  display: inline;
-  fill: none;
-  stroke: #333333;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.foundation1 {
-  display: inline;
-  opacity: 0.2;
-  fill: #FFFFFF;
-  stroke: #000000;
-  stroke-miterlimit: 10;
-}
-.foundation2 {
-  font-family: 'Work Sans', sans-serif;
-}
-.foundation3 {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 15;
-  stroke-miterlimit: 10;
-}
-.foundation4 {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-miterlimit: 10;
-}
-.foundation7 {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.foundation8 {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 15;
-  stroke-miterlimit: 10;
-}
-.foundation9 {
-  fill: #FF3366;
-}
-.foundation10 {
-  fill: #FFFF00;
-}
-.foundation11 {
-  fill: #FFFFFF;
-}
-.foundation12 {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 15;
-  stroke-miterlimit: 10;
-}
-.foundation13 {
-  display: inline;
-}
-.foundation14 {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.foundation16 {
-  fill: #0099FF;
-}
-.foundation17 {
-  fill: #00FF99;
-}
-.foundation20 {
-  display: none;
-}
-.foundation21 {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.foundation22 {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 15;
-  stroke-miterlimit: 10;
-}
-.foundation23 {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.bold12 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-}
-.regular12 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: regular;
-  font-size: 12px;
-}
-.bold15 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  fill: #FFFF00
-}
-.regular9 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: regular;
-  font-size: 9px;
-}
-.k_txt {
-  fill: black;
-}
-/****************************************/
-/*************   REVENUE   *************/
-/**************************************/
-.revenue1 {
-  fill: none;
-  stroke: #333333;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.revenue2 {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.revenue3 {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-miterlimit: 10;
-}
-.revenue4 {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.revenue5 {
-  fill: none;
-  stroke: #000000;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.revenue7 {
-  font-size: 9px;
-}
-.revenue77 {
-  font-size: 9px;
-}
-.revenue8 {
-  fill: #FF3366;
-}
-.revenue9 {
-  fill: #FFFF00;
-}
-.revenue10 {
-  fill: #FFFFFF;
-}
-.revenue11 {
-  fill: #333333;
-}
-.revenue12 {
-  fill: #0099FF;
-}
-.revenue13 {
-  fill: #00FF99;
-}
-.revenue14 {
-  font-size: 12px;
-}
-.revenue15 {
-  font-size: 15px;
-}
-.revenue16 {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.revenue17 {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.revenue18 {
-  fill: #FFFFFF;
-  font-size: 9px;
-}
-/****************************************/
-/************   EMPLOYEES   ************/
-/**************************************/
-.greyline {
-  fill: none;
-  stroke: #333333;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.LineIT {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.employees3 {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-miterlimit: 10;
-}
-.LineMAV {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.employees7 {
-  fill: #FF3366;
-}
-.employees8 {
-  fill: #FFFF00;
-}
-.employees9 {
-  fill: #FFFFFF;
-}
-.greytext {
-  fill: #333333;
-}
-.employees11 {
-  fill: #0099FF;
-}
-.employees12 {
-  fill: #00FF99;
-}
-.employees13 {
-  font-size: 12px;
-}
-.employees14 {
-  font-size: 15px;
-}
-.LineFOOD {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.LinePTEK {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.bold12 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-}
-.regular12 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: regular;
-  font-size: 12px;
-}
-.bold15 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  fill: #FFFF00
-}
-.regular9 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: regular;
-  font-size: 9px;
-}
-/****************************************/
-/**************   MARKET   *************/
-/**************************************/
-
-.FOOD {
-  fill: #FF3366;
-}
-.PTEKaux {
-  fill: #FF9900;
-}
-.PTEK {
-  fill: #FFFF00;
-}
-.White {
-  fill: #FFFFFF;
-}
-.IT {
-  fill: #00FF99;
-}
-.PTEKaux_ {
-  fill: #FF9900;
-}
-.PTEK_ {
-  fill: #FFFF00;
-}
-.CircleMAV {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.CircleIT {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.CirclePTEK {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.CircleFOOD {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.Logo1Lines5px {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.StatLine2 {
-  fill: none;
-  stroke: #FF9900;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.StatLine1 {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.Logo2Lines5px {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.LinesScheme {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-miterlimit: 10;
-}
-.Logo1Lines2px {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.bold24 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-}
-.bold12 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-}
-.regular12 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: regular;
-  font-size: 12px;
-}
-.bold15 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-}
-.regular9 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: regular;
-  font-size: 9px;
-}
-.stroke {
-  fill: none;
-  stroke: #FF6666;
-  stroke-miterlimit: 10;
-}
-.txt {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 12px;
-  fill: #FF6666;
-}
-/****************************************/
-/***********   MOTIVATION   ************/
-/**************************************/
-.FOOD {
-  fill: #FF3366;
-}
-.PTEKaux {
-  fill: #FF9900;
-}
-.PTEK {
-  fill: #FFFF00;
-}
-.White {
-  fill: #FFFFFF;
-}
-.IT {
-  fill: #00FF99;
-}
-.MAV {
-  fill: #0099FF;
-}
-.PTEKaux_ {
-  fill: #FF9900;
-}
-.PTEK_ {
-  fill: #FFFF00;
-}
-.CircleMAV {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.CircleIT {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.CirclePTEK {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.CircleFOOD {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.StatLine2 {
-  fill: none;
-  stroke: #FF9900;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.StatLine1 {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
-}
-.LinesScheme {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-miterlimit: 10;
-}
-.ReadingLinePTEKaux {
-  fill: none;
-  stroke: #FF9900;
-  stroke-miterlimit: 10;
-}
-.ReadingLinePTEK {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-miterlimit: 10;
-}
-.bold24 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-}
-.bold12 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 12px;
-}
-.regular12 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: regular;
-  font-size: 12px;
-}
-.bold15 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-}
-.regular15 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: regular;
-  font-size: 15px;
-}
-.regular9 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: regular;
-  font-size: 9px;
-}
-.stroke {
-  fill: none;
-  stroke: #FF6666;
-  stroke-miterlimit: 10;
-}
-.txt {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 12px;
-  fill: #FF6666;
 }
