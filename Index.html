@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 	<head>
 		<title>Small city, big stories</title>
 		<meta charset="UTF-8">
@@ -19,7 +18,7 @@
 	    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 	    <!-- Titillium Web -->
 	    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
-    	<!-- CSS -->		
+    	<!-- CSS -->
     	<link rel="stylesheet" type='text/css' href="css/scbs.css">
 	    <!-- Videojs 
 	    <link href="http://vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
@@ -29,10 +28,10 @@
 		<div class="Wrapper" ng-controller="LinkController">
 			<div class="TopMenu">
 				<div class="Logo">
-					<a ng-href=" {{ Link_Home.direct }} "> {{ Link_Home.name }} </a>
+					<a ng-href="{{ Link_Home.direct }}">{{ Link_Home.name }}</a>
 				</div>
 				<div class="Nav">
-					<a ng-href=" {{ Link_Map.direct }} "> {{ Link_Map.name }} </a>
+					<a ng-href="{{ Link_Map.direct }}">{{ Link_Map.name }}</a>
 				</div>
 			</div>
 			<div ng-view class="animationview"></div>
@@ -40,25 +39,25 @@
 			    <div class="VisitMenu">
 			        <ul class="nav">
 			            <li>
-			                <a ng-href=" {{ Link_Credits.direct }} "> {{ Link_Credits.name }} </a>
+			                <a ng-href="{{ Link_Credits.direct }}">{{ Link_Credits.name }}</a>
 			            </li>
 			            <li>
-			                <a ng-href=" {{ Link_Contact.direct }} "> {{ Link_Contact.name }} </a>
-			            </li>
+			                <a ng-href="{{ Link_Contact.direct }}">{{ Link_Contact.name }}</a>
+			            </li>			           
 			            <li>
-			                <a ng-href=" {{ Link_Manifesto.direct }} "> {{ Link_Manifesto.name }} </a>
+			                <a ng-href="{{ Link_Manifesto.direct }}">{{ Link_Manifesto.name }}</a>
 			            </li>
 			        </ul>
 			    </div>
 			    <div class="TechnicalMenu">
 			        <div class="ContainerSocial" ng-init="visible = false">
-			            <a class="Share" ng-repeat="linkshare in Link_Share" ng-href="{{ linkshare.link }}" ng-show="visible" ng-animate="'fade'">{{ linkshare.name }}</a>
-			            <p class="SocialShare" ng-click="visible = !visible">{{ Share }}</p>
+			            <a class="Share" ng-repeat="linkshare in Link_Share" ng-href="{{ linkshare.link }}" ng-show="visible">{{ linkshare.name }}</a>
+			            <p class="SocialShare" ng-click="visible = !visible"> {{ Share }} </p>
 			        </div>
 			        <a onclick="toggleFullScreen()">Fullscreen</a>
 			        <a onclick="toggleMusic()">Music</a>
-			        <audio id="Music" loop>
-			            <source src="music/Music_Ambient.mp3">
+			        <audio id="ambientMusic" autobuffer autoloop loop>
+			        	<source src="music/Ambient.mp3">
 			        </audio>
 			    </div>
 			</div>
