@@ -29,8 +29,8 @@ app.controller('CreditsController', ['$scope', function($scope) {
 	$scope.Collaboration = "Collaborations";
 	$scope.ProjectCollaboration = [
 		{
-			name : 'Filippo Cinotti, Mattia Alberani',
-			info : 'Video maker'
+			name : 'Mattia Alberani, Filippo Cinotti',
+			info : 'Videomakers'
 		},
 		{
 			name : 'Cecilia Bertozzi',
