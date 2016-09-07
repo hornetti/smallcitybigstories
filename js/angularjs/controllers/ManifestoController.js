@@ -1,20 +1,20 @@
-app.controller('ManifestoController', ['$scope', function($scope) {
+Ôªøapp.controller('ManifestoController', ['$scope', function($scope) {
 	$scope.manifestoTitle = "Manifesto";
 	$scope.manifestoTesto = [
     	{
-    		paragraf : "Il digitale ha imposto ai media nuovi ritmi e nuove sfide, spingendoli in acque ancora inesplorate; líennesima prova che il giornalismo Ë chiamato a superare non riguarda solamente líapproccio alle nuove tecnologie, ma tocca nel profondo gli stessi ingranaggi che quotidianamente lo definiscono."
+    		paragraf : "Il digitale ha imposto ai media nuovi ritmi e nuove sfide, spingendoli in acque ancora inesplorate; l‚Äôennesima prova che il giornalismo √® chiamato a superare non riguarda solamente l‚Äôapproccio alle nuove tecnologie, ma tocca nel profondo gli stessi ingranaggi che quotidianamente lo definiscono."
     	},
     	{
-    		paragraf : "Crediamo sia necessario ripensare la sfera mediatica, combinando i diversi strumenti che il digitale ci offre in modo da facilitare la comprensione dellíutente. » sbagliato pensare che i lettori su Internet siano interessati solamente ad articoli di impatto, veloci e frivoli: il nostro pubblico cerca pi˘ giornalismo immersivo in cui investire tempo e impegno."
+    		paragraf : "Crediamo sia necessario ripensare la sfera mediatica, combinando i diversi strumenti che il digitale ci offre in modo da facilitare la comprensione dell‚Äôutente. √à sbagliato pensare che i lettori su Internet siano interessati solamente ad articoli di impatto, veloci e frivoli: il nostro pubblico cerca pi√π giornalismo immersivo in cui investire tempo e impegno."
     	},
     	{
-    		paragraf : "Per questo abbiamo sposato il linguaggio del visual journalism, che non Ë solamente ìcreativit‡î ma una vera e propria corrente nella quale tutti gli insegnamenti giornalistici vengono criticamente esaminati, e nuovi principi guidano il lavoro della newsroom: forma e contenuto acquisiscono finalmente lo stesso peso e si influenzano a vicenda."
+    		paragraf : "Per questo abbiamo sposato il linguaggio del visual journalism, che non √® solamente ‚Äúcreativit√†‚Äù ma una vera e propria corrente nella quale tutti gli insegnamenti giornalistici vengono criticamente esaminati, e nuovi principi guidano il lavoro della newsroom: forma e contenuto acquisiscono finalmente lo stesso peso e si influenzano a vicenda."
     	},
     	{
-    		paragraf : "» tempo che nelle tradizionali redazioni giornalistiche entrino nuove figure professionali, come visual designer e web developer, e che il loro lavoro venga integrato con quello del giornalista in maniera organica, producendo un feedback continuo e condividendo tutte le parti del processo decisionale."
+    		paragraf : "√à tempo che nelle tradizionali redazioni giornalistiche entrino nuove figure professionali, come visual designer e web developer, e che il loro lavoro venga integrato con quello del giornalista in maniera organica, producendo un feedback continuo e condividendo tutte le parti del processo decisionale."
     	},
     	{
-    		paragraf : "Se Ë vero che il cambiamento Ë líunica costante del giornalismo, allora Ë arrivato il momento di assecondarlo."
+    		paragraf : "Se √® vero che il cambiamento √® l‚Äôunica costante del giornalismo, allora √® arrivato il momento di assecondarlo."
     	}
     ];	
 }]);
