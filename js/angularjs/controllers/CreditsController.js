@@ -1,16 +1,8 @@
-app.controller('CreditsController', ['$scope', function($scope) {
+ï»¿app.controller('CreditsController', ['$scope', function($scope) {
 	$scope.Release = "Release Date";
 	$scope.Data = "01.10.2016";
-	$scope.Link_Visit_Social = [
-		{
-			name : 'facebook',
-			direct : 'https://www.facebook.com/smallcitybigstories/'
-		},
-		{
-			name : 'instagram',
-			direct : 'https://www.instagram.com/smallcitybigstories/'
-		}
-	];
+	$scope.Link_Facebook = 'https://www.facebook.com/smallcitybigstories/';
+	$scope.Link_Instagram = 'https://www.instagram.com/smallcitybigstories/';
 	$scope.Crew = "Crew";
 	$scope.ProjectCrew = [
 		{
@@ -25,22 +17,21 @@ app.controller('CreditsController', ['$scope', function($scope) {
 			name : 'Filippo Gorini',
 			info : 'Web developer'
 		}
-	];	
+	];
 	$scope.Collaboration = "Collaborations";
-	$scope.ProjectCollaboration = [
+	$scope.Videomakers = "Videomakers";
+	$scope.VideomakersName = [
 		{
-			name : 'Mattia Alberani, Filippo Cinotti',
-			info : 'Videomakers'
+			name : 'Mattia Alberani'
 		},
 		{
-			name : 'Cecilia Bertozzi',
-			info : 'Voice over'
-		},
-		{
-			name: 'Hazina Francia',
-			info: 'Sound designer'
+			name : 'Filippo Cinotti'
 		}
 	];
+	$scope.Voiceover = "Voice over";
+	$scope.VoiceoverName = "Cecilia Bertozzi";
+	$scope.Sounddesigner = "Sound designer";
+	$scope.SounddesignerName = "Hazina Francia";
 	$scope.ThankYou = "Thanks to";
 	$scope.ProjectThankYou = [
 		{
@@ -51,35 +42,23 @@ app.controller('CreditsController', ['$scope', function($scope) {
 		},
 		{
 			name : 'Simone Romboli'
-		},
+		}
 	];
 	$scope.creditsTesto = [
     	{
-    		paragraf : "Small city big stories è un progetto di visual journalism che racconta le potenzialità nascoste della dimensione locale attraverso le voci dei suoi protagonisti."
+    		paragraf : "Small city big stories Ã¨ un progetto di visual journalism che racconta le potenzialitÃ  nascoste della dimensione locale attraverso le voci dei suoi protagonisti."
     	},
     	{
-    		paragraf : "Small city, big stories nasce da un’idea dell’associazione Salesiani 2.0 di Faenza, che ha selezionato i 15 intervistati."
+    		paragraf : "Small city, big stories nasce da unâ€™idea dellâ€™associazione Salesiani 2.0 di Faenza, che ha selezionato i 15 intervistati."
     	},
     	{
     		paragraf : "Il brand Scbs e il relativo progetto di visual journalism sono stati interamente concepiti da Luca Gorini, Filippo Gianessi e Filippo Gorini."
     	},
     	{
-    		paragraf : "Abbiamo sviluppato Small city, big stories con l’obbiettivo primario di diffondere l’uso del visual journalism in Italia. Siamo convinti che raccontare l’ecosistema professionale di una città sia la modalità più semplice e immediata per permettere a terzi di applicare le tecniche proprie del visual journalism: per questa ragione abbiamo deciso di rendere Scbs Open Source."
+    		paragraf : "Abbiamo sviluppato Small city, big stories con lâ€™obbiettivo primario di diffondere lâ€™uso del visual journalism in Italia. Siamo convinti che raccontare lâ€™ecosistema professionale di una cittÃ  sia la modalitÃ  piÃ¹ semplice e immediata per permettere a terzi di applicare le tecniche proprie del visual journalism: per questa ragione abbiamo deciso di rendere Scbs Open Source."
     	}
     ];	
-	$scope.ProjectName = "Small city, big stories";
-	$scope.ProjectPowered = [
-		{
-			link : '',
-			logo : ''
-		},
-		{
-			link : '',
-			logo : ''
-		},
-		{
-			link : '',
-			logo : ''
-		}
-	];
+	$scope.Link_Salesiani = 'http://www.salesiani20.it/';
+	$scope.Link_ContaminationLab = 'http://www.salesiani20.it/clab';
+	$scope.Link_Fondazione = 'http://www.fondazionemontefaenza.it/';
 }]);
