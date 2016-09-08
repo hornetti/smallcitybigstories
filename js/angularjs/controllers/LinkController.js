@@ -4,7 +4,7 @@ app.controller('LinkController', ['$scope', function($scope) {
 		direct : 'home'
 	};
 	$scope.Link_Map = {	
-		name : 'Faenza Metro Map',
+		name : 'Faenza',
 		direct : 'map'
 	};
 	$scope.Link_Credits = {
@@ -19,7 +19,7 @@ app.controller('LinkController', ['$scope', function($scope) {
 		name : 'Manifesto',
 		direct : 'manifesto'
 	};
-	$scope.Share = "Share";
+	$scope.Toggle_Share = "Share";
 	$scope.Link_Share = [
 		{
 			name : "Facebook",
@@ -30,13 +30,41 @@ app.controller('LinkController', ['$scope', function($scope) {
 			link : ""
 		}
 	];
-	/*var myAudio = document.getElementById("Music");
+	$scope.Toggle_Fullscreen = "Fullscreen";
+	$scope.Toggle_Music = "Music";
+	/*
 	angular.element(document).ready(function toggleMusic() {
+		var myAudio = document.getElementById("ambientMusic");
 	  	if (myAudio = !myAudio.play()) {
 	  		myAudio.play(); 
 	  	} else {
 	    	myAudio.pause(); 
 	  	}		
-	});*/
-	
+	});	
+	*/
+	angular.element(document).ready(function() {
+		TweenMax.set('.UnderLine', {
+			drawSVG: "0%"
+		});
+		$('#MetroMappa').mouseover(function() {
+			TweenMax.from('.UnderLine', 3, {
+				drawSVG: "0%",
+				ease: Expo.easeOut
+			});
+			TweenMax.to('.UnderLine', 3, {
+				drawSVG: "100%",
+				ease: Expo.easeOut
+			});
+		});
+		$('#MetroMappa').mouseleave(function() {
+			TweenMax.from('.UnderLine', 3, {
+				drawSVG: "100%",
+				ease: Expo.easeOut
+			});
+			TweenMax.to('.UnderLine', 3, {
+				drawSVG: "0%",
+				ease: Expo.easeOut
+			});
+		});
+	});
 }]);
