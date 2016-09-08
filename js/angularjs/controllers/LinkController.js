@@ -49,21 +49,21 @@ app.controller('LinkController', ['$scope', function($scope) {
 		$('#MetroMappa').mouseover(function() {
 			TweenMax.from('.UnderLine', 1, {
 				drawSVG: "0%",
-				ease: Expo.easeOut
+				ease: Expo.easeIn
 			});
 			TweenMax.to('.UnderLine', 1, {
 				drawSVG: "100%",
-				ease: Expo.easeOut
+				ease: Expo.easeIn
 			});
 		});
 		$('#MetroMappa').mouseleave(function() {
 			TweenMax.from('.UnderLine', 1, {
 				drawSVG: "100%",
-				ease: Expo.easeOut
+				ease: Expo.easeIn
 			});
 			TweenMax.to('.UnderLine', 1, {
 				drawSVG: "0%",
-				ease: Expo.easeOut
+				ease: Expo.easeIn
 			});
 		});
 	});
