@@ -47,21 +47,21 @@ app.controller('LinkController', ['$scope', function($scope) {
 			drawSVG: "0%"
 		});
 		$('#MetroMappa').mouseover(function() {
-			TweenMax.from('.UnderLine', 3, {
+			TweenMax.from('.UnderLine', 1, {
 				drawSVG: "0%",
 				ease: Expo.easeOut
 			});
-			TweenMax.to('.UnderLine', 3, {
+			TweenMax.to('.UnderLine', 1, {
 				drawSVG: "100%",
 				ease: Expo.easeOut
 			});
 		});
 		$('#MetroMappa').mouseleave(function() {
-			TweenMax.from('.UnderLine', 3, {
+			TweenMax.from('.UnderLine', 1, {
 				drawSVG: "100%",
 				ease: Expo.easeOut
 			});
-			TweenMax.to('.UnderLine', 3, {
+			TweenMax.to('.UnderLine', 1, {
 				drawSVG: "0%",
 				ease: Expo.easeOut
 			});
