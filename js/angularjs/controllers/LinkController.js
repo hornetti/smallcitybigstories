@@ -46,7 +46,7 @@ app.controller('LinkController', ['$scope', function($scope) {
 		TweenMax.set('.UnderLine', {
 			drawSVG: "0%"
 		});
-		$('#MetroMappa').mouseover(function() {
+		$('.Faenza').mouseover(function() {
 			TweenMax.from('.UnderLine', 1, {
 				drawSVG: "0%",
 				ease: Expo.easeIn
@@ -56,7 +56,7 @@ app.controller('LinkController', ['$scope', function($scope) {
 				ease: Expo.easeIn
 			});
 		});
-		$('#MetroMappa').mouseleave(function() {
+		$('.Faenza').mouseleave(function() {
 			TweenMax.from('.UnderLine', 1, {
 				drawSVG: "100%",
 				ease: Expo.easeIn
