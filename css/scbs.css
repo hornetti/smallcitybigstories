@@ -666,9 +666,9 @@ CREDITS
   fill: #D0D2D3;
 }
 .PressKit{
- font-family: 'Work Sans', sans-serif;
- font-weight: 600;
- font-size: 7.5px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 7.5px;
 }
 .SCBS {
   font-family: 'Titillium Web', sans-serif;
@@ -718,6 +718,43 @@ CONTACT US
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
+.ContactScbs > label {
+  width: 49%;
+  float: left;
+  height: 60px;
+  padding: 0;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #333;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.ContactScbs > label > input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding: 0;
+  margin: 10px 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #333;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.ContactScbs > label > p {
+  text-align: left;
+  padding: 0;
+  margin: 5px 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background-color: transparent;
+}
 .ContactScbs > input:focus,
 .ContactScbs > textarea:focus {
   font-size: 20px;
@@ -728,7 +765,8 @@ CONTACT US
 }
 .ButtonSubmit {
   position: relative;
-  width: 100%;
+  width: 49%;
+  float: right;
   height: 60px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
