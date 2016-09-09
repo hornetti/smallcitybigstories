@@ -452,27 +452,15 @@ MAP
 .ContainerLegendaMetro {
   padding-left: 5px;
 }
-.ContainerLegendaMetro > h4 {
-  font-size: 15px;
-  text-align: left;
-  color: #fff;
-}
 .ContainerLegendaMetro > svg {
   margin: 10px auto;
 }
 .ContainerProfileMetro {
   padding-left: 5px;
 }
-.ContainerProfileMetro > h4 {
-  font-size: 15px;
-  text-align: left;
-  color: #fff;
-  padding-bottom: 2px;
-  margin-top: 20px;
-  border-bottom: 2px solid #ff6666;
-}
 .ContainerProfileMetro > svg {
   margin: 10px auto;
+  float: left;
 }
 /*
 
