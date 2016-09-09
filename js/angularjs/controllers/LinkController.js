@@ -49,21 +49,21 @@ app.controller('LinkController', ['$scope', function($scope) {
 		$('.Faenza').mouseover(function() {
 			TweenMax.from('.UnderLine', 0.4, {
 				drawSVG: "0%",
-				ease: Expo.easeIn
+				ease: Expo.easeOut
 			});
 			TweenMax.to('.UnderLine', 0.4, {
 				drawSVG: "100%",
-				ease: Expo.easeIn
+				ease: Expo.easeOut
 			});
 		});
 		$('.Faenza').mouseleave(function() {
 			TweenMax.from('.UnderLine', 0.25, {
 				drawSVG: "100%",
-				ease: Expo.easeIn
+				ease: Expo.easeOut
 			});
 			TweenMax.to('.UnderLine', 0.25, {
 				drawSVG: "0%",
-				ease: Expo.easeIn
+				ease: Expo.easeOut
 			});
 		});
 	});
