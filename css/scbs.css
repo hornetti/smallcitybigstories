@@ -8,7 +8,6 @@ OFFLINE
   color: #ff6666;
   text-decoration: none;
 }
-
 @media (max-width: 768px) {
   .OfflineTitle {
     font: 60px 'Titillium Web', sans-serif;
@@ -49,7 +48,6 @@ OFFLINE
     cursor: pointer;
   }  
 }
-
 @media (min-width: 768px) and (max-width: 992px) {
   .OfflineTitle {
     font: 80px 'Titillium Web', sans-serif;
@@ -85,7 +83,6 @@ OFFLINE
     cursor: pointer;
   }  
 }
-
 @media (min-width: 992px) and (max-width: 1200px) {
   .OfflineTitle {
     font: 100px 'Titillium Web', sans-serif;
@@ -119,7 +116,6 @@ OFFLINE
     cursor: pointer;
   }  
 }
-
 @media (min-width: 1200px) {
   .OfflineTitle {
     font: 100px 'Titillium Web', sans-serif;
