@@ -174,6 +174,22 @@ MAIN CLASS
   fill: #00FF99;
   color: #00FF99;
 }
+.FOODColorAux {
+  fill: #990066;
+  color: #990066;
+}
+.PTEKColorAux {
+  fill: #ff9900;
+  color: #ff9900;
+}
+.MAVColorAux {
+  fill: #99ccff;
+  color: #99ccff;
+}
+.ITColorAux {
+  fill: #99ff99;
+  color: #99ff99;
+}
 .WColor {
   fill: #FFFFFF;
   color: #FFFFFF;
@@ -191,6 +207,56 @@ MAIN CLASS
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   font-size: 12px;
+}
+.Bold15 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+.Regular15 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.Bold18 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.Regular18 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.Bold21 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+}
+.Regular21 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+}
+.Bold32 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+.Regular32 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+.Bold36 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+.Regular36 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
 }
 /*
 
@@ -489,7 +555,6 @@ PROFILE
   margin-bottom: 10px;
 }
 .TitoloProfilo {
-  font-size: 32px;
   float: left;
 }
 .Backto {
@@ -969,4 +1034,140 @@ ANIMATIONS
 }
 .animationview.ng-leave-active {
   opacity: 0;
+}
+/*
+
+DATA VISUALITION
+
+*/
+.Grid {
+  fill: none;
+  stroke: #ffffff;
+  stroke-mitelimit: 10;
+}
+.GstatLine {
+  fill: none;
+  stroke: #333333;
+  stroke-width: 10;
+  stroke-miterlimit: 10;  
+}
+.FOODstatLine {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.ITstatLine {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.MAVstatLine {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.PTEKstatLine {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.FOODstatLineAux {
+  fill: none;
+  stroke: #990066;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.ITstatLineAux {
+  fill: none;
+  stroke: #99ff99;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.MAVstatLineAux {
+  fill: none;
+  stroke: #99ccff;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.PTEKstatLineAux {
+  fill: none;
+  stroke: #ff9900;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.FOODCircle {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.PTEKCircle {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.MAVCircle {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.ITCircle {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.FOODreadingLine {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.ITreadingLine {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.MAVreadingLine {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.PTEKreadingLine {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.FOODlabel {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 15;
+  stroke-miterlimit: 10;
+}
+.ITlabel {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 15;
+  stroke-miterlimit: 10;
+}
+.MAVlabel {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 15;
+  stroke-miterlimit: 10;
+}
+.PTEKlabel {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 15;
+  stroke-miterlimit: 10;
 }
