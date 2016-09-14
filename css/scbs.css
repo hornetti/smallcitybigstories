@@ -524,7 +524,7 @@ MAP
   stroke-miterlimit: 10;
 }
 .ContainerLegendaMetro {
-  padding-left: 5px;
+  text-align: left;
 }
 .ContainerLegendaMetro > svg {
   margin: 5px auto;
@@ -566,6 +566,7 @@ PROFILE
 }
 .TitoloProfilo {
   float: left;
+  text-align: left;
 }
 .Backto {
   cursor: pointer;
@@ -604,13 +605,11 @@ PROFILE
 }
 */
 .NameCompany {
-  font-size: 15px;
   margin: 10px auto 0;
   text-align: left;
 }
 .BioCompany {
   color: #fff;
-  font-size: 12px;
   margin: 10px auto 0;
   text-align: left;
 }
@@ -633,7 +632,6 @@ PROFILE
   padding-left: 0;
 }
 .Infografica {
-  font-size: 36px;
   margin: 0 auto;
   text-align: left;
 }
@@ -641,7 +639,6 @@ PROFILE
   margin: 5px 0;
 }
 .TestoInfografica {
-  font-size: 15px;
   color: #fff;
   margin: 0 auto 30px;
   text-align: left;
@@ -655,6 +652,11 @@ PROFILE
   text-decoration: none;
   color: #fff;
 }
+/*
+
+BACK TO MAP
+
+*/
 .stroke {
   fill: none;
   stroke: #ff6666;
@@ -662,7 +664,6 @@ PROFILE
 }
 .txt {
   font-family: 'Work Sans', sans-serif;
-  font-size: 12px;
   fill: #ff6666;
 }
 /*
