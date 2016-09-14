@@ -195,8 +195,8 @@ MAIN CLASS
   color: #FFFFFF;
 }
 .GColor {
-  fill: #333333;
-  color: #333333;
+  fill: #666666;
+  color: #666666;
 }
 .Bold12 {
   font-family: 'Work Sans', sans-serif;
@@ -257,6 +257,16 @@ MAIN CLASS
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   font-size: 36px;
+}
+.Bold42 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+}
+.Regular42 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 42px;
 }
 /*
 
@@ -1045,9 +1055,21 @@ DATA VISUALITION
   stroke: #ffffff;
   stroke-mitelimit: 10;
 }
+.Grid2 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-mitelimit: 10;
+}
+.BstatLine {
+fill: none;
+stroke: #000000;
+stroke-width: 15;
+stroke-miterlimit: 10; 
+}
 .GstatLine {
   fill: none;
-  stroke: #333333;
+  stroke: #666666;
   stroke-width: 10;
   stroke-miterlimit: 10;  
 }
@@ -1170,4 +1192,34 @@ DATA VISUALITION
   stroke: #FFFF00;
   stroke-width: 15;
   stroke-miterlimit: 10;
+}
+.FOODCircle {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.PTEKCircle {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.MAVCircle {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.ITCircle {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.GlobalLocal {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 5;
+  stroke-miterlimit: 10;  
 }
