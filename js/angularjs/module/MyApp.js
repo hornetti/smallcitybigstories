@@ -83,36 +83,36 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       templateUrl: 'js/angularjs/views/interviewed/MaurizioFionda.html'
     })
     .when('/map/service', {
-      controller: 'DatavizController',
-      templateUrl: 'js/angularjs/views/dataviz/Service.html'
+      controller: 'ServiceController',
+      templateUrl: 'js/angularjs/views/datavisualization/Service.html'
     })
     .when('/map/employees', {
-      controller: 'DatavizController',
-      templateUrl: 'js/angularjs/views/dataviz/Employees.html'
+      controller: 'EmployeesController',
+      templateUrl: 'js/angularjs/views/datavisualization/Employees.html'
     })
     .when('/map/foundation', {
-      controller: 'DatavizController',
-      templateUrl: 'js/angularjs/views/dataviz/Foundation.html'
+      controller: 'FoundationController',
+      templateUrl: 'js/angularjs/views/datavisualization/Foundation.html'
     })
     .when('/map/revenue', {
-      controller: 'DatavizController',
-      templateUrl: 'js/angularjs/views/dataviz/Revenue.html'
+      controller: 'RevenueController',
+      templateUrl: 'js/angularjs/views/datavisualization/Revenue.html'
     })
     .when('/map/economic_growth', {
-      controller: 'DatavizController',
-      templateUrl: 'js/angularjs/views/dataviz/Economic_growth.html'
+      controller: 'EcgrowthController',
+      templateUrl: 'js/angularjs/views/datavisualization/Economic_growth.html'
     })
-    .when('/map/type', {
-      controller: 'DatavizController',
-      templateUrl: 'js/angularjs/views/dataviz/Type.html'
+    .when('/map/type_market', {
+      controller: 'TypemarketController',
+      templateUrl: 'js/angularjs/views/datavisualization/Type_market.html'
     })
     .when('/map/reference_market', {
-      controller: 'DatavizController',
-      templateUrl: 'js/angularjs/views/dataviz/Reference_market.html'
+      controller: 'RefmarketController',
+      templateUrl: 'js/angularjs/views/datavisualization/Reference_market.html'
     })
     .when('/map/motivations', {
-      controller: 'DatavizController',
-      templateUrl: 'js/angularjs/views/dataviz/Motivations.html'
+      controller: 'MotivationsController',
+      templateUrl: 'js/angularjs/views/datavisualization/Motivations.html'
     })
     .otherwise({ 
       redirectTo: '/map' 
