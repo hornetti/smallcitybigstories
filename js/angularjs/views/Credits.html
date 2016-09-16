@@ -2,34 +2,34 @@
 	<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
 		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 			<div class="CreditsContainer">
-				<p class="CreditsTitle">{{ Crew }}</p>
+				<p class="CreditsTitle MAINColor Bold15">{{ Crew }}</p>
 				<div ng-repeat="crew in ProjectCrew">
-					<p class="CreditsPosition">{{ crew.info }}</p>
-					<p class="CreditsName">{{ crew.name }}</p>		
+					<p class="CreditsClass WColor Regular12">{{ crew.info }}</p>
+					<p class="CreditsClass WColor Bold15">{{ crew.name }}</p>		
 				</div>
 			</div>
 			<div class="CreditsContainer">
-				<p class="CreditsTitle">{{ Release }}</p>
-				<p class="CreditsName">{{ Data }}</p>
+				<p class="CreditsTitle MAINColor Bold15">{{ Release }}</p>
+				<p class="CreditsClass WColor Bold15">{{ Data }}</p>
 			</div>
 			<div class="CreditsContainer">
-				<p class="CreditsTitle">{{ Collaboration }}</p>
-				<p class="CreditsPosition">{{ Videomakers }}</p>
-				<p class="CreditsName" ng-repeat="vmn in VideomakersName">{{ vmn.name }}</p>
-				<p class="CreditsPosition">{{ Voiceover }}</p>
-				<p class="CreditsName">{{ VoiceoverName }}</p>
-				<p class="CreditsPosition">{{ Sounddesigner }}</p>
-				<p class="CreditsName">{{ SounddesignerName }}</p>
+				<p class="CreditsTitle MAINColor Bold15">{{ Collaboration }}</p>
+				<p class="CreditsClass WColor Regular12">{{ Videomakers }}</p>
+				<p class="CreditsClass WColor Bold15" ng-repeat="vmn in VideomakersName">{{ vmn.name }}</p>
+				<p class="CreditsClass WColor Regular12">{{ Voiceover }}</p>
+				<p class="CreditsClass WColor Bold15">{{ VoiceoverName }}</p>
+				<p class="CreditsClass WColor Regular12">{{ Sounddesigner }}</p>
+				<p class="CreditsClass WColor Bold15">{{ SounddesignerName }}</p>
 			</div>
 			<div class="CreditsContainer">
-				<p class="CreditsTitle">{{ ThankYou }}</p>
-				<p class="CreditsName" ng-repeat="tnku in ProjectThankYou">{{ tnku.name }}</p>
+				<p class="CreditsTitle MAINColor Bold15">{{ ThankYou }}</p>
+				<p class="CreditsClass WColor Bold15" ng-repeat="tnku in ProjectThankYou">{{ tnku.name }}</p>
 			</div>
 		</div>
 		<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
 			<div class="row">
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<p class="CreditsTitle">Social channels</p>
+					<p class="CreditsTitle MAINColor Bold15">Social channels</p>
 					<ul class="ButtonExample">
 						<li>
 							<a ng-href="{{ Link_Facebook }}" target="_blank">
@@ -60,7 +60,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<p class="CreditsTitle">Downloads</p>
+					<p class="CreditsTitle MAINColor Bold15">Downloads</p>
 					<ul class="ButtonExample">
 						<li>
 							<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
@@ -119,10 +119,10 @@
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="credits in creditsTesto">
-					<p class="ContainerQwerty"> {{ credits.paragraf }}</p>
+					<p class="BioProject WColor Regular15"> {{ credits.paragraf }}</p>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<p class="ContainerQwertySmall">Per saperne di più sul metodo di lavoro utilizzato d Scbs scarica il report. Per portare Scbs nella tua città contattaci. </p>
+					<p class="BioProject WColor Regular12">Per saperne di più sul metodo di lavoro utilizzato d Scbs scarica il report. Per portare Scbs nella tua città contattaci. </p>
 				</div>
 				<div class="ContainerPowered col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="82px" height="82px" viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
@@ -186,14 +186,14 @@
 					</a>
 					<a class="Sponsor" ng-href="{{ Link_Fondazione }}" target="_blank">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="82px" height="82px" viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
-						<g id="fondazione">
+						<g id="Fondazione">
 							<g>
-								<text transform="matrix(1 0 0 1 10.2896 16.4404)" class="fondazione WColor">fondazione </text>
-								<text transform="matrix(1 0 0 1 10.2896 27.6406)" class="fondazione WColor">BANCA DEL</text>
-								<text transform="matrix(1 0 0 1 10.2896 38.8408)" class="fondazione WColor">MONTE </text>
-								<text transform="matrix(1 0 0 1 10.2896 50.04)" class="fondazione WColor">E CASSA DI</text>
-								<text transform="matrix(1 0 0 1 10.2896 61.2402)" class="fondazione WColor">RISPARMIO </text>
-								<text transform="matrix(1 0 0 1 10.2896 72.4404)" class="fondazione WColor">FAENZA</text>
+								<text transform="matrix(1 0 0 1 10.2896 16.4404)" class="Fondazione WColor">fondazione </text>
+								<text transform="matrix(1 0 0 1 10.2896 27.6406)" class="Fondazione WColor">BANCA DEL</text>
+								<text transform="matrix(1 0 0 1 10.2896 38.8408)" class="Fondazione WColor">MONTE </text>
+								<text transform="matrix(1 0 0 1 10.2896 50.04)" class="Fondazione WColor">E CASSA DI</text>
+								<text transform="matrix(1 0 0 1 10.2896 61.2402)" class="Fondazione WColor">RISPARMIO </text>
+								<text transform="matrix(1 0 0 1 10.2896 72.4404)" class="Fondazione WColor">FAENZA</text>
 							</g>
 						</g>
 						<rect x="3.5" y="3.2" class="WLine2px" width="75" height="75"/>
