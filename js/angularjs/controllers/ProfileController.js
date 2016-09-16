@@ -2,11 +2,10 @@ app.controller('ProfileController', ['$scope', function($scope) {
 	$scope.Link_Revenue = 'map/revenue';
 	$scope.Link_Employees = 'map/employees';
 	$scope.Link_Foundation = 'map/foundation';
-	$scope.Link_Motivation = 'map/motivation';
-	$scope.Link_Service = 'map/service';
+	$scope.Link_Motivation = 'map/motivations';
 	$scope.Link_Market = 'map/reference_market';
 	$scope.Link_Growth = 'map/economic_growth';
-	$scope.Link_Type = 'map/type';
+	$scope.Link_Type = 'map/type_market';
 	$scope.legends = [
     	{
     		element : " A — C'erano occasioni che andavano colte"
