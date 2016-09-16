@@ -328,9 +328,9 @@ TOOLTIP
   float: left;
 }
 button + .tooltip > .tooltip-inner {
-  font-family: 'Work Sans', sans-serif;
   background: #000;
-  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
   font-size: 12px;
 }
 /*
@@ -385,11 +385,6 @@ HOME
   stroke: #FF6666;
   stroke-width: 1;
   stroke-miterlimit: 10;
-}
-.Enter {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  font-size: 15px;
 }
 .Sigla { 
   position: fixed;
@@ -677,21 +672,11 @@ CREDITS
 .CreditsTitle {
   text-align: left;
   margin-bottom: 5px;
-  color: #ff6666;
-  font-size: 15px;
 }
-.CreditsPosition {
+.CreditsClass {
   text-align: left;
   margin-bottom: 2px;
-  color: #fff;
-  font-size: 12px;
-}
-.CreditsName {
-  text-align: left;
-  margin-bottom: 2px;
-  color: #fff;
-  font-size: 15px;
-}
+} 
 .ButtonExample {
   margin-bottom: 15px;
   padding: 0;
@@ -702,17 +687,9 @@ CREDITS
   display: inline-block;
   cursor: pointer;
 }
-.ContainerQwerty {
+.BioProject {
   text-align: left;
   margin: 5px 0;
-  color: #fff;
-  font-size: 15px;  
-}
-.ContainerQwertySmall {
-  text-align: left;
-  margin: 5px 0;
-  color: #fff;
-  font-size: 12px;  
 }
 .ContainerPowered {
   text-align: left;
@@ -753,7 +730,7 @@ CREDITS
   font-size: 33px;
   letter-spacing: 3pt;
 }
-.fondazione {
+.Fondazione {
   font-family: 'Droid Serif', serif;
   font-size: 10px;
   font-weight: 600;
@@ -765,18 +742,12 @@ CONTACT US
 */
 .ContactTitle {
   text-align: left;
-  font-weight: 600;
-  color: #ff6666;
-  font-size: 32px;
 }
 .ContactScbs > input {
   width: 100%;
   height: 50px;
   padding: 0 15px;
   margin-bottom: 10px;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
   background-color: transparent;
   border: 3px solid #333;
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
@@ -787,9 +758,6 @@ CONTACT US
   height: 200px;
   padding: 10px 15px;
   margin-bottom: 10px;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
   background-color: transparent;
   border: 3px solid #333;
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
@@ -801,9 +769,6 @@ CONTACT US
   height: 60px;
   padding: 0;
   margin: 0px;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
   background-color: transparent;
   border: 3px solid #333;
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
@@ -815,9 +780,6 @@ CONTACT US
   float: left;
   padding: 0;
   margin: 10px 15px;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
   background-color: transparent;
   border: 3px solid #333;
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
@@ -827,9 +789,6 @@ CONTACT US
   text-align: left;
   padding: 0;
   margin: 5px 0;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
   background-color: transparent;
 }
 .ContactScbs > input:focus,
@@ -845,9 +804,6 @@ CONTACT US
   width: 49%;
   float: right;
   height: 60px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  color: #ff6666;
   background: transparent;
   border: 3px solid #ff6666;
   cursor: pointer;
@@ -860,7 +816,6 @@ CONTACT US
   opacity: 1;
   transform: translate3d(80px, 0px, 0px);
   margin: 2px 0;
-  font-size: 15px;
   padding: 14.5px 0;
 }
 .ButtonSubmit > svg {
@@ -885,9 +840,6 @@ MANIFESTO
 */
 .ManifestoTitle {
   text-align: left;
-  font-weight: 600;
-  color: #ff6666;
-  font-size: 32px;
 }
 /*
 
@@ -1048,7 +1000,7 @@ ANIMATIONS
 }
 /*
 
-DATA VISUALITION
+DATA VISUALIZATION
 
 */
 .Grid {
@@ -1063,10 +1015,10 @@ DATA VISUALITION
   stroke-mitelimit: 10;
 }
 .BstatLine {
-fill: none;
-stroke: #000000;
-stroke-width: 15;
-stroke-miterlimit: 10; 
+  fill: none;
+  stroke: #000000;
+  stroke-width: 15;
+  stroke-miterlimit: 10; 
 }
 .GstatLine {
   fill: none;
@@ -1122,6 +1074,7 @@ stroke-miterlimit: 10;
   stroke-width: 10;
   stroke-miterlimit: 10;
 }
+/*
 .FOODCircle {
   fill: none;
   stroke: #FF3366;
@@ -1145,6 +1098,31 @@ stroke-miterlimit: 10;
   stroke: #00FF99;
   stroke-width: 10;
   stroke-miterlimit: 10;
+}
+*/
+.FOODCircle {
+  fill: none;
+  stroke: #FF3366;
+  stroke-width: 15;
+  stroke-miterlimit: 15;
+}
+.PTEKCircle {
+  fill: none;
+  stroke: #FFFF00;
+  stroke-width: 15;
+  stroke-miterlimit: 15;
+}
+.MAVCircle {
+  fill: none;
+  stroke: #0099FF;
+  stroke-width: 15;
+  stroke-miterlimit: 15;
+}
+.ITCircle {
+  fill: none;
+  stroke: #00FF99;
+  stroke-width: 15;
+  stroke-miterlimit: 15;
 }
 .FOODreadingLine {
   fill: none;
@@ -1192,30 +1170,6 @@ stroke-miterlimit: 10;
   fill: none;
   stroke: #FFFF00;
   stroke-width: 15;
-  stroke-miterlimit: 10;
-}
-.FOODCircle {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.PTEKCircle {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.MAVCircle {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.ITCircle {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 10;
   stroke-miterlimit: 10;
 }
 .GlobalLocal {
