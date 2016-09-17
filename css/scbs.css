@@ -633,8 +633,12 @@ PROFILE
 .Infografica > img {
   margin: 5px 0;
 }
+.Interlinea {
+  line-height: 1.1;
+  margin-top: 5px;
+}
 .TestoInfografica {
-  color: #fff;
+  /* color: #fff; */
   margin: 0 auto 30px;
   text-align: left;
 }
