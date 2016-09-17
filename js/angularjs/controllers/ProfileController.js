@@ -50,6 +50,18 @@ app.controller('ProfileController', ['$scope', function($scope) {
 			ease: Expo.easeOut,
 			delay: 2
 		});
+		$('.count').each(function () {
+		    $(this).prop('Counter',0).animate({
+		        Counter: $(this).text()
+		    }, {
+		        duration: 2000,
+		        easing: 'swing',
+		        delay: 1.5,
+		        step: function (now) {
+		            $(this).text(Math.ceil(now));
+		        }
+		    });
+		});
 	});
 	/**   VideoJS   **/
 	/*
