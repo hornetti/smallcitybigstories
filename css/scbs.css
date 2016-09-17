@@ -843,7 +843,7 @@ MANIFESTO
 }
 /*
 
-TOP MENU
+MENU
 
 */
 .TopMenu {
@@ -853,32 +853,34 @@ TOP MENU
   width: 100%;
   border-bottom: 1px solid #ff6666;
 }
-.Logo {
-  color: #ff6666;
-  padding: 0px;
-  width: 50%;
+.BottomMenu {
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #fff;
 }
-.Logo > a {
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 900;
-  font-size: 20px;
-  color: #ff6666;
+.LeftMenu {
   padding: 10px 15px;
+  width: 50%;
   float: left;
+  text-align: left;
 }
-.Logo > a:hover,
-.Logo > a:focus {
-  color: #ff6666;
-  text-decoration: none;
-}
-.Nav {
-  padding-top: 13px;
+.RightMenu {
+  padding: 10px 15px;
   width: 50%;
   float: right;
   text-align: right;
 }
-.Nav > a {
-  margin: 5px 20px;
+.LeftMenu > a,
+.RightMenu > a {
+  padding: 0 10px;
+  cursor: pointer;
+}
+.Logo {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
 }
 .Faenza {
   font: 18px 'Work Sans', sans-serif;
@@ -889,84 +891,34 @@ TOP MENU
   stroke-width:2;
   stroke-miterlimit:10;
 }
-/*
-
-BOTTOM MENU
-
-*/
-.BottomMenu {
-  background-color: #000;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  border-top: 1px solid #fff;
-}
-.VisitMenu {
-  padding: 0px;
+.LeftBottomMenu {
+  padding: 0px 15px;
   width: 50%;
   float: left;
   text-align: left;
 }
-.VisitMenu > ul > li {
-  display: inline-block;
-}
-.VisitMenu > ul > li > a {
-  font: 12px 'Work Sans', sans-serif;
-  color: #fff;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-.VisitMenu > ul > li > a:hover,
-.VisitMenu > ul > li > a:focus {
-  background-color: transparent;
-  color: #ff6666;
-  text-decoration: none;
-}
-.TechnicalMenu {
-  padding: 0px;
+.RightBottomMenu {
+  padding: 0px 15px;
   width: 50%;
   float: right;
   text-align: right;
 }
-.TechnicalMenu > a {
-  font: 12px 'Work Sans', sans-serif;
-  color: #fff;
+.LeftBottomMenu > a,
+.RightBottomMenu > a,
+.ContainerSocial > a,
+.ContainerSocial > p {
   padding: 5px 10px;
+  margin: 0;
+  display: inline-block;
   cursor: pointer;
-  background: #000;
-}
-.TechnicalMenu > a:hover,
-.TechnicalMenu > a:focus {
-  background-color: transparent;
-  color: #ff6666;
-  text-decoration: none;
 }
 .ContainerSocial {
   display: inline-block;
 }
-.Share {
-  font: 12px 'Work Sans', sans-serif;
-  padding: 5px 10px;
-  margin: 0;
-  color: #fff;
-  display: inline-block;
-  cursor: pointer;
-}
-.Share:hover,
-.Share:focus {
-  color: #ff6666;
-  text-decoration: none;
-}
-.SocialShare {
-  font: 12px 'Work Sans', sans-serif;
-  padding: 5px 10px;
-  margin: 0;
-  color: #fff;
-  display: inline-block;
-  cursor: pointer;
-}
-.SocialShare:hover,
-.SocialShare:focus {
+.ContainerSocial > a:hover,
+.ContainerSocial > a:focus,
+.ContainerSocial > p:hover,
+.ContainerSocial > p:focus {
   color: #ff6666;
   text-decoration: none;
 }
