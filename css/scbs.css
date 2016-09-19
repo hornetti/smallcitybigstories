@@ -162,17 +162,33 @@ MAIN CLASS
   fill: #FF3366;
   color: #FF3366;
 }
+.FOODStroke {
+  fill: none;
+  stroke: #FF3366;
+}
 .PTEKColor {
   fill: #FFFF00;
   color: #FFFF00;
+}
+.PTEKStroke {
+  fill: none;
+  stroke: #FFFF00;
 }
 .MAVColor {
   fill: #0099FF;
   color: #0099FF;
 }
+.MAVStroke {
+  fill: none;
+  stroke: #0099FF;
+}
 .ITColor {
   fill: #00FF99;
   color: #00FF99;
+}
+.ITStroke {
+  fill: none;
+  stroke: #00FF99;
 }
 .FOODColorAux {
   fill: #990066;
@@ -650,6 +666,55 @@ PROFILE
 .DataLink:focus {
   text-decoration: none;
   color: #fff;
+  stroke: #fff;
+}
+.Stroke2px {
+  stroke: inherit;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.Stroke5px {
+  stroke: inherit;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.Stroke2pxLinecap {
+  stroke: inherit;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.Stroke5pxLinecap {
+  stroke: inherit;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.Stroke2pxLinejoinbevel {
+  stroke: inherit;
+  stroke-width: 2;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}
+.Stroke5pxLinejoinbevel {
+  stroke: inherit;
+  stroke-width: 5;
+  stroke-linejoin: bevel;
+  stroke-miterlimit: 10;
+}
+.Stroke2pxLinejoinround {
+  stroke: inherit;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.Stroke5pxLinejoinround {
+  stroke: inherit;
+  stroke-width: 5;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
 }
 /*
 
@@ -664,6 +729,7 @@ BACK TO MAP
 .txt {
   font-family: 'Work Sans', sans-serif;
   fill: #ff6666;
+  stroke: none;
 }
 /*
 
