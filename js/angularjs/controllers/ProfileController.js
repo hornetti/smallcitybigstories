@@ -62,6 +62,39 @@ app.controller('ProfileController', ['$scope', function($scope) {
 		        }
 		    });
 		});
+		/*
+
+		ANIMATION SERVICE
+
+		*/
+		var PTEK = ['.PTEKStroke5px', '.PTEKStroke2px'];
+		var IT = ['.ITStroke5px', '.ITStroke2px'];
+		var MAV = ['.MAVStroke5px', '.MAVStroke2px'];
+		var FOOD = ['.FOODStroke5px', '.FOODStroke2px','.FOODStroke5pxLinejoinbevel', '.FOODStroke5pxLinejoinround', '.FOODStroke5pxLinecap'];
+		TweenMax.staggerFrom(PTEK, 2, {
+		    drawSVG: 0, 
+		    delay: 0,
+		    ease: Expo.easeOut,
+		    force3D: true
+		}, 0.5);
+		TweenMax.staggerFrom(IT, 2, {
+		    drawSVG: 0, 
+		    delay: 0,
+		    ease: Expo.easeOut,
+		    force3D: true
+		}, 0.5);
+		TweenMax.staggerFrom(MAV, 2, {
+		    drawSVG: 0, 
+		    delay: 0,
+		    ease: Expo.easeOut,
+		    force3D: true
+		}, 0.5);
+		TweenMax.staggerFrom(FOOD, 2, {
+		    drawSVG: 0, 
+		    delay: 0,
+		    ease: Expo.easeOut,
+		    force3D: true
+		}, 0.5);
 	});
 	/**   VideoJS   **/
 	/*
