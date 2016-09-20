@@ -289,9 +289,7 @@ MAIN CLASS
 Base structure
 
 */
-*:focus {
-  outline: none;
-}
+
 html {
   height: 100%;
   width: 100%;  
@@ -314,11 +312,15 @@ body {
   padding: 0 15px;
   margin: auto;
 }
-a {
-  color: inherit;
+*:hover,
+*:focus {
+  outline: none;
 }
+a,
 a:hover,
 a:focus {
+  cursor: pointer;
+  fill: inherit;
   color: inherit;
   text-decoration: none;
 }
@@ -357,8 +359,12 @@ HOME
 #Logo {
   margin: 50px 0;
 }
+#enter {
+  margin: 10px 0;
+}
 .StrokePages {
-  fill:none;stroke:#FFFFFF;
+  fill:none;
+  stroke:#FFFFFF;
   stroke-width:6;
   stroke-linecap:round;
   stroke-miterlimit:10;
@@ -399,7 +405,7 @@ HOME
 .MAINStroke2px {
   fill: none;
   stroke: #FF6666;
-  stroke-width: 1;
+  stroke-width: 2;
   stroke-miterlimit: 10;
 }
 .Sigla { 
