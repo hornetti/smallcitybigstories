@@ -51,7 +51,7 @@ app.controller('ProfileController', ['$scope', function($scope) {
 			delay: 2
 		});
 		$('.count').each(function () {
-		    $(this).prop('Counter',0).animate({
+		    $(this).prop('Counter', 0).animate({
 		        Counter: $(this).text()
 		    }, {
 		        duration: 2000,
@@ -67,29 +67,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
 		ANIMATION SERVICE
 
 		*/
-		var PTEK = ['.PTEKStroke5px', '.PTEKStroke2px'];
-		var IT = ['.ITStroke5px', '.ITStroke2px'];
-		var MAV = ['.MAVStroke5px', '.MAVStroke2px'];
-		var FOOD = ['.FOODStroke5px', '.FOODStroke2px','.FOODStroke5pxLinejoinbevel', '.FOODStroke5pxLinejoinround', '.FOODStroke5pxLinecap'];
-		TweenMax.staggerFrom(PTEK, 2, {
-		    drawSVG: 0, 
-		    delay: 0,
-		    ease: Expo.easeOut,
-		    force3D: true
-		}, 0.5);
-		TweenMax.staggerFrom(IT, 2, {
-		    drawSVG: 0, 
-		    delay: 0,
-		    ease: Expo.easeOut,
-		    force3D: true
-		}, 0.5);
-		TweenMax.staggerFrom(MAV, 2, {
-		    drawSVG: 0, 
-		    delay: 0,
-		    ease: Expo.easeOut,
-		    force3D: true
-		}, 0.5);
-		TweenMax.staggerFrom(FOOD, 2, {
+		var STROKE = ['.Stroke5px', '.Stroke2px','.Stroke5pxLinejoinbevel', '.Stroke5pxLinejoinround', '.Stroke5pxLinecap'];
+		TweenMax.staggerFrom(STROKE, 2, {
 		    drawSVG: 0, 
 		    delay: 0,
 		    ease: Expo.easeOut,
