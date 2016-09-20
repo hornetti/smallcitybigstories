@@ -82,10 +82,6 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/MaurizioFionda.html'
     })
-    .when('/map/service', {
-      controller: 'ServiceController',
-      templateUrl: 'js/angularjs/views/datavisualization/Service.html'
-    })
     .when('/map/employees', {
       controller: 'EmployeesController',
       templateUrl: 'js/angularjs/views/datavisualization/Employees.html'
