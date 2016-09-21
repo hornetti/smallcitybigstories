@@ -585,6 +585,10 @@ PROFILE
   padding-right: 0px;
   margin-bottom: 10px;
 }
+.MarginTop {
+  padding-right: 0;
+  margin-top: 25px;
+}
 .TitoloProfilo {
   float: left;
   text-align: left;
@@ -593,6 +597,23 @@ PROFILE
   cursor: pointer;
   float: right;
   margin: 5px 0;
+}
+.FloatSx {
+  float: left;
+  text-align: left;
+}
+.FloatDx {
+  float: right;
+  text-align: right;
+}
+.FloatSx > svg + p {
+  display: inline-block;
+  margin: 0;
+}
+.FloatDx > p {
+  display: inline-block;
+  padding-right: 5px;
+  margin: 0;
 }
 #IvanoValmori, #GabrieleBandini, #AnnaTampieri, #GiuliaRuta, #RobertoBertoni, #AndreaMartelli, #MarcoPeroni, #BarbaraSavorani, #StefanoZauli, #AndreaSalvatori, #RaffaeleBorgini, #MaurizioFionda, #PaoloRava, #MarcoTamba, #FabrizioMantovani {
   padding: 0;
