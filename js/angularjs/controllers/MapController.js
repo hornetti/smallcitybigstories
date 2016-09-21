@@ -391,12 +391,9 @@ app.controller('MapController', ['$scope', function($scope) {
 
 		*/
 		$("#fillValmori").mouseover(function() {
-		    $(this).css({'fill': '#fff'});
-		    $("div.ContainerProfileMetro").html("<svg id='interviewed' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='150px' height='150px' viewBox='0 0 150 150' style='enable-background:new 0 0 150 150;' xml:space='preserve'><g id='Circle'><circle class='ITstatLine' cx='74.8' cy='83.8' r='59.8'/></g><g id='Text'>	<text transform='matrix(1 0 0 1 36.2949 81.8008)'><tspan x='0' y='0' class='Regular21 WColor'>coming</tspan><tspan x='13' y='20.2' class='Regular21 WColor'>soon</tspan></text></g></svg>");
-	        TweenMax.from('.ITstatLine' , 2, {
-				drawSVG: "0%",
-				ease: Expo.easeOut,
-			});
+		    $("div.ContainerProfileMetro").html("<svg id='interviewed' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='150px' height='150px' viewBox='0 0 150 150' style='enable-background:new 0 0 150 150;' xml:space='preserve'><g id='Circle'><circle class='ITstatLine' cx='74.8' cy='83.8' r='59.8' style='stroke-linecap:round'/></g><g id='Text'><text transform='matrix(1 0 0 1 36.2949 81.8008)'><tspan x='0' y='0' class='Regular21 WColor'>coming</tspan><tspan x='13' y='20.2' class='Regular21 WColor'>soon</tspan></text></g></svg>");
+	        TweenMax.fromTo('.ITstatLine', 2, {drawSVG:"100% 100%"}, {drawSVG:"0% 100% ", ease: Expo.easeOut, delay: 0.1});
+			TweenMax.fromTo('.ITstatLine', 2, {drawSVG:"0% 0%"}, {drawSVG:"0% 100% ", ease: Expo.easeOut, delay: 0.1});
 			TweenMax.from('.Regular21', 1.5, {
 				opacity: 0,
 				ease: Expo.easeOut,
@@ -408,11 +405,9 @@ app.controller('MapController', ['$scope', function($scope) {
 		    $("svg#interviewed").remove();
 		});
 		$("#fillZauli").mouseover(function() {
-		    $("div.ContainerProfileMetro").html("<svg id='interviewed' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='150px' height='150px' viewBox='0 0 150 150' style='enable-background:new 0 0 150 150;' xml:space='preserve'><g id='Circle'><circle class='ITstatLine' cx='74.8' cy='83.8' r='59.8'/></g><g id='Text'>	<text transform='matrix(1 0 0 1 36.2949 81.8008)'><tspan x='0' y='0' class='Regular21 WColor'>coming</tspan><tspan x='13' y='20.2' class='Regular21 WColor'>soon</tspan></text></g></svg>");
-	        TweenMax.from('.ITstatLine' , 2, {
-				drawSVG: "0%",
-				ease: Expo.easeOut,
-			});
+		    $("div.ContainerProfileMetro").html("<svg id='interviewed' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='150px' height='150px' viewBox='0 0 150 150' style='enable-background:new 0 0 150 150;' xml:space='preserve'><g id='Circle'><circle class='ITstatLine' cx='74.8' cy='83.8' r='59.8' style='stroke-linecap:round'/></g><g id='Text'><text transform='matrix(1 0 0 1 36.2949 81.8008)'><tspan x='0' y='0' class='Regular21 WColor'>coming</tspan><tspan x='13' y='20.2' class='Regular21 WColor'>soon</tspan></text></g></svg>");
+	        TweenMax.fromTo('.ITstatLine', 2, {drawSVG:"100% 100%"}, {drawSVG:"0% 100% ", ease: Expo.easeOut, delay: 0.1});
+			TweenMax.fromTo('.ITstatLine', 2, {drawSVG:"0% 0%"}, {drawSVG:"0% 100% ", ease: Expo.easeOut, delay: 0.1});
 			TweenMax.from('.Regular21', 1.5, {
 				opacity: 0,
 				ease: Expo.easeOut,
@@ -424,11 +419,9 @@ app.controller('MapController', ['$scope', function($scope) {
 		    $("svg#interviewed").remove();
 		});
 	    $("#fillFionda").mouseover(function() {	    
-		    $("div.ContainerProfileMetro").html("<svg id='interviewed' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='150px' height='150px' viewBox='0 0 150 150' style='enable-background:new 0 0 150 150;' xml:space='preserve'><g id='Circle'><circle class='ITstatLine' cx='74.8' cy='83.8' r='59.8'/></g><g id='Text'>	<text transform='matrix(1 0 0 1 36.2949 81.8008)'><tspan x='0' y='0' class='Regular21 WColor'>coming</tspan><tspan x='13' y='20.2' class='Regular21 WColor'>soon</tspan></text></g></svg>");
-	        TweenMax.from('.ITstatLine' , 2, {
-				drawSVG: "0%",
-				ease: Expo.easeOut,
-			});
+		    $("div.ContainerProfileMetro").html("<svg id='interviewed' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='150px' height='150px' viewBox='0 0 150 150' style='enable-background:new 0 0 150 150;' xml:space='preserve'><g id='Circle'><circle class='ITstatLine' cx='74.8' cy='83.8' r='59.8' style='stroke-linecap:round'/></g><g id='Text'><text transform='matrix(1 0 0 1 36.2949 81.8008)'><tspan x='0' y='0' class='Regular21 WColor'>coming</tspan><tspan x='13' y='20.2' class='Regular21 WColor'>soon</tspan></text></g></svg>");
+	        TweenMax.fromTo('.ITstatLine', 2, {drawSVG:"100% 100%"}, {drawSVG:"0% 100% ", ease: Expo.easeOut, delay: 0.1});
+			TweenMax.fromTo('.ITstatLine', 2, {drawSVG:"0% 0%"}, {drawSVG:"0% 100% ", ease: Expo.easeOut, delay: 0.1});
 			TweenMax.from('.Regular21', 1.5, {
 				opacity: 0,
 				ease: Expo.easeOut,
