@@ -111,7 +111,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       templateUrl: 'js/angularjs/views/datavisualization/Motivations.html'
     })
     .otherwise({ 
-      redirectTo: '/map' 
+      redirectTo: '/home' 
     });
     $locationProvider.html5Mode(true);
 }]);
