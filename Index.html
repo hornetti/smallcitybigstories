@@ -26,7 +26,7 @@
 	</head>
 	<body ng-app="MyApp">
 		<div class="Wrapper" ng-controller="LinkController">
-			<div ng-hide="currentPath === '/home'" class="TopMenu">
+			<div ng-show="currentPath != '/home'" class="TopMenu">
 				<div class="LeftMenu">
 					<a class="Logo" ng-href="{{ Link_Home.direct }}">{{ Link_Home.name }}</a>
 				</div>
@@ -40,7 +40,7 @@
 				</div>
 			</div>
 			<div ng-view class="animationview"></div>
-			<div ng-hide="currentPath === '/home'" class="BottomMenu">
+			<div ng-show="currentPath != '/home'" class="BottomMenu">
 			    <div class="LeftBottomMenu">
 			    	<a class="Regular12 WColor" ng-href="{{ Link_Credits.direct }}">{{ Link_Credits.name }}</a>
 			    	<a class="Regular12 WColor" ng-href="{{ Link_Contact.direct }}">{{ Link_Contact.name }}</a>
