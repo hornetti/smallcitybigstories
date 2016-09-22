@@ -1,8 +1,13 @@
 <div class="TopMenu">
-	<div class="Logo">
-		<a ng-href=" {{ Link_Home.direct }} "> {{ Link_Home.name }} </a>
+	<div class="LeftMenu">
+		<a class="Logo" ng-href="{{ Link_Home.direct }}">{{ Link_Home.name }}</a>
 	</div>
-	<div class="Nav">
-		<a ng-href=" {{ Link_Map.direct }} "> {{ Link_Map.name }} </a>
+	<div class="RightMenu">
+		<a ng-href="{{ Link_Map.direct }}">
+			<svg version="1.1" id="MetroMappa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="63px" height="25px" viewBox="0 0 63 25" style="enable-background:new 0 0 63 24;" xml:space="preserve">	
+				<text transform="matrix(1 0 0 1 9.814453e-02 20)" class="Faenza MAINColor">{{ Link_Map.name }}</text>
+				<line class="UnderLine" x1="0" y1="24" x2="63" y2="24"/>
+			</svg>
+		</a>
 	</div>
 </div>
