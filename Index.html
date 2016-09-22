@@ -26,38 +26,7 @@
 	</head>
 	<body ng-app="MyApp">
 		<div class="Wrapper" ng-controller="LinkController">
-			<div ng-show="currentPath != '/home'" class="TopMenu">
-				<div class="LeftMenu">
-					<a class="Logo" ng-href="{{ Link_Home.direct }}">{{ Link_Home.name }}</a>
-				</div>
-				<div class="RightMenu">
-					<a ng-href="{{ Link_Map.direct }}">
-						<svg version="1.1" id="MetroMappa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="63px" height="25px" viewBox="0 0 63 25" style="enable-background:new 0 0 63 24;" xml:space="preserve">	
-							<text transform="matrix(1 0 0 1 9.814453e-02 20)" class="Faenza MAINColor">{{ Link_Map.name }}</text>
-							<line class="UnderLine" x1="0" y1="24" x2="63" y2="24"/>
-						</svg>
-					</a>
-				</div>
-			</div>
 			<div ng-view class="animationview"></div>
-			<div ng-show="currentPath != '/home'" class="BottomMenu">
-			    <div class="LeftBottomMenu">
-			    	<a class="Regular12 WColor" ng-href="{{ Link_Credits.direct }}">{{ Link_Credits.name }}</a>
-			    	<a class="Regular12 WColor" ng-href="{{ Link_Contact.direct }}">{{ Link_Contact.name }}</a>
-			    	<a class="Regular12 WColor" ng-href="{{ Link_Manifesto.direct }}">{{ Link_Manifesto.name }}</a>
-			    </div>
-			    <div class="RightBottomMenu">
-			        <div class="ContainerSocial" ng-init="visible = false">
-			            <a class="Regular12 WColor" ng-repeat="linkshare in Link_Share" ng-href="{{ linkshare.link }}" ng-show="visible">{{ linkshare.name }}</a>
-			            <p class="Regular12 WColor" ng-click="visible = !visible"> {{ Toggle_Share }} </p>
-			        </div>
-			        <a class="Regular12 WColor" onclick="toggleFullScreen()">{{ Toggle_Fullscreen }}</a>
-			        <a class="Regular12 WColor" onclick="toggleMusic()">{{ Toggle_Music }}</a>
-			        <audio id="ambientMusic" autobuffer autoloop loop>
-			        	<source src="music/Ambient.mp3">
-			        </audio>
-			    </div>
-			</div>
 		</div>
 		<!-- jQuery -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
