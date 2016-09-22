@@ -1,5 +1,4 @@
-app.controller('ProfileController', ['$scope', '$location', function($scope, $location) {
-	$scope.currentPath = $location.path();
+app.controller('ProfileController', ['$scope', function($scope) {
 	$scope.Link_Revenue = 'map/revenue';
 	$scope.Link_Employees = 'map/employees';
 	$scope.Link_Foundation = 'map/foundation';

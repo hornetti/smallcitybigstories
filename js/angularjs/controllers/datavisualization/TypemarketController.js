@@ -1,5 +1,4 @@
-app.controller('TypemarketController', ['$scope', '$location', function($scope, $location) {
-	$scope.currentPath = $location.path();
+app.controller('TypemarketController', ['$scope', function($scope) {
   	/*** Close Button ***/
 	angular.element(document).ready(function() {
 		$('#Backto').mouseover(function() {
