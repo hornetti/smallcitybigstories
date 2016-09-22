@@ -28,6 +28,6 @@ app.directive('topMenu', function() {
 					});
 				});
 			});
-	    } 
+	    }
   	};
 });
