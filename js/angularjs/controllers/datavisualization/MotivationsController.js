@@ -1,4 +1,5 @@
-app.controller('MotivationsController', ['$scope', function($scope) {
+app.controller('MotivationsController', ['$scope', '$location', function($scope, $location) {
+	$scope.currentPath = $location.path();
   	/*** Close Button ***/
 	angular.element(document).ready(function() {
 		$('#Backto').mouseover(function() {

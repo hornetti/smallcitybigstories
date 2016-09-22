@@ -1,4 +1,5 @@
-app.controller('MapController', ['$scope', function($scope) {
+app.controller('MapController', ['$scope', '$location', function($scope, $location) {
+	$scope.currentPath = $location.path();
 	angular.element(document).ready(function() {
 		TweenMax.from('#lineBlue', 0.5, {
 		    opacity: 0,

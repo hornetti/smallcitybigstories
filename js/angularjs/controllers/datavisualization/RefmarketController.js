@@ -1,4 +1,5 @@
-app.controller('RefmarketController', ['$scope', function($scope) {
+app.controller('RefmarketController', ['$scope', '$location', function($scope, $location) {
+	$scope.currentPath = $location.path();
   	/*** Close Button ***/
 	angular.element(document).ready(function() {
 		$('#Backto').mouseover(function() {

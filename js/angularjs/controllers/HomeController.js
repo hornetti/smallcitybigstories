@@ -1,4 +1,5 @@
-app.controller('HomeController', ['$scope', function($scope) {
+app.controller('HomeController', ['$scope', '$location', function($scope, $location) {
+	$scope.currentPath = $location.path();
 	$scope.ProjectName = "Small city, big stories";
 	angular.element(document).ready(function() {
 		TweenLite.from('.StrokePages', 1, {

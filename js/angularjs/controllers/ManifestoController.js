@@ -1,4 +1,5 @@
-﻿app.controller('ManifestoController', ['$scope', function($scope) {
+﻿app.controller('ManifestoController',  ['$scope', '$location', function($scope, $location) {
+    $scope.currentPath = $location.path();
 	$scope.manifestoTitle = "Manifesto";
 	$scope.manifestoTesto = [
     	{

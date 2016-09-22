@@ -1,4 +1,5 @@
-app.controller('EmployeesController', ['$scope', function($scope) {
+app.controller('EmployeesController', ['$scope', '$location', function($scope, $location) {
+	$scope.currentPath = $location.path();
   	/*** Close Button ***/
 	angular.element(document).ready(function() {
 		$('#Backto').mouseover(function() {

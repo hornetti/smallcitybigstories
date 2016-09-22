@@ -1,4 +1,5 @@
-app.controller('ContactController', ['$scope', function($scope) {
+app.controller('ContactController', ['$scope', '$location', function($scope, $location) {
+	$scope.currentPath = $location.path();
 	$scope.EmailAddress = "Contact Scbs";
 	$scope.EmailSubmit = "Submit";
 	angular.element(document).ready(function() {

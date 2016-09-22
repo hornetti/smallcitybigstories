@@ -1,4 +1,5 @@
-app.controller('FoundationController', ['$scope', function($scope) {
+app.controller('FoundationController', ['$scope', '$location', function($scope, $location) {
+	$scope.currentPath = $location.path();
   	/*** Close Button ***/
 	angular.element(document).ready(function() {
 		$('#Backto').mouseover(function() {

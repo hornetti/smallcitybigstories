@@ -1,4 +1,5 @@
-﻿app.controller('CreditsController', ['$scope', function($scope) {
+﻿app.controller('CreditsController', ['$scope', '$location', function($scope, $location) {
+	$scope.currentPath = $location.path();
 	$scope.Release = "Release Date";
 	$scope.Data = "01.10.2016";
 	$scope.Link_Facebook = 'https://www.facebook.com/smallcitybigstories/';

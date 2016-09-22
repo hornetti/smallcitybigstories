@@ -1,4 +1,5 @@
-app.controller('LinkController', ['$scope', function($scope) {
+app.controller('LinkController', ['$scope', '$location', function($scope, $location) {
+	$scope.currentPath = $location.path();
 	$scope.Link_Home = { 
 		name : 'Small city, big stories',
 		direct : 'home'
