@@ -747,6 +747,13 @@ PROFILE
   stroke-linejoin: round;
   stroke-miterlimit: 10;
 }
+.ArrayProfile {
+  position: fixed;
+  left: 45px;
+  right: 35px;
+  bottom: 10%;
+  opacity: 1;
+}
 /*
 
 BACK TO MAP
