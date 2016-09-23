@@ -1,61 +1,29 @@
 app.controller('MapController', ['$scope', function($scope) {
 	angular.element(document).ready(function() {
-		TweenMax.from('#lineBlue', 0.5, {
+		TweenMax.from('#Metro', 1, {
 		    opacity: 0,
-		    delay: 0.8
+		    delay: 0.5
 		});
-		TweenMax.from('#lineRed', 0.5, {
+		TweenMax.from('#MetroMap', 1, {
 		    opacity: 0,
-		    delay: 0.8
+		    delay: 0.5
 		});
-		TweenMax.from('#lineGreen', 0.5, {
+		TweenMax.from('#lineRed', 1.5, {
 		    opacity: 0,
-		    delay: 0.8
+		    delay: 1.25
 		});
-		TweenMax.from('#lineYellow', 0.5, {
+		TweenMax.from('#lineBlue', 1.5, {
 		    opacity: 0,
-		    delay: 0.8
+		    delay: 1.50
 		});
-		/*
-		TweenMax.from('#lineBlue', 1, {
-		    drawSVG: 0,
-		    ease: Expo.easeOut,
-		    delay: 5
-		});
-		TweenMax.from('#lineRed', 1, {
-		    drawSVG: 0,
-		    ease: Expo.easeOut,
-		    delay: 5
-		});
-		TweenMax.from('#lineGreen', 1, {
-		    drawSVG: 0,
-		    ease: Expo.easeOut,
-		    delay: 5
-		});
-		TweenMax.from('#lineYellow', 1, {
-		    drawSVG: 0,
-		    ease: Expo.easeOut,
-		    delay: 5
-		});
-		var names = ['#nValmori', '#nBandini', '#nTampieri', '#nRuta', '#nBertoni', '#nMartelli', '#nPeroni', '#nSavorani', '#nZauli', '#nSalvatori', '#nBorgini', '#nFionda', '#nRava', '#nTamba', '#nMantovani'];
-		var overcircle = ['#oValmori', '#oBandini', '#oTampieri', '#oRuta', '#oBertoni', '#oMartelli', '#oPeroni', '#oSavorani', '#oZauli', '#oSalvatori', '#oBorgini', '#oFionda', '#oRava', '#oTamba', '#oMantovani'];
-		var undercircle = ['#uValmori', '#uBandini', '#uTampieri', '#uRuta', '#uBertoni', '#uMartelli', '#uPeroni', '#uSavorani', '#uZauli', '#uSalvatori', '#uBorgini', '#uFionda', '#uRava', '#uTamba', '#uMantovani'];
-		TweenMax.staggerFrom(names, 0.1, {
+		TweenMax.from('#lineYellow', 1.5, {
 		    opacity: 0,
-		    ease: Expo.easeOut,
-		    force3D: true
-		}, 0.2);
-		TweenMax.staggerFrom(overcircle, 0.1, {
+		    delay: 1.75
+		});
+		TweenMax.from('#lineGreen', 1.5, {
 		    opacity: 0,
-		    ease: Expo.easeOut,
-		    force3D: true
-		}, 0.2);
-		TweenMax.staggerFrom(undercircle, 0.1, {
-		    opacity: 0,
-		    ease: Expo.easeOut,
-		    force3D: true
-		}, 0.2);
-		*/
+		    delay: 2
+		});
 		/*
 
 		Mouseover & mouseleave on #interviewed
