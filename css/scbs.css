@@ -452,7 +452,7 @@ MAP
   stroke-width: 3;
   stroke-linecap: round;
   stroke-miterlimit: 10;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .FOODMetroLine {
   fill: none;
@@ -555,7 +555,7 @@ MAP
   float: left;
 }
 .ComingSoon {
-  opacity: 0.5;
+  opacity: 0.4;
 }
 /*
 
