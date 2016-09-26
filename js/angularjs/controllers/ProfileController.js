@@ -56,6 +56,30 @@ app.controller('ProfileController', ['$scope', function($scope) {
 		    ease: Expo.easeOut,
 		    force3D: true
 		}, 0.5);
+		/*
+
+		COMING SOON
+
+		*/
+	        TweenMax.fromTo('.ITstatLine', 2, {
+	        	drawSVG:"100% 100%"
+	        }, {
+	        	drawSVG:"0% 100% ",
+	        	ease: Expo.easeOut,
+	        	delay: 0.1
+	        });
+		TweenMax.fromTo('.ITstatLine', 2, {
+			drawSVG:"0% 0%"
+		}, {
+			drawSVG:"0% 100% ", 
+			ease: Expo.easeOut, 
+			delay: 0.1
+		});
+		TweenMax.from('.Regular21', 1.5, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 0.4 
+		});
 	});
 	/**   VideoJS   **/
 	/*
