@@ -549,18 +549,25 @@ MAP
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
+#Metro {
+  float: left;
+  margin-bottom: 5%;
+}
 .ContainerLegendaMetro {
   text-align: left;
+  float: left;
 }
 .ContainerLegendaMetro > svg {
-  margin: 5px auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
   cursor: pointer;
 }
 .ContainerProfileMetro {
   padding-left: 5px;
 }
 .ContainerProfileMetro > svg {
-  margin: 5px auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
   float: left;
 }
 .ComingSoon {
@@ -592,7 +599,7 @@ PROFILE
 */
 .fakepadding {
   padding-right: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 1%;
 }
 .MarginTop {
   padding-right: 0;
@@ -656,16 +663,20 @@ PROFILE
 }
 */
 .NameCompany {
-  margin: 10px auto 0;
+  margin: 1px auto;
+  margin-top: 5%;
   text-align: left;
 }
 .BioCompany {
   color: #fff;
-  margin: 10px auto 0;
+  margin: 1px auto;
+  margin-top: 1%;
   text-align: left;
 }
 .DataContainer {
   border-top: 3px solid;
+  margin: 0 0 1px 0;
+  margin-bottom: 5%;
 }
 .DataContainer > .col-xs-6 > .TestoInfografica,
 .DataContainer > .col-sm-6 > .TestoInfografica,
@@ -674,6 +685,7 @@ PROFILE
   margin: 5px 0;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 5%;
 }
 .DataContainer > .col-xs-6,
 .DataContainer > .col-sm-6,
@@ -681,12 +693,14 @@ PROFILE
 .DataContainer > .col-lg-6 {
   margin: 5px 0;
   padding-left: 0;
+  margin-bottom: 5%;
 }
 .Infografica {
-  margin: 0 auto;
+  margin: 1px auto;
+  margin-top: 2%;
   text-align: left;
 }
-.Infografica > img {
+.Infografica > svg {
   margin: 5px 0;
 }
 .Interlinea {
@@ -760,7 +774,7 @@ PROFILE
   position: fixed;
   left: 45px;
   right: 35px;
-  bottom: 10%;
+  bottom: 7%;
   opacity: 1;
 }
 /*
@@ -784,18 +798,18 @@ CREDITS
 
 */
 .CreditsContainer {
-  margin-bottom: 10px;
+  margin-bottom: 10%;
 }
 .CreditsTitle {
   text-align: left;
-  margin-bottom: 5px;
+  margin-bottom: 2%;
 }
 .CreditsClass {
   text-align: left;
-  margin-bottom: 2px;
+  margin-bottom: 2%;
 } 
 .ButtonExample {
-  margin-bottom: 15px;
+  margin-bottom: 5%;
   padding: 0;
   text-align: left;
 }
@@ -806,11 +820,11 @@ CREDITS
 }
 .BioProject {
   text-align: left;
-  margin: 5px 0;
+  margin-top: 1%;
 }
 .ContainerPowered {
   text-align: left;
-  margin: 10px 0;
+  margin-top: 5%;
 }
 .Sponsor {
   margin-right: 35px;
@@ -864,7 +878,7 @@ CONTACT US
   width: 100%;
   height: 50px;
   padding: 0 15px;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
   background-color: transparent;
   border: 3px solid #333;
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
@@ -874,7 +888,7 @@ CONTACT US
   width: 100%;
   height: 200px;
   padding: 10px 15px;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
   background-color: transparent;
   border: 3px solid #333;
   box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075);
@@ -1046,7 +1060,7 @@ ANIMATIONS
 */
 .animationview {
   position: absolute;
-  top: 80px;
+  top: 12%;
   left: 0;
   right: 0;
   opacity: 1;
