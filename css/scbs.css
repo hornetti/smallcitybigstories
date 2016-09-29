@@ -306,6 +306,15 @@ MAIN CLASS
   float: right;
   text-align: right;
 }
+.FakePaddingRight {
+  padding-right: 0px;
+}
+.FakePaddingLeft {
+  padding-left: 0px;
+}
+.MarginZero {
+  margin: 0;
+}
 .MarginTop1pct {
   margin-top: 1%;
 }
@@ -332,6 +341,9 @@ MAIN CLASS
 }
 .MarginBottom25pct {
   margin-bottom: 25%;
+}
+.PaddingZero {
+  padding: 0;
 }
 .PaddingTop1pct {
   padding-top: 1%;
@@ -583,12 +595,6 @@ ILLUSTRATION
 PROFILE
 
 */
-.FakePaddingRight {
-  padding-right: 0px;
-}
-.FakePaddingLeft {
-  padding-left: 0px;
-}
 #IvanoValmori, #GabrieleBandini, #AnnaTampieri, #GiuliaRuta, #RobertoBertoni, #AndreaMartelli, #MarcoPeroni, #BarbaraSavorani, #StefanoZauli, #AndreaSalvatori, #RaffaeleBorgini, #MaurizioFionda, #PaoloRava, #MarcoTamba, #FabrizioMantovani {
   padding: 0;
   width: 100%;
