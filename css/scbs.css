@@ -292,12 +292,79 @@ MAIN CLASS
   font-weight: 500;
   font-size: 42px;
 }
+.W100 {
+  width: 100%;
+}
+.Interlinea {
+  line-height: 1.1;
+}
+.LeftLeft {
+  float: left;
+  text-align: left;
+}
+.RightRight {
+  float: right;
+  text-align: right;
+}
+.MarginTop1pct {
+  margin-top: 1%;
+}
+.MarginTop2pct {
+  margin-top: 2%;
+}
+.MarginTop5pct {
+  margin-top: 5%;
+}
+.MarginTop10pct {
+  margin-top: 10%;
+}
+.MarginBottom1pct {
+  margin-bottom: 1%;
+}
+.MarginBottom2pct {
+  margin-bottom: 2%;
+}
+.MarginBottom5pct {
+  margin-bottom: 5%;
+}
+.MarginBottom10pct {
+  margin-bottom: 10%;
+}
+.MarginBottom25pct {
+  margin-bottom: 25%;
+}
+.PaddingTop1pct {
+  padding-top: 1%;
+}
+.PaddingTop2pct {
+  padding-top: 2%;
+}
+.PaddingTop5pct {
+  padding-top: 5%;
+}
+.PaddingTop10pct {
+  padding-top: 10%;
+}
+.PaddingBottom1pct {
+  padding-bottom: 1%;
+}
+.PaddingBottom2pct {
+  padding-bottom: 2%;
+}
+.PaddingBottom5pct {
+  padding-bottom: 5%;
+}
+.PaddingBottom10pct {
+  padding-bottom: 10%;
+}
+.PaddingBottom25pct {
+  padding-bottom: 25%;
+}
 /*
 
 Base structure
 
 */
-
 html {
   height: 100%;
   width: 100%;  
@@ -364,12 +431,6 @@ button + .tooltip > .tooltip-inner {
 HOME
 
 */
-#Logo {
-  margin: 50px 0;
-}
-#enter {
-  margin: 10px 0;
-}
 .StrokePages {
   fill:none;
   stroke:#FFFFFF;
@@ -433,70 +494,16 @@ HOME
 MAP
 
 */
-.FOODRound {
-  fill: none;
-  stroke: #FF3366;
+.Round {
   stroke-width: 3;
   stroke-linecap: round;
   stroke-miterlimit: 10;
 }
-.PTEKRound {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-}
-.MAVRound {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-}
-.ITRound {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 3;
-  stroke-linecap: round;
-  stroke-miterlimit: 10;
-  /* opacity: 0.6; */
-}
-.FOODMetroLine {
-  fill: none;
-  stroke: #FF3366;
+.MetroLine {
   stroke-width: 10;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
-}
-.ITMetroLine {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10;
-  /* opacity: 0.2; */
-}
-.MAVMetroLine {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10;
-}
-.PTEKMetroLine {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 10;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10;
-}
-#fillBandini, #fillTampieri, #fillRuta, #fillBertoni, #fillMartelli, #fillPeroni, #fillSavorani, #fillSalvatori, #fillBorgini, #fillRava, #fillTamba, #fillMantovani {
-  cursor: pointer;
 }
 .MLine {
   fill: none;
@@ -549,29 +556,8 @@ MAP
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
-#Metro {
-  float: left;
-  margin-bottom: 5%;
-}
-.ContainerLegendaMetro {
-  text-align: left;
-  float: left;
-}
 .ContainerLegendaMetro > svg {
-  margin-top: 2%;
-  margin-bottom: 2%;
   cursor: pointer;
-}
-.ContainerProfileMetro {
-  padding-left: 5px;
-}
-.ContainerProfileMetro > svg {
-  margin-top: 10%;
-  margin-bottom: 5%;
-  float: left;
-}
-.ComingSoon {
-  /* opacity: 0.4; */
 }
 /*
 
@@ -597,39 +583,11 @@ ILLUSTRATION
 PROFILE
 
 */
-.fakepadding {
+.FakePaddingRight {
   padding-right: 0px;
-  margin-bottom: 1%;
 }
-.MarginTop {
-  padding-right: 0;
-  margin-top: 25px;
-}
-.TitoloProfilo {
-  float: left;
-  text-align: left;
-}
-.Backto {
-  cursor: pointer;
-  float: right;
-  margin: 5px 0;
-}
-.FloatSx {
-  float: left;
-  text-align: left;
-}
-.FloatDx {
-  float: right;
-  text-align: right;
-}
-.FloatSx > svg + p {
-  display: inline-block;
-  margin: 0;
-}
-.FloatDx > p {
-  display: inline-block;
-  padding-right: 5px;
-  margin: 0;
+.FakePaddingLeft {
+  padding-left: 0px;
 }
 #IvanoValmori, #GabrieleBandini, #AnnaTampieri, #GiuliaRuta, #RobertoBertoni, #AndreaMartelli, #MarcoPeroni, #BarbaraSavorani, #StefanoZauli, #AndreaSalvatori, #RaffaeleBorgini, #MaurizioFionda, #PaoloRava, #MarcoTamba, #FabrizioMantovani {
   padding: 0;
@@ -662,59 +620,12 @@ PROFILE
   transition: all 0.4s !important;
 }
 */
-.NameCompany {
-  margin: 1px auto;
-  margin-top: 5%;
-  text-align: left;
-}
-.BioCompany {
-  color: #fff;
-  margin: 1px auto;
-  margin-top: 1%;
-  text-align: left;
-}
 .DataContainer {
   border-top: 3px solid;
-  margin: 0 0 1px 0;
-  margin-bottom: 5%;
-}
-.DataContainer > .col-xs-6 > .TestoInfografica,
-.DataContainer > .col-sm-6 > .TestoInfografica,
-.DataContainer > .col-md-6 > .TestoInfografica,
-.DataContainer > .col-lg-6 > .TestoInfografica {
-  margin: 5px 0;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 5%;
-}
-.DataContainer > .col-xs-6,
-.DataContainer > .col-sm-6,
-.DataContainer > .col-md-6,
-.DataContainer > .col-lg-6 {
-  margin: 5px 0;
-  padding-left: 0;
-  margin-bottom: 5%;
-}
-.Infografica {
-  margin: 1px auto;
-  margin-top: 2%;
-  text-align: left;
-}
-.Infografica > svg {
-  margin: 5px 0;
-}
-.Interlinea {
-  line-height: 1.1;
-  margin-top: 5px;
 }
 .TestoInfografica {
-  /* color: #fff; */
-  margin: 0 auto 30px;
-  text-align: left;
-}
-.DataLink {
-  cursor: pointer;
-  color: inherit;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .DataLink:hover,
 .DataLink:focus {
@@ -776,6 +687,28 @@ PROFILE
   right: 35px;
   bottom: 7%;
   opacity: 1;
+}
+/*
+
+ARRAY PROFILE
+
+*/
+.FloatSx {
+  float: left;
+  text-align: left;
+}
+.FloatDx {
+  float: right;
+  text-align: right;
+}
+.FloatSx > svg + p {
+  display: inline-block;
+  margin: 0;
+}
+.FloatDx > p {
+  display: inline-block;
+  padding-right: 5px;
+  margin: 0;
 }
 /*
 
@@ -871,9 +804,6 @@ CREDITS
 CONTACT US 
 
 */
-.ContactTitle {
-  text-align: left;
-}
 .ContactScbs > input {
   width: 100%;
   height: 50px;
@@ -969,9 +899,6 @@ CONTACT US
 MANIFESTO
 
 */
-.ManifestoTitle {
-  text-align: left;
-}
 /*
 
 MENU
