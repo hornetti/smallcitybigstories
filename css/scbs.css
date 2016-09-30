@@ -154,45 +154,60 @@ OFFLINE
 MAIN CLASS
 
 */
+.W100 {
+  width: 100%;
+}
+.Interlinea {
+  line-height: 1.1;
+}
+.TxtLeft {
+  text-align: left;
+}
+.TxtRight {
+  text-align: right;
+}
+.FloatLeft {
+  float: left;
+}
+.FloatRight {
+  float: right;
+}
+.FakePaddingRight {
+  padding-right: 0px;
+}
+.FakePaddingLeft {
+  padding-left: 0px;
+}
+
+/* Color */
+
 .MAINColor {
   fill: #FF6666;
   color: #FF6666;
-}
-.MAINStroke {
-  fill: none;
-  stroke: #FF6666;
 }
 .FOODColor {
   fill: #FF3366;
   color: #FF3366;
 }
-.FOODStroke {
-  fill: none;
-  stroke: #FF3366;
-}
 .PTEKColor {
   fill: #FFFF00;
   color: #FFFF00;
-}
-.PTEKStroke {
-  fill: none;
-  stroke: #FFFF00;
 }
 .MAVColor {
   fill: #0099FF;
   color: #0099FF;
 }
-.MAVStroke {
-  fill: none;
-  stroke: #0099FF;
-}
 .ITColor {
   fill: #00FF99;
   color: #00FF99;
 }
-.ITStroke {
-  fill: none;
-  stroke: #00FF99;
+.WColor {
+  fill: #FFFFFF;
+  color: #FFFFFF;
+}
+.GColor {
+  fill: #666666;
+  color: #666666;
 }
 .FOODColorAux {
   fill: #990066;
@@ -210,9 +225,44 @@ MAIN CLASS
   fill: #99ff99;
   color: #99ff99;
 }
-.WColor {
-  fill: #FFFFFF;
-  color: #FFFFFF;
+
+/* Stroke */
+
+.MAINStroke {
+  fill: none;
+  stroke: #FF6666;
+}
+.FOODStroke {
+  fill: none;
+  stroke: #FF3366;
+}
+.PTEKStroke {
+  fill: none;
+  stroke: #FFFF00;
+}
+.MAVStroke {
+  fill: none;
+  stroke: #0099FF;
+}
+.ITStroke {
+  fill: none;
+  stroke: #00FF99;
+}
+.FOODStrokeAux {
+  fill: none;
+  stroke: #990066;
+}
+.PTEKStrokeAux {
+  fill: none;
+  stroke: #ff9900;
+}
+.MAVStrokeAux {
+  fill: none;
+  stroke: #99ccff;
+}
+.ITStrokeAux {
+  fill: none;
+  stroke: #99ff99;
 }
 .WStroke{
   fill: none;
@@ -222,10 +272,37 @@ MAIN CLASS
   fill: #FFFFFF;
   stroke: #FFFFFF;
 }
-.GColor {
-  fill: #666666;
-  color: #666666;
+
+/* StrokeWidth */
+
+.Stroke1px {
+  stroke: inherit;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
 }
+.Stroke2px {
+  stroke: inherit;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.Stroke5px {
+  stroke: inherit;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.Stroke10px {
+  stroke: inherit;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.Stroke15px {
+  stroke: inherit;
+  stroke-width: 15;
+  stroke-miterlimit: 10;
+}
+
+/* Font */
+
 .Bold12 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
@@ -296,30 +373,9 @@ MAIN CLASS
   font-weight: 500;
   font-size: 42px;
 }
-.W100 {
-  width: 100%;
-}
-.Interlinea {
-  line-height: 1.1;
-}
-.TxtLeft {
-  text-align: left;
-}
-.TxtRight {
-  text-align: right;
-}
-.FloatLeft {
-  float: left;
-}
-.FloatRight {
-  float: right;
-}
-.FakePaddingRight {
-  padding-right: 0px;
-}
-.FakePaddingLeft {
-  padding-left: 0px;
-}
+
+/* Margin */
+
 .MarginZero {
   margin: 0;
 }
@@ -350,6 +406,9 @@ MAIN CLASS
 .MarginBottom25pct {
   margin-bottom: 25%;
 }
+
+/* Padding */
+
 .PaddingZero {
   padding: 0;
 }
@@ -646,16 +705,6 @@ PROFILE
   text-decoration: none;
   color: #fff;
   stroke: #fff;
-}
-.Stroke2px {
-  stroke: inherit;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.Stroke5px {
-  stroke: inherit;
-  stroke-width: 5;
-  stroke-miterlimit: 10;
 }
 .Stroke2pxLinecap {
   stroke: inherit;
