@@ -1,6 +1,6 @@
 app.controller('ContactController', ['$scope', function($scope) {
-	$scope.EmailAddress = "Contact Scbs";
-	$scope.EmailSubmit = "Submit";
+	$scope.EmailAddress = "Contatta Scbs";
+	$scope.EmailSubmit = "Invia";
 	angular.element(document).ready(function() {
 	    $('.ButtonSubmit').mouseover(function() {
 	        $('.ButtonSubmit > p').css({
