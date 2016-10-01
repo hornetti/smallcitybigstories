@@ -18,14 +18,10 @@ app.controller('ProfileController', ['$scope', function($scope) {
     	},
     	{
     		element : "D — A seguito di una passione da coltivare"
-    	},
-    	{
-    		element : "* startup"
-    	},
-    	{
-    		element : "** artigiani"
     	}
     ];
+    $scope.Startup = "* startup";
+    $scope.Artigiano = "* artigiani";
   	/*
   	
   	Counter Number Profile
