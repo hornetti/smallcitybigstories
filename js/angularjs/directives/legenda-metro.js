@@ -21,7 +21,7 @@ app.directive('legendaMetro', function() {
 				var ItFill = ['#fillValmori', '#fillZauli', '#fillFionda'];
 				var ItCircle = ['#underValmori', '#overZauli', '#overFionda'];
 				
-				var Legenda = ['#Food','#Mav','#Ptek','#It',]
+				var Legenda = ['#Food','#Mav','#Ptek','#It',];
 				
 				TweenMax.staggerFrom(Legenda, 1, {
 				    opacity: 0,
