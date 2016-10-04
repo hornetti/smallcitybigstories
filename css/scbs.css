@@ -303,6 +303,11 @@ MAIN CLASS
 
 /* Font */
 
+.Regular9 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 9px;
+}
 .Bold12 {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
