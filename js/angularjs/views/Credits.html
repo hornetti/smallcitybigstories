@@ -1,36 +1,36 @@
 ﻿<top-menu></top-menu>
 <div class="container-fluid">
 	<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-		<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 			<div class="MarginBottom10pct">
-				<p class="TxtLeft MarginBottom2pct MarginZero MAINColor Bold15">{{ Crew }}</p>
+				<p class="TxtLeft MarginBottom5pct MarginZero MAINColor Bold15">{{ Crew }}</p>
 				<div ng-repeat="crew in ProjectCrew">
-					<p class="TxtLeft MarginBottom1pct MarginZero WColor Regular12">{{ crew.info }}</p>
-					<p class="TxtLeft MarginBottom1pct MarginZero WColor Bold15">{{ crew.name }}</p>		
+					<p class="TxtLeft MarginBottom2pct MarginZero WColor Regular12">{{ crew.info }}</p>
+					<p class="TxtLeft MarginBottom2pct MarginZero WColor Bold15">{{ crew.name }}</p>
 				</div>
 			</div>
 			<div class="MarginBottom10pct">
-				<p class="TxtLeft MarginBottom2pct MarginZero MAINColor Bold15">{{ Release }}</p>
-				<p class="TxtLeft MarginBottom1pct MarginZero WColor Bold15">{{ Data }}</p>
+				<p class="TxtLeft MarginBottom5pct MarginZero MAINColor Bold15">{{ Release }}</p>
+				<p class="TxtLeft MarginBottom2pct MarginZero WColor Bold15">{{ Data }}</p>
 			</div>
 			<div class="MarginBottom10pct">
-				<p class="TxtLeft MarginBottom2pct MarginZero MAINColor Bold15">{{ Collaboration }}</p>
-				<p class="TxtLeft MarginBottom1pct MarginZero WColor Regular12">{{ Videomakers }}</p>
-				<p class="TxtLeft MarginBottom1pct MarginZero WColor Bold15" ng-repeat="vmn in VideomakersName">{{ vmn.name }}</p>
-				<p class="TxtLeft MarginBottom1pct MarginZero WColor Regular12">{{ Voiceover }}</p>
-				<p class="TxtLeft MarginBottom1pct MarginZero WColor Bold15">{{ VoiceoverName }}</p>
-				<p class="TxtLeft MarginBottom1pct MarginZero WColor Regular12">{{ Sounddesigner }}</p>
-				<p class="TxtLeft MarginBottom1pct MarginZero WColor Bold15">{{ SounddesignerName }}</p>
+				<p class="TxtLeft MarginBottom5pct MarginZero MAINColor Bold15">{{ Collaboration }}</p>
+				<p class="TxtLeft MarginBottom2pct MarginZero WColor Regular12">{{ Videomakers }}</p>
+				<p class="TxtLeft MarginBottom2pct MarginZero WColor Bold15" ng-repeat="vmn in VideomakersName">{{ vmn.name }}</p>
+				<p class="TxtLeft MarginBottom2pct MarginZero WColor Regular12">{{ Sounddesigner }}</p>
+				<p class="TxtLeft MarginBottom2pct MarginZero WColor Bold15">{{ SounddesignerName }}</p>
+				<p class="TxtLeft MarginBottom2pct MarginZero WColor Regular12">{{ Voiceover }}</p>
+				<p class="TxtLeft MarginBottom2pct MarginZero WColor Bold15">{{ VoiceoverName }}</p>
 			</div>
 			<div class="MarginBottom10pct">
-				<p class="TxtLeft MarginBottom2pct MarginZero MAINColor Bold15">{{ ThankYou }}</p>
-				<p class="TxtLeft MarginBottom1pct MarginZero WColor Bold15" ng-repeat="tnku in ProjectThankYou">{{ tnku.name }}</p>
+				<p class="TxtLeft MarginBottom5pct MarginZero MAINColor Bold15">{{ ThankYou }}</p>
+				<p class="TxtLeft MarginBottom2pct MarginZero WColor Bold15" ng-repeat="tnku in ProjectThankYou">{{ tnku.name }}</p>
 			</div>
 		</div>
-		<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+		<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
 			<div class="row">
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<p class="TxtLeft MarginBottom2pct MarginZero MAINColor Bold15">Social channels</p>
+					<p class="TxtLeft MarginBottom2pct MarginZero MAINColor Bold15">Canali social</p>
 					<ul class="TxtLeft MarginBottom10pct PaddingZero">
 						<li class="Sponsor">
 							<a ng-href="{{ Link_Facebook }}" target="_blank">
@@ -61,7 +61,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-					<p class="TxtLeft MarginBottom2pct MarginZero MAINColor Bold15">Downloads</p>
+					<p class="TxtLeft MarginBottom2pct MarginZero MAINColor Bold15">Download</p>
 					<ul class="TxtLeft MarginBottom10pct PaddingZero">
 						<li class="Sponsor">
 							<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
@@ -89,7 +89,7 @@
 								<g>
 									<line class="WLine2px" x1="40" y1="12" x2="40" y2="39"/>
 									<polygon class="WColor" points="43.4,38 40.2,43.5 37,38"/>
-									<polyline class="WLine2px" points="20.1,37 17.6,30.5 25.1,11 32.6,30.5 30.1,37 	"/>
+									<polyline class="WLine2px" points="20.1,37 17.6,30.5 25.1,11 32.6,30.5 30.1,37"/>
 									<line class="WLine2px" x1="25" y1="12" x2="25" y2="27"/>
 									<circle class="WLine2px" cx="25.1" cy="28.5" r="2"/>
 									<line class="WLine2px" x1="13" y1="9" x2="36" y2="9"/>
@@ -119,13 +119,13 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="credits in creditsTesto">
-					<p class="MarginZero MarginBottom2pct TxtLeft WColor Regular15"> {{ credits.paragraf }}</p>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<p class="MarginZero MarginBottom5pct TxtLeft WColor Regular15" ng-repeat="creditstesto in creditsTesto"> {{ creditstesto.paragraf }}</p>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<p class="MarginZero MarginBottom2pct TxtLeft WColor Regular12">Per saperne di più sul metodo di lavoro utilizzato da Scbs scarica il report. Per portare Scbs nella tua città contattaci.</p>
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+					<p class="MarginZero MarginBottom5pct TxtLeft WColor Regular15" ng-repeat="creditsopensource in creditsOpensource"> {{ creditsopensource.paragraf }}</p>
 				</div>
-				<div class="TxtLeft MarginTop5pct col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="TxtLeft MarginTop2pct col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="82px" height="82px" viewBox="0 0 82 82" style="enable-background:new 0 0 82 82;" xml:space="preserve">
 						<g id="frame_scbs">
 							<rect x="3.5" y="3.5" class="WLine" width="75" height="75"/>
@@ -153,11 +153,11 @@
 								<path class="G2Color" d="M21,29.3c0,9.8,8.4,17.3,8.4,17.3s1.7,1.5,1.7,4.5H36v-9.8l-6.3-15c-0.9-2.2,1-4.2,2.2-4.2c1.4,0,5.3,0,5.3,0
 									l3.8,3.4V12.1C30,12.1,21,19.4,21,29.3z"/>
 								<path class="G2Color" d="M31.7,53l0.4,3.4l6.8-1.5c0.7-0.2,1.5,0.3,1.6,1c0.2,0.7-0.3,1.5-1,1.6l-7,1.6l0.2,1.7L41,59v-6H31.7z"/>
-								<polygon class="G2Color" points="33.1,63.6 33.5,66.8 35,66.9 36.6,70 41,70 41,61.8 	"/>
+								<polygon class="G2Color" points="33.1,63.6 33.5,66.8 35,66.9 36.6,70 41,70 41,61.8"/>
 								<path class="WColor" d="M43,41.1c0,0,5.5-15.1,5.5-15.1h-3.6L41,29.3V51h2V41.1z"/>
 								<path class="WColor" d="M45,22c0,0,3.7,0,5,0c1.2,0,2.9,2,2,4.2l-6,15V51h4.9c0-3,1.3-4.5,1.3-4.5S61,39.1,61,29.3s-7.4-17.2-20-17.2
 									l0,0v13.2l0,0.3L45,22z"/>
-								<polygon class="WColor" points="50.1,53 41,53 41,59 49.6,57.1 	"/>
+								<polygon class="WColor" points="50.1,53 41,53 41,59 49.6,57.1"/>
 								<path class="WColor" d="M47.1,66.9l1.3-0.1l0.3-2c0,0-5.8,1.2-5.9,1.2c-0.6,0-1.2-0.4-1.3-1.1c-0.2-0.7,0.3-1.5,1-1.6l6.6-1.4l0.2-1.8
 									L41,61.8V70h4.6L47.1,66.9z"/>
 							</g>
@@ -200,6 +200,7 @@
 							<rect x="3.5" y="3.2" class="WLine2px" width="75" height="75"/>
 						</svg>
 					</a>
+					<p class="Sponsor WColor Regular9">Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale</a>.</p>
 				</div>
 			</div>
 		</div>
