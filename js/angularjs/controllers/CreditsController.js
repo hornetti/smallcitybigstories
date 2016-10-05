@@ -49,13 +49,21 @@
     		paragraf : "Small city big stories è un progetto di visual journalism che racconta le potenzialità nascoste della dimensione locale attraverso le voci dei suoi protagonisti."
     	},
     	{
-    		paragraf : "Small city, big stories nasce da un’idea dell’associazione Salesiani 2.0 di Faenza, che ha selezionato i 15 intervistati."
+    		paragraf : "Small city, big stories nasce dalla volontà dell’associazione Salesiani 2.0 di Faenza, che ha selezionato i 15 intervistati e ideato i contenuti."
     	},
+    	{
+    		paragraf : "Tutti i dati sono stati rilasciati dai singoli protagonisti del progetto."
+    	},
+    	{
+    		paragraf : "Per saperne di più sul metodo di lavoro utilizzato da Scbs scarica il report. Per portare Scbs nella tua città contattaci."
+    	}
+    ];
+	$scope.creditsOpensource = [
     	{
     		paragraf : "Il brand Scbs e il relativo progetto di visual journalism sono stati interamente concepiti da Luca Gorini, Filippo Gianessi e Filippo Gorini."
     	},
     	{
-    		paragraf : "Abbiamo sviluppato Small city, big stories con l’obbiettivo primario di diffondere l’uso del visual journalism in Italia. Siamo convinti che raccontare l’ecosistema professionale di una città sia la modalità più semplice e immediata per permettere a terzi di applicare le tecniche proprie del visual journalism: per questa ragione abbiamo deciso di rendere Scbs Open Source."
+    		paragraf : "La crew di Small city, big stories ha realizzato il progetto con l’obbiettivo primario di diffondere l’uso del visual journalism in Italia. Siamo convinti che raccontare l’ecosistema professionale di una città sia la modalità più semplice e immediata per permettere a terzi di applicare le tecniche proprie del visual journalism: per questa ragione abbiamo deciso di rendere Scbs Open Source."
     	}
     ];	
 	$scope.Link_Salesiani = 'http://www.salesiani20.it/';
