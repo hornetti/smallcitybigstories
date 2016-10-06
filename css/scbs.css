@@ -390,6 +390,9 @@ MAIN CLASS
 .MarginTop2pct {
   margin-top: 2%;
 }
+.MarginTop3pct {
+  margin-top: 3%;
+}
 .MarginTop5pct {
   margin-top: 5%;
 }
@@ -401,6 +404,9 @@ MAIN CLASS
 }
 .MarginBottom2pct {
   margin-bottom: 2%;
+}
+.MarginBottom3pct {
+  margin-bottom: 3%;
 }
 .MarginBottom5pct {
   margin-bottom: 5%;
@@ -423,6 +429,9 @@ MAIN CLASS
 .PaddingTop2pct {
   padding-top: 2%;
 }
+.PaddingTop3pct {
+  padding-top: 3%;
+}
 .PaddingTop5pct {
   padding-top: 5%;
 }
@@ -434,6 +443,9 @@ MAIN CLASS
 }
 .PaddingBottom2pct {
   padding-bottom: 2%;
+}
+.PaddingBottom3pct {
+  padding-bottom: 3%;
 }
 .PaddingBottom5pct {
   padding-bottom: 5%;
