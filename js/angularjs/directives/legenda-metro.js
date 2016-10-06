@@ -31,15 +31,18 @@ app.directive('legendaMetro', function() {
 				    delay: 1
 				}, 0.25);
 
-				$('.ContainerLegendaMetro > p').hide();
+				$(".ContainerLegendaMetro").accordion({
+			      	collapsible: true,
+			      	active: false
+			    });
+/*
 				var clicked = false;
 				/*
 
 				FoodExplanation
 
-				*/
+				*//*
 				$("#Food").click(function() {
-					$('.FoodExplanation').slideToggle('slow');
 					if (!clicked) {
 					    TweenMax.to('#lineBlue', 0.5, {
 					        opacity: 0.2,
@@ -121,9 +124,8 @@ app.directive('legendaMetro', function() {
 
 				MavExplanation
 
-				*/
+				*//*
 				$("#Mav").click(function() {
-					$('.MavExplanation').slideToggle('slow');
 					if (!clicked) {
 					    TweenMax.to('#lineRed', 0.5, {
 					        opacity: 0.2,
@@ -205,9 +207,8 @@ app.directive('legendaMetro', function() {
 
 				PtekExplanation
 
-				*/
+				*//*
 				$("#Ptek").click(function() {
-					$('.PtekExplanation').slideToggle('slow');
 					if (!clicked) {
 					    TweenMax.to('#lineRed', 0.5, {
 					        opacity: 0.2,
@@ -289,9 +290,8 @@ app.directive('legendaMetro', function() {
 
 				ItExplanation
 
-				*/
+				*//*
 				$("#It").click(function() {
-					$('.ItExplanation').slideToggle('slow');
 					if (!clicked) {
 					    TweenMax.to('#lineRed', 0.5, {
 					        opacity: 0.2,
@@ -368,7 +368,7 @@ app.directive('legendaMetro', function() {
 					    });
 					}
    					clicked = !clicked;	
-				});
+				});*/
 			});
 	    }
 	};
