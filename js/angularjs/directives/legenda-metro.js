@@ -35,7 +35,7 @@ app.directive('legendaMetro', function() {
 			      	collapsible: true,
 			      	active: false
 			    });
-/*
+				/*
 				var clicked = false;
 				/*
 
