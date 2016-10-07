@@ -20,8 +20,8 @@ app.controller('ProfileController', ['$scope', function($scope) {
     		element : "D — A seguito di una passione da coltivare"
     	}
     ];
-    $scope.Startup = "* startup non soggette a fatturazione diretta";
-    $scope.Artigiano = "* artigiani non soggetti a fatturazione diretta";
+    $scope.Startup = "* startup non soggetta a fatturazione diretta";
+    $scope.Artigiano = "* artigiano non soggetto a fatturazione diretta";
   	/*
   	
   	Counter Number Profile
