@@ -1,5 +1,5 @@
-*********************************************************/
-/**************   toggleFullScreen   ********************/
+/*********************************************************/
+/***********      toggleFullScreen      *****************/
 /*******************************************************/
 
 function toggleFullScreen() {
@@ -27,7 +27,7 @@ function toggleFullScreen() {
 }
 
 /*********************************************************/
-/****************   VideoFullScreen   *******************/
+/*************      VideoFullScreen      ****************/
 /*******************************************************/
 
 var i = document.getElementById("VideoIntervistato");
@@ -47,7 +47,7 @@ function VideoFullScreen() {
 }
 
 /*********************************************************/
-/****************   RequestFullScreen   *****************/
+/************       RequestFullScreen       *************/
 /*******************************************************/
 
 function RequestFullScreen() {
@@ -62,4 +62,17 @@ function RequestFullScreen() {
       document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
     }
   }
+}
+
+/*********************************************************/
+/****************     restartMusic     ******************/
+/*******************************************************/
+
+function restartMusic() {
+    var audio = document.getElementById('ambientMusic');
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.currentTime = 0
+    }
 }
