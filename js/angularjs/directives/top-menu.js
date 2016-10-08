@@ -27,6 +27,8 @@ app.directive('topMenu', function() {
 						ease: Expo.easeOut
 					});
 				});
+
+
 			});
 	    }
   	};
