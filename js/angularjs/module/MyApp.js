@@ -22,63 +22,63 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'ManifestoController',
       templateUrl: 'js/angularjs/views/Manifesto.html'
     })
-    .when('/map/marco_tamba/', {
+    .when('/map/marco_tamba', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/MarcoTamba.html'
     })
-    .when('/map/fabrizio_mantovani/', {
+    .when('/map/fabrizio_mantovani', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/FabrizioMantovani.html'
     })
-    .when('/map/raffaele_borgini/', {
+    .when('/map/raffaele_borgini', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/RaffaeleBorgini.html'
     })
-    .when('/map/paolo_rava/', {
+    .when('/map/paolo_rava', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/PaoloRava.html'
     })
-    .when('/map/ivano_valmori/', {
+    .when('/map/ivano_valmori', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/IvanoValmori.html'
     })
-    .when('/map/andrea_salvatori/', {
+    .when('/map/andrea_salvatori', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/AndreaSalvatori.html'
     })
-    .when('/map/marco_peroni/', {
+    .when('/map/marco_peroni', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/MarcoPeroni.html'
     })
-    .when('/map/andrea_martelli/', {
+    .when('/map/andrea_martelli', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/AndreaMartelli.html'
     })
-    .when('/map/roberto_bertoni/', {
+    .when('/map/roberto_bertoni', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/RobertoBertoni.html'
     })
-    .when('/map/barbara_savorani/', {
+    .when('/map/barbara_savorani', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/BarbaraSavorani.html'
     })
-    .when('/map/gabriele_bandini/', {
+    .when('/map/gabriele_bandini', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/GabrieleBandini.html'
     })
-    .when('/map/giulia_ruta/', {
+    .when('/map/giulia_ruta', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/GiuliaRuta.html'
     })
-    .when('/map/anna_tampieri/', {
+    .when('/map/anna_tampieri', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/AnnaTampieri.html'
     })
-    .when('/map/stefano_zauli/', {
+    .when('/map/stefano_zauli', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/StefanoZauli.html'
     })
-    .when('/map/maurizio_fionda/', {
+    .when('/map/maurizio_fionda', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/MaurizioFionda.html'
     })
@@ -111,7 +111,13 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       templateUrl: 'js/angularjs/views/datavisualization/Motivations.html'
     })
     .otherwise({ 
-      redirectTo: '/home' 
+      redirectTo: '/home'
     });
     $locationProvider.html5Mode(true);
 }]);
+
+app.run(function ($browser) {
+  $browser.baseHref = function () { 
+    return "/"
+  };
+});
