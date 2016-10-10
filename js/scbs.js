@@ -68,11 +68,20 @@ function RequestFullScreen() {
 /****************     restartMusic     ******************/
 /*******************************************************/
 
+var audio = document.getElementById('ambientMusic');  
+
 function restartMusic() {
-    var audio = document.getElementById('ambientMusic');
     if (audio.paused) {
         audio.play();
     } else {
         audio.currentTime = 0
     }
 }
+
+/*********************************************************/
+/****************     toggleMusic      ******************/
+/*******************************************************/
+
+function togglePlay() {
+  return audio.paused ? audio.play() : audio.pause();
+};
