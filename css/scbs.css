@@ -476,7 +476,7 @@ body {
   background-size: cover;
   color: #ff6666;
   font-family: 'Work Sans', sans-serif;
-  cursor: url(../svg/Cursor.svg), default;
+  cursor: url(../svg/Cursor.svg), auto;
 }
 .container-fluid {
   text-align: center;
