@@ -1,5 +1,10 @@
 app.controller('MotivationsController', ['$scope', function($scope) {
 	angular.element(document).ready(function() {
+	    /*
+
+		Data A
+		
+		*/
 		TweenMax.set('#DV4Data1PTEK', {
 			opacity: '0'
 		});
@@ -28,6 +33,8 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 	    });
 	    /*
 
+		Data B
+		
 		*/
 		TweenMax.set('#DV4Data2PTEK', {
 			opacity: '0'
@@ -57,6 +64,8 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 	    });
 	    /*
 
+		Data C
+		
 		*/
 		TweenMax.set('#DV4Data3IT', {
 			opacity: '0'
@@ -72,6 +81,8 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 	        });
 	    });
 	    /*
+
+		Data D
 
 		*/
 		TweenMax.set('#DV4Data4PTEK', {
@@ -113,47 +124,58 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 	          opacity: '0'
 	        });
 	    });
+	    /*
 
-	    var circles = ['.PTEKCircle', '.FOODCircle', '.ITCircle', '.MAVCircle'];
+		SVG Animation
 
-		var letters = ['#DV4LetterA', '#DV4LetterB', '#DV4LetterC', '#DV4LetterD'];
+		*/
+	    var Circles = ['.PTEKCircle', '.FOODCircle', '.ITCircle', '.MAVCircle'];
 
-		var stats = ['.PTEKstatLine', '.ITstatLine', '.PTEKstatLineAux', '.ITstatLineAux','.MAVstatLine', '.FOODstatLine'];
+		var Letters = ['#DV4LetterA', '#DV4LetterB', '#DV4LetterC', '#DV4LetterD'];
 
-		TweenMax.from(circles, 2, {
+		var Stats = ['.PTEKstatLine', '.ITstatLine', '.PTEKstatLineAux', '.ITstatLineAux','.MAVstatLine', '.FOODstatLine'];
+
+		TweenMax.from(Circles, 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
 			delay: 0.5
 		});
-		TweenMax.from(stats, 2, {
+		
+		TweenMax.from(Letters, 2.5, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 0.5
+		});
+
+		TweenMax.from(Stats, 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
 			delay: 1.5
 		});
-		TweenMax.from('.Grid2' , 1, {
-			drawSVG: "0%",
-			ease: Expo.easeOut,
-			delay: 1.5
-		});
+
 		TweenMax.from('.Grid' , 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
 			delay: 0.5
 		});
-		TweenMax.from(letters, 2.5, {
-			opacity: 0,
+
+		TweenMax.from('.Grid2' , 1, {
+			drawSVG: "0%",
 			ease: Expo.easeOut,
-			delay: 0.5
+			delay: 1.5
 		});
+
 		TweenLite.from('#DV4Answers', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 1
 		});
+
 		TweenMax.from(['#DV4Names', '#DV4LegendLeft'], 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 1.5
 		});
+
 	});
 }]);
