@@ -1,6 +1,10 @@
 app.controller('RefmarketController', ['$scope', function($scope) {
 	angular.element(document).ready(function() {
-		/* ptek */
+	    /*
+
+		Data Italy
+		
+		*/
 		TweenMax.set('#DV5Data1PTEK', {
 			opacity: '0'
 		});
@@ -20,7 +24,7 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	  	/* food */
+
 		TweenMax.set('#DV5Data1FOOD', {
 			opacity: '0'
 		});
@@ -40,7 +44,7 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	  	/* it */
+
 		TweenMax.set('#DV5Data1IT', {
 			opacity: '0'
 		});
@@ -60,7 +64,7 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	 	 /* mav */
+	    
 		TweenMax.set('#DV5Data1MAV', {
 			opacity: '0'
 		});
@@ -80,7 +84,11 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	  	/* ptek */
+	    /*
+
+		Data World
+		
+		*/
 		TweenMax.set('#DV5Data2PTEK', {
 			opacity: '0'
 		});
@@ -100,7 +108,7 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	  	/* food */
+
 		TweenMax.set('#DV5Data2FOOD', {
 			opacity: '0'
 		});
@@ -120,7 +128,7 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	  	/* it */
+
 		TweenMax.set('#DV5Data2IT', {
 			opacity: '0'
 		});
@@ -140,7 +148,7 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	 	 /* mav */
+
 		TweenMax.set('#DV5Data2MAV', {
 			opacity: '0'
 		});
@@ -160,31 +168,42 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	    var circles = ['.PTEKCircle', '.FOODCircle', '.ITCircle', '.MAVCircle','.GlobalLocal'];
-		TweenMax.from(circles, 3, {
+	    /*
+
+		SVG Animation
+
+		*/
+	    var Circles = ['.PTEKCircle', '.FOODCircle', '.ITCircle', '.MAVCircle','.GlobalLocal'];
+
+		TweenMax.from(Circles, 3, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
 			delay: 0.5
 		});
+
 		TweenMax.from(['.PTEKstatLine', '.PTEKstatLineAux', '.ITstatLine', '.ITstatLineAux', '.MAVstatLine', '.MAVstatLineAux', '.FOODstatLine'], 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
 			delay: 1.5
 		});
+
 		TweenMax.from('.Grid2' , 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
 			delay: 0.5
 		});
+
 		TweenMax.from(['#DV5Answers'], 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 0.5
 		});
+
 		TweenMax.from(['#DV5Names', '#DV5LegendLeft'], 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 1.5
 		});
+
 	});
 }]);
