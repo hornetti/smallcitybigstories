@@ -32,14 +32,4 @@ app.controller('LinkController', ['$scope', function($scope) {
 	];
 	$scope.Toggle_Fullscreen = "Fullscreen";
 	$scope.Toggle_Music = "Music";
-	/*
-	angular.element(document).ready(function toggleMusic() {
-		var myAudio = document.getElementById("ambientMusic");
-	  	if (myAudio = !myAudio.play()) {
-	  		myAudio.play(); 
-	  	} else {
-	    	myAudio.pause(); 
-	  	}		
-	});	
-	*/
 }]);
