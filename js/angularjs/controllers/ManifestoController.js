@@ -1,5 +1,7 @@
 ﻿app.controller('ManifestoController', ['$scope', function($scope) {
+
 	$scope.manifestoTitle = "Manifesto";
+
 	$scope.manifestoTesto = [
     	{
     		paragraf : "Il digitale ha imposto ai media nuovi ritmi e nuove sfide, spingendoli in acque ancora inesplorate; l’ennesima prova che il giornalismo è chiamato a superare non riguarda solamente l’approccio alle nuove tecnologie, ma tocca nel profondo gli stessi ingranaggi che quotidianamente lo definiscono."
@@ -17,6 +19,7 @@
     		paragraf : "Se è vero che il cambiamento è l’unica costante del giornalismo, allora è arrivato il momento di assecondarlo."
     	}
     ];
+
     angular.element(document).ready(function() {
         /*
         var TXT = ['.Bold32', '.Regular32', '.Bold21', '.Regular21', '.Bold15', '.Regular15', '.Bold12', '.Regular12'];
@@ -30,4 +33,5 @@
         }, 0.25);
         */
     });
+    
 }]);
