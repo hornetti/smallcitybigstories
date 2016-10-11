@@ -240,33 +240,39 @@ app.controller('TypemarketController', ['$scope', function($scope) {
 	          opacity: '1'
 	        });
 	    });
-		var circles = ['.PTEKCircle', '.FOODCircle', '.ITCircle', '.MAVCircle'];
-		var letters = ['#DV7Letter1', '#DV7Letter2', '#DV7Letter3'];
-		var stats = ['.PTEKstatLine', '.ITstatLine', '.PTEKstatLineAux', '.ITstatLineAux','.MAVstatLine', '.MAVstatLineAux', '.FOODstatLine', '.FOODstatLineAux'];
+	    /*
 
-		TweenMax.from(circles, 2, {
+		SVG Animation
+		
+		*/
+		var Circles = ['.PTEKCircle', '.FOODCircle', '.ITCircle', '.MAVCircle'];
+
+		var Stats = ['.PTEKstatLine', '.ITstatLine', '.PTEKstatLineAux', '.ITstatLineAux','.MAVstatLine', '.MAVstatLineAux', '.FOODstatLine', '.FOODstatLineAux'];
+
+		var Letters = ['#DV7Letter1', '#DV7Letter2', '#DV7Letter3'];
+
+		TweenMax.from(Circles, 2, {
 		  drawSVG: "0%",
 		  ease: Expo.easeOut,
 		  delay: 0.5
 		});
 		
-		TweenMax.from(stats, 2, {
+		TweenMax.from(Stats, 2, {
 		  drawSVG: "0%",
 		  ease: Expo.easeOut,
 		  delay: 1.5
+		});
+		
+		TweenMax.from(Letters, 2.5, {
+		  opacity: 0,
+		  ease: Expo.easeOut,
+		  delay: 0.5
 		});
 		
 		TweenMax.from('.Grid2' , 2, {
 		  drawSVG: "0%",
 		  ease: Expo.easeOut,
 		  delay: 0.5
-		});
-		
-		TweenMax.from(letters, 2.5, {
-		  opacity: 0,
-		  ease: Expo.easeOut,
-		  delay: 0.5
-		  
 		});
 		
 		TweenLite.from('#DV7Answers', 2, {
@@ -280,6 +286,6 @@ app.controller('TypemarketController', ['$scope', function($scope) {
 		  ease: Expo.easeOut,
 		  delay: 1.5
 		});
+
 	});
-	/**/
 }]);
