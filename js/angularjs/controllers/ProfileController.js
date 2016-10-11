@@ -1,11 +1,19 @@
 app.controller('ProfileController', ['$scope', function($scope) {
+
 	$scope.Link_Revenue = 'map/revenue';
+	
 	$scope.Link_Employees = 'map/employees';
+	
 	$scope.Link_Foundation = 'map/foundation';
+	
 	$scope.Link_Motivation = 'map/motivations';
+	
 	$scope.Link_Market = 'map/reference_market';
+	
 	$scope.Link_Growth = 'map/economic_growth';
+	
 	$scope.Link_Type = 'map/type_market';
+	
 	$scope.legends = [
     	{
     		element : " A — C'erano occasioni che andavano colte"
@@ -20,14 +28,19 @@ app.controller('ProfileController', ['$scope', function($scope) {
     		element : "D — A seguito di una passione da coltivare"
     	}
     ];
+
     $scope.Startup = "* startup non soggetta a fatturazione diretta";
+
     $scope.Artigiano = "* artigiano non soggetto a fatturazione diretta";
+
   	/*
   	
   	Counter Number Profile
 
   	*/
+
 	angular.element(document).ready(function() {
+
 		$('.count').each(function () {
 		    $(this).prop('Counter', 0).animate({
 		        Counter: $(this).text()
@@ -40,30 +53,36 @@ app.controller('ProfileController', ['$scope', function($scope) {
 		        }
 		    });
 		});
+
 		/*
 
 		ANIMATION SERVICE
 
 		*/
-		var STROKE = ['.Stroke5px', '.Stroke2px','.Stroke5pxLinejoinbevel', '.Stroke5pxLinejoinround', '.Stroke5pxLinecap'];
-		TweenMax.staggerFrom(STROKE, 2, {
+
+		var Stroke = ['.Stroke5px', '.Stroke2px','.Stroke5pxLinejoinbevel', '.Stroke5pxLinejoinround', '.Stroke5pxLinecap'];
+
+		TweenMax.staggerFrom(Stroke, 2, {
 		    drawSVG: 0, 
 		    delay: 0,
 		    ease: Expo.easeOut,
 		    force3D: true
 		}, 0.5);
+
 		/*
 
 		COMING SOON
 
 		*/
-	        TweenMax.fromTo('.ITstatLine', 2, {
-	        	drawSVG:"100% 100%"
-	        }, {
-	        	drawSVG:"0% 100% ",
-	        	ease: Expo.easeOut,
-	        	delay: 0.1
-	        });
+		
+	    TweenMax.fromTo('.ITstatLine', 2, {
+	        drawSVG:"100% 100%"
+	    }, {
+        	drawSVG:"0% 100%",
+        	ease: Expo.easeOut,
+        	delay: 0.1
+	    });
+
 		TweenMax.fromTo('.ITstatLine', 2, {
 			drawSVG:"0% 0%"
 		}, {
@@ -71,11 +90,13 @@ app.controller('ProfileController', ['$scope', function($scope) {
 			ease: Expo.easeOut, 
 			delay: 0.1
 		});
+
 		TweenMax.from('.Regular21', 1.5, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 0.4 
 		});
+
 	});
 	/**   VideoJS   **/
 	/*
