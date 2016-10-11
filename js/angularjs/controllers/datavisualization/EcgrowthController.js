@@ -3,31 +3,36 @@ app.controller('EcgrowthController', ['$scope', function($scope) {
 
 		var Bars = ['.PTEKstatLine', '.ITstatLine', '.MAVstatLine', '.FOODstatLine'];
 
-		TweenLite.from('.GstatLine', 2, {
-			drawSVG: 0,
-			ease: Expo.easeOut,
-			delay: 1
-		});
 		TweenMax.staggerFrom(Bars, 2, {
 			drawSVG: 0, 
 			delay: 2, 
 			ease: Expo.easeOut, 
 			force3D: true
 		}, 0.2);
+
 		TweenLite.from(['#DV6NoDataTampieri', '#DV6NoDataBorgini'], 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 2.7
 		});
+
+		TweenLite.from('.GstatLine', 2, {
+			drawSVG: 0,
+			ease: Expo.easeOut,
+			delay: 1
+		});
+
 		TweenLite.from('.GColor', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 1
 		});
+
 		TweenLite.from('.BstatLine', 2, {
 			drawSVG: 0,
 			ease: Expo.easeOut,
 			delay: 2
 		});
+		
 	});
 }]);
