@@ -2,7 +2,7 @@
 
 	$scope.Release = "Release Date";
 
-	$scope.Data = "01.10.2016";
+	$scope.Data = "01.11.2016";
 
 	$scope.Link_Facebook = 'https://www.facebook.com/smallcitybigstories/';
 
