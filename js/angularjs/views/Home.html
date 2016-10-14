@@ -63,8 +63,8 @@
 			</button>
 		</div>
 		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-			<a class="ButtonStart" onclick="RequestFullScreen()" ng-href="{{ Link_Map.direct }}">
-				<svg id="enter" version="1.1" class="MarginTop2pct MarginBottom2pct" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="77.2px" height="42.2px" viewBox="0 0 77.2 42.2" style="enable-background:new 0 0 77.2 42.2;" xml:space="preserve">
+			<a onclick="RequestFullScreen(); pauseVoice(); playWelcome();" ng-href="{{ Link_Map.direct }}">
+				<svg id="enter" version="1.1" class="MarginTop2pct MarginBottom2pct ButtonStart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="77.2px" height="42.2px" viewBox="0 0 77.2 42.2" style="enable-background:new 0 0 77.2 42.2;" xml:space="preserve">
 					<g id="rectangle">
 						<rect x="1.1" y="1.1" class="MAINStroke2px" width="75" height="40"/>
 					</g>
@@ -96,7 +96,7 @@
 	<video class="Sigla" autoplay loop>
 		<source src="video/HomeSCBS.mp4" type="video/mp4">
 	</video>
-    <audio autoplay>
-        <source src="music/introSCBS.wav">
+    <audio id="Voiceover" autoplay autobuffer>
+        <source src="music/voiceover.mp3">
     </audio>
 </div>
