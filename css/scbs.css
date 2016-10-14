@@ -113,7 +113,7 @@ OFFLINE
     border: 3px solid #ff6666;
     border-radius: 50px;
     padding: 10px;
-    cursor: pointer;
+    cursor: url(../svg/cursor/32px_cursor_link.png), auto;
   }  
 }
 @media (min-width: 1200px) {
@@ -146,7 +146,7 @@ OFFLINE
     border: 3px solid #ff6666;
     border-radius: 50px;
     padding: 10px;
-    cursor: pointer;
+    cursor: url(../svg/cursor/32px_cursor_link.png), auto;
   }  
 }
 /*
@@ -476,7 +476,7 @@ body {
   background-size: cover;
   color: #ff6666;
   font-family: 'Work Sans', sans-serif;
-  cursor: url(../svg/Cursor.svg), auto;
+  cursor: url(../svg/cursor/32px_cursor.png), auto;
 }
 .container-fluid {
   text-align: center;
@@ -494,6 +494,7 @@ a:focus {
   fill: inherit;
   color: inherit;
   text-decoration: none;
+  cursor: url(../svg/cursor/32px_cursor_link.png), auto;
 }
 /*
 
@@ -503,7 +504,7 @@ TOOLTIP
 .Tootisx {
   margin: 0;
   padding: 0;
-  cursor: default;
+  cursor: url(../svg/cursor/32px_cursor.png), auto;
   border: none;
   background: transparent;
   float: right;
@@ -511,7 +512,7 @@ TOOLTIP
 .Tootidx {
   margin: 0;
   padding: 0;
-  cursor: default;
+  cursor: url(../svg/cursor/32px_cursor.png), auto;
   border: none;
   background: transparent;
   float: left;
@@ -565,7 +566,7 @@ HOME
   font-size: 39px;
 }
 .ButtonStart {
-  cursor: pointer;
+  cursor: url(../svg/cursor/32px_cursor_linkwhite.png), auto;
 }
 .MAINStroke2px {
   fill: none;
@@ -653,7 +654,7 @@ MAP
   stroke-miterlimit: 10;
 }
 .ContainerLegendaMetro > svg {
-  cursor: pointer;
+  cursor: url(../svg/cursor/32px_cursor_link.png), auto;
 }
 /*
 
@@ -795,6 +796,9 @@ ARRAY PROFILE
 BACK TO MAP
 
 */
+#Backto {
+  cursor: url(../svg/cursor/32px_cursor_linkwhite.png), auto;
+}
 .txt {
   fill: #ff6666;
   stroke: none;
@@ -896,7 +900,7 @@ input[type="checkbox"] + label {
   position: relative;
   padding-top: 2%;
   padding-left: 7%;
-  cursor: pointer;
+  cursor: url(../svg/cursor/32px_cursor_link.png), auto;
   color: #fff;
   text-align: left;
   font-family: 'Work Sans', sans-serif;
@@ -925,6 +929,7 @@ input[type="checkbox"] + label:before {
 input[type="checkbox"]:checked + label {
   color: #ff6666;
   border-color: #ff6666;
+  cursor: url(../svg/cursor/32px_cursor_linkwhite.png), auto;
 }
 input[type="checkbox"]:checked + label:before {
   width: 10px;
@@ -954,7 +959,7 @@ input[type="checkbox"]:checked + label:before {
   height: 60px;
   background: transparent;
   border: 2px solid #ff6666;
-  cursor: pointer;
+  cursor: url(../svg/cursor/32px_cursor_linkwhite.png), auto;
 }
 .ButtonSubmit > p {
   position: absolute;
@@ -1014,7 +1019,7 @@ MENU
 .LeftMenu > a,
 .RightMenu > a {
   padding: 0 10px;
-  cursor: pointer;
+  cursor: url(../svg/cursor/32px_cursor_linkwhite.png), auto;
 }
 .Logo {
   font-family: 'Titillium Web', sans-serif;
@@ -1049,7 +1054,10 @@ MENU
   padding: 5px 10px;
   margin: 0;
   display: inline-block;
-  cursor: pointer;
+  cursor: url(../svg/cursor/32px_cursor_linkwhite.png), auto;
+}
+.RightBottomMenu > a:visited {
+  color: #666666;
 }
 .ContainerSocial {
   display: inline-block;
@@ -1057,7 +1065,8 @@ MENU
 .ContainerSocial > a:hover,
 .ContainerSocial > a:focus,
 .ContainerSocial > p:hover,
-.ContainerSocial > p:focus {
+.ContainerSocial > p:focus,
+.ContainerSocial > p:active {
   color: #ff6666;
   text-decoration: none;
 }
