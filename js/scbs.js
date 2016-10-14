@@ -24,7 +24,7 @@ function toggleFullScreen() {
       document.webkitExitFullscreen();
     }
   }
-}
+};
 
 /*********************************************************/
 /*************      VideoFullScreen      ****************/
@@ -44,7 +44,7 @@ function VideoFullScreen() {
       i.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
     }
   }
-}
+};
 
 /*********************************************************/
 /************       RequestFullScreen       *************/
@@ -62,7 +62,7 @@ function RequestFullScreen() {
       document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
     }
   }
-}
+};
 
 /*********************************************************/
 /****************     restartMusic     ******************/
@@ -76,7 +76,7 @@ function restartMusic() {
     } else {
         audio.currentTime = 0
     }
-}
+};
 
 /*********************************************************/
 /****************     toggleMusic      ******************/
@@ -84,4 +84,28 @@ function restartMusic() {
 
 function togglePlay() {
   return audio.paused ? audio.play() : audio.pause();
+};
+
+
+/*********************************************************/
+/****************     playWelcome      ******************/
+/*******************************************************/
+
+
+function playWelcome() {
+  var audioWelcome = document.getElementById("Welcome");
+  setTimeout(function() { 
+    audioWelcome.play(); 
+  }, 1250);
+};
+
+
+/*********************************************************/
+/****************     pauseVoice      ******************/
+/*******************************************************/
+
+
+function pauseVoice() {
+  var audioVoice = document.getElementById("Voiceover");
+  audioVoice.pause(); 
 };
