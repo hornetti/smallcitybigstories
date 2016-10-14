@@ -13,7 +13,7 @@
 	$scope.ProjectCrew = [
 		{
 			name : 'Luca Gorini',
-			info : 'Head of content'
+			info : 'Journalist'
 		},
 		{
 			name : 'Filippo Gianessi',
