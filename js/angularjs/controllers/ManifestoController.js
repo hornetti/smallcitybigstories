@@ -16,7 +16,8 @@
     		paragraf : "È tempo che nelle tradizionali redazioni giornalistiche entrino nuove figure professionali, come visual designer e web developer, e che il loro lavoro venga integrato con quello del giornalista in maniera organica, producendo un feedback continuo e condividendo tutte le parti del processo decisionale."
     	}
     ];
-    $scope.manifestoCit = "Se è vero che il cambiamento è l’unica costante del giornalismo, allora è arrivato il momento di assecondarlo.";
+    $scope.manifestoCit = "Se è vero che il cambiamento è l’unica costante del giornalismo,";
+    $scope.manifestoCitdue = "allora è arrivato il momento di assecondarlo.";
 
     angular.element(document).ready(function() {
         /*
