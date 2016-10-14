@@ -71,16 +71,19 @@
     		paragraf : "Tutti i dati sono stati rilasciati dai singoli protagonisti del progetto."
     	},
     	{
-    		paragraf : "Per saperne di più sul metodo di lavoro utilizzato da Scbs scarica il report. Per portare Scbs nella tua città contattaci."
+    		paragraf : "Il brand Scbs e il relativo progetto di visual journalism sono stati interamente concepiti da Luca Gorini, Filippo Gianessi e Filippo Gorini."
     	}
     ];
 
 	$scope.creditsOpensource = [
     	{
-    		paragraf : "Il brand Scbs e il relativo progetto di visual journalism sono stati interamente concepiti da Luca Gorini, Filippo Gianessi e Filippo Gorini."
+    		paragraf : "La crew di Small city, big stories ha realizzato il progetto con l’obbiettivo primario di diffondere l’uso del visual journalism in Italia."
     	},
     	{
-    		paragraf : "La crew di Small city, big stories ha realizzato il progetto con l’obbiettivo primario di diffondere l’uso del visual journalism in Italia. Siamo convinti che raccontare l’ecosistema professionale di una città sia la modalità più semplice e immediata per permettere a terzi di applicare le tecniche proprie del visual journalism: per questa ragione abbiamo deciso di rendere Scbs Open Source."
+    		paragraf : "Siamo convinti che raccontare l’ecosistema professionale di una città sia la modalità più semplice e immediata per permettere a terzi di applicare le tecniche proprie del visual journalism: per questa ragione abbiamo deciso di rendere Scbs Open Source."
+    	},
+    	{
+    		paragraf : "Per saperne di più sul metodo di lavoro utilizzato da Scbs scarica il report. Per portare Scbs nella tua città contattaci."
     	}
     ];
 
