@@ -68,6 +68,10 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/AndreaMartelli.html'
     })
+    .when('/map/andrea_martelli/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
+    })
 
     .when('/map/roberto_bertoni', {
       controller: 'ProfileController',
