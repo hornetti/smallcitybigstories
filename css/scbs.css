@@ -698,6 +698,12 @@ PROFILE
   top: 0;
   left: 0;
 }
+#CircleVideo, #PlayVideo {
+  opacity: 0;
+}
+#TestoVideo, #BorderTestoVideo {
+  stroke: none;
+}
 #PlayerVideo {
   position: fixed;
   bottom: 5%;
