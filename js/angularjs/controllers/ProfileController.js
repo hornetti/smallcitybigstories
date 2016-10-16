@@ -60,12 +60,12 @@ app.controller('ProfileController', ['$scope', function($scope) {
 
 		*/
 
-		var Stroke = ['.Stroke5px', '.Stroke2px','.Stroke5pxLinejoinbevel', '.Stroke5pxLinejoinround', '.Stroke5pxLinecap'];
+		var Stroke = ['.Stroke5px', '.Stroke2px', '.Stroke5pxLinejoinbevel', '.Stroke5pxLinejoinround', '.Stroke5pxLinecap'];
 
 		TweenMax.staggerFrom(Stroke, 2, {
 		    drawSVG: 0, 
 		    delay: 0,
-		    ease: Expo.easeOut,
+		    ease: "Expo.easeOut",
 		    force3D: true
 		}, 0.5);
 
@@ -79,7 +79,7 @@ app.controller('ProfileController', ['$scope', function($scope) {
 	        drawSVG:"100% 100%"
 	    }, {
         	drawSVG:"0% 100%",
-        	ease: Expo.easeOut,
+        	ease: "Expo.easeOut",
         	delay: 0.1
 	    });
 
@@ -87,76 +87,80 @@ app.controller('ProfileController', ['$scope', function($scope) {
 			drawSVG:"0% 0%"
 		}, {
 			drawSVG:"0% 100% ", 
-			ease: Expo.easeOut, 
+			ease: "Expo.easeOut", 
 			delay: 0.1
 		});
 
 		TweenMax.from('.Regular21', 1.5, {
 			opacity: 0,
-			ease: Expo.easeOut,
+			ease: "Expo.easeOut",
 			delay: 0.4 
 		});
+
 		/*
 		
-		MORPHSVG
+		PREVIEW INTERVIEW
 	
 		*/
-		TweenLite.from('#frame', 2, {
-			drawSVG: 0,
-			ease: Expo.easeOut,
+
+		TweenLite.from('#BorderVideo', 2, {
+			drawSVG: "0%",
+			ease: "Expo.easeOut",
 			delay: 1
 		});
 
-		TweenMax.from('#testo', 2, {
-			opacity: 0,
-			ease: Expo.easeOut,
+		TweenMax.from('#TestoVideo', 2, {
+			opacity: "0",
+			ease: "Expo.easeOut",
 			delay: 1
 		});
 
-		TweenMax.from('#img', 2, {
-			opacity: 0,
-			ease: Expo.easeOut,
+		TweenMax.from('#PreviewVideo', 2, {
+			opacity: "0",
+			ease: "Expo.easeOut",
 			delay: 1
 		});
 
-		TweenMax.from('#pre', 2, {
-			opacity: 0,
-			ease: Expo.easeOut,
+		TweenMax.from('#BorderTestoVideo', 2, {
+			opacity: "0",
+			ease: "Expo.easeOut",
 			delay: 1
 		});
 
-		TweenMax.set('#circle', {
-			drawSVG: 0,
-			opacity: 0
+		TweenMax.set(['#CircleVideo', '#PlayVideo'], {
+			drawSVG: "0%"
 		});
 
 		$('.Poster').mouseover(function() {
-		    TweenMax.to("#pre", 0.5, {
-		        morphSVG: "#hover",
-		        ease: Expo.easeInOut
-		    });
-		    TweenMax.to("#testo", 0.5, {
-		        opacity: 0,
-		        ease: Expo.easeInOut
-		    });
-		    TweenMax.to("#circle", 0.5, {
-		        drawSVG: '100%',
-		        opacity: 1,
-		        delay: 0.5
-		    });
+  			$('#ContainerCircle').html('<circle id="CircleVideo" class="PTEKreadingLine" cx="285" cy="161" r="44.9"/>');
+			TweenMax.to('#BorderTestoVideo', 0.5, {
+				morphSVG: "#PlayVideo",
+				ease: "Expo.easeInOut"
+			});
+			TweenMax.to('#TestoVideo', 1, {
+				opacity: "0",
+				ease: "Expo.easeInOut"
+			});
+			TweenMax.to('#CircleVideo', 0.5, {
+				drawSVG: "100%",
+				opacity: "1",      
+				delay: "0.5"
+			});
 		});
 		$('.Poster').mouseleave(function() {
-		    TweenMax.to("#pre", 0.5, {
-				morphSVG: "#pre",
-				ease: Expo.easeInOut
-		    });
-		    TweenMax.to("#testo", 1, {
-				opacity: 1,
-				ease: Expo.easeInOut
-		    });
-		    TweenMax.to("#circle", 0.2, {
-				drawSVG: 0
-		    });
+			TweenMax.to('#BorderTestoVideo', 0.5, {
+				morphSVG: "#BorderTestoVideo",
+				ease: "Expo.easeInOut"
+			});
+			TweenMax.to('#TestoVideo', 1, {
+				opacity: "1",
+				ease: "Expo.easeInOut"
+			});
+			TweenMax.to('#CircleVideo', 0.5, {
+				drawSVG: "0%",
+    			opacity: "0"
+			});
+  			$('#CircleVideo').remove();
 		});
 
 	});
