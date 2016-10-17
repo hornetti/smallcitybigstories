@@ -68,10 +68,10 @@
     		paragraf : "Small city, big stories nasce dalla volontà dell’associazione Salesiani 2.0 di Faenza, che ha selezionato i 15 intervistati e ideato i contenuti."
     	},
     	{
-    		paragraf : "Tutti i dati sono stati rilasciati dai singoli protagonisti del progetto."
+    		paragraf : "Il brand Scbs e il relativo progetto di visual journalism sono stati interamente concepiti da Luca Gorini, Filippo Gianessi e Filippo Gorini."
     	},
     	{
-    		paragraf : "Il brand Scbs e il relativo progetto di visual journalism sono stati interamente concepiti da Luca Gorini, Filippo Gianessi e Filippo Gorini."
+    		paragraf : "Tutti i dati sono stati rilasciati dai singoli protagonisti del progetto."
     	}
     ];
 
