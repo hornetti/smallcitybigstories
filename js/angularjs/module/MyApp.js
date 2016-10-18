@@ -33,35 +33,63 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/MarcoTamba.html'
     })
+    .when('/map/marco_tamba/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
+    })
 
     .when('/map/fabrizio_mantovani', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/FabrizioMantovani.html'
+    })
+    .when('/map/fabrizio_mantovani/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
     })
 
     .when('/map/raffaele_borgini', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/RaffaeleBorgini.html'
     })
+    .when('/map/raffaele_borgini/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
+    })
 
     .when('/map/paolo_rava', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/PaoloRava.html'
+    })
+    .when('/map/paolo_rava/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
     })
 
     .when('/map/ivano_valmori', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/IvanoValmori.html'
     })
+    .when('/map/ivano_valmori/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
+    })
 
     .when('/map/andrea_salvatori', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/AndreaSalvatori.html'
     })
+    .when('/map/andrea_salvatori/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
+    })
 
     .when('/map/marco_peroni', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/MarcoPeroni.html'
+    })
+    .when('/map/marco_peroni/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
     })
 
     .when('/map/andrea_martelli', {
@@ -77,35 +105,63 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/RobertoBertoni.html'
     })
+    .when('/map/roberto_bertoni/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
+    })
 
     .when('/map/barbara_savorani', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/BarbaraSavorani.html'
+    })
+    .when('/map/barbara_savorani/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
     })
 
     .when('/map/gabriele_bandini', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/GabrieleBandini.html'
     })
+    .when('/map/gabriele_bandini/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
+    })
 
     .when('/map/giulia_ruta', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/GiuliaRuta.html'
+    })
+    .when('/map/giulia_ruta/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
     })
 
     .when('/map/anna_tampieri', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/AnnaTampieri.html'
     })
+    .when('/map/anna_tampieri/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
+    })
 
     .when('/map/stefano_zauli', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/StefanoZauli.html'
     })
+    .when('/map/stefano_zauli/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
+    })
 
     .when('/map/maurizio_fionda', {
       controller: 'ProfileController',
       templateUrl: 'js/angularjs/views/interviewed/MaurizioFionda.html'
+    })
+    .when('/map/maurizio_fionda/intervista', {
+      controller: 'InterviewController',
+      templateUrl: 'js/angularjs/views/Interview.html'
     })
 
     .when('/map/employees', {
