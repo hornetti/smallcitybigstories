@@ -272,31 +272,67 @@ MAIN CLASS
   fill: #FFFFFF;
   stroke: #FFFFFF;
 }
+.GStroke{
+  fill: none;
+  stroke: #666666;
+}
+.BStroke{
+  fill: none;
+  stroke: #000000;
+}
 
 /* StrokeWidth */
 
-.Stroke1px {
+.Stroke1pxInherit {
   stroke: inherit;
   stroke-width: 1;
   stroke-miterlimit: 10;
 }
-.Stroke2px {
+.Stroke2pxInherit {
   stroke: inherit;
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
-.Stroke5px {
+.Stroke5pxInherit {
   stroke: inherit;
   stroke-width: 5;
   stroke-miterlimit: 10;
 }
-.Stroke10px {
+.Stroke10pxInherit {
   stroke: inherit;
   stroke-width: 10;
   stroke-miterlimit: 10;
 }
-.Stroke15px {
+.Stroke15pxInherit {
   stroke: inherit;
+  stroke-width: 15;
+  stroke-miterlimit: 10;
+}
+
+/* StrokeWidth */
+
+.Stroke1px {
+  /*stroke: inherit;*/
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
+.Stroke2px {
+  /*stroke: inherit;*/
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.Stroke5px {
+  /*stroke: inherit;*/
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.Stroke10px {
+  /*stroke: inherit;*/
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.Stroke15px {
+  /*stroke: inherit;*/
   stroke-width: 15;
   stroke-miterlimit: 10;
 }
@@ -1109,184 +1145,4 @@ INTERVISTA
 .ActiveEl {
   opacity: 1;
   display: block !important;
-}
-/*
-
-DATA VISUALIZATION
-
-*/
-.Grid {
-  fill: none;
-  stroke: #ffffff;
-  stroke-mitelimit: 10;
-}
-.Grid2 {
-  fill: none;
-  stroke: #ffffff;
-  stroke-width: 2;
-  stroke-mitelimit: 10;
-}
-.BstatLine {
-  fill: none;
-  stroke: #000000;
-  stroke-width: 15;
-  stroke-miterlimit: 10; 
-}
-.GstatLine {
-  fill: none;
-  stroke: #666666;
-  stroke-width: 10;
-  stroke-miterlimit: 10;  
-}
-.FOODstatLine {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.ITstatLine {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.MAVstatLine {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.PTEKstatLine {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.FOODstatLineAux {
-  fill: none;
-  stroke: #990066;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.ITstatLineAux {
-  fill: none;
-  stroke: #99ff99;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.MAVstatLineAux {
-  fill: none;
-  stroke: #99ccff;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.PTEKstatLineAux {
-  fill: none;
-  stroke: #ff9900;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-/*
-.FOODCircle {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.PTEKCircle {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.MAVCircle {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-.ITCircle {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 10;
-  stroke-miterlimit: 10;
-}
-*/
-.FOODCircle {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 15;
-  stroke-miterlimit: 15;
-}
-.PTEKCircle {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 15;
-  stroke-miterlimit: 15;
-}
-.MAVCircle {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 15;
-  stroke-miterlimit: 15;
-}
-.ITCircle {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 15;
-  stroke-miterlimit: 15;
-}
-.FOODreadingLine {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.ITreadingLine {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.MAVreadingLine {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.PTEKreadingLine {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 2;
-  stroke-miterlimit: 10;
-}
-.FOODlabel {
-  fill: none;
-  stroke: #FF3366;
-  stroke-width: 15;
-  stroke-miterlimit: 10;
-}
-.ITlabel {
-  fill: none;
-  stroke: #00FF99;
-  stroke-width: 15;
-  stroke-miterlimit: 10;
-}
-.MAVlabel {
-  fill: none;
-  stroke: #0099FF;
-  stroke-width: 15;
-  stroke-miterlimit: 10;
-}
-.PTEKlabel {
-  fill: none;
-  stroke: #FFFF00;
-  stroke-width: 15;
-  stroke-miterlimit: 10;
-}
-.GlobalLocal {
-  fill: none;
-  stroke: #FFFFFF;
-  stroke-width: 5;
-  stroke-miterlimit: 10;  
 }
