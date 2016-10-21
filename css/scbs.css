@@ -209,21 +209,9 @@ MAIN CLASS
   fill: #666666;
   color: #666666;
 }
-.FOODColorAux {
-  fill: #990066;
-  color: #990066;
-}
-.PTEKColorAux {
-  fill: #ff9900;
-  color: #ff9900;
-}
-.MAVColorAux {
-  fill: #99ccff;
-  color: #99ccff;
-}
-.ITColorAux {
-  fill: #99ff99;
-  color: #99ff99;
+.BColor {
+  fill: #000000;
+  color: #000000;
 }
 
 /* Stroke */
@@ -247,22 +235,6 @@ MAIN CLASS
 .ITStroke {
   fill: none;
   stroke: #00FF99;
-}
-.FOODStrokeAux {
-  fill: none;
-  stroke: #990066;
-}
-.PTEKStrokeAux {
-  fill: none;
-  stroke: #ff9900;
-}
-.MAVStrokeAux {
-  fill: none;
-  stroke: #99ccff;
-}
-.ITStrokeAux {
-  fill: none;
-  stroke: #99ff99;
 }
 .WStroke{
   fill: none;
