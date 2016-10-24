@@ -129,11 +129,11 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 		SVG Animation
 
 		*/
-	    var Circles = ['.PTEKCircle', '.FOODCircle', '.ITCircle', '.MAVCircle'];
+	    var Circles = ['.PTEKStroke', '.ITStroke', '.MAVStroke', '.FOODStroke'];
 
 		var Letters = ['#DV4LetterA', '#DV4LetterB', '#DV4LetterC', '#DV4LetterD'];
 
-		var Stats = ['.PTEKstatLine', '.ITstatLine', '.PTEKstatLineAux', '.ITstatLineAux','.MAVstatLine', '.FOODstatLine'];
+		var Stats = ['.PTEKStroke', '.ITStroke', '.MAVStroke', '.FOODStroke'];
 
 		TweenMax.from(Circles, 2, {
 			drawSVG: "0%",
@@ -153,13 +153,13 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 			delay: 1.5
 		});
 
-		TweenMax.from('.Grid' , 2, {
+		TweenMax.from('.WStroke' , 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
 			delay: 0.5
 		});
 
-		TweenMax.from('.Grid2' , 1, {
+		TweenMax.from('.WStroke' , 1, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
 			delay: 1.5
@@ -171,7 +171,7 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 			delay: 1
 		});
 
-		TweenMax.from(['#DV4Names', '#DV4LegendLeft'], 2, {
+		TweenMax.from('#DV4Names', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 1.5
