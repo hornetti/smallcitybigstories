@@ -17,12 +17,11 @@ app.controller('InterviewController', ['$scope', function($scope) {
 		TweenMax.set('#pause', {
 			opacity: 0
 		});
-
 		
 
 		STRUCTURE
 
-		
+
 
 		$("#Structure > circle").click(function() {
 			$("#Structure > circle.ActiveCircle").next().removeClass("ActiveEl");
