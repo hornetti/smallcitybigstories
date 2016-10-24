@@ -103,64 +103,37 @@ app.controller('ProfileController', ['$scope', function($scope) {
 	
 		*/
 
-		TweenLite.from('#BorderVideo', 2, {
+		TweenMax.from('#BorderVideo', 2, {
 			drawSVG: "0%",
-			ease: "Expo.easeOut",
+			ease: Expo.easeOut,
 			delay: 1
 		});
-
 		TweenMax.from('#TestoVideo', 2, {
 			opacity: "0",
-			ease: "Expo.easeOut",
+			ease: Expo.easeOut,
 			delay: 1
 		});
-
 		TweenMax.from('#PreviewVideo', 2, {
 			opacity: "0",
-			ease: "Expo.easeOut",
+			ease: Expo.easeOut,
 			delay: 1
 		});
-
 		TweenMax.from('#BorderTestoVideo', 2, {
 			opacity: "0",
-			ease: "Expo.easeOut",
+			ease: Expo.easeOut,
 			delay: 1
 		});
-
-		TweenMax.set(['#CircleVideo', '#PlayVideo'], {
-			drawSVG: "0%"
+		$('#Poster').mouseover(function() {
+			$('#ContainerOver').html('<circle id="CircleVideo" class="Stroke2pxInherit" cx="285" cy="161" r="44.9"/>');
+			$('#ContainerOver').html('<path id="PlayVideo" class="PTEKColor" d="M270,184.3l1-23.6l-1-22.9l40.3,23.3L270,184.3z M275,146.4l1,14.4l-1,14.9l25.3-14.6L275,146.4z" />');
+			$('#BorderTestoVideo').remove();
+			$('#TestoVideo').remove();
 		});
-
-		$('.Poster').mouseover(function() {
-  			$('#ContainerCircle').html('<circle id="CircleVideo" class="PTEKreadingLine" cx="285" cy="161" r="44.9"/>');
-			TweenMax.to('#BorderTestoVideo', 0.5, {
-				morphSVG: "#PlayVideo",
-				ease: "Expo.easeInOut"
-			});
-			TweenMax.to('#TestoVideo', 1, {
-				opacity: "0",
-				ease: "Expo.easeInOut"
-			});
-			TweenMax.to('#CircleVideo', 0.5, {
-				drawSVG: "100%",
-				opacity: "1",      
-				delay: "0.5"
-			});
-		});
-		$('.Poster').mouseleave(function() {
-			TweenMax.to('#BorderTestoVideo', 0.5, {
-				morphSVG: "#BorderTestoVideo",
-				ease: "Expo.easeInOut"
-			});
-			TweenMax.to('#TestoVideo', 1, {
-				opacity: "1",
-				ease: "Expo.easeInOut"
-			});
-			TweenMax.to('#CircleVideo', 0.5, {
-				drawSVG: "0%",
-    			opacity: "0"
-			});
-  			$('#CircleVideo').remove();
+		$('#Poster').mouseleave(function() {
+			$('#CircleVideo').remove();
+			$('#PlayVideo').remove();
+			$('#ContainerStand').html('<path id="BorderTestoVideo" class="PTEKColor" d="M358,187H212v-53h146V187z M214,185h142v-49H214V185z"/>');
+			$('#ContainerStand').html('<text id="TestoVideo" transform="matrix(1 0 0 1 220.6211 156.6826)"><tspan x="0" y="0" class="PTEKColor Bold15">Clicca per vedere</tspan><tspan x="24.7" y="18" class="PTEKColor Bold15">l’intervista</tspan></text>');
 		});
 
 	});
