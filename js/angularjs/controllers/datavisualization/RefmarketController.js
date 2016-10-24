@@ -173,7 +173,7 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 		SVG Animation
 
 		*/
-	    var Circles = ['.PTEKCircle', '.FOODCircle', '.ITCircle', '.MAVCircle','.GlobalLocal'];
+	    var Circles = ['.PTEKStroke', '.ITStroke', '.MAVStroke', '.FOODStroke'];
 
 		TweenMax.from(Circles, 3, {
 			drawSVG: "0%",
@@ -181,19 +181,35 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 			delay: 0.5
 		});
 
-		TweenMax.from(['.PTEKstatLine', '.PTEKstatLineAux', '.ITstatLine', '.ITstatLineAux', '.MAVstatLine', '.MAVstatLineAux', '.FOODstatLine'], 2, {
+		TweenMax.from('.GStroke', 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
-			delay: 1.5
+			delay: 1
 		});
 
-		TweenMax.from('.Grid2' , 2, {
+		var Bars = ['.PTEKStroke', '.ITStroke', '.MAVStroke', '.FOODStroke'];
+
+		TweenMax.staggerFrom(Bars, 2, {
+			drawSVG: "0%", 
+			delay: 2, 
+			ease: Expo.easeOut, 
+			force3D: true
+		}, 0.2);
+
+
+		TweenMax.from('.GColor', 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 1
+		});
+
+		TweenMax.from('.BStroke', 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
-			delay: 0.5
+			delay: 2
 		});
 
-		TweenMax.from(['#DV5Answers'], 2, {
+		TweenMax.from('#DV5Answers', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 0.5
