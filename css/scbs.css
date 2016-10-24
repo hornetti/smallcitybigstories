@@ -284,27 +284,22 @@ MAIN CLASS
 /* StrokeWidth */
 
 .Stroke1px {
-  /*stroke: inherit;*/
   stroke-width: 1;
   stroke-miterlimit: 10;
 }
 .Stroke2px {
-  /*stroke: inherit;*/
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
 .Stroke5px {
-  /*stroke: inherit;*/
   stroke-width: 5;
   stroke-miterlimit: 10;
 }
 .Stroke10px {
-  /*stroke: inherit;*/
   stroke-width: 10;
   stroke-miterlimit: 10;
 }
 .Stroke15px {
-  /*stroke: inherit;*/
   stroke-width: 15;
   stroke-miterlimit: 10;
 }
@@ -505,6 +500,9 @@ body {
 *:focus {
   outline: none;
 }
+*::selection {
+  background: #000000;
+}
 a,
 a:hover,
 a:focus {
@@ -699,10 +697,10 @@ PROFILE
 
 */
 #CircleVideo, #PlayVideo {
-  opacity: 0;
+ /*opacity: 0;*/
 }
 #TestoVideo, #BorderTestoVideo {
-  stroke: none;
+  /*stroke: none;*/
 }
 .DataContainer {
   border-top: 3px solid;
@@ -894,7 +892,7 @@ input[type="checkbox"] + label {
   display: block;
   position: relative;
   padding-top: 2%;
-  padding-left: 7%;
+  padding-left: 5%;
   cursor: url(../svg/cursor/32px_cursor_link.png), auto;
   color: #fff;
   text-align: left;
@@ -910,7 +908,7 @@ input[type="checkbox"] + label:before {
   display: block;
   width: 20px;
   height: 20px;
-  margin: 4%;
+  margin: 4% 3%;
   text-align: center;
   border: 2px solid #fff;
   background-color: transparent;
