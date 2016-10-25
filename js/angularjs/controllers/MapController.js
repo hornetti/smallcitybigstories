@@ -333,15 +333,20 @@ app.controller('MapController', ['$scope', function($scope) {
 		$("#fillValmori").mouseover(function() {
 		    $(this).css({'fill': '#fff'});
 		    $("div.ContainerProfileMetro").html("<svg id='ComingSoon' class='MarginTop10pct MarginBottom5pct FloatLeft' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='50%' height='50%' viewBox='0 0 200 200' style='enable-background:new 0 0 200 200;' xml:space='preserve'><g id='Circle'>  <path class='ITStroke MetroLine' d='M100,34.5c42.8,0,77.5,34.7,77.5,77.5c0,42.8-34.7,77.5-77.5,77.5'/>	<path class='ITStroke MetroLine' d='M100,189.5c-42.8,0-77.5-34.7-77.5-77.5c0-42.8,34.7-77.5,77.5-77.5'/></g><g id='Text'>	<text transform='matrix(1 0 0 1 60.9619 109.0674)'><tspan x='0' y='0' class='Regular21 WColor'>coming</tspan><tspan x='13' y='19' class='Regular21 WColor'>soon</tspan></text></g></svg><p class='biointerviewed'>Nato e cresciuto a Faenza, nel 1988 fonda <span class='ITColor'>ImageLine</span>. Padre di quattro figli, ha un debole per gli sport estremi, tra le altre cose.</p>");
-	        TweenMax.from('#Circle > .ITStroke.MetroLine', 1, {
+	        TweenMax.from('#Circle > .ITStroke.MetroLine', 2, {
 			    drawSVG: "0%",
 			    ease: Expo.easeOut,
 			});
-			TweenMax.from('.Regular21', 1.5, {
+			TweenMax.from('.Regular21', 0.5, {
 			    opacity: 0,
 			    ease: Expo.easeOut,
 			    delay: 0.4
 			});
+	        TweenMax.from('.biointerviewed', 1, {
+	            opacity: 0,
+	            ease: Expo.easeOut,
+	            delay: 0.4
+	        });
 		});
 		$("#fillValmori").mouseleave(function() {
         	$(this).css({'fill': 'inherit'});
@@ -352,15 +357,20 @@ app.controller('MapController', ['$scope', function($scope) {
 		$("#fillZauli").mouseover(function() {
 		    $(this).css({'fill': '#fff'});
 		    $("div.ContainerProfileMetro").html("<svg id='ComingSoon' class='MarginTop10pct MarginBottom5pct FloatLeft' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='50%' height='50%' viewBox='0 0 200 200' style='enable-background:new 0 0 200 200;' xml:space='preserve'><g id='Circle'>  <path class='ITStroke MetroLine' d='M100,34.5c42.8,0,77.5,34.7,77.5,77.5c0,42.8-34.7,77.5-77.5,77.5'/>	<path class='ITStroke MetroLine' d='M100,189.5c-42.8,0-77.5-34.7-77.5-77.5c0-42.8,34.7-77.5,77.5-77.5'/></g><g id='Text'>	<text transform='matrix(1 0 0 1 60.9619 109.0674)'><tspan x='0' y='0' class='Regular21 WColor'>coming</tspan><tspan x='13' y='19' class='Regular21 WColor'>soon</tspan></text></g></svg><p class='biointerviewed'>Nato e cresciuto a Faenza, è uno dei co-fondatori di <span class='ITColor'>Tecla Digital Business</span>, dove si occupa di programmazione. Ama lo sport e la tecnologia.</p>");
-	        TweenMax.from('#Circle > .ITStroke.MetroLine', 1, {
+	        TweenMax.from('#Circle > .ITStroke.MetroLine', 2, {
 			    drawSVG: "0%",
 			    ease: Expo.easeOut,
 			});
-			TweenMax.from('.Regular21', 1.5, {
+			TweenMax.from('.Regular21', 0.5, {
 			    opacity: 0,
 			    ease: Expo.easeOut,
 			    delay: 0.4
 			});
+	        TweenMax.from('.biointerviewed', 1, {
+	            opacity: 0,
+	            ease: Expo.easeOut,
+	            delay: 0.4
+	        });
 		});
 		$("#fillZauli").mouseleave(function() {
         	$(this).css({'fill': 'inherit'});
@@ -371,15 +381,20 @@ app.controller('MapController', ['$scope', function($scope) {
 	    $("#fillFionda").mouseover(function() {	 
 		    $(this).css({'fill': '#fff'});
 		    $("div.ContainerProfileMetro").html("<svg id='ComingSoon' class='MarginTop10pct MarginBottom5pct FloatLeft' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='50%' height='50%' viewBox='0 0 200 200' style='enable-background:new 0 0 200 200;' xml:space='preserve'><g id='Circle'>  <path class='ITStroke MetroLine' d='M100,34.5c42.8,0,77.5,34.7,77.5,77.5c0,42.8-34.7,77.5-77.5,77.5'/>	<path class='ITStroke MetroLine' d='M100,189.5c-42.8,0-77.5-34.7-77.5-77.5c0-42.8,34.7-77.5,77.5-77.5'/></g><g id='Text'>	<text transform='matrix(1 0 0 1 60.9619 109.0674)'><tspan x='0' y='0' class='Regular21 WColor'>coming</tspan><tspan x='13' y='19' class='Regular21 WColor'>soon</tspan></text></g></svg><p class='biointerviewed'>Nato e cresciuto a Ravenna, ha vissuto a Parigi, dove ha condotto studi sulla fisica e l’informatica. Tornato in Italia, ha fondato a Faenza <span class='ITColor'>Diannea Mag News</span>, dove si occupa di marketing digitale.</p>");
-	        TweenMax.from('#Circle > .ITStroke.MetroLine', 1, {
+	        TweenMax.from('#Circle > .ITStroke.MetroLine', 2, {
 			    drawSVG: "0%",
 			    ease: Expo.easeOut,
 			});
-			TweenMax.from('.Regular21', 1.5, {
+			TweenMax.from('.Regular21', 0.5, {
 			    opacity: 0,
 			    ease: Expo.easeOut,
 			    delay: 0.4
 			});
+	        TweenMax.from('.biointerviewed', 1, {
+	            opacity: 0,
+	            ease: Expo.easeOut,
+	            delay: 0.4
+	        });
 		});
 		$("#fillFionda").mouseleave(function() {
         	$(this).css({'fill': 'inherit'});
