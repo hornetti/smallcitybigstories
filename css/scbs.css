@@ -738,11 +738,8 @@ ILLUSTRATION
 PROFILE
 
 */
-#CircleVideo, #PlayVideo {
- /*opacity: 0;*/
-}
-#TestoVideo, #BorderTestoVideo {
-  /*stroke: none;*/
+.PrewPlay, .PrewCircle {
+  opacity: 0;
 }
 .DataContainer {
   border-top: 3px solid;
@@ -1056,14 +1053,8 @@ MENU
   font-weight: 900;
   font-size: 20px;
 }
-.Faenza {
-  font: 18px 'Work Sans', sans-serif;
-}
-.UnderLine {
-  fill:none;
-  stroke:#FF6666;
-  stroke-width:2;
-  stroke-miterlimit:10;
+#Testo2 {
+  opacity: 0;
 }
 .LeftBottomMenu {
   padding: 0px 15px;
