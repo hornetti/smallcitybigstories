@@ -7,7 +7,8 @@ app.controller('LinkController', ['$scope', function($scope) {
 
 	$scope.Link_Map = {	
 		name : 'Faenza',
-		direct : 'map'
+		direct : 'map',
+		namealt : 'Torna alla mappa',
 	};
 
 	$scope.Link_Credits = {
