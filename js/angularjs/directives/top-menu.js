@@ -4,28 +4,33 @@ app.directive('topMenu', function() {
 	    templateUrl: 'js/angularjs/directives/top-menu.html',
 	    link: function(scope, element, attr) {
 	    	angular.element(document).ready(function() {
-				TweenMax.set('.UnderLine', {
-					drawSVG: "0%"
+	    		
+				$('#BacktoFaenza').mouseover(function() {
+
+					TweenMax.to('#Testo1', 0.25, {
+						opacity: 0,
+						ease: Expo.easeOut
+					});
+
+					TweenMax.to('#Testo2', 0.25, {
+						opacity: 1,
+						ease: Expo.easeIn
+					});
+
 				});
-				$('.Faenza').mouseover(function() {
-					TweenMax.from('.UnderLine', 0.4, {
-						drawSVG: "0%",
+
+				$('#BacktoFaenza').mouseleave(function() {
+
+					TweenMax.to('#Testo1', 0.25, {
+						opacity: 1,
+						ease: Expo.easeIn
+					});
+
+					TweenMax.to('#Testo2', 0.25, {
+						opacity: 0,
 						ease: Expo.easeOut
 					});
-					TweenMax.to('.UnderLine', 0.4, {
-						drawSVG: "100%",
-						ease: Expo.easeOut
-					});
-				});
-				$('.Faenza').mouseleave(function() {
-					TweenMax.from('.UnderLine', 0.25, {
-						drawSVG: "100%",
-						ease: Expo.easeOut
-					});
-					TweenMax.to('.UnderLine', 0.25, {
-						drawSVG: "0%",
-						ease: Expo.easeOut
-					});
+
 				});
 				
 			});
