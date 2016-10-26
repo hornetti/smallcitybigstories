@@ -56,29 +56,79 @@ app.controller('ProfileController', ['$scope', function($scope) {
 
 		/*
 
-		ANIMATION SERVICE
+		ANIMATION SVG
 
 		*/
+		
+		var Stroke = ['.Stroke5px', '.Stroke2px', '.Stroke5pxInherit', '.Stroke2pxInherit', '.Stroke5pxLinejoinbevel', '.Stroke5pxLinejoinround', '.Stroke5pxLinecap'];
 
-		var Stroke = ['.Stroke5px', '.Stroke2px', '.Stroke5pxLinejoinbevel', '.Stroke5pxLinejoinround', '.Stroke5pxLinecap'];
-
-		TweenMax.staggerFrom(Stroke, 2, {
+		TweenMax.from(Stroke, 2, {
 		    drawSVG: 0, 
 		    delay: 0,
 		    ease: "Expo.easeOut",
 		    force3D: true
 		}, 0.5);
 
+
+
 		/*
 
-		COMING SOON
+		ANIMATION SVG
 
 		*/
-		$('.Service').mouseover(function() {
-			$('.Service > div > p').text('Progettazione Tecnologica').removeClass('Regular15').addClass('Bold18');
+
+		TweenMax.from('.PC', 2, {
+		    drawSVG: 0, 
+		    delay: 0,
+		    ease: "Expo.easeOut",
+		    force3D: true
+		}, 0.5);
+
+		
+
+		/*
+
+		ANIMATION PTEK
+
+		*/
+		$('.ServicePTEK').mouseover(function() {
+			$('.ServicePTEK > div > p').text('Progettazione tecnologica');
 		});
-		$('.Service').mouseleave(function() {
-			$('.Service > div > p').text('Tipologia di servizio prodotto').removeClass('Bold18').addClass('Regular15');
+		$('.ServicePTEK').mouseleave(function() {
+			$('.ServicePTEK > div > p').text('Tipologia di servizio prodotto');
+		});
+		/*
+
+		ANIMATION MAV
+
+		*/
+		$('.ServiceMAV').mouseover(function() {
+			$('.ServiceMAV > div > p').text('Materiali avanzati');
+		});
+		$('.ServiceMAV').mouseleave(function() {
+			$('.ServiceMAV > div > p').text('Tipologia di servizio prodotto');
+		});
+		/*
+
+		ANIMATION FOOD
+
+		*/
+		$('.ServiceFOOD').mouseover(function() {
+			$('.ServiceFOOD > div > p').text('Food');
+		});
+		$('.ServiceFOOD').mouseleave(function() {
+			$('.ServiceFOOD > div > p').text('Tipologia di servizio prodotto');
+		});
+		/*
+
+		ANIMATION IT
+
+		*/
+		$('.ServiceIT').mouseover(function() {
+			$('.ServiceIT > div > p').text('Servizi digitali');
+		});
+		$('.ServiceIT').mouseleave(function() {
+			$('.ServiceIT > div > p').text('Tipologia di servizio prodotto');
 		});
 
 
@@ -88,37 +138,72 @@ app.controller('ProfileController', ['$scope', function($scope) {
 	
 		*/
 
-		TweenMax.from('#BorderVideo', 2, {
-			drawSVG: "0%",
-			ease: Expo.easeOut,
-			delay: 1
+		TweenMax.from('.PrewBorder', 2, {
+	    	drawSVG: "0%",
+	    	ease: Expo.easeOut,
+	    	delay: 1
 		});
-		TweenMax.from('#TestoVideo', 2, {
+
+		TweenMax.from('.PrewTesto', 2, {
 			opacity: "0",
 			ease: Expo.easeOut,
 			delay: 1
 		});
-		TweenMax.from('#PreviewVideo', 2, {
+
+		TweenMax.from('#PrewImg', 2, {
 			opacity: "0",
 			ease: Expo.easeOut,
 			delay: 1
 		});
-		TweenMax.from('#BorderTestoVideo', 2, {
+
+		TweenMax.from('.PrewBorderTesto', 2, {
 			opacity: "0",
 			ease: Expo.easeOut,
 			delay: 1
 		});
+
+		TweenMax.set('.PrewCircle', {
+			drawSVG: "0%"
+		});
+
 		$('#Poster').mouseover(function() {
-			$('#ContainerOver').html('<circle id="CircleVideo" class="Stroke2pxInherit" cx="285" cy="161" r="44.9"/>');
-			$('#ContainerOver').html('<path id="PlayVideo" class="PTEKColor" d="M270,184.3l1-23.6l-1-22.9l40.3,23.3L270,184.3z M275,146.4l1,14.4l-1,14.9l25.3-14.6L275,146.4z" />');
-			$('#BorderTestoVideo').remove();
-			$('#TestoVideo').remove();
+
+			TweenMax.to('.PrewBorderTesto', 0.5, {
+				morphSVG: ".PrewPlay",
+				ease: Expo.easeInOut
+			});
+
+			TweenMax.to('.PrewTesto', 0.5, {
+				opacity: 0,
+				ease: Expo.easeInOut,
+			});
+
+			TweenMax.to('.PrewCircle', 0.7, {
+				drawSVG: "100%",
+				opacity: 1,
+				delay: 0.1
+			});
+
 		});
+
 		$('#Poster').mouseleave(function() {
-			$('#CircleVideo').remove();
-			$('#PlayVideo').remove();
-			$('#ContainerStand').html('<path id="BorderTestoVideo" class="PTEKColor" d="M358,187H212v-53h146V187z M214,185h142v-49H214V185z"/>');
-			$('#ContainerStand').html('<text id="TestoVideo" transform="matrix(1 0 0 1 220.6211 156.6826)"><tspan x="0" y="0" class="PTEKColor Bold15">Clicca per vedere</tspan><tspan x="24.7" y="18" class="PTEKColor Bold15">l’intervista</tspan></text>');
+
+			TweenMax.to('.PrewBorderTesto', 0.5, {
+				morphSVG: ".PrewBorderTesto",
+				ease: Expo.easeInOut
+			});
+
+			TweenMax.to('.PrewTesto', 0.5, {
+				opacity: 1,
+				ease: Expo.easeInOut
+			});
+
+			TweenMax.to('.PrewCircle', 0.3, {
+				drawSVG: '0%',
+				opacity: 0,
+				delay: 0.1    
+			});
+
 		});
 
 	});
