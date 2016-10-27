@@ -133,8 +133,6 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 
 		var Letters = ['#DV4LetterA', '#DV4LetterB', '#DV4LetterC', '#DV4LetterD'];
 
-		var Stats = ['.PTEKStroke', '.ITStroke', '.MAVStroke', '.FOODStroke'];
-
 		TweenMax.from(Circles, 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
@@ -145,12 +143,6 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 0.5
-		});
-
-		TweenMax.from(Stats, 2, {
-			drawSVG: "0%",
-			ease: Expo.easeOut,
-			delay: 1.5
 		});
 
 		TweenMax.from('.WStroke' , 2, {
