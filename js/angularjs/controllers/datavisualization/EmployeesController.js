@@ -23,11 +23,5 @@ app.controller('EmployeesController', ['$scope', function($scope) {
 			delay: 1
 		});
 
-		TweenMax.from('.BStroke', 2, {
-			drawSVG: "0%",
-			ease: Expo.easeOut,
-			delay: 2
-		});
-
 	});
 }]);
