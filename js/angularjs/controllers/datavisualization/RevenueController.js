@@ -29,7 +29,7 @@ app.controller('RevenueController', ['$scope', function($scope) {
 			delay: 2
 		});
 
-		TweenMax.from(['#DV1NoDataTampieri', '#DV1NoDataBorgini'], 2, {
+		TweenMax.from('#DV1NoData', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 2.7
