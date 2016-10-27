@@ -5,7 +5,7 @@ app.directive('topMenu', function() {
 	    link: function(scope, element, attr) {
 	    	angular.element(document).ready(function() {
 	    		
-				$('#BacktoFaenza').mouseover(function() {
+				$('.RightMenu').mouseover(function() {
 
 					TweenMax.to('#Testo1', 0.25, {
 						opacity: 0,
@@ -19,7 +19,7 @@ app.directive('topMenu', function() {
 
 				});
 
-				$('#BacktoFaenza').mouseleave(function() {
+				$('.RightMenu').mouseleave(function() {
 
 					TweenMax.to('#Testo1', 0.25, {
 						opacity: 1,
