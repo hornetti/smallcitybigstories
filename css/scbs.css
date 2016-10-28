@@ -1053,8 +1053,19 @@ MENU
   font-weight: 900;
   font-size: 20px;
 }
-#Testo2 {
-  opacity: 0;
+#BacktoFaenza > a {
+  cursor: url(../svg/cursor/32px_cursor_linkwhite.png), auto;
+}
+.Cerchio {
+  border: 2px solid #ff6666;
+  border-radius: 10000%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+.Posizione {
+  padding-right: 10px;
+  padding-top: 2px;
 }
 .LeftBottomMenu {
   padding: 0px 15px;
