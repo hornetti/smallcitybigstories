@@ -12,22 +12,22 @@ app.controller('MapController', ['$scope', function($scope) {
 		    delay: 0.5
 		});
 
-		TweenMax.from('#lineRed', 1.5, {
+		TweenMax.from('#lineYellow', 1.5, {
 		    opacity: 0,
 		    delay: 1.25
 		});
 
-		TweenMax.from('#lineBlue', 1.5, {
+		TweenMax.from('#lineGreen', 1.5, {
 		    opacity: 0,
 		    delay: 1.50
 		});
 
-		TweenMax.from('#lineYellow', 1.5, {
+		TweenMax.from('#lineBlue', 1.5, {
 		    opacity: 0,
 		    delay: 1.75
 		});
 
-		TweenMax.from('#lineGreen', 1.5, {
+		TweenMax.from('#lineRed', 1.5, {
 		    opacity: 0,
 		    delay: 2
 		});
