@@ -5,7 +5,7 @@
 		<backto-map></backto-map>
 	</div>
 	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-		<p class="TxtLeft MarginZero MarginBottom5pct WColor Regular15">Il grafico a torta mostra quante tra le 15 aziende selezionate operano nel mercato italiano e nel mercato estero.</p>
+		<p class="TxtLeft MarginZero MarginBottom5pct WColor Regular15">I grafici a torta mostrano quante tra le 15 aziende selezionate operano nel mercato italiano e nel mercato estero.</p>
 		<p class="TxtLeft MarginZero MarginBottom10pct WColor Regular15">L’istogramma mostra quali tra le aziende dei singoli intervistati operano nel mercato italiano e nel mercato estero.</p>
 		<p class="TxtLeft MarginZero MarginBottom5pct WColor Regular12">Con il cursore passa sopra ai singoli grafici a torta per vedere le percentuali di ogni categoria.</p>
 		<legenda-metro></legenda-metro>
@@ -28,20 +28,14 @@
 				<line class="WStroke Stroke2px" x1="536" y1="227.7" x2="673" y2="227.7"/>
 				<line class="WStroke Stroke2px" x1="536" y1="276.7" x2="673" y2="276.7"/>
 			</g>
-			<g id="DV5StatFood">
-				<line class="FOODStroke Stroke10px" x1="535.7" y1="275.5" x2="605.7" y2="275.5"/>
-			</g>
-			<g id="DV5StatMatAv">
-				<line class="MAVStroke Stroke10px" x1="535.7" y1="226.5" x2="640" y2="226.5"/>
-				<line class="MAVStroke Stroke10px" x1="535.7" y1="194.5" x2="571" y2="194.5"/>
-			</g>
-			<g id="DV5StatIt">
-				<line class="ITStroke Stroke10px" x1="536" y1="160.7" x2="606" y2="160.7"/>
-				<line class="ITStroke Stroke10px" x1="535.7" y1="128.5" x2="571" y2="128.5"/>
-			</g>
-			<g id="DV5StatPtech">
-				<line class="PTEKStroke Stroke10px" x1="536" y1="75.7" x2="677" y2="75.7"/>
-				<line class="PTEKStroke Stroke10px" x1="535.7" y1="42.5" x2="606" y2="42.5"/>
+			<g id="DV5Stat">
+				<line class="FOODStroke FOODBars Stroke10px" x1="535.7" y1="275.5" x2="605.7" y2="275.5"/>
+				<line class="MAVStroke MAVBars Stroke10px" x1="535.7" y1="226.5" x2="640" y2="226.5"/>
+				<line class="MAVStroke MAVBars Stroke10px" x1="535.7" y1="194.5" x2="571" y2="194.5"/>
+				<line class="ITStroke ITBars Stroke10px" x1="536" y1="160.7" x2="606" y2="160.7"/>
+				<line class="ITStroke ITBars Stroke10px" x1="535.7" y1="128.5" x2="571" y2="128.5"/>
+				<line class="PTEKStroke PTEKBars Stroke10px" x1="536" y1="75.7" x2="673" y2="75.7"/>
+				<line class="PTEKStroke PTEKBars Stroke10px" x1="535.7" y1="42.5" x2="606" y2="42.5"/>
 			</g>
 			<g id="DV5LegendLeft">
 					<text transform="matrix(1 0 0 1 481.834 47.0391)" class="PTEKColor Bold15">Italia</text>
@@ -118,25 +112,25 @@
 				</text>
 			</g>
 			<g id="DV5Circ1MAV">
-				<circle class="MAVStroke Stroke15px" cx="110.2" cy="114.7" r="99"/>
+				<circle class="MAVStroke MAVCircles Stroke15px" cx="110.2" cy="114.7" r="99"/>
 			</g>
 			<g id="DV5Circ1IT">
-				<path class="ITStroke Stroke15px" d="M110.2,15.7c54.7,0,99,44.3,99,99c0,54.7-44.3,99-99,99c-54.7,0-99-44.3-99-99c0-17.9,4.8-34.7,13.1-49.2"/>
+				<path class="ITStroke ITCircles Stroke15px" d="M110.2,15.7c54.7,0,99,44.3,99,99c0,54.7-44.3,99-99,99c-54.7,0-99-44.3-99-99c0-17.9,4.8-34.7,13.1-49.2"/>
 			</g>
 			<g id="DV5Circ1FOOD">
-				<path class="FOODStroke Stroke15px" d="M110.2,15.7c54.7,0,99,44.3,99,99c0,54.7-44.3,99-99,99c-36.8,0-69-20.1-86-50"/>
+				<path class="FOODStroke FOODCircles Stroke15px" d="M110.2,15.7c54.7,0,99,44.3,99,99c0,54.7-44.3,99-99,99c-36.8,0-69-20.1-86-50"/>
 			</g>
 			<g id="DV5Circ1PTEK">
-				<path class="PTEKStroke Stroke15px" d="M110.2,15.7c54.7,0,99,44.3,99,99c0,18.1-4.8,35-13.3,49.6"/>
+				<path class="PTEKStroke PTEKCircles Stroke15px" d="M110.2,15.7c54.7,0,99,44.3,99,99c0,18.1-4.8,35-13.3,49.6"/>
 			</g>
 			<g id="DV5Circ2IT">
-				<circle class="ITStroke Stroke15px" cx="335.2" cy="114.7" r="99"/>
+				<circle class="ITStroke ITCircles Stroke15px" cx="335.2" cy="114.7" r="99"/>
 			</g>
 			<g id="DV5Circ2MAV">
-				<path class="MAVStroke Stroke15px" d="M335.2,15.7c54.7,0,99,44.3,99,99c0,54.7-44.3,99-99,99c-54.7,0-99-44.3-99-99c0-5.8,0.5-11.5,1.5-17"/>
+				<path class="MAVStroke MAVCircles Stroke15px" d="M335.2,15.7c54.7,0,99,44.3,99,99c0,54.7-44.3,99-99,99c-54.7,0-99-44.3-99-99c0-5.8,0.5-11.5,1.5-17"/>
 			</g>
 			<g id="DV5Circ2PTEK">
-				<path class="PTEKStroke Stroke15px" d="M335.2,15.7c54.7,0,99,44.3,99,99c0,43.4-27.9,80.2-66.7,93.6"/>
+				<path class="PTEKStroke PTEKCircles Stroke15px" d="M335.2,15.7c54.7,0,99,44.3,99,99c0,43.4-27.9,80.2-66.7,93.6"/>
 			</g>
 			<g id="DV5Answers">
 				<text transform="matrix(1 0 0 1 36.8027 263.7051)" class="WColor Bold18">Mercato italiano</text>
@@ -144,17 +138,17 @@
 			</g>
 			<g id="DV5Icons">
 				<g id="italia">
-					<polygon class="WLine" points="122.5,116.4 122.5,137.3 134.7,150.2 137.5,150.2 137.5,129.2 153.5,129.2 153.5,113.2 140,113.2 112.5,85.9 116.5,79.7 116.5,72.2 81.4,72.2 67.3,85 81.5,100.3 92.8,91.5 113.7,113.2 119,113.2"/>
-					<polygon class="WLine" points="110.1,139.2 105.4,144.2 87.5,144.2 87.5,153.1 109.5,158.3 120.6,148.7 111.1,139.2"/>
-					<polygon class="WLine" points="92.3,108.2 88.1,108.2 77.5,108.2 77.5,108.5 80.7,112.2 81.8,134.2 89.1,134.2 91.5,131.2 98.1,131.1 97.8,112.3 93.6,108.2"/>
+					<polygon class="WLine WLines" points="122.5,116.4 122.5,137.3 134.7,150.2 137.5,150.2 137.5,129.2 153.5,129.2 153.5,113.2 140,113.2 112.5,85.9 116.5,79.7 116.5,72.2 81.4,72.2 67.3,85 81.5,100.3 92.8,91.5 113.7,113.2 119,113.2"/>
+					<polygon class="WLine WLines" points="110.1,139.2 105.4,144.2 87.5,144.2 87.5,153.1 109.5,158.3 120.6,148.7 111.1,139.2"/>
+					<polygon class="WLine WLines" points="92.3,108.2 88.1,108.2 77.5,108.2 77.5,108.5 80.7,112.2 81.8,134.2 89.1,134.2 91.5,131.2 98.1,131.1 97.8,112.3 93.6,108.2"/>
 				</g>
 				<g id="estero">
-					<circle class="WLine" cx="338.2" cy="101.2" r="35.2"/>
-					<path class="WLine" d="M306.5,69.8c-8.1,8.1-13.2,19.4-13.2,31.8c0,24.8,20.1,45,45,45c12.4,0,23.7-5,31.8-13.2"/>
-					<path class="WLine" d="M356,158.3c-5.2-2.8-11.2-4-17.5-4c-6.3,0-12.3,1.2-17.5,4"/>
-					<line class="WLine" x1="338.5" y1="154.7" x2="338.5" y2="145.7"/>
-					<polyline class="WLine" points="342.5,65.7 342.5,77.7 338.6,81.2 331.5,81.2 331.5,77.2 323.5,77.2 323.5,88.7 331.3,96.5 325.5,102.5 336.5,113.3 336.5,118.7 328.4,127 324.5,122.8 324.5,115.7 310.5,101.2 310.5,92.2 304,92.2"/>
-					<polyline class="WLine" points="369,85.2 355,85.2 351.8,88.2 344.5,88.2 344.5,102.7 349.5,107.7 349.5,118.7 353.8,122.8 358.5,118.2 358.5,106.7 363.5,102.2 373,102.2"/>
+					<circle class="WLine WLines" cx="338.2" cy="101.2" r="35.2"/>
+					<path class="WLine WLines" d="M306.5,69.8c-8.1,8.1-13.2,19.4-13.2,31.8c0,24.8,20.1,45,45,45c12.4,0,23.7-5,31.8-13.2"/>
+					<path class="WLine WLines" d="M356,158.3c-5.2-2.8-11.2-4-17.5-4c-6.3,0-12.3,1.2-17.5,4"/>
+					<line class="WLine WLines" x1="338.5" y1="154.7" x2="338.5" y2="145.7"/>
+					<polyline class="WLine WLines" points="342.5,65.7 342.5,77.7 338.6,81.2 331.5,81.2 331.5,77.2 323.5,77.2 323.5,88.7 331.3,96.5 325.5,102.5 336.5,113.3 336.5,118.7 328.4,127 324.5,122.8 324.5,115.7 310.5,101.2 310.5,92.2 304,92.2"/>
+					<polyline class="WLine WLines" points="369,85.2 355,85.2 351.8,88.2 344.5,88.2 344.5,102.7 349.5,107.7 349.5,118.7 353.8,122.8 358.5,118.2 358.5,106.7 363.5,102.2 373,102.2"/>
 				</g>
 			</g>
 		</svg>
