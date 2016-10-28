@@ -1,6 +1,53 @@
 app.controller('RefmarketController', ['$scope', function($scope) {
 	angular.element(document).ready(function() {
-	    /*
+
+	    var Circles = ['.PTEKCircles', '.ITCircles', '.MAVCircles', '.FOODCircles'];
+
+		TweenMax.from(Circles, 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 0.5
+		});
+
+		TweenMax.from('.GStroke', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 1
+		});
+
+		TweenMax.from('.GColor', 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 1
+		});
+
+		var Bars = ['.PTEKBars', '.ITBars', '.MAVBars', '.FOODBars'];
+
+		TweenMax.staggerFrom(Bars, 2, {
+			drawSVG: 0, 
+			delay: 2, 
+			ease: Expo.easeOut, 
+			force3D: true
+		}, 0.2);
+
+		TweenMax.from('.WLines' , 1, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 1.5
+		});
+
+		TweenMax.from('#DV5Answers', 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 0.5
+		});
+
+		TweenMax.from(['#DV5Names', '#DV5LegendLeft'], 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: 1.5
+		});
+		/*
 
 		Data Italy
 		
@@ -168,58 +215,6 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	    /*
-
-		SVG Animation
-
-		*/
-	    var Circles = ['.PTEKStroke', '.ITStroke', '.MAVStroke', '.FOODStroke'];
-
-		TweenMax.from(Circles, 3, {
-			drawSVG: "0%",
-			ease: Expo.easeOut,
-			delay: 0.5
-		});
-
-		TweenMax.from('.GStroke', 2, {
-			drawSVG: "0%",
-			ease: Expo.easeOut,
-			delay: 1
-		});
-
-		var Bars = ['.PTEKStroke', '.ITStroke', '.MAVStroke', '.FOODStroke'];
-
-		TweenMax.staggerFrom(Bars, 2, {
-			drawSVG: "0%", 
-			delay: 2, 
-			ease: Expo.easeOut, 
-			force3D: true
-		}, 0.2);
-
-
-		TweenMax.from('.GColor', 2, {
-			opacity: 0,
-			ease: Expo.easeOut,
-			delay: 1
-		});
-
-		TweenMax.from('.BStroke', 2, {
-			drawSVG: "0%",
-			ease: Expo.easeOut,
-			delay: 2
-		});
-
-		TweenMax.from('#DV5Answers', 2, {
-			opacity: 0,
-			ease: Expo.easeOut,
-			delay: 0.5
-		});
-
-		TweenMax.from(['#DV5Names', '#DV5LegendLeft'], 2, {
-			opacity: 0,
-			ease: Expo.easeOut,
-			delay: 1.5
-		});
 
 	});
 }]);
