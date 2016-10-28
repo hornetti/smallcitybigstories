@@ -7,21 +7,20 @@ app.controller('RevenueController', ['$scope', function($scope) {
 			delay: 1
 		});
 
-		var Bars = ['.PTEKStroke', '.ITStroke', '.MAVStroke', '.FOODStroke'];
-
-		TweenMax.staggerFrom(Bars, 2, {
-			drawSVG:0, 
-			delay:2, 
-			ease:Expo.easeOut, 
-			force3D:true
-		}, 0.2);
-
-
 		TweenLite.from('.GColor', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 1
 		});
+
+		var Bars = ['.PTEKBars', '.ITBars', '.MAVBars', '.FOODBars'];
+
+		TweenMax.staggerFrom(Bars, 2, {
+			drawSVG: 0, 
+			delay: 2, 
+			ease: Expo.easeOut, 
+			force3D: true
+		}, 0.2);
 
 		TweenMax.from('.BStroke', 2, {
 			drawSVG: "0%",
