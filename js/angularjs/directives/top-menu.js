@@ -5,32 +5,12 @@ app.directive('topMenu', function() {
 	    link: function(scope, element, attr) {
 	    	angular.element(document).ready(function() {
 	    		
-				$('.RightMenu').mouseover(function() {
-
-					TweenMax.to('#Testo1', 0.25, {
-						opacity: 0,
-						ease: Expo.easeOut
-					});
-
-					TweenMax.to('#Testo2', 0.25, {
-						opacity: 1,
-						ease: Expo.easeIn
-					});
-
+				$('#BacktoFaenza').mouseover(function() {
+					$('.Posizione').text('Torna alla mappa');
 				});
-
-				$('.RightMenu').mouseleave(function() {
-
-					TweenMax.to('#Testo1', 0.25, {
-						opacity: 1,
-						ease: Expo.easeIn
-					});
-
-					TweenMax.to('#Testo2', 0.25, {
-						opacity: 0,
-						ease: Expo.easeOut
-					});
-
+				
+				$('#BacktoFaenza').mouseleave(function() {
+					$('.Posizione').text('Faenza');
 				});
 				
 			});
