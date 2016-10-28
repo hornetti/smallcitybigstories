@@ -7,15 +7,14 @@ app.controller('EcgrowthController', ['$scope', function($scope) {
 			delay: 1
 		});
 
-		var Bars = ['.PTEKStroke', '.ITStroke', '.MAVStroke', '.FOODStroke'];
+		var Bars = ['.PTEKBars', '.ITBars', '.MAVBars', '.FOODBars'];
 
 		TweenMax.staggerFrom(Bars, 2, {
-			drawSVG:0, 
-			delay:2, 
-			ease:Expo.easeOut, 
-			force3D:true
+			drawSVG: 0, 
+			delay: 2, 
+			ease: Expo.easeOut, 
+			force3D: true
 		}, 0.2);
-
 
 		TweenMax.from('.GColor', 2, {
 			opacity: 0,
@@ -29,7 +28,7 @@ app.controller('EcgrowthController', ['$scope', function($scope) {
 			delay: 2
 		});
 
-		TweenMax.from(['#DV6NoDataTampieri', '#DV6NoDataBorgini'], 2, {
+		TweenMax.from('#DV3NoData', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: 2.7
