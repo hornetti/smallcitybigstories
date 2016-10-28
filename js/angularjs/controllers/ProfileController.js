@@ -60,77 +60,64 @@ app.controller('ProfileController', ['$scope', function($scope) {
 
 		*/
 		
-		var Stroke = ['.Stroke5px', '.Stroke2px', '.Stroke5pxInherit', '.Stroke2pxInherit', '.Stroke5pxLinejoinbevel', '.Stroke5pxLinejoinround', '.Stroke5pxLinecap'];
-
-		TweenMax.from(Stroke, 2, {
+		TweenMax.from('.ElemSVG', 2, {
 		    drawSVG: 0, 
 		    delay: 0,
 		    ease: "Expo.easeOut",
 		    force3D: true
 		}, 0.5);
-
-
-
-		/*
-
-		ANIMATION SVG
-
-		*/
-
-		TweenMax.from('.PC', 2, {
-		    drawSVG: 0, 
-		    delay: 0,
-		    ease: "Expo.easeOut",
-		    force3D: true
-		}, 0.5);
-
-		
 
 		/*
 
 		ANIMATION PTEK
 
 		*/
+
 		$('.ServicePTEK').mouseover(function() {
 			$('.ServicePTEK > div > p').text('Progettazione tecnologica');
 		});
 		$('.ServicePTEK').mouseleave(function() {
 			$('.ServicePTEK > div > p').text('Tipologia di servizio prodotto');
 		});
+
 		/*
 
 		ANIMATION MAV
 
 		*/
+
 		$('.ServiceMAV').mouseover(function() {
 			$('.ServiceMAV > div > p').text('Materiali avanzati');
 		});
 		$('.ServiceMAV').mouseleave(function() {
 			$('.ServiceMAV > div > p').text('Tipologia di servizio prodotto');
 		});
+
 		/*
 
 		ANIMATION FOOD
 
 		*/
+
 		$('.ServiceFOOD').mouseover(function() {
 			$('.ServiceFOOD > div > p').text('Food');
 		});
 		$('.ServiceFOOD').mouseleave(function() {
 			$('.ServiceFOOD > div > p').text('Tipologia di servizio prodotto');
 		});
+
 		/*
 
 		ANIMATION IT
 
 		*/
+
 		$('.ServiceIT').mouseover(function() {
 			$('.ServiceIT > div > p').text('Servizi digitali');
 		});
 		$('.ServiceIT').mouseleave(function() {
 			$('.ServiceIT > div > p').text('Tipologia di servizio prodotto');
 		});
-
 
 		/*
 		
