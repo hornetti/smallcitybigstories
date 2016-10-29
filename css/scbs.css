@@ -839,10 +839,13 @@ CREDITS
 
 */
 .Sponsor {
-  margin-right: 35px;
+  margin-right: 25px;
   display: inline-block;
 }
-/*
+.CC {
+  /*margin-right: 10px;*/
+  display: inline-block;   
+}/*
 .Sponsor:hover,
 .Sponsor:focus {
   text-decoration: none;
