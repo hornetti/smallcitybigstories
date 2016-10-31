@@ -1138,6 +1138,7 @@ ANIMATIONS
 INTERVISTA
 
 */
+
 /*.IvanoValmori, .GabrieleBandini, .AnnaTampieri, .GiuliaRuta, .RobertoBertoni,*/ .AndreaMartelli/* .MarcoPeroni, .BarbaraSavorani, .StefanoZauli, .AndreaSalvatori, .RaffaeleBorgini, .MaurizioFionda, .PaoloRava, .MarcoTamba, .FabrizioMantovani */{
   padding: 0;
   width: 100%;
@@ -1159,14 +1160,21 @@ INTERVISTA
   right: 0%;
   text-align: center;
 }
-#Structure > text {
+#Structure > text,
+#HoverStructure > text {
   opacity: 0;
 }
 .ActiveCircle {
-  fill: #fff !important;
+  fill: #ffffff !important;
   cursor: url(../svg/cursor/32px_cursor_link.png), auto;
 }
 .ActiveEl {
-  opacity: 1;
-  display: block !important;
+  opacity: 1 !important;
+}
+.HoverCircle {
+  fill: #ffffff !important;
+  cursor: url(../svg/cursor/32px_cursor_link.png), auto;
+}
+.HoverEl {
+  opacity: 1 !important;
 }
