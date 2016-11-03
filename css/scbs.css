@@ -255,6 +255,29 @@ MAIN CLASS
 
 /* StrokeWidth */
 
+.Stroke1px {
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
+.Stroke2px {
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.Stroke5px {
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+.Stroke10px {
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+.Stroke15px {
+  stroke-width: 15;
+  stroke-miterlimit: 10;
+}
+
+/* StrokeWidthInherit */
+
 .Stroke1pxInherit {
   stroke: inherit;
   stroke-width: 1;
@@ -281,27 +304,47 @@ MAIN CLASS
   stroke-miterlimit: 10;
 }
 
-/* StrokeWidth */
+/* ColorStrokeNone */
 
-.Stroke1px {
-  stroke-width: 1;
-  stroke-miterlimit: 10;
+.MAINColorSN {
+  stroke: none;
+  fill: #FF6666;
+  color: #FF6666;
 }
-.Stroke2px {
-  stroke-width: 2;
-  stroke-miterlimit: 10;
+.FOODColorSN {
+  stroke: none;
+  fill: #FF3366;
+  color: #FF3366;
 }
-.Stroke5px {
-  stroke-width: 5;
-  stroke-miterlimit: 10;
+.PTEKColorSN {
+  stroke: none;
+  fill: #FFFF00;
+  color: #FFFF00;
 }
-.Stroke10px {
-  stroke-width: 10;
-  stroke-miterlimit: 10;
+.MAVColorSN {
+  stroke: none;
+  fill: #0099FF;
+  color: #0099FF;
 }
-.Stroke15px {
-  stroke-width: 15;
-  stroke-miterlimit: 10;
+.ITColorSN {
+  stroke: none;
+  fill: #00FF99;
+  color: #00FF99;
+}
+.WColorSN {
+  stroke: none;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+}
+.GColorSN {
+  stroke: none;
+  fill: #666666;
+  color: #666666;
+}
+.BColorSN {
+  stroke: none;
+  fill: #000000;
+  color: #000000;
 }
 
 /* Font */
@@ -1138,7 +1181,6 @@ ANIMATIONS
 INTERVISTA
 
 */
-
 /*.IvanoValmori, .GabrieleBandini, .AnnaTampieri, .GiuliaRuta, .RobertoBertoni,*/ .AndreaMartelli/* .MarcoPeroni, .BarbaraSavorani, .StefanoZauli, .AndreaSalvatori, .RaffaeleBorgini, .MaurizioFionda, .PaoloRava, .MarcoTamba, .FabrizioMantovani */{
   padding: 0;
   width: 100%;
@@ -1146,6 +1188,7 @@ INTERVISTA
   position: fixed;
   top: 0;
   left: 0;
+  background: #000000;
 }
 #PlayerVideo {
   position: fixed;
@@ -1153,27 +1196,24 @@ INTERVISTA
   left: 0%;
   right: 0%;
 }
-#PlayNow {
-  position: fixed;
-  top: 10%;
-  left: 0%;
-  right: 0%;
-  text-align: center;
-}
 #Structure > text,
 #HoverStructure > text {
   opacity: 0;
 }
 .ActiveCircle {
   fill: #ffffff !important;
-  cursor: url(../svg/cursor/32px_cursor_link.png), auto;
+  cursor: pointer;
 }
 .ActiveEl {
   opacity: 1 !important;
 }
 .HoverCircle {
-  fill: #ffffff !important;
-  cursor: url(../svg/cursor/32px_cursor_link.png), auto;
+  fill: rgba(255, 255, 255, 0.3) !important;
+  cursor: pointer;
+}
+.ControllCircle {
+  fill: rgba(255, 255, 255, 0.3) !important;
+  cursor: pointer;
 }
 .HoverEl {
   opacity: 1 !important;
