@@ -1,6 +1,11 @@
-app.controller('InterviewController', ['$scope', function($scope) {
+app.controller('InterviewController', ['$scope', '$window', function($scope, $window) {            
+    
+    $scope.BackTo = function() {
+        $window.history.back();
+    };
+
 	angular.element(document).ready(function() {
-        
+
 		TweenLite.from('#PlayerVideo > #Structure', 1, {
 			drawSVG: "50% 50%",
 			opacity: 0,
@@ -8,7 +13,7 @@ app.controller('InterviewController', ['$scope', function($scope) {
 			delay: 1
 		});
 
-        TweenLite.from('#PlayerVideo > #Fullscreen', 1, {
+        TweenLite.from('#PlayerVideo > #ExitVideo', 1, {
             drawSVG: "50% 50%",
             opacity: 0,
             ease: Expo.easeOut,
@@ -27,11 +32,34 @@ app.controller('InterviewController', ['$scope', function($scope) {
 			ease: Expo.easeOut,
 			delay: 2
 		});
+        
+        // ExitVideo
+
+        $('#PlayerVideo > #ExitVideo').mouseover( function() {
+            $(this).children().addClass('ControllCircle');
+        });
+        
+        $('#PlayerVideo > #ExitVideo').mouseleave( function() {
+            $(this).children().removeClass("ControllCircle");
+        });
+
+        // PlayPause
+
+        $('#PlayerVideo > #PlayPause').mouseover( function() {
+            $(this).children().addClass('ControllCircle');
+        });
+        
+        $('#PlayerVideo > #PlayPause').mouseleave( function() {
+            $(this).children().removeClass("ControllCircle");
+        });
+
+        // HoverCircle
 
         $('#PlayerVideo > #HoverStructure > circle').mouseover( function() {
             $(this).next().addClass('HoverEl');
             $(this).addClass('HoverCircle');
         });
+
         $('#PlayerVideo > #HoverStructure > circle').mouseleave( function() {
             $("#PlayerVideo > #HoverStructure > circle.HoverCircle").next().removeClass("HoverEl");
             $("#PlayerVideo > #HoverStructure > circle.HoverCircle").removeClass("HoverCircle");
