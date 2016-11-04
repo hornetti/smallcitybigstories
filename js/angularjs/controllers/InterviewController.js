@@ -32,13 +32,13 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
 			ease: Expo.easeOut,
 			delay: 2
 		});
-        
+
         // ExitVideo
 
         $('#PlayerVideo > #ExitVideo').mouseover( function() {
             $(this).children().addClass('ControllCircle');
         });
-        
+
         $('#PlayerVideo > #ExitVideo').mouseleave( function() {
             $(this).children().removeClass("ControllCircle");
         });
