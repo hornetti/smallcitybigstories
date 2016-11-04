@@ -886,8 +886,9 @@ CREDITS
   display: inline-block;
 }
 .CC {
-  /*margin-right: 10px;*/
-  display: inline-block;   
+  padding-right: 10px;
+  /* display: inline-block; */
+  text-align: right;
 }/*
 .Sponsor:hover,
 .Sponsor:focus {
