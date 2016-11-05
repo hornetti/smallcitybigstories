@@ -557,6 +557,35 @@ a:focus {
 }
 /*
 
+SCROLLBAR
+
+*/
+::-webkit-scrollbar {
+    width: 5px;
+} 
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff6666;
+}
+::-webkit-scrollbar-corner {
+  display: none;
+}
+::-webkit-resizer {
+  display: none;
+}
+/*
+
+ALERT 
+
+*/
+
+/*
+
 TOOLTIP 
 
 */
