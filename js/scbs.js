@@ -16,12 +16,16 @@ function toggleFullScreen() {
   } else {
     if (document.exitFullscreen) {
       document.exitFullscreen();
+      alertFullscreen();
     } else if (document.msExitFullscreen) {
       document.msExitFullscreen();
+      alertFullscreen();
     } else if (document.mozCancelFullScreen) {
       document.mozCancelFullScreen();
+      alertFullscreen();
     } else if (document.webkitExitFullscreen) {
       document.webkitExitFullscreen();
+      alertFullscreen();
     }
   }
 };
@@ -127,5 +131,9 @@ function pauseVoice() {
 };
 
 /*********************************************************/
-/****************     toggleInterview      **************/
+/****************     CustomAlert      **************/
 /*******************************************************/
+
+function alertFullscreen() {
+  alert("Attenzione! Stai uscendo dal Fullscreen");
+}
