@@ -34,4 +34,4 @@ app.directive('backtoProfile', ['$window', function($window) {
 			});
 	    }
 	};
-});
+}]);
