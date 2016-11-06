@@ -30,7 +30,7 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 		TweenLite.from('#DV6Answers', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
-			delay: 1
+			delay: 0.5
 		});
 
 		TweenMax.from('#DV6Names', 2, {
