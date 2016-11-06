@@ -135,5 +135,5 @@ function pauseVoice() {
 /*******************************************************/
 
 function alertFullscreen() {
-  alert("Attenzione! Stai uscendo dal Fullscreen");
+  alert("Consigliamo di fruire Small city, big stories in fullscreen");
 }
