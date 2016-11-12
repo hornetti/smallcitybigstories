@@ -6,32 +6,36 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
 
 	angular.element(document).ready(function() {
 
-		TweenLite.from('#PlayerVideo > #Structure', 1, {
-			drawSVG: "50% 50%",
-			opacity: 0,
-			ease: Expo.easeOut,
-			delay: 1
-		});
-
-        TweenLite.from('#PlayerVideo > #ExitVideo', 1, {
-            drawSVG: "50% 50%",
-            opacity: 0,
+		TweenMax.from(['#PlayerVideo > #Structure > circle', '#PlayerVideo > #HoverStructure > circle'], 1.5, {
+            drawSVG: "0%",
             ease: Expo.easeOut,
-            delay: 1
+            delay: 0.5
         });
-
-        TweenLite.from('#PlayerVideo > #PlayPause', 1, {
+        TweenMax.from('#PlayerVideo > #Structure > line', 1, {
             drawSVG: "50% 50%",
-            opacity: 0,
             ease: Expo.easeOut,
-            delay: 1
+            delay: 1.5
         });
-
-		TweenLite.from('#PlayerVideo > #Structure > text', 1, {
-			opacity: "0",
-			ease: Expo.easeOut,
-			delay: 2
-		});
+        TweenMax.from('#PlayerVideo > #ExitVideo > circle', 1.5, {
+            drawSVG: "0%",
+            ease: Expo.easeOut,
+            delay: 0.5
+        });
+        TweenMax.from('#PlayerVideo > #ExitVideo > line', 1, {
+            drawSVG: "50% 50%",
+            ease: Expo.easeOut,
+            delay: 2
+        });
+        TweenMax.from('#PlayerVideo > #PlayPause > circle', 1.5, {
+            drawSVG: "0%",
+            ease: Expo.easeOut,
+            delay: 0.5
+        });
+        TweenMax.from('#PlayerVideo > #PlayPause > #npAction > rect', 1, {
+            drawSVG: "50% 50%",
+            ease: Expo.easeOut,
+            delay: 2
+        });
 
         // ExitVideo
 
