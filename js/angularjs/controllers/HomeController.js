@@ -64,6 +64,17 @@ app.controller('HomeController', ['$scope', function($scope) {
 			ease: Expo.easeInOut,
 			delay: 1
 		});
+
+		TweenLite.from('.Stroke10px', 1, {
+			drawSVG: "50% 50%",
+			ease: Expo.easeInOut,  
+		});
+
+		TweenLite.from('.Logotype', 2, {
+			opacity: 0,
+			ease: Expo.easeOut,
+			delay: .5
+		});
 		
 	});
 
