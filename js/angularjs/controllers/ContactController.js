@@ -4,6 +4,12 @@ app.controller('ContactController', ['$scope', function($scope) {
 
 	$scope.EmailSubmit = "Invia";
 
+	$scope.master = {};
+
+	$scope.update = function(user) {
+		$scope.master = angular.copy(user);
+	};
+
 	angular.element(document).ready(function() {
 
 	    $('.ButtonSubmit').mouseover(function() {
