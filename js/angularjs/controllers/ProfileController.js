@@ -47,7 +47,6 @@ app.controller('ProfileController', ['$scope', function($scope) {
 		    }, {
 		        duration: 2000,
 		        easing: 'swing',
-		        delay: 1.5,
 		        step: function (now) {
 		            $(this).text(Math.ceil(now));
 		        }
@@ -60,13 +59,11 @@ app.controller('ProfileController', ['$scope', function($scope) {
 
 		*/
 		
-		TweenMax.from('.ElemSVG', 2, {
+		TweenMax.from('.ElemSVG', 1, {
 		    drawSVG: 0, 
-		    delay: 0,
-		    ease: "Expo.easeOut",
-		    force3D: true
-		}, 0.5);
-
+		    delay: 1,
+			ease: Expo.easeOut
+		});
 		/*
 
 		ANIMATION PTEK
