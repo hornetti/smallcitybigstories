@@ -6,7 +6,7 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 		TweenMax.from(Circles, 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
-			delay: 0.5
+			delay: 1
 		});
 
 		TweenMax.from('.GStroke', 2, {
@@ -39,7 +39,7 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 		TweenMax.from('#DV5Answers', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
-			delay: 0.5
+			delay: 1
 		});
 
 		TweenMax.from(['#DV5Names', '#DV5LegendLeft'], 2, {
