@@ -43,6 +43,7 @@ app.controller('ContactController', ['$scope', function($scope) {
 	        });
 
 	    });
+
 	    /*
 		var TXT = ['.Bold32', '.Regular32', '.Bold21', '.Regular21', '.Bold15', '.Regular15', '.Bold12', '.Regular12'];
 				
