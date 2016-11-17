@@ -6,21 +6,21 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 		TweenMax.from(Circles, 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
-			delay: 0.5
+			delay: 1
 		});
 		
 		TweenMax.from('.Letters', 2.5, {
 			opacity: 0,
 			ease: Expo.easeOut,
-			delay: 0.5
+			delay: 1
 		});
-
+/*
 		TweenMax.from('.Grid' , 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
-			delay: 0.5
+			delay: 1
 		});
-
+*/
 		TweenMax.from('.WLines' , 1, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
@@ -30,7 +30,7 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 		TweenLite.from('#DV6Answers', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
-			delay: 0.5
+			delay: 1
 		});
 
 		TweenMax.from('#DV6Names', 2, {
