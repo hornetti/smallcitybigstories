@@ -27,7 +27,7 @@ app.controller('TypemarketController', ['$scope', function($scope) {
 		TweenMax.from(Circles, 2, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
-			delay: 0.5
+			delay: 1
 		});
 
 		var Letters = ['#DV7Letter1', '#DV7Letter2', '#DV7Letter3'];
@@ -35,13 +35,13 @@ app.controller('TypemarketController', ['$scope', function($scope) {
 		TweenMax.from(Letters, 2.5, {
 		  opacity: 0,
 		  ease: Expo.easeOut,
-		  delay: 0.5
+		  delay: 1
 		});
 		
 		TweenLite.from('#DV7Answers', 2, {
 		  opacity: 0,
 		  ease: Expo.easeOut,
-		  delay: 0.5
+		  delay: 1
 		});
 		
 		TweenMax.from(['#DV7Names', '#DV7LegendLeft'], 2, {
