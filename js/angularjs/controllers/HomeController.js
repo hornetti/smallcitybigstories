@@ -12,7 +12,8 @@ app.controller('HomeController', ['$scope', function($scope) {
 
 		TweenLite.from('.StrokeRettangoloCentrale', 1, {
 			drawSVG: "50% 50%",
-			ease: Expo.easeInOut
+			ease: Expo.easeInOut,
+			delay: 0.5
 		});
 
 		TweenLite.from('.StrokeLines', 1, {
