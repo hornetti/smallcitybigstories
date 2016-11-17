@@ -23,12 +23,12 @@ app.directive('backtoProfile', ['$window', function($window) {
 				TweenLite.from('.stroke', 2, {
 					drawSVG: "0%",
 					ease: Expo.easeOut,
-					delay: 3
+					delay: 2
 				});
 				TweenLite.from('.txt', 2, {
 					opacity: 0,
 					ease: Expo.easeOut,
-					delay: 2
+					delay: 1
 				});
      
 			});
