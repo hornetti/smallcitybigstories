@@ -223,87 +223,87 @@
   .Regular9 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 9px;
+    font-size: 12px;
   }
   .Bold12 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 15px;
   }
   .Regular12 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
   }
   .Bold15 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 18px;
   }
   .Regular15 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 18px;
   }
   .Bold18 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 21px;
   }
   .Regular18 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 21px;
   }
   .Bold21 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    font-size: 21px;
+    font-size: 24px;
   }
   .Regular21 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 24px;
   }
   .Bold24 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 27px;
   }
   .Regular24 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 27px;
   }
   .Bold32 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 35px;
   }
   .Regular32 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 35px;
   }
   .Bold36 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 39px;
   }
   .Regular36 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 39px;
   }
   .Bold42 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    font-size: 42px;
+    font-size: 45px;
   }
   .Regular42 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    font-size: 42px;
+    font-size: 45px;
   }
 
   /* Margin */
@@ -3169,6 +3169,92 @@
 MAIN CLASS
 
 */
+
+.SVGRegular9 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 9px;
+}
+.SVGBold12 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+.SVGRegular12 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+.SVGBold15 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+.SVGRegular15 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.SVGBold18 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+.SVGRegular18 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.SVGBold21 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+}
+.SVGRegular21 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+}
+.SVGBold24 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+.SVGRegular24 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+.SVGBold32 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+.SVGRegular32 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+.SVGBold36 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+.SVGRegular36 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+}
+.SVGBold42 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+}
+.SVGRegular42 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+}
 .W100 {
   width: 100%;
 }
