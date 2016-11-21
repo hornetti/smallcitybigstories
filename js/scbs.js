@@ -88,7 +88,8 @@ function DragFullScreen() {
 /****************     restartMusic     ******************/
 /*******************************************************/
 
-var audio = document.getElementById('ambientMusic');  
+var audio = document.getElementById('ambientMusic');
+    audio.volume = 0.4;
 
 function restartMusic() {
     if (audio.paused) {
