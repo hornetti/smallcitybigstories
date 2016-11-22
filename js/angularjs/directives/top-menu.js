@@ -12,6 +12,12 @@ app.directive('topMenu', function() {
 				$('#BacktoFaenza').mouseleave(function() {
 					$('.Posizione').text('Faenza');
 				});
+
+				var effettoClick = document.getElementById("effectClick");
+
+				$('.EffClick').click(function(event) {
+					effettoClick.play();
+				});
 				
 			});
 	    }
