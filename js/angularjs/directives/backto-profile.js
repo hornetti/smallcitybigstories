@@ -4,8 +4,12 @@ app.directive('backtoProfile', ['$window', function($window) {
 		templateUrl: 'js/angularjs/directives/backto-profile.html',
 	    link: function(scope, element, attr) {
 	    	angular.element(document).ready(function() {
+	    		
+	    		var effettoClick = document.getElementById("effectClick");
+
 	    		element.on('click', function() {
 			        $window.history.back();
+					effettoClick.play();
 			    });
 
 				$('#Backto').mouseover(function() {
