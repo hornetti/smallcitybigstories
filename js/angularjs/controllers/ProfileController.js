@@ -33,14 +33,16 @@ app.controller('ProfileController', ['$scope', function($scope) {
 
     $scope.Artigiano = "* artigiano non soggetto a fatturazione diretta";
 
-  	/*
-  	
-  	Counter Number Profile
-
-  	*/
+    $scope.setVolume = function() {
+		audioAmbient.volume = 0 
+    }
 
 	angular.element(document).ready(function() {
+	  	/*
+	  	
+	  	Counter Number Profile
 
+	  	*/
 		$('.count').each(function () {
 		    $(this).prop('Counter', 0).animate({
 		        Counter: $(this).text()
