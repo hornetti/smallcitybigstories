@@ -4,9 +4,18 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
         $window.history.back();
     };
 
-    var videointerview = document.getElementById('PlayPause');  
+    $scope.resetVolume = function() {
+        audioAmbient.volume = 0.4
+    }
+
+    var videointerview = document.getElementById('video1'); 
+
     $scope.PlayPause = function() {
-        return videointerview.paused ? videointerview.play() : videointerview.pause();
+        if (videointerview.paused) {
+            videointerview.play();
+        } else {
+            videointerview.pause();
+        }
     };
 
     angular.element(document).ready(function() {
