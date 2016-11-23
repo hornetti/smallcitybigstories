@@ -1,6 +1,13 @@
 var app = angular.module('MyApp', ['ngRoute', 'ngAnimate']);
 
-app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', function($routeProvider, $locationProvider, $sceDelegateProvider) {
+  
+  $sceDelegateProvider.resourceUrlWhitelist([
+    // Allow same origin resource loads.
+    'self',
+    // Allow loading from our assets domain.  Notice the difference between * and **.
+    'http://www.smallcitybigstories.com/'
+  ]);
 
   $routeProvider
   
