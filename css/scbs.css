@@ -3904,27 +3904,22 @@ INTERVISTA
   left: 0%;
   right: 0%;
 }
-#Structure > text,
-#HoverStructure > text {
+#StructureText > text {
   opacity: 0;
 }
 .ActiveCircle {
   fill: #ffffff !important;
-  cursor: pointer;
+  cursor: url(../svg/cursor/32px_cursor_link.png), auto;
 }
 .ActiveEl {
   opacity: 1 !important;
 }
-.HoverCircle {
-  fill: rgba(255, 255, 255, 0.3) !important;
-  cursor: pointer;
+.HoverEl {
+  opacity: 1 !important;
 }
 .ControllCircle {
   fill: rgba(255, 255, 255, 0.3) !important;
-  cursor: pointer;
-}
-.HoverEl {
-  opacity: 1 !important;
+  cursor: url(../svg/cursor/32px_cursor_linkwhite.png), auto;
 }
 
 /*
