@@ -8,7 +8,7 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
         audioAmbient.volume = 0.4
     }
 
-    var videointerview = document.getElementById('video1'); 
+    var videointerview = document.getElementById('VideoIntervista'); 
 
     $scope.PlayPause = function() {
         if (videointerview.paused) {
@@ -20,12 +20,12 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
 
     angular.element(document).ready(function() {
 
-        TweenMax.from(['#PlayerVideo > #Structure > circle', '#PlayerVideo > #HoverStructure > circle'], 1.5, {
+        TweenMax.from('#PlayerVideo > #StructureCircle > circle', 1.5, {
             drawSVG: "0%",
             ease: Expo.easeOut,
             delay: 0.5
         });
-        TweenMax.from('#PlayerVideo > #Structure > line', 1, {
+        TweenMax.from('#PlayerVideo > #StructureLine > line', 1, {
             drawSVG: "50% 50%",
             ease: Expo.easeOut,
             delay: 1.5
@@ -73,14 +73,15 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
 
         // HoverCircle
 /*
-        $('#PlayerVideo > #HoverStructure > circle').mouseover( function() {
-            $(this).next().addClass('HoverEl');
-            $(this).addClass('HoverCircle');
+        $('#PlayerVideo > #StructureCircle > circle').mouseover( function() {
+            $(this).addClass('ControllCircle');
+            var HoverCircle = parseInt($(this).index(), 10);
+            $('#PlayerVideo > #StructureText > text:eq(' + HoverCircle + ')').addClass('HoverEl');
         });
 
-        $('#PlayerVideo > #HoverStructure > circle').mouseleave( function() {
-            $("#PlayerVideo > #HoverStructure > circle.HoverCircle").next().removeClass("HoverEl");
-            $("#PlayerVideo > #HoverStructure > circle.HoverCircle").removeClass("HoverCircle");
+        $('#PlayerVideo > #StructureCircle > circle').mouseleave( function() {
+            $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
+            $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
         });
 */
         // html5media enables <video> and <video> tags in all major browsers
@@ -178,7 +179,7 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
                     trackCount = tracks.length,
                     npAction = $('#npAction'),
                     npTitle = $('#npTitle'),
-                    video = $('#video1').bind('play', function () {
+                    video = $('#VideoIntervista').bind('play', function () {
                         playing = true;
                         npAction.html('<rect x="18.2" y="31.3" class="Stroke2px PTEKStroke" width="5" height="17"/><rect x="28.2" y="31.3" class="Stroke2px PTEKStroke" width="5" height="17"/>');
                     }).bind('pause', function () {
@@ -196,7 +197,7 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
                             loadTrack(index);
                         }
                     }).get(0),
-                    circle = $('#PlayerVideo > #Structure > circle').click(function () {
+                    circle = $('#PlayerVideo > #StructureCircle > circle').click(function () {
                         var id = parseInt($(this).index());
                         if (id !== index) {
                             playTrack(id);
@@ -204,12 +205,28 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
                     }),
                     loadTrack = function (id) {
                         $('.ActiveCircle').removeClass('ActiveCircle');
-                        $('#PlayerVideo > #Structure > circle:eq(' + id + ')').addClass('ActiveCircle');
+                        $('#PlayerVideo > #StructureCircle > circle:eq(' + id + ')').addClass('ActiveCircle');
                         $('.ActiveEl').removeClass('ActiveEl');
-                        $('#PlayerVideo > #Structure > text:eq(' + id + ')').addClass('ActiveEl');
+                        $('#PlayerVideo > #StructureText > text:eq(' + id + ')').addClass('ActiveEl');
                         npTitle.text(tracks[id].name);
                         index = id;
                         video.src = mediaPath + tracks[id].file + extension;
+                        $('#PlayerVideo > #StructureCircle > circle').mouseover(function() {
+                            var HoverCircle = parseInt($(this).index(), 10);
+                            if (HoverCircle + 1 == index || HoverCircle - 1 == index) {
+                                $('#PlayerVideo > #StructureText > text:eq(' + index + ')').removeClass('ActiveEl');
+                            }
+                            $(this).addClass('ControllCircle');
+                            $('#PlayerVideo > #StructureText > text:eq(' + HoverCircle + ')').addClass('HoverEl');
+                        });
+                        $('#PlayerVideo > #StructureCircle > circle').mouseleave( function() {
+                            var HoverCircle = parseInt($(this).index(), 10);
+                            if (HoverCircle + 1 == index || HoverCircle - 1 == index) {
+                                $('#PlayerVideo > #StructureText > text:eq(' + index + ')').addClass('ActiveEl');
+                            }
+                            $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
+                            $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
+                        });                     
                     },
                     playTrack = function (id) {
                         loadTrack(id);
