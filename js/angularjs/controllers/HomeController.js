@@ -4,6 +4,10 @@ app.controller('HomeController', ['$scope', function($scope) {
 
 	angular.element(document).ready(function() {
 
+		var audioVoice = document.getElementById('Voiceover');
+
+		    audioVoice.volume = 0.4;
+
 		TweenLite.from('.StrokePages', 1, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
