@@ -6,7 +6,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 
 		var audioVoice = document.getElementById('Voiceover');
 
-		    audioVoice.volume = 0.4;
+		    audioVoice.volume = 0.3;
 
 		TweenLite.from('.StrokePages', 1, {
 			drawSVG: "0%",
@@ -64,12 +64,6 @@ app.controller('HomeController', ['$scope', function($scope) {
 			delay: 1
 		});
 
-		TweenLite.from('.WLine2px_', 2, {
-			drawSVG: "0%",
-			ease: Expo.easeInOut,
-			delay: 1
-		});
-
 		TweenLite.from('.Stroke10px', 1, {
 			drawSVG: "50% 50%",
 			ease: Expo.easeInOut,  
@@ -79,6 +73,48 @@ app.controller('HomeController', ['$scope', function($scope) {
 			opacity: 0,
 			ease: Expo.easeOut,
 			delay: .5
+		});
+
+		TweenLite.from('.WLine2px_', 2, {
+			drawSVG: "0%",
+			ease: Expo.easeOut,
+			delay: 0.5
+		});
+
+		TweenLite.from('.WLine2px', 1, {
+			drawSVG: 0,
+			ease: Expo.easeOut,
+			delay: 4
+		});
+
+		TweenLite.from('.WColor', 1, {
+			opacity: 0,
+			ease: Expo.easeIn,
+			delay: 3.5
+		});
+
+		TweenLite.from('.warning_1', 2, {
+			drawSVG: 0,
+			ease: Expo.easeOut,
+			delay: 1
+		});
+
+		TweenLite.from('.warning_2', 2, {
+			drawSVG: 0,
+			ease: Expo.easeOut,
+			delay: 1
+		});
+
+		TweenLite.to('.warning_1', 1, {
+			opacity: 0,
+			ease: Expo.easeIn,
+			delay: 3
+		});
+
+		TweenLite.to('.warning_2', 1, {
+			opacity: 0,
+			ease: Expo.easeIn,
+			delay: 3
 		});
 		
 	});
