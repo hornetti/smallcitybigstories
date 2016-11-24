@@ -65,7 +65,7 @@ function DragFullScreen() {
 };
 
 /*********************************************************/
-/****************     CustomAlert      **************/
+/******************     CustomAlert      ****************/
 /*******************************************************/
 
 function alertFullscreen() {
@@ -87,7 +87,7 @@ function pauseVoice() {
 
 function playWelcome() {
   var audioWelcome = document.getElementById('Welcome');
-  audioWelcome.volume = 0.4;
+  audioWelcome.volume = 0.3;
   setTimeout(function() { 
     audioWelcome.play(); 
   }, 1250);
@@ -99,7 +99,7 @@ function playWelcome() {
 
 var audioWelcome = document.getElementById('Welcome');
 var audioAmbient = document.getElementById('ambientMusic');
-    audioAmbient.volume = 0.4;
+    audioAmbient.volume = 0.3;
 
 function restartMusic() {
   audioWelcome.currentTime = 0;
