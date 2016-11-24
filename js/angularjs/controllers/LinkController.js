@@ -7,8 +7,9 @@ app.controller('LinkController', ['$scope', function($scope) {
 
 	$scope.Link_Map = {	
 		name : 'Faenza',
-		direct : 'map',
 		namealt : 'Torna alla mappa',
+		nameshow : '',
+		direct : 'map'
 	};
 
 	$scope.Link_Credits = {
@@ -26,7 +27,14 @@ app.controller('LinkController', ['$scope', function($scope) {
 		direct : 'manifesto'
 	};
 
-	$scope.Toggle_Share = "Share";
+    $scope.hoverIn = function(){
+        $scope.Link_Map.nameshow = $scope.Link_Map.name;
+        $scope.Link_Map.name = $scope.Link_Map.namealt;
+    };
+
+    $scope.hoverOut = function(){
+        $scope.Link_Map.name = $scope.Link_Map.nameshow;
+    };
 
 	$scope.Link_Share = [
 		{
@@ -44,20 +52,7 @@ app.controller('LinkController', ['$scope', function($scope) {
 	$scope.Toggle_Music = "Music";
 
 	angular.element(document).ready(function() {
-		/*
 
-		TOOGLE ON/OFF MUSIC & FULSCREEN
-
-		var TXT = ['.Bold32', '.Regular32', '.Bold21', '.Regular21', '.Bold15', '.Regular15', '.Bold12', '.Regular12'];
-				
-		TweenMax.staggerFrom(TXT, 1, {
-		    opacity: 0,
-		    x: '-10px',
-		    ease: Expo.easeOut,
-		    force3D: true,
-		    delay: 1
-		}, 0.25);
-		*/
 	});
 
 }]);
