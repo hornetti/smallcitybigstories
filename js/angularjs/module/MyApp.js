@@ -7,7 +7,7 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
     'self',
     // Allow loading from our assets domain.  Notice the difference between * and **.
     'http://www.smallcitybigstories.com/**',
-    'https://hornetti.github.io/smallcitybigstories/**'
+    'http://hornetti.github.io/smallcitybigstories/**'
   ]);
 /*
   // The blacklist overrides the whitelist so the open redirect here is blocked.
