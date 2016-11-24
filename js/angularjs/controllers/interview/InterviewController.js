@@ -71,33 +71,12 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
             $(this).children().removeClass("ControllCircle");
         });
 
-        // HoverCircle
-/*
-        $('#PlayerVideo > #StructureCircle > circle').mouseover( function() {
-            $(this).addClass('ControllCircle');
-            var HoverCircle = parseInt($(this).index(), 10);
-            $('#PlayerVideo > #StructureText > text:eq(' + HoverCircle + ')').addClass('HoverEl');
-        });
+        // Player Video  
 
-        $('#PlayerVideo > #StructureCircle > circle').mouseleave( function() {
-            $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
-            $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
-        });
-*/
-        // html5media enables <video> and <video> tags in all major browsers
-        // External File: http://api.html5media.info/1.1.8/html5media.min.js
-
-
-        // Add user agent as an attribute on the <html> tag...
-        // Inspiration: http://css-tricks.com/ie-10-specific-styles/
         var b = document.documentElement;
         b.setAttribute('data-useragent', navigator.userAgent);
         b.setAttribute('data-platform', navigator.platform);
 
-
-        // HTML5 video player + playlist controls...
-        // Inspiration: http://jonhall.info/how_to/create_a_playlist_for_html5_video
-        // Mythium Archive: https://archive.org/details/mythium/
         jQuery(function ($) {
             var supportsvideo = !!document.createElement('video').canPlayType;
             if (supportsvideo) {
@@ -210,23 +189,53 @@ app.controller('InterviewController', ['$scope', '$window', function($scope, $wi
                         $('#PlayerVideo > #StructureText > text:eq(' + id + ')').addClass('ActiveEl');
                         npTitle.text(tracks[id].name);
                         index = id;
-                        video.src = mediaPath + tracks[id].file + extension;
+                        video.src = mediaPath + tracks[id].file + extension;                        
                         $('#PlayerVideo > #StructureCircle > circle').mouseover(function() {
                             var HoverCircle = parseInt($(this).index(), 10);
                             if (HoverCircle + 1 == index || HoverCircle - 1 == index) {
                                 $('#PlayerVideo > #StructureText > text:eq(' + index + ')').removeClass('ActiveEl');
+                                $(this).addClass('ControllCircle');
+                                $('#PlayerVideo > #StructureText > text:eq(' + HoverCircle + ')').addClass('HoverEl');
+                            } else if (index == 11 && (HoverCircle + 2 == index || HoverCircle - 2 == index)) {
+                                $('#PlayerVideo > #StructureText > text:eq(' + index + ')').removeClass('ActiveEl');
+                                $(this).addClass('ControllCircle');
+                                $('#PlayerVideo > #StructureText > text:eq(' + HoverCircle + ')').addClass('HoverEl');
+                            } else if (index == 9 && HoverCircle == 11) {
+                                $('#PlayerVideo > #StructureText > text:eq(' + index + ')').removeClass('ActiveEl');
+                                $(this).addClass('ControllCircle');
+                                $('#PlayerVideo > #StructureText > text:eq(' + HoverCircle + ')').addClass('HoverEl');
+                            } else if (index == 13 && HoverCircle == 11) {
+                                $('#PlayerVideo > #StructureText > text:eq(' + index + ')').removeClass('ActiveEl');
+                                $(this).addClass('ControllCircle');
+                                $('#PlayerVideo > #StructureText > text:eq(' + HoverCircle + ')').addClass('HoverEl');
+                            } else {
+                                $(this).addClass('ControllCircle');
+                                $('#PlayerVideo > #StructureText > text:eq(' + HoverCircle + ')').addClass('HoverEl');
                             }
-                            $(this).addClass('ControllCircle');
-                            $('#PlayerVideo > #StructureText > text:eq(' + HoverCircle + ')').addClass('HoverEl');
                         });
                         $('#PlayerVideo > #StructureCircle > circle').mouseleave( function() {
                             var HoverCircle = parseInt($(this).index(), 10);
                             if (HoverCircle + 1 == index || HoverCircle - 1 == index) {
                                 $('#PlayerVideo > #StructureText > text:eq(' + index + ')').addClass('ActiveEl');
+                                $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
+                                $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
+                            } else if (index == 11 && (HoverCircle + 2 == index || HoverCircle - 2 == index)) {
+                                $('#PlayerVideo > #StructureText > text:eq(' + index + ')').addClass('ActiveEl');
+                                $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
+                                $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
+                            } else if (index == 9 && HoverCircle == 11) {
+                                $('#PlayerVideo > #StructureText > text:eq(' + index + ')').addClass('ActiveEl');
+                                $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
+                                $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
+                            } else if (index == 13 && HoverCircle == 11) {
+                                $('#PlayerVideo > #StructureText > text:eq(' + index + ')').addClass('ActiveEl');
+                                $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
+                                $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
+                            } else {
+                                $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
+                                $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
                             }
-                            $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
-                            $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
-                        });                     
+                        });                   
                     },
                     playTrack = function (id) {
                         loadTrack(id);
