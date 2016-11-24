@@ -9,12 +9,7 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
     'http://www.smallcitybigstories.com/**',
     'https://hornetti.github.io/smallcitybigstories/**'
   ]);
-/*
-  // The blacklist overrides the whitelist so the open redirect here is blocked.
-  $sceDelegateProvider.resourceUrlBlacklist([
-    'https://hornetti.github.io/smallcitybigstories/'
-  ]);
-*/
+  
   $routeProvider
   
     .when('/home', {
