@@ -213,7 +213,7 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
     })
 
     .otherwise({ 
-      redirectTo: '/map'
+      redirectTo: '/home'
     });
     $locationProvider.html5Mode(true);
 }]);

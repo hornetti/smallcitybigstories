@@ -27,6 +27,7 @@ app.controller('LinkController', ['$scope', function($scope) {
 		direct : 'manifesto'
 	};
 
+
     $scope.hoverIn = function(){
         $scope.Link_Map.nameshow = $scope.Link_Map.name;
         $scope.Link_Map.name = $scope.Link_Map.namealt;
@@ -47,12 +48,10 @@ app.controller('LinkController', ['$scope', function($scope) {
 		}
 	];
 
+	$scope.Toggle_Share = "Share";
+
 	$scope.Toggle_Fullscreen = "Fullscreen";
 
 	$scope.Toggle_Music = "Music";
-
-	angular.element(document).ready(function() {
-
-	});
 
 }]);
