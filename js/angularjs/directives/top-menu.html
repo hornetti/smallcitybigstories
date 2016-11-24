@@ -4,9 +4,9 @@
 	</div>
 	<div class="RightMenu">
 		<div id="BacktoFaenza" class="FloatRight">
-			<a class="EffClick" ng-href="{{ Link_Map.direct }}">
+			<a ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()" class="EffClick" ng-href="{{ Link_Map.direct }}">
 			    <p class="Cerchio FloatRight MarginZero MAINColor Regular15">M</p>
-			    <p class="Posizione FloatRight MarginZero MAINColor Regular15">Faenza</p>
+			    <p class="Posizione FloatRight MarginZero MAINColor Regular15">{{ Link_Map.name }}</p>
 			</a>
 		</div>
 	</div>
