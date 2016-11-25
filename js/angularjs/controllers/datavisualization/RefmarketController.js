@@ -47,11 +47,9 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 			ease: Expo.easeOut,
 			delay: 1.5
 		});
-		/*
-
-		Data Italy
 		
-		*/
+		//  Data Italy
+
 		TweenMax.set('#DV5Data1PTEK', {
 			opacity: '0'
 		});
@@ -131,11 +129,9 @@ app.controller('RefmarketController', ['$scope', function($scope) {
 				opacity: '1'
 	        });
 	    });
-	    /*
 
-		Data World
-		
-		*/
+	    //  Data World
+
 		TweenMax.set('#DV5Data2PTEK', {
 			opacity: '0'
 		});
