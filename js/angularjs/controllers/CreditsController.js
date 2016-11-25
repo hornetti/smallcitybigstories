@@ -93,18 +93,4 @@
 
 	$scope.Link_Fondazione = 'http://www.fondazionemontefaenza.it/';
 	
-	angular.element(document).ready(function() {
-		/*
-		var TXT = ['.Bold32', '.Regular32', '.Bold21', '.Regular21', '.Bold15', '.Regular15', '.Bold12', '.Regular12'];
-				
-		TweenMax.staggerFrom(TXT, 1, {
-		    opacity: 0,
-		    x: '-10px',
-		    ease: Expo.easeOut,
-		    force3D: true,
-		    delay: 1
-		}, 0.25);
-		*/
-	});
-	
 }]);
