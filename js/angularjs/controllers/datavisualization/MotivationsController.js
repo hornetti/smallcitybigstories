@@ -14,13 +14,7 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 			ease: Expo.easeOut,
 			delay: 1
 		});
-/*
-		TweenMax.from('.Grid' , 2, {
-			drawSVG: "0%",
-			ease: Expo.easeOut,
-			delay: 1
-		});
-*/
+
 		TweenMax.from('.WLines' , 1, {
 			drawSVG: "0%",
 			ease: Expo.easeOut,
@@ -38,11 +32,9 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 			ease: Expo.easeOut,
 			delay: 1.5
 		});
-	    /*
-
-		Motivation Data A
 		
-		*/
+	    //  Motivation Data A
+
 		TweenMax.set('#DV6Data1PTEK', {
 			opacity: '0'
 		});
@@ -69,11 +61,9 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 	          opacity: '0'
 	        });
 	    });
-	    /*
+	    
+	    //  Motivation Data B
 
-		Motivation Data B
-		
-		*/
 		TweenMax.set('#DV6Data2PTEK', {
 			opacity: '0'
 		});
@@ -100,11 +90,9 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 	          opacity: '0'
 	        });
 	    });
-	    /*
+	    
+	    //  Motivation Data C
 
-		Motivation Data C
-		
-		*/
 		TweenMax.set('#DV6Data3IT', {
 			opacity: '0'
 		});
@@ -118,11 +106,9 @@ app.controller('MotivationsController', ['$scope', function($scope) {
 	          opacity: '0'
 	        });
 	    });
-	    /*
+	    
+	    //  Motivation Data D
 
-		Motivation Data D
-
-		*/
 		TweenMax.set('#DV6Data4PTEK', {
 			opacity: '0'
 		});
