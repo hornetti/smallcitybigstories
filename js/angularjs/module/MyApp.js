@@ -47,8 +47,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/MarcoTamba.html'
     })
     .when('/map/marco_tamba/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_marco_tamba',
+      templateUrl: 'js/angularjs/views/interview/Interview_B_food.html'
     })
 
     .when('/map/fabrizio_mantovani', {
@@ -56,8 +56,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/FabrizioMantovani.html'
     })
     .when('/map/fabrizio_mantovani/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_fabrizio_mantovani',
+      templateUrl: 'js/angularjs/views/interview/Interview_A_food.html'
     })
 
     .when('/map/raffaele_borgini', {
@@ -65,8 +65,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/RaffaeleBorgini.html'
     })
     .when('/map/raffaele_borgini/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_raffaele_borgini',
+      templateUrl: 'js/angularjs/views/interview/Interview_A_ptek.html'
     })
 
     .when('/map/paolo_rava', {
@@ -74,8 +74,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/PaoloRava.html'
     })
     .when('/map/paolo_rava/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_paolo_rava',
+      templateUrl: 'js/angularjs/views/interview/Interview_A_ptek.html'
     })
 
     .when('/map/ivano_valmori', {
@@ -83,8 +83,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/IvanoValmori.html'
     })
     .when('/map/ivano_valmori/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_ivano_valmori',
+      templateUrl: 'js/angularjs/views/interview/Interview_A_it.html'
     })
 
     .when('/map/andrea_salvatori', {
@@ -92,8 +92,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/AndreaSalvatori.html'
     })
     .when('/map/andrea_salvatori/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_andrea_salvatori',
+      templateUrl: 'js/angularjs/views/interview/Interview_A_ptek.html'
     })
 
     .when('/map/marco_peroni', {
@@ -101,8 +101,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/MarcoPeroni.html'
     })
     .when('/map/marco_peroni/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_marco_peroni',
+      templateUrl: 'js/angularjs/views/interview/Interview_C_ptek.html'
     })
 
     .when('/map/andrea_martelli', {
@@ -110,8 +110,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/AndreaMartelli.html'
     })
     .when('/map/andrea_martelli/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_andrea_martelli',
+      templateUrl: 'js/angularjs/views/interview/Interview_B_ptek.html'
     })
 
     .when('/map/roberto_bertoni', {
@@ -119,8 +119,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/RobertoBertoni.html'
     })
     .when('/map/roberto_bertoni/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_roberto_bertoni',
+      templateUrl: 'js/angularjs/views/interview/Interview_A_ptek.html'
     })
 
     .when('/map/barbara_savorani', {
@@ -128,8 +128,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/BarbaraSavorani.html'
     })
     .when('/map/barbara_savorani/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_barbara_savorani',
+      templateUrl: 'js/angularjs/views/interview/Interview_D_mav.html'
     })
 
     .when('/map/gabriele_bandini', {
@@ -137,8 +137,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/GabrieleBandini.html'
     })
     .when('/map/gabriele_bandini/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_gabriele_bandini',
+      templateUrl: 'js/angularjs/views/interview/Interview_B_mav.html'
     })
 
     .when('/map/giulia_ruta', {
@@ -146,8 +146,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/GiuliaRuta.html'
     })
     .when('/map/giulia_ruta/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_giulia_ruta',
+      templateUrl: 'js/angularjs/views/interview/Interview_B_mav.html'
     })
 
     .when('/map/anna_tampieri', {
@@ -155,8 +155,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/AnnaTampieri.html'
     })
     .when('/map/anna_tampieri/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_anna_tampieri',
+      templateUrl: 'js/angularjs/views/interview/Interview_A_mav.html'
     })
 
     .when('/map/stefano_zauli', {
@@ -164,8 +164,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/StefanoZauli.html'
     })
     .when('/map/stefano_zauli/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_stefano_zauli',
+      templateUrl: 'js/angularjs/views/interview/Interview_A_it.html'
     })
 
     .when('/map/maurizio_fionda', {
@@ -173,8 +173,8 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
       templateUrl: 'js/angularjs/views/interviewed/MaurizioFionda.html'
     })
     .when('/map/maurizio_fionda/intervista', {
-      controller: 'InterviewController',
-      templateUrl: 'js/angularjs/views/Interview.html'
+      controller: 'InterviewController_maurizio_fionda',
+      templateUrl: 'js/angularjs/views/interview/Interview_A_it.html'
     })
 
     .when('/map/employees', {
