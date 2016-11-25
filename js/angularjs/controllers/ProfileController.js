@@ -1,19 +1,5 @@
 app.controller('ProfileController', ['$scope', function($scope) {
 
-	$scope.Link_Revenue = 'map/revenue';
-	
-	$scope.Link_Employees = 'map/employees';
-	
-	$scope.Link_Foundation = 'map/foundation';
-	
-	$scope.Link_Motivation = 'map/motivations';
-	
-	$scope.Link_Market = 'map/reference_market';
-	
-	$scope.Link_Growth = 'map/economic_growth';
-	
-	$scope.Link_Type = 'map/type_market';
-	
 	$scope.legends = [
     	{
     		element : " A — C'erano occasioni che andavano colte"
@@ -38,11 +24,9 @@ app.controller('ProfileController', ['$scope', function($scope) {
     }
 
 	angular.element(document).ready(function() {
-	  	/*
 	  	
-	  	Counter Number Profile
+	  	//  Counter Number Profile
 
-	  	*/
 		$('.count').each(function () {
 		    $(this).prop('Counter', 0).animate({
 		        Counter: $(this).text()
@@ -55,22 +39,15 @@ app.controller('ProfileController', ['$scope', function($scope) {
 		    });
 		});
 
-		/*
-
-		ANIMATION SVG
-
-		*/
+		//  ANIMATION SVG
 		
 		TweenMax.from('.ElemSVG', 1, {
 		    drawSVG: 0, 
 		    delay: 1,
 			ease: Expo.easeOut
 		});
-		/*
-
-		ANIMATION PTEK
-
-		*/
+		
+		//  ANIMATION PTEK
 
 		$('.ServicePTEK').mouseover(function() {
 			$('.ServicePTEK > div > p').text('Progettazione tecnologica');
@@ -79,11 +56,7 @@ app.controller('ProfileController', ['$scope', function($scope) {
 			$('.ServicePTEK > div > p').text('Tipologia di servizio prodotto');
 		});
 
-		/*
-
-		ANIMATION MAV
-
-		*/
+		//  ANIMATION MAV
 
 		$('.ServiceMAV').mouseover(function() {
 			$('.ServiceMAV > div > p').text('Materiali avanzati');
@@ -92,11 +65,7 @@ app.controller('ProfileController', ['$scope', function($scope) {
 			$('.ServiceMAV > div > p').text('Tipologia di servizio prodotto');
 		});
 
-		/*
-
-		ANIMATION FOOD
-
-		*/
+		//  ANIMATION FOOD
 
 		$('.ServiceFOOD').mouseover(function() {
 			$('.ServiceFOOD > div > p').text('Food');
@@ -105,11 +74,7 @@ app.controller('ProfileController', ['$scope', function($scope) {
 			$('.ServiceFOOD > div > p').text('Tipologia di servizio prodotto');
 		});
 
-		/*
-
-		ANIMATION IT
-
-		*/
+		//  ANIMATION IT
 
 		$('.ServiceIT').mouseover(function() {
 			$('.ServiceIT > div > p').text('Servizi digitali');
@@ -118,11 +83,7 @@ app.controller('ProfileController', ['$scope', function($scope) {
 			$('.ServiceIT > div > p').text('Tipologia di servizio prodotto');
 		});
 
-		/*
-		
-		PREVIEW INTERVIEW
-	
-		*/
+		//  PREVIEW INTERVIEW
 
 		TweenMax.from('.PrewBorder', 2, {
 	    	drawSVG: "0%",
