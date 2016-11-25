@@ -32,13 +32,11 @@ app.controller('MapController', ['$scope', function($scope) {
 		    delay: 2
 		});
 
-		/*
-
-		Mouseover & mouseleave on #interviewed
-
-		*/
+		/*  Mouseover & mouseleave on #interviewed  */
+		
 		var effettoHover = document.getElementById("effectHover");
 		var effettoClickMetro = document.getElementById("effectClickMetro");
+		effettoClickMetro.volume = 0.3;
 
 	    $("#fillSavorani").mouseover(function() {
 	    	effettoHover.play();
