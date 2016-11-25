@@ -7,7 +7,8 @@ app.directive('topMenu', function() {
 	    	angular.element(document).ready(function() {
 
 				var effettoClick = document.getElementById("effectClick");
-
+				effettoClick.volume = 0.3;
+				
 				$('.EffClick').click(function(event) {
 					effettoClick.play();
 				});
