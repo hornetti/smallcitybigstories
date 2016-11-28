@@ -5,7 +5,7 @@ app.controller('InterviewController_roberto_bertoni', ['$scope', '$window', func
     };
 
     $scope.resetVolume = function() {
-        audioAmbient.volume = 0.4
+        audioAmbient.volume = 0.015;
     }
 
     var videointerview = document.getElementById('VideoIntervista'); 
