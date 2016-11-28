@@ -99,7 +99,7 @@ function playWelcome() {
 
 var audioWelcome = document.getElementById('Welcome');
 var audioAmbient = document.getElementById('ambientMusic');
-    audioAmbient.volume = 0.02;
+    audioAmbient.volume = 0.015;
 
 function restartMusic() {
   audioWelcome.currentTime = 0;
