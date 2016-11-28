@@ -5,7 +5,7 @@ app.controller('InterviewController_fabrizio_mantovani', ['$scope', '$window', f
     };
 
     $scope.resetVolume = function() {
-        audioAmbient.volume = 0.4
+        audioAmbient.volume = 0.015;
     }
 
     var videointerview = document.getElementById('VideoIntervista'); 
