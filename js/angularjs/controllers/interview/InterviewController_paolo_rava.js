@@ -5,7 +5,7 @@ app.controller('InterviewController_paolo_rava', ['$scope', '$window', function(
     };
 
     $scope.resetVolume = function() {
-        audioAmbient.volume = 0.4
+        audioAmbient.volume = 0.015;
     }
 
     var videointerview = document.getElementById('VideoIntervista'); 
