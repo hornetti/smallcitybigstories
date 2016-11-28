@@ -2,7 +2,7 @@
 
 	$scope.Release = "Release Date";
 
-	$scope.Data = "01.11.2016";
+	$scope.Data = "01.12.2016";
 
 	$scope.Link_Facebook = 'https://www.facebook.com/smallcitybigstories/';
 
@@ -27,12 +27,12 @@
 
 	$scope.Collaboration = "Collaborations";
 
-	$scope.Videomakers = "Videomakers";
+	$scope.Videomakers = "Drone";
 
 	$scope.VideomakersName = [
-		{
+		/*{
 			name : 'Mattia Alberani'
-		},
+		},*/
 		{
 			name : 'Filippo Cinotti'
 		}
@@ -42,7 +42,7 @@
 
 	$scope.VoiceoverName = "Cecilia Bertozzi";
 
-	$scope.Sounddesigner = "Sound designer";
+	$scope.Sounddesigner = "Music";
 
 	$scope.SounddesignerName = "Hazina Francia";
 
