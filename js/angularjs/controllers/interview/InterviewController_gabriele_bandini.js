@@ -5,7 +5,7 @@ app.controller('InterviewController_gabriele_bandini', ['$scope', '$window', fun
     };
 
     $scope.resetVolume = function() {
-        audioAmbient.volume = 0.4
+        audioAmbient.volume = 0.015;
     }
 
     var videointerview = document.getElementById('VideoIntervista'); 
