@@ -6,7 +6,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 
 		var audioVoice = document.getElementById('Voiceover');
 
-		    audioVoice.volume = 0.2;
+		    audioVoice.volume = 0.1;
 
 		TweenLite.from('.StrokePages', 1, {
 			drawSVG: "0%",

@@ -6,7 +6,7 @@ app.directive('bottomMenu', function() {
 	    	angular.element(document).ready(function() {
 				
 				var effettoHover = document.getElementById("effectHover");
-	    		
+				effettoHover.volume = 0.5;
 	    		$(".EffHover").mouseenter(function() {
 	    			effettoHover.play();
 				});
