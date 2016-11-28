@@ -3844,21 +3844,21 @@ CONTACT US
 */
 
 .ContactScbs > input.ng-invalid.ng-touched {
-  background-color: #ff6666;
   color: #ffffff;
   border: 2px solid #333333;
 }
 .ContactScbs > input.ng-valid.ng-touched {
+  font-size: 20px;
   background-color: trasparent;
   color: #ffffff;
   border: 2px solid #ff6666;
 }
 .ContactScbs > textarea.ng-invalid.ng-touched {
-  background-color: #ff6666;
   color: #ffffff;
   border: 2px solid #333333;
 }
 .ContactScbs > textarea.ng-valid.ng-touched {
+  font-size: 20px;
   background-color: trasparent;
   color: #ffffff;
   border: 2px solid #ff6666;
