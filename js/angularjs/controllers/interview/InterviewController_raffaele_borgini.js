@@ -5,7 +5,7 @@ app.controller('InterviewController_raffaele_borgini', ['$scope', '$window', fun
     };
 
     $scope.resetVolume = function() {
-        audioAmbient.volume = 0.4
+        audioAmbient.volume = 0.015;
     }
 
     var videointerview = document.getElementById('VideoIntervista'); 
