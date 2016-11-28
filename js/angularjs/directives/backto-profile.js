@@ -6,7 +6,7 @@ app.directive('backtoProfile', ['$window', function($window) {
 	    	angular.element(document).ready(function() {
 	    		
 	    		var effettoClick = document.getElementById("effectClick");
-				effettoClick.volume = 0.05;
+				effettoClick.volume = 0.03;
 
 	    		element.on('click', function() {
 			        $window.history.back();

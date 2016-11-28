@@ -5,7 +5,7 @@ app.controller('InterviewController_andrea_martelli', ['$scope', '$window', func
     };
 
     $scope.resetVolume = function() {
-        audioAmbient.volume = 0.01;
+        audioAmbient.volume = 0.02;
     }
 
     var videointerview = document.getElementById('VideoIntervista'); 
