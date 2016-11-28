@@ -36,7 +36,7 @@ app.controller('MapController', ['$scope', function($scope) {
 		
 		var effettoHover = document.getElementById("effectHover");
 		var effettoClickMetro = document.getElementById("effectClickMetro");
-		effettoClickMetro.volume = 0.3;
+		effettoClickMetro.volume = 0.1;
 
 	    $("#fillSavorani").mouseover(function() {
 	    	effettoHover.play();
