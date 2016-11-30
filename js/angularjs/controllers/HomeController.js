@@ -72,7 +72,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 		TweenLite.from('.Logotype', 2, {
 			opacity: 0,
 			ease: Expo.easeOut,
-			delay: .5
+			delay: 0.5
 		});
 
 		TweenLite.from('.WLine2px_', 2, {
