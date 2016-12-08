@@ -719,7 +719,9 @@
 
   /* HOME */
   
-  .Logotype { 
+  .Logotype {
+    fill: #FFFFFF;
+    color: #FFFFFF;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 900;
     font-size: 76px;
@@ -767,7 +769,9 @@
 
   /* HOME */
   
-  .Logotype { 
+  .Logotype {
+    fill: #FFFFFF;
+    color: #FFFFFF;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 900;
     font-size: 76px;
