@@ -7,8 +7,6 @@ app.controller('LinkController', ['$scope', function($scope) {
 
 	$scope.Link_Map = {
 		name : 'Faenza',
-		namealt : 'Torna alla mappa',
-		nameshow : '',
 		direct : 'map'
 	};
 
@@ -75,14 +73,7 @@ app.controller('LinkController', ['$scope', function($scope) {
 	
 	$scope.fabrizio_mantovani = '#/map/fabrizio_mantovani';
 */
-    $scope.hoverIn = function() {
-        $scope.Link_Map.nameshow = $scope.Link_Map.name;
-        $scope.Link_Map.name = $scope.Link_Map.namealt;
-    };
 
-    $scope.hoverOut = function() {
-        $scope.Link_Map.name = $scope.Link_Map.nameshow;
-    };
     /*
 	$scope.Link_Share = [
 		{
