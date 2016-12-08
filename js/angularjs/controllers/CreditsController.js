@@ -83,7 +83,7 @@
     		paragraf : "Siamo convinti che raccontare l’ecosistema professionale di una città sia la modalità più semplice e immediata per permettere a terzi di applicare le tecniche proprie del visual journalism: per questa ragione abbiamo deciso di rendere Scbs Open Source."
     	},
     	{
-    		paragraf : "Per saperne di più sul metodo di lavoro utilizzato da Scbs scarica il report. Per portare Scbs nella tua città contattaci."
+    		paragraf : "Per saperne di più su Scbs e il metodo di lavoro utilizzato scarica il report. Per portare Scbs nella tua città contattaci."
     	}
     ];
 
