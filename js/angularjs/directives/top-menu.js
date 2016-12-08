@@ -12,7 +12,7 @@ app.directive('topMenu', function() {
 				$('.EffClick').click(function(event) {
 					effettoClick.play();
 				});
-				
+
 			});
 	    }
   	};
