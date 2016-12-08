@@ -111,46 +111,41 @@ app.controller('InterviewController_andrea_salvatori', ['$scope', '$window', fun
                         "file": "5_andreasalvatori_abilita"
                     }, {
                         "track": 6,
-                        "name": "team",
-                        "length": "01:19",
-                        "file": "6_andreasalvatori_team"
-                    }, {
-                        "track": 7,
                         "name": "digitale",
                         "length": "01:15",
                         "file": "7_andreasalvatori_digitale"
                     }, {
-                        "track": 8,
+                        "track": 7,
                         "name": "scuola",
                         "length": "01:19",
                         "file": "8_andreasalvatori_scuola"
                     }, {
-                        "track": 9,
+                        "track": 8,
                         "name": "ostacoli",
                         "length": "01:15",
                         "file": "9_andreasalvatori_ostacoli"
                     }, {
-                        "track": 10,
+                        "track": 9,
                         "name": "madeinitaly",
                         "length": "01:19",
                         "file": "10_andreasalvatori_madeinitaly"
                     }, {
-                        "track": 11,
+                        "track": 10,
                         "name": "estero",
                         "length": "01:15",
                         "file": "11_andreasalvatori_estero"
                     }, {
-                        "track": 12,
+                        "track": 11,
                         "name": "fallimento-successo",
                         "length": "01:19",
                         "file": "12_andreasalvatori_fallimento-successo"
                     }, {
-                        "track": 13,
+                        "track": 12,
                         "name": "futuro",
                         "length": "01:15",
                         "file": "13_andreasalvatori_futuro"
                     }, {
-                        "track": 14,
+                        "track": 13,
                         "name": "consigli",
                         "length": "01:19",
                         "file": "14_andreasalvatori_consigli"
