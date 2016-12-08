@@ -17,6 +17,10 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
 */
   $routeProvider
   
+    .when('/offline', {
+      templateUrl: 'js/angularjs/views/Offline.html'
+    })
+
     .when('/home', {
       controller: 'HomeController',
       templateUrl: 'js/angularjs/views/Home.html'
