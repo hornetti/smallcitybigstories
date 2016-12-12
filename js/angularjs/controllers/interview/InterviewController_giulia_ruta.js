@@ -1,13 +1,5 @@
 app.controller('InterviewController_giulia_ruta', ['$scope', '$window', function($scope, $window) {            
     
-    $scope.BackTo = function() {
-        $window.history.back();
-    };
-
-    $scope.resetVolume = function() {
-        audioAmbient.volume = 0.015;
-    }
-
     var videointerview = document.getElementById('VideoIntervista'); 
 
     $scope.PlayPause = function() {
@@ -17,6 +9,15 @@ app.controller('InterviewController_giulia_ruta', ['$scope', '$window', function
             videointerview.pause();
         }
     };
+
+    $scope.BackTo = function() {
+        $window.history.back();
+        videointerview.pause();
+    };
+
+    $scope.resetVolume = function() {
+        audioAmbient.volume = 0.015;
+    }
 
     angular.element(document).ready(function() {
 
@@ -82,78 +83,83 @@ app.controller('InterviewController_giulia_ruta', ['$scope', '$window', function
             if (supportsvideo) {
                 var index = 0,
                     playing = false,
-                    mediaPath = 'http://www.smallcitybigstories.com/video/andrea_salvatori/',
+                    mediaPath = 'http://www.smallcitybigstories.com/video/giulia_ruta/',
                     extension = '',
                     tracks = [{
                         "track": 1,
                         "name": "storia",
                         "length": "01:15",
-                        "file": "1_andreasalvatori_storia"
+                        "file": "01_giuliaruta_storia"
                     }, {
                         "track": 2,
                         "name": "nascita",
                         "length": "01:19",
-                        "file": "2_andreasalvatori_nascita"
+                        "file": "02_giuliaruta_nascita"
                     }, {
                         "track": 3,
                         "name": "locale",
                         "length": "01:15",
-                        "file": "3_andreasalvatori_locale"
+                        "file": "03_giuliaruta_locale"
                     }, {
                         "track": 4,
                         "name": "comunita",
                         "length": "01:19",
-                        "file": "4_andreasalvatori_comunita"
+                        "file": "04_giuliaruta_comunita"
                     }, {
                         "track": 5,
                         "name": "abilita",
                         "length": "01:15",
-                        "file": "5_andreasalvatori_abilita"
+                        "file": "05_giuliaruta_abilita"
                     }, {
                         "track": 6,
                         "name": "team",
                         "length": "01:19",
-                        "file": "6_andreasalvatori_team"
+                        "file": "06_giuliaruta_team"
                     }, {
                         "track": 7,
                         "name": "digitale",
                         "length": "01:15",
-                        "file": "7_andreasalvatori_digitale"
+                        "file": "07_giuliaruta_digitale"
                     }, {
                         "track": 8,
                         "name": "scuola",
                         "length": "01:19",
-                        "file": "8_andreasalvatori_scuola"
+                        "file": "08_giuliaruta_scuola"
                     }, {
                         "track": 9,
                         "name": "ostacoli",
                         "length": "01:15",
-                        "file": "9_andreasalvatori_ostacoli"
+                        "file": "09_giuliaruta_ostacoli"
                     }, {
                         "track": 10,
                         "name": "madeinitaly",
                         "length": "01:19",
-                        "file": "10_andreasalvatori_madeinitaly"
+                        "file": "10_giuliaruta_madeinitaly"
                     }, {
                         "track": 11,
                         "name": "estero",
                         "length": "01:15",
-                        "file": "11_andreasalvatori_estero"
+                        "file": "11_giuliaruta_estero"
                     }, {
                         "track": 12,
-                        "name": "fallimento-successo",
+                        "name": "fallimento",
                         "length": "01:19",
-                        "file": "12_andreasalvatori_fallimento-successo"
+                        "file": "12_giuliaruta_fallimento"
                     }, {
                         "track": 13,
-                        "name": "futuro",
-                        "length": "01:15",
-                        "file": "13_andreasalvatori_futuro"
+                        "name": "successo",
+                        "length": "01:19",
+                        "file": "12_giuliaruta_successo"
                     }, {
                         "track": 14,
+                        "name": "futuro",
+                        "length": "01:15",
+                        "file": "13_giuliaruta_futuro"
+                    }, {
+                        "track": 15,
                         "name": "consigli",
                         "length": "01:19",
-                        "file": "14_andreasalvatori_consigli"
+                        "file": "14_giuliaruta_consigli"
                     }],
                     trackCount = tracks.length,
                     npAction = $('#npAction'),
