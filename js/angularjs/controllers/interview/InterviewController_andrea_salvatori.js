@@ -1,13 +1,5 @@
 app.controller('InterviewController_andrea_salvatori', ['$scope', '$window', function($scope, $window) {            
     
-    $scope.BackTo = function() {
-        $window.history.back();
-    };
-
-    $scope.resetVolume = function() {
-        audioAmbient.volume = 0.015;
-    }
-
     var videointerview = document.getElementById('VideoIntervista'); 
 
     $scope.PlayPause = function() {
@@ -17,6 +9,15 @@ app.controller('InterviewController_andrea_salvatori', ['$scope', '$window', fun
             videointerview.pause();
         }
     };
+
+    $scope.BackTo = function() {
+        $window.history.back();
+        videointerview.pause();
+    };
+
+    $scope.resetVolume = function() {
+        audioAmbient.volume = 0.015;
+    }
 
     angular.element(document).ready(function() {
 
@@ -88,42 +89,42 @@ app.controller('InterviewController_andrea_salvatori', ['$scope', '$window', fun
                         "track": 1,
                         "name": "storia",
                         "length": "01:15",
-                        "file": "1_andreasalvatori_storia"
+                        "file": "01_andreasalvatori_storia"
                     }, {
                         "track": 2,
                         "name": "nascita",
                         "length": "01:19",
-                        "file": "2_andreasalvatori_nascita"
+                        "file": "02_andreasalvatori_nascita"
                     }, {
                         "track": 3,
                         "name": "locale",
                         "length": "01:15",
-                        "file": "3_andreasalvatori_locale"
+                        "file": "03_andreasalvatori_locale"
                     }, {
                         "track": 4,
                         "name": "comunita",
                         "length": "01:19",
-                        "file": "4_andreasalvatori_comunita"
+                        "file": "04_andreasalvatori_comunita"
                     }, {
                         "track": 5,
                         "name": "abilita",
                         "length": "01:15",
-                        "file": "5_andreasalvatori_abilita"
+                        "file": "05_andreasalvatori_abilita"
                     }, {
                         "track": 6,
                         "name": "digitale",
                         "length": "01:15",
-                        "file": "7_andreasalvatori_digitale"
+                        "file": "07_andreasalvatori_digitale"
                     }, {
                         "track": 7,
                         "name": "scuola",
                         "length": "01:19",
-                        "file": "8_andreasalvatori_scuola"
+                        "file": "08_andreasalvatori_scuola"
                     }, {
                         "track": 8,
                         "name": "ostacoli",
                         "length": "01:15",
-                        "file": "9_andreasalvatori_ostacoli"
+                        "file": "09_andreasalvatori_ostacoli"
                     }, {
                         "track": 9,
                         "name": "madeinitaly",
