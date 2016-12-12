@@ -1,13 +1,5 @@
 app.controller('InterviewController_anna_tampieri', ['$scope', '$window', function($scope, $window) {            
     
-    $scope.BackTo = function() {
-        $window.history.back();
-    };
-
-    $scope.resetVolume = function() {
-        audioAmbient.volume = 0.015;
-    }
-
     var videointerview = document.getElementById('VideoIntervista'); 
 
     $scope.PlayPause = function() {
@@ -18,6 +10,15 @@ app.controller('InterviewController_anna_tampieri', ['$scope', '$window', functi
         }
     };
 
+    $scope.BackTo = function() {
+        $window.history.back();
+        videointerview.pause();
+    };
+
+    $scope.resetVolume = function() {
+        audioAmbient.volume = 0.015;
+    }
+    
     angular.element(document).ready(function() {
 
         TweenMax.from('#PlayerVideo > #StructureCircle > circle', 1.5, {
@@ -82,78 +83,78 @@ app.controller('InterviewController_anna_tampieri', ['$scope', '$window', functi
             if (supportsvideo) {
                 var index = 0,
                     playing = false,
-                    mediaPath = 'http://www.smallcitybigstories.com/video/andrea_salvatori/',
+                    mediaPath = 'http://www.smallcitybigstories.com/video/anna_tampieri/',
                     extension = '',
                     tracks = [{
                         "track": 1,
                         "name": "storia",
                         "length": "01:15",
-                        "file": "1_andreasalvatori_storia"
+                        "file": "01_annatampieri_storia"
                     }, {
                         "track": 2,
                         "name": "nascita",
                         "length": "01:19",
-                        "file": "2_andreasalvatori_nascita"
+                        "file": "02_annatampieri_nascita"
                     }, {
                         "track": 3,
                         "name": "locale",
                         "length": "01:15",
-                        "file": "3_andreasalvatori_locale"
+                        "file": "03_annatampieri_locale"
                     }, {
                         "track": 4,
                         "name": "comunita",
                         "length": "01:19",
-                        "file": "4_andreasalvatori_comunita"
+                        "file": "04_annatampieri_comunita"
                     }, {
                         "track": 5,
                         "name": "abilita",
                         "length": "01:15",
-                        "file": "5_andreasalvatori_abilita"
+                        "file": "05_annatampieri_abilita"
                     }, {
                         "track": 6,
                         "name": "team",
                         "length": "01:19",
-                        "file": "6_andreasalvatori_team"
+                        "file": "06_annatampieri_team"
                     }, {
                         "track": 7,
                         "name": "digitale",
                         "length": "01:15",
-                        "file": "7_andreasalvatori_digitale"
+                        "file": "07_annatampieri_digitale"
                     }, {
                         "track": 8,
                         "name": "scuola",
                         "length": "01:19",
-                        "file": "8_andreasalvatori_scuola"
+                        "file": "08_annatampieri_scuola"
                     }, {
                         "track": 9,
                         "name": "ostacoli",
                         "length": "01:15",
-                        "file": "9_andreasalvatori_ostacoli"
+                        "file": "09_annatampieri_ostacoli"
                     }, {
                         "track": 10,
                         "name": "madeinitaly",
                         "length": "01:19",
-                        "file": "10_andreasalvatori_madeinitaly"
+                        "file": "10_annatampieri_madeinitaly"
                     }, {
                         "track": 11,
                         "name": "estero",
                         "length": "01:15",
-                        "file": "11_andreasalvatori_estero"
+                        "file": "11_annatampieri_estero"
                     }, {
                         "track": 12,
                         "name": "fallimento-successo",
                         "length": "01:19",
-                        "file": "12_andreasalvatori_fallimento-successo"
+                        "file": "12_annatampieri_fallimento-successo"
                     }, {
                         "track": 13,
                         "name": "futuro",
                         "length": "01:15",
-                        "file": "13_andreasalvatori_futuro"
+                        "file": "13_annatampieri_futuro"
                     }, {
                         "track": 14,
                         "name": "consigli",
                         "length": "01:19",
-                        "file": "14_andreasalvatori_consigli"
+                        "file": "14_annatampieri_consigli"
                     }],
                     trackCount = tracks.length,
                     npAction = $('#npAction'),
