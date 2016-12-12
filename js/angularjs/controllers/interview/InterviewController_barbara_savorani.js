@@ -1,13 +1,5 @@
 app.controller('InterviewController_barbara_savorani', ['$scope', '$window', function($scope, $window) {            
     
-    $scope.BackTo = function() {
-        $window.history.back();
-    };
-
-    $scope.resetVolume = function() {
-        audioAmbient.volume = 0.015;
-    }
-
     var videointerview = document.getElementById('VideoIntervista'); 
 
     $scope.PlayPause = function() {
@@ -17,6 +9,15 @@ app.controller('InterviewController_barbara_savorani', ['$scope', '$window', fun
             videointerview.pause();
         }
     };
+
+    $scope.BackTo = function() {
+        $window.history.back();
+        videointerview.pause();
+    };
+
+    $scope.resetVolume = function() {
+        audioAmbient.volume = 0.015;
+    }
 
     angular.element(document).ready(function() {
 
@@ -82,73 +83,73 @@ app.controller('InterviewController_barbara_savorani', ['$scope', '$window', fun
             if (supportsvideo) {
                 var index = 0,
                     playing = false,
-                    mediaPath = 'http://www.smallcitybigstories.com/video/andrea_salvatori/',
+                    mediaPath = 'http://www.smallcitybigstories.com/video/barbara_savorani/',
                     extension = '',
                     tracks = [{
                         "track": 1,
                         "name": "storia",
                         "length": "01:15",
-                        "file": "1_andreasalvatori_storia"
+                        "file": "01_barbarasavorani_storia"
                     }, {
                         "track": 2,
                         "name": "nascita",
                         "length": "01:19",
-                        "file": "2_andreasalvatori_nascita"
+                        "file": "02_barbarasavorani_nascita"
                     }, {
                         "track": 3,
                         "name": "locale",
                         "length": "01:15",
-                        "file": "3_andreasalvatori_locale"
+                        "file": "03_barbarasavorani_locale"
                     }, {
                         "track": 4,
                         "name": "comunita",
                         "length": "01:19",
-                        "file": "4_andreasalvatori_comunita"
+                        "file": "04_barbarasavorani_comunita"
                     }, {
                         "track": 5,
                         "name": "abilita",
                         "length": "01:15",
-                        "file": "5_andreasalvatori_abilita"
+                        "file": "05_barbarasavorani_abilita"
                     }, {
                         "track": 6,
                         "name": "team",
                         "length": "01:19",
-                        "file": "6_andreasalvatori_team"
+                        "file": "06_barbarasavorani_team"
                     }, {
                         "track": 8,
                         "name": "scuola",
                         "length": "01:19",
-                        "file": "8_andreasalvatori_scuola"
+                        "file": "08_barbarasavorani_scuola"
                     }, {
                         "track": 9,
                         "name": "ostacoli",
                         "length": "01:15",
-                        "file": "9_andreasalvatori_ostacoli"
+                        "file": "09_barbarasavorani_ostacoli"
                     }, {
                         "track": 10,
                         "name": "madeinitaly",
                         "length": "01:19",
-                        "file": "10_andreasalvatori_madeinitaly"
+                        "file": "10_barbarasavorani_madeinitaly"
                     }, {
                         "track": 11,
                         "name": "estero",
                         "length": "01:15",
-                        "file": "11_andreasalvatori_estero"
+                        "file": "11_barbarasavorani_estero"
                     }, {
                         "track": 12,
                         "name": "fallimento-successo",
                         "length": "01:19",
-                        "file": "12_andreasalvatori_fallimento-successo"
+                        "file": "12_barbarasavorani_fallimento-successo"
                     }, {
                         "track": 13,
                         "name": "futuro",
                         "length": "01:15",
-                        "file": "13_andreasalvatori_futuro"
+                        "file": "13_barbarasavorani_futuro"
                     }, {
                         "track": 14,
                         "name": "consigli",
                         "length": "01:19",
-                        "file": "14_andreasalvatori_consigli"
+                        "file": "14_barbarasavorani_consigli"
                     }],
                     trackCount = tracks.length,
                     npAction = $('#npAction'),
