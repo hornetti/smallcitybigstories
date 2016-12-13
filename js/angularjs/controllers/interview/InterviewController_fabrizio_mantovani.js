@@ -83,78 +83,78 @@ app.controller('InterviewController_fabrizio_mantovani', ['$scope', '$window', f
             if (supportsvideo) {
                 var index = 0,
                     playing = false,
-                    mediaPath = 'http://www.smallcitybigstories.com/video/barbara_savorani/',
+                    mediaPath = 'http://www.smallcitybigstories.com/video/fabrizio_mantovani/',
                     extension = '',
                     tracks = [{
                         "track": 1,
                         "name": "storia",
                         "length": "01:15",
-                        "file": "01_barbarasavorani_storia"
+                        "file": "01_fabriziomantovani_storia"
                     }, {
                         "track": 2,
                         "name": "nascita",
                         "length": "01:19",
-                        "file": "02_barbarasavorani_nascita"
+                        "file": "02_fabriziomantovani_nascita"
                     }, {
                         "track": 3,
                         "name": "locale",
                         "length": "01:15",
-                        "file": "03_barbarasavorani_locale"
+                        "file": "03_fabriziomantovani_locale"
                     }, {
                         "track": 4,
                         "name": "comunita",
                         "length": "01:19",
-                        "file": "04_barbarasavorani_comunita"
+                        "file": "04_fabriziomantovani_comunita"
                     }, {
                         "track": 5,
                         "name": "abilita",
                         "length": "01:15",
-                        "file": "05_barbarasavorani_abilita"
+                        "file": "05_fabriziomantovani_abilita"
                     }, {
                         "track": 6,
                         "name": "team",
                         "length": "01:19",
-                        "file": "06_barbarasavorani_team"
+                        "file": "06_fabriziomantovani_team"
                     }, {
                         "track": 7,
                         "name": "digitale",
                         "length": "01:15",
-                        "file": "07_barbarasavorani_digitale"
+                        "file": "07_fabriziomantovani_digitale"
                     }, {
                         "track": 8,
                         "name": "scuola",
                         "length": "01:19",
-                        "file": "08_barbarasavorani_scuola"
+                        "file": "08_fabriziomantovani_scuola"
                     }, {
                         "track": 9,
                         "name": "ostacoli",
                         "length": "01:15",
-                        "file": "09_barbarasavorani_ostacoli"
+                        "file": "09_fabriziomantovani_ostacoli"
                     }, {
                         "track": 10,
                         "name": "madeinitaly",
                         "length": "01:19",
-                        "file": "10_barbarasavorani_madeinitaly"
+                        "file": "10_fabriziomantovani_madeinitaly"
                     }, {
                         "track": 11,
                         "name": "estero",
                         "length": "01:15",
-                        "file": "11_barbarasavorani_estero"
+                        "file": "11_fabriziomantovani_estero"
                     }, {
                         "track": 12,
                         "name": "fallimento-successo",
                         "length": "01:19",
-                        "file": "12_barbarasavorani_fallimento-successo"
+                        "file": "12_fabriziomantovani_fallimento-successo"
                     }, {
                         "track": 13,
                         "name": "futuro",
                         "length": "01:15",
-                        "file": "13_barbarasavorani_futuro"
+                        "file": "13_fabriziomantovani_futuro"
                     }, {
                         "track": 14,
                         "name": "consigli",
                         "length": "01:19",
-                        "file": "14_barbarasavorani_consigli"
+                        "file": "14_fabriziomantovani_consigli"
                     }],
                     trackCount = tracks.length,
                     npAction = $('#npAction'),
