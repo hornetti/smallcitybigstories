@@ -1,6 +1,7 @@
 app.controller('InterviewController_andrea_salvatori', ['$scope', '$window', function($scope, $window) {            
     
     var videointerview = document.getElementById('VideoIntervista'); 
+        videointerview.volume = 0.08;
 
     $scope.PlayPause = function() {
         if (videointerview.paused) {
