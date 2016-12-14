@@ -97,7 +97,7 @@ app.config(['$routeProvider', '$locationProvider', '$sceDelegateProvider', funct
     })
     .when('/map/andrea_salvatori/intervista', {
       controller: 'InterviewController_andrea_salvatori',
-      templateUrl: 'js/angularjs/views/interview/Interview_A_ptek.html'
+      templateUrl: 'js/angularjs/views/interview/Interview_D_ptek.html'
     })
 
     .when('/map/marco_peroni', {
