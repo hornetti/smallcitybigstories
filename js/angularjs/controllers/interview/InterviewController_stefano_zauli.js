@@ -1,4 +1,4 @@
-app.controller('InterviewController_stefano_zauli', ['$scope', '$window', function($scope, $window) {            
+app.controller('InterviewController_stefano_zauli', ['$scope', '$window', function($scope, $window) {
     
     var videointerview = document.getElementById('VideoIntervista');
         videointerview.volume = 0.08;
