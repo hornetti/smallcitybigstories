@@ -95,12 +95,12 @@ app.controller('InterviewController_roberto_bertoni', ['$scope', '$window', func
                         "track": 2,
                         "name": "locale",
                         "length": "01:15",
-                        "file": "03_robertobertoni_locale"
+                        "file": "02_robertobertoni_nascita"
                     }, {
                         "track": 3,
                         "name": "nascita",
                         "length": "01:19",
-                        "file": "02_robertobertoni_nascita"
+                        "file": "03_robertobertoni_locale"
                     }, {
                         "track": 4,
                         "name": "comunita",
@@ -191,7 +191,7 @@ app.controller('InterviewController_roberto_bertoni', ['$scope', '$window', func
                         $('#PlayerVideo > #StructureText > text:eq(' + id + ')').addClass('ActiveEl');
                         npTitle.text(tracks[id].name);
                         index = id;
-                        video.src = mediaPath + tracks[id].file + extension;                        
+                        video.src = mediaPath + tracks[id].file + extension;
                         $('#PlayerVideo > #StructureCircle > circle').mouseover(function() {
                             var HoverCircle = parseInt($(this).index(), 10);
                             if (HoverCircle + 1 == index || HoverCircle - 1 == index) {
