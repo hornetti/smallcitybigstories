@@ -62,7 +62,7 @@
 
 	$scope.creditsTesto = [
     	{
-    		paragraf : "Small city big stories è un progetto di visual journalism che racconta le potenzialità nascoste della dimensione locale attraverso le voci dei suoi protagonisti."
+    		paragraf : "Small city big stories (Scbs) è un progetto di visual journalism che racconta le potenzialità nascoste della dimensione locale attraverso le voci dei suoi protagonisti."
     	},
     	{
     		paragraf : "Small city, big stories nasce dalla volontà dell’associazione Salesiani 2.0 di Faenza, che ha selezionato i 15 intervistati e ideato i contenuti."
@@ -77,7 +77,7 @@
 
 	$scope.creditsOpensource = [
     	{
-    		paragraf : "La crew di Small city, big stories ha realizzato il progetto con l’obbiettivo primario di diffondere l’uso del visual journalism in Italia."
+    		paragraf : "La crew di Small city, big stories ha realizzato il progetto con l’obbiettivo primario di apprendere e diffondere il visual journalism in Italia."
     	},
     	{
     		paragraf : "Siamo convinti che raccontare l’ecosistema professionale di una città sia la modalità più semplice e immediata per permettere a terzi di applicare le tecniche proprie del visual journalism: per questa ragione abbiamo deciso di rendere Scbs Open Source."
