@@ -117,40 +117,40 @@ app.controller('InterviewController_barbara_savorani', ['$scope', '$window', fun
                         "length": "01:19",
                         "file": "06_barbarasavorani_team"
                     }, {
-                        "track": 8,
+                        "track": 7,
                         "name": "scuola",
                         "length": "01:19",
-                        "file": "08_barbarasavorani_scuola"
+                        "file": "07_barbarasavorani_scuola"
                     }, {
-                        "track": 9,
+                        "track": 8,
                         "name": "ostacoli",
                         "length": "01:15",
-                        "file": "09_barbarasavorani_ostacoli"
+                        "file": "08_barbarasavorani_ostacoli"
                     }, {
-                        "track": 10,
+                        "track": 9,
                         "name": "madeinitaly",
                         "length": "01:19",
-                        "file": "10_barbarasavorani_madeinitaly"
+                        "file": "9_barbarasavorani_madeinitaly"
                     }, {
-                        "track": 11,
+                        "track": 10,
                         "name": "estero",
                         "length": "01:15",
-                        "file": "11_barbarasavorani_estero"
+                        "file": "10_barbarasavorani_estero"
                     }, {
-                        "track": 12,
+                        "track": 11,
                         "name": "fallimento-successo",
                         "length": "01:19",
-                        "file": "12_barbarasavorani_fallimento-successo"
+                        "file": "11_barbarasavorani_fallimento-successo"
                     }, {
-                        "track": 13,
+                        "track": 12,
                         "name": "futuro",
                         "length": "01:15",
-                        "file": "13_barbarasavorani_futuro"
+                        "file": "12_barbarasavorani_futuro"
                     }, {
-                        "track": 14,
+                        "track": 13,
                         "name": "consigli",
                         "length": "01:19",
-                        "file": "14_barbarasavorani_consigli"
+                        "file": "13_barbarasavorani_consigli"
                     }],
                     trackCount = tracks.length,
                     npAction = $('#npAction'),
