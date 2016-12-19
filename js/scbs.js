@@ -79,7 +79,7 @@ function DragFullScreen() {
 /*******************************************************/
 
 function alertFullscreen() {
-  alert("Consigliamo di fruire Small city, big stories in fullscreen");
+  bootbox.alert("Consigliamo di fruire Small city, big stories in fullscreen.");
 }
 
 /*********************************************************/
