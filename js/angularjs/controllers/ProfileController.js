@@ -24,7 +24,17 @@ app.controller('ProfileController', ['$scope', function($scope) {
     }
 
 	angular.element(document).ready(function() {
-	  	
+
+		var effettoClickMetro = document.getElementById("effectClickMetro");
+		effettoClickMetro.volume = 0.06;
+		
+		$(".FloatSx > p").click(function(event) {
+	    	effettoClickMetro.play();
+		});
+		$(".FloatDx > p").click(function(event) {
+	    	effettoClickMetro.play();
+		});
+
 	  	//  Counter Number Profile
 
 		$('.count').each(function () {
