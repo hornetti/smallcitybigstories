@@ -41,51 +41,17 @@ app.controller('LinkController', ['$scope', function($scope) {
 
 	$scope.Link_Type = 'map/type_market';
 
-	//  INTERVIEWED 
-/*
-	$scope.barbara_savorani = '#/map/barbara_savorani';
-	
-	$scope.stefano_zauli = '#/map/stefano_zauli';
-	
-	$scope.maurizio_fionda = '#/map/maurizio_fionda';
-	
-	$scope.gabriele_bandini = '#/map/gabriele_bandini';
-	
-	$scope.anna_tampieri = '#/map/anna_tampieri';
-	
-	$scope.giulia_ruta = '#/map/giulia_ruta';
-	
-	$scope.roberto_bertoni = '#/map/roberto_bertoni';
-	
-	$scope.andrea_martelli = '#/map/andrea_martelli';
-	
-	$scope.marco_peroni = '#/map/marco_peroni';
-	
-	$scope.andrea_salvatori = '#/map/andrea_salvatori';
-	
-	$scope.raffaele_borgini = '#/map/raffaele_borgini';
-	
-	$scope.ivano_valmori = '#/map/ivano_valmori';
-	
-	$scope.paolo_rava = '#/map/paolo_rava';
-	
-	$scope.marco_tamba = '#/map/marco_tamba';
-	
-	$scope.fabrizio_mantovani = '#/map/fabrizio_mantovani';
-*/
-
-    /*
 	$scope.Link_Share = [
 		{
 			name : "Facebook",
-			link : ""
+			link : "http://www.facebook.com/share.php?u=www.smallcitybigstories.com"
 		},
 		{
 			name : "Twitter",
-			link : ""
+			link : "http://twitter.com/share?text=Visita+questa+pagina:&+url=www.smallcitybigstories.com"
 		}
 	];
-	*/
+
 	$scope.Toggle_Share = "Share";
 
 	$scope.Toggle_Fullscreen = "Fullscreen";
