@@ -6,7 +6,7 @@
     </div>
     <div class="RightBottomMenu">
         <div class="ContainerSocial" ng-init="visible = false">
-            <a class="Regular12 WColor EffHover" ng-repeat="linkshare in Link_Share" ng-href="{{ linkshare.link }}" ng-show="visible">{{ linkshare.name }}</a>
+            <a class="Regular12 WColor EffHover" ng-repeat="linkshare in Link_Share" ng-href="{{ linkshare.link }}" ng-show="visible" target="_blank">{{ linkshare.name }}</a>
             <p class="Regular12 WColor EffHover" ng-click="visible = !visible"> {{ Toggle_Share }} </p>
         </div>
         <a class="Regular12 WColor EffHover" onclick="togglePlay()">{{ Toggle_Music }}</a>
