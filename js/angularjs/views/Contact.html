@@ -6,13 +6,13 @@
 				<p class="TxtLeft FloatLeft MAINColor Bold32">{{ EmailAddress }}</p>
 			</div>
 			<div class="col-xs-10 col-xs-offset-2 col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2">
-				<form novalidate class="ContactScbs">
-					<input class="Regular15 MarginBottom2pct WColor" required type="email" ng-model="user.email" placeholder="Email">
-					<input class="Regular15 MarginBottom2pct WColor" required type="text" ng-model="user.name" placeholder="Oggetto">
-					<textarea class="Regular15 MarginBottom2pct WColor" required type="text" ng-model="user.testo" placeholder="Testo"></textarea>
+				<form ng-submit="processForm" novalidate class="ContactScbs">
+					<input class="Regular15 MarginBottom2pct WColor" required type="email" ng-model="formData.email" placeholder="Email">
+					<input class="Regular15 MarginBottom2pct WColor" required type="text" ng-model="formData.oggetto" placeholder="Oggetto">
+					<textarea class="Regular15 MarginBottom2pct WColor" required type="text" ng-model="formData.testo" placeholder="Testo"></textarea>
 					<input type="checkbox" id="OpenSource">
 					<label for="OpenSource">Sono interessato a Scbs Open Source</label>
-					<button type="submit" class="ButtonSubmit" ng-click="update(user)">
+					<button type="submit" class="ButtonSubmit" ng-click="update(formData)">
 						<svg version="1.1" id="sent" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
 							<g>
 								<rect x="15" y="16.7" transform="matrix(0.7071 0.7071 -0.7071 0.7071 25.0931 -11.1291)" class="MAINStroke2px" width="21.9" height="16"/>
