@@ -48,7 +48,7 @@ app.controller('LinkController', ['$scope', function($scope) {
 		},
 		{
 			name : "Twitter",
-			link : "http://twitter.com/share?text=Visita+questa+pagina:&+url=www.smallcitybigstories.com"
+			link : "http://twitter.com/share?text=Il+visual+journalism+si+fa+local:+se+la+provincia+ingrana+la+quarta.:&+url=www.smallcitybigstories.com"
 		}
 	];
 
