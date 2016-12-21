@@ -27,16 +27,13 @@
 
 	$scope.Collaboration = "Collaborations";
 
-	$scope.Videomakers = "Drone";
+	$scope.Drone = "Drone";
 
-	$scope.VideomakersName = [
-		/*{
-			name : 'Mattia Alberani'
-		},*/
-		{
-			name : 'Filippo Cinotti'
-		}
-	];
+	$scope.DroneName = "Filippo Cinotti";
+
+	$scope.Videomaker = "Video maker";
+
+	$scope.VideomakerName = "Mattia Alberani";
 
 	$scope.Voiceover = "Voice over";
 
