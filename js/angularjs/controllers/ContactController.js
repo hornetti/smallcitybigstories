@@ -25,6 +25,7 @@ app.controller('ContactController', ['$scope', '$http', function($scope, $http) 
 			if (!data.success) {
 				$scope.errorEmail = data.error.email;
 				$scope.errorObject = data.error.oggetto;
+				$scope.errorText = data.error.testo;
 			} else {
 				$scope.message = data.message;
 			}
