@@ -31,18 +31,18 @@
 
 	$scope.DroneName = "Filippo Cinotti";
 
-	$scope.Videomaker = "Video maker";
+	$scope.Videomaker = "Video";
 
 	$scope.VideomakerName = "Mattia Alberani";
 
 	$scope.Voiceover = "Voice over";
 
 	$scope.VoiceoverName = "Cecilia Bertozzi";
-
+/*
 	$scope.Sounddesigner = "Music";
 
 	$scope.SounddesignerName = "Hazina Francia";
-
+*/
 	$scope.ThankYou = "Thanks to";
 
 	$scope.ProjectThankYou = [
