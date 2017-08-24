@@ -1,7 +1,6 @@
 /*********************************************************/
 /***********      toggleFullScreen      *****************/
 /*******************************************************/
-
 function toggleFullScreen() {
   if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement ) {
     if (document.documentElement.requestFullscreen) {
@@ -33,7 +32,6 @@ function toggleFullScreen() {
 /*********************************************************/
 /************  (ESC) toggleFullScreen   *****************/
 /*******************************************************/
-
 $(document).keyup(function(e) {
   if (e.keyCode == 27) { 
     alertFullscreen();
@@ -43,7 +41,6 @@ $(document).keyup(function(e) {
 /*********************************************************/
 /************       RequestFullScreen       *************/
 /*******************************************************/
-
 function RequestFullScreen() {
   if (!document.fullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement ) {
     if (document.documentElement.requestFullscreen) {
@@ -61,7 +58,6 @@ function RequestFullScreen() {
 /*********************************************************/
 /**************       DragFullScreen       **************/
 /*******************************************************/
-
 function DragFullScreen() {
   if (document.exitFullscreen) {
     document.exitFullscreen();
@@ -77,7 +73,6 @@ function DragFullScreen() {
 /*********************************************************/
 /******************     CustomAlert      ****************/
 /*******************************************************/
-
 function alertFullscreen() {
   bootbox.alert("Consigliamo di fruire Small city, big stories in fullscreen.");
 }
@@ -85,7 +80,6 @@ function alertFullscreen() {
 /*********************************************************/
 /****************      pauseVoice      ******************/
 /*******************************************************/
-
 function pauseVoice() {
   var audioVoice = document.getElementById('Voiceover');
   audioVoice.pause();
@@ -94,7 +88,6 @@ function pauseVoice() {
 /*********************************************************/
 /****************     playWelcome      ******************/
 /*******************************************************/
-
 function playWelcome() {
   var audioWelcome = document.getElementById('Welcome');
   audioWelcome.volume = 0.08;
@@ -102,11 +95,9 @@ function playWelcome() {
     audioWelcome.play(); 
   }, 1250);
 };
-
 /*********************************************************/
 /****************     restartMusic     ******************/
 /*******************************************************/
-
 var audioWelcome = document.getElementById('Welcome');
 var audioAmbient = document.getElementById('ambientMusic');
     audioAmbient.volume = 0.015;
@@ -120,7 +111,6 @@ function restartMusic() {
 /*********************************************************/
 /****************     toggleMusic      ******************/
 /*******************************************************/
-
 function togglePlay() {
   if (audioAmbient.paused) {
     audioAmbient.play();
@@ -128,22 +118,3 @@ function togglePlay() {
     audioAmbient.pause();
   }
 };
-
-
-/*********************************************************/
-/****   Remove the Google Chrome link address bar    ****/
-/*******************************************************/
-/*
-$("body").on('mouseover', 'a', function (e) {
-    var $link = $(this),
-        href = $link.attr('href') || $link.data("href");
-
-    $link.off('click.chrome');
-    $link.on('click.chrome', function () {
-        window.location.href = href;
-    })
-    .attr('data-href', href) //keeps track of the href value
-    .css({ cursor: 'pointer' })
-    .removeAttr('href'); // <- this is what stops Chrome to display status bar
-});
-*/
