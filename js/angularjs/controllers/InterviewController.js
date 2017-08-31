@@ -1,4 +1,4 @@
-app.controller('InterviewController_marco_tamba', ['$scope', '$window', function($scope, $window) {            
+app.controller('InterviewController', ['$scope', '$window', function($scope, $window) {            
     
     var videointerview = document.getElementById('VideoIntervista'); 
         videointerview.volume = 0.08;
@@ -72,6 +72,6 @@ app.controller('InterviewController_marco_tamba', ['$scope', '$window', function
         $('#PlayerVideo > #PlayPause').mouseleave( function() {
             $(this).children().removeClass("ControllCircle");
         });
-        
+
     });
 }]);
