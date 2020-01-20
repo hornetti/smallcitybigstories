@@ -1,6 +1,6 @@
 app.controller('InterviewController_andrea_martelli', ['$scope', '$window', function($scope, $window) {
-    
-    var videointerview = document.getElementById('VideoIntervista'); 
+
+    var videointerview = document.getElementById('VideoIntervista');
         videointerview.volume = 0.08;
 
     $scope.PlayPause = function() {
@@ -68,12 +68,12 @@ app.controller('InterviewController_andrea_martelli', ['$scope', '$window', func
         $('#PlayerVideo > #PlayPause').mouseover( function() {
             $(this).children().addClass('ControllCircle');
         });
-        
+
         $('#PlayerVideo > #PlayPause').mouseleave( function() {
             $(this).children().removeClass("ControllCircle");
         });
 
-        // Player Video  
+        // Player Video
 
         var b = document.documentElement;
         b.setAttribute('data-useragent', navigator.userAgent);
@@ -84,7 +84,7 @@ app.controller('InterviewController_andrea_martelli', ['$scope', '$window', func
             if (supportsvideo) {
                 var index = 0,
                     playing = false,
-                    mediaPath = 'http://www.smallcitybigstories.com/video/andrea_martelli/',
+                    mediaPath = 'https://www.youtube.com/watch?v=46ZXl-V4qwY',
                     extension = '',
                     tracks = [{
                         "track": 1,
@@ -196,7 +196,8 @@ app.controller('InterviewController_andrea_martelli', ['$scope', '$window', func
                         $('#PlayerVideo > #StructureText > text:eq(' + id + ')').addClass('ActiveEl');
                         npTitle.text(tracks[id].name);
                         index = id;
-                        video.src = mediaPath + tracks[id].file + extension;                        
+                        // video.src = mediaPath + tracks[id].file + extension;
+                        video.src = mediaPath;
                         $('#PlayerVideo > #StructureCircle > circle').mouseover(function() {
                             var HoverCircle = parseInt($(this).index(), 10);
                             if (HoverCircle + 1 == index || HoverCircle - 1 == index) {
@@ -242,7 +243,7 @@ app.controller('InterviewController_andrea_martelli', ['$scope', '$window', func
                                 $("#PlayerVideo > #StructureCircle > circle.ControllCircle").removeClass("ControllCircle");
                                 $("#PlayerVideo > #StructureText > text.HoverEl").removeClass("HoverEl");
                             }
-                        });                   
+                        });
                     },
                     playTrack = function (id) {
                         loadTrack(id);
